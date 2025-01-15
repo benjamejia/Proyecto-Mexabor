@@ -1,5 +1,6 @@
 //Version 1.0
 //Fecha 19 de diciembre 2024
+//Fehca actualizada 14 de enero del 2025, aun no termino jeje
 
 using System.Configuration;
 using System.Data.SQLite;

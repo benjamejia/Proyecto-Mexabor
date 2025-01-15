@@ -100,6 +100,5 @@ namespace Mexabor
                 this.Close();
             }
         }
-
     }
 }

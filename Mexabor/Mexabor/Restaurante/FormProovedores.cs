@@ -74,7 +74,6 @@ namespace Mexabor
         private void VerificarCalificaciones(Control.ControlCollection controls)
         {
             var orderedControls = controls.Cast<Control>().OrderBy(c => c.TabIndex).ToList();
-            int i = 0;
             foreach (Control control in orderedControls)
             {
                 // Verificar si el control es un Combobox
@@ -83,7 +82,6 @@ namespace Mexabor
                     calificaciones.Add(int.Parse(comboBox.Text));
                 }
             }
-            i = 0;
         }
         private void VerificarHerramienta(Control.ControlCollection controls)
         {

@@ -34,6 +34,7 @@
 
   <ItemGroup>
     <PackageReference Include="EPPlus" Version="7.5.2" />
+    <PackageReference Include="Syncfusion.XlsIORenderer.Net.Core" Version="28.1.39" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
   </ItemGroup>
 

@@ -269,6 +269,34 @@
           }
         }
       },
+      "Syncfusion.Compression.NET/28.1.39": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Compression.NET.dll": {
+            "assemblyVersion": "28.1.39.0",
+            "fileVersion": "28.1.39.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/28.1.39": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "28.1.39.0",
+            "fileVersion": "28.1.39.0"
+          }
+        }
+      },
+      "Syncfusion.XlsIO.NET/28.1.39": {
+        "dependencies": {
+          "Syncfusion.Compression.NET": "28.1.39",
+          "Syncfusion.Licensing": "28.1.39"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.XlsIO.NET.dll": {
+            "assemblyVersion": "28.1.39.0",
+            "fileVersion": "28.1.39.0"
+          }
+        }
+      },
       "System.CodeDom/4.7.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -634,6 +662,27 @@
       "sha512": "sha512-dI7ngiCNgdm+n00nQvFTa+LbHvE9MIQXwMSLRzJI/KAJ7G1WmCachsvfE1CD6xvb3OXJvYYEfv3+S/LHyhN0Rg==",
       "path": "stub.system.data.sqlite.core.netstandard/1.0.119",
       "hashPath": "stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512"
+    },
+    "Syncfusion.Compression.NET/28.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+c6j+rVbhLYquPfJymVt9LmAsa+uVut0sOJ4pICowyFoudlk7r8UutCHjyPaeLzpiRVb/O5oHLgaTVcIMIGuFw==",
+      "path": "syncfusion.compression.net/28.1.39",
+      "hashPath": "syncfusion.compression.net.28.1.39.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/28.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-14JnqjXuS7YLn9HICC+wSg7E7CUH1cJVaEk55O+N1Dub7iB/8YuyPFlqFDGV6StQ4i7AMZJOYVn45aba+0E8YA==",
+      "path": "syncfusion.licensing/28.1.39",
+      "hashPath": "syncfusion.licensing.28.1.39.nupkg.sha512"
+    },
+    "Syncfusion.XlsIO.NET/28.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GDowhYSXDgF6of76SpaA1jUDctgFtIkT4VDnsMbd1mH2teVFABI3dqfR4e5mQ1cM/a1MgG0i2ActvaMqKq+k6Q==",
+      "path": "syncfusion.xlsio.net/28.1.39",
+      "hashPath": "syncfusion.xlsio.net.28.1.39.nupkg.sha512"
     },
     "System.CodeDom/4.7.0": {
       "type": "package",

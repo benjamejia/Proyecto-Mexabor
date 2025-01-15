@@ -838,7 +838,6 @@
         private Label label15;
         private Label label16;
         private NumericUpDown n4;
-        private PictureBox pictureBox3;
         private Label label18;
         private Panel panelObservaciones;
         private ComboBox cbProveedores;

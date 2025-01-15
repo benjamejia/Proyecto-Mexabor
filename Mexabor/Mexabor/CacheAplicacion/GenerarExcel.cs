@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
+﻿using System.Diagnostics;
 using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using OfficeOpenXml;
+using Syncfusion.XlsIO;
+using Syncfusion.Pdf;
+using Syncfusion.XlsIORenderer;
 
 namespace Mexabor.CacheAplicacion
 {
     public class GenerarExcel
     {
-        DatosFila datosFila;
         /*static public void LlenarExcel()
         {
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
@@ -263,7 +260,50 @@ namespace Mexabor.CacheAplicacion
                         MessageBox.Show("El archivo se ha guardado exitosamente en la ubicación seleccionada.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         FileInfo newFile = new FileInfo(filePath);
                         package.SaveAs(newFile);
+                        ConvertirExcelAPdf(filePath);
                     }
+                }
+            }
+        }
+        static public void ConvertirExcelAPdf(string excelFilePath)
+        {
+            // Inicializar el ExcelEngine y la aplicación
+            using (ExcelEngine excelEngine = new ExcelEngine())
+            {
+                IApplication application = excelEngine.Excel;
+                application.DefaultVersion = ExcelVersion.Xlsx;
+
+                // Abrir el archivo Excel desde la ruta proporcionada
+                using (FileStream excelStream = new FileStream(excelFilePath, FileMode.Open, FileAccess.Read))
+                {
+                    IWorkbook workbook = application.Workbooks.Open(excelStream);
+
+                    // Inicializar el renderizador de XlsIO
+                    XlsIORenderer renderer = new XlsIORenderer();
+
+                    // Convertir el documento Excel a un documento PDF
+                    PdfDocument pdfDocument = renderer.ConvertToPDF(workbook);
+
+                    // Usar un cuadro de diálogo para permitir que el usuario elija la ruta para guardar el archivo PDF
+                    SaveFileDialog saveFileDialog = new SaveFileDialog();
+                    saveFileDialog.Filter = "Archivos PDF (*.pdf)|*.pdf";
+                    saveFileDialog.Title = "Guardar PDF";
+
+                    if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        string pdfFilePath = saveFileDialog.FileName;
+
+                        // Guardar el archivo PDF en la ruta seleccionada
+                        using (FileStream pdfStream = new FileStream(pdfFilePath, FileMode.Create, FileAccess.Write))
+                        {
+                            pdfDocument.Save(pdfStream);
+                        }
+
+                        MessageBox.Show("Archivo PDF guardado correctamente en: " + pdfFilePath);
+                    }
+
+                    // Cerrar el documento PDF
+                    pdfDocument.Close();
                 }
             }
         }

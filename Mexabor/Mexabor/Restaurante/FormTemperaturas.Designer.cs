@@ -29,6 +29,19 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            tableLayoutPanel16 = new TableLayoutPanel();
+            label35 = new Label();
+            label34 = new Label();
+            label33 = new Label();
+            label32 = new Label();
+            label31 = new Label();
+            label30 = new Label();
+            label29 = new Label();
+            label28 = new Label();
+            label27 = new Label();
+            label26 = new Label();
+            label25 = new Label();
+            label23 = new Label();
             label21 = new Label();
             label1 = new Label();
             comboBox1 = new ComboBox();
@@ -88,20 +101,9 @@
             button2 = new Button();
             panel3 = new Panel();
             button1 = new Button();
-            tableLayoutPanel16 = new TableLayoutPanel();
-            label23 = new Label();
-            label25 = new Label();
-            label26 = new Label();
-            label27 = new Label();
-            label28 = new Label();
-            label29 = new Label();
-            label30 = new Label();
-            label31 = new Label();
-            label32 = new Label();
-            label33 = new Label();
-            label34 = new Label();
-            label35 = new Label();
+            button3 = new Button();
             panel1.SuspendLayout();
+            tableLayoutPanel16.SuspendLayout();
             panel2.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
@@ -118,7 +120,6 @@
             tableLayoutPanel13.SuspendLayout();
             tableLayoutPanel14.SuspendLayout();
             tableLayoutPanel15.SuspendLayout();
-            tableLayoutPanel16.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -134,6 +135,143 @@
             panel1.Size = new Size(555, 166);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
+            // 
+            // tableLayoutPanel16
+            // 
+            tableLayoutPanel16.ColumnCount = 2;
+            tableLayoutPanel16.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.01797F));
+            tableLayoutPanel16.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.982036F));
+            tableLayoutPanel16.Controls.Add(label35, 1, 5);
+            tableLayoutPanel16.Controls.Add(label34, 0, 5);
+            tableLayoutPanel16.Controls.Add(label33, 1, 4);
+            tableLayoutPanel16.Controls.Add(label32, 0, 4);
+            tableLayoutPanel16.Controls.Add(label31, 1, 3);
+            tableLayoutPanel16.Controls.Add(label30, 0, 3);
+            tableLayoutPanel16.Controls.Add(label29, 1, 2);
+            tableLayoutPanel16.Controls.Add(label28, 0, 2);
+            tableLayoutPanel16.Controls.Add(label27, 1, 1);
+            tableLayoutPanel16.Controls.Add(label26, 0, 1);
+            tableLayoutPanel16.Controls.Add(label25, 1, 0);
+            tableLayoutPanel16.Controls.Add(label23, 0, 0);
+            tableLayoutPanel16.Location = new Point(20, 33);
+            tableLayoutPanel16.Name = "tableLayoutPanel16";
+            tableLayoutPanel16.RowCount = 6;
+            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel16.Size = new Size(501, 120);
+            tableLayoutPanel16.TabIndex = 3;
+            // 
+            // label35
+            // 
+            label35.AutoSize = true;
+            label35.Location = new Point(459, 100);
+            label35.Name = "label35";
+            label35.Size = new Size(36, 15);
+            label35.TabIndex = 11;
+            label35.Text = "50-75";
+            // 
+            // label34
+            // 
+            label34.AutoSize = true;
+            label34.Location = new Point(3, 100);
+            label34.Name = "label34";
+            label34.Size = new Size(60, 15);
+            label34.TabIndex = 10;
+            label34.Text = "Frijol Frito";
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.Location = new Point(459, 80);
+            label33.Name = "label33";
+            label33.Size = new Size(36, 15);
+            label33.TabIndex = 9;
+            label33.Text = "65-80";
+            // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.Location = new Point(3, 80);
+            label32.Name = "label32";
+            label32.Size = new Size(97, 15);
+            label32.TabIndex = 8;
+            label32.Text = "Cebollita Cocida ";
+            // 
+            // label31
+            // 
+            label31.AutoSize = true;
+            label31.Location = new Point(459, 60);
+            label31.Name = "label31";
+            label31.Size = new Size(36, 15);
+            label31.TabIndex = 7;
+            label31.Text = "50-99";
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Location = new Point(3, 60);
+            label30.Name = "label30";
+            label30.Size = new Size(59, 15);
+            label30.TabIndex = 6;
+            label30.Text = "Tortillas    ";
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Location = new Point(459, 40);
+            label29.Name = "label29";
+            label29.Size = new Size(36, 15);
+            label29.TabIndex = 5;
+            label29.Text = "65-80";
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(3, 40);
+            label28.Name = "label28";
+            label28.Size = new Size(159, 15);
+            label28.TabIndex = 4;
+            label28.Text = "Frijol de la Olla (Baño María) ";
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Location = new Point(459, 20);
+            label27.Name = "label27";
+            label27.Size = new Size(36, 15);
+            label27.TabIndex = 3;
+            label27.Text = "65-78";
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Location = new Point(3, 20);
+            label26.Name = "label26";
+            label26.Size = new Size(150, 15);
+            label26.TabIndex = 2;
+            label26.Text = "Jugo de Carne (Olla Chica) ";
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Location = new Point(459, 0);
+            label25.Name = "label25";
+            label25.Size = new Size(36, 15);
+            label25.TabIndex = 1;
+            label25.Text = "60-67";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(3, 0);
+            label23.Name = "label23";
+            label23.Size = new Size(155, 15);
+            label23.TabIndex = 0;
+            label23.Text = "Jugo de Carne (Olla Grande)";
             // 
             // label21
             // 
@@ -841,142 +979,14 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click_1;
             // 
-            // tableLayoutPanel16
+            // button3
             // 
-            tableLayoutPanel16.ColumnCount = 2;
-            tableLayoutPanel16.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.01797F));
-            tableLayoutPanel16.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.982036F));
-            tableLayoutPanel16.Controls.Add(label35, 1, 5);
-            tableLayoutPanel16.Controls.Add(label34, 0, 5);
-            tableLayoutPanel16.Controls.Add(label33, 1, 4);
-            tableLayoutPanel16.Controls.Add(label32, 0, 4);
-            tableLayoutPanel16.Controls.Add(label31, 1, 3);
-            tableLayoutPanel16.Controls.Add(label30, 0, 3);
-            tableLayoutPanel16.Controls.Add(label29, 1, 2);
-            tableLayoutPanel16.Controls.Add(label28, 0, 2);
-            tableLayoutPanel16.Controls.Add(label27, 1, 1);
-            tableLayoutPanel16.Controls.Add(label26, 0, 1);
-            tableLayoutPanel16.Controls.Add(label25, 1, 0);
-            tableLayoutPanel16.Controls.Add(label23, 0, 0);
-            tableLayoutPanel16.Location = new Point(20, 33);
-            tableLayoutPanel16.Name = "tableLayoutPanel16";
-            tableLayoutPanel16.RowCount = 6;
-            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel16.Size = new Size(501, 120);
-            tableLayoutPanel16.TabIndex = 3;
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Location = new Point(3, 0);
-            label23.Name = "label23";
-            label23.Size = new Size(155, 15);
-            label23.TabIndex = 0;
-            label23.Text = "Jugo de Carne (Olla Grande)";
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Location = new Point(459, 0);
-            label25.Name = "label25";
-            label25.Size = new Size(36, 15);
-            label25.TabIndex = 1;
-            label25.Text = "60-67";
-            // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.Location = new Point(3, 20);
-            label26.Name = "label26";
-            label26.Size = new Size(150, 15);
-            label26.TabIndex = 2;
-            label26.Text = "Jugo de Carne (Olla Chica) ";
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.Location = new Point(459, 20);
-            label27.Name = "label27";
-            label27.Size = new Size(36, 15);
-            label27.TabIndex = 3;
-            label27.Text = "65-78";
-            // 
-            // label28
-            // 
-            label28.AutoSize = true;
-            label28.Location = new Point(3, 40);
-            label28.Name = "label28";
-            label28.Size = new Size(159, 15);
-            label28.TabIndex = 4;
-            label28.Text = "Frijol de la Olla (Baño María) ";
-            // 
-            // label29
-            // 
-            label29.AutoSize = true;
-            label29.Location = new Point(459, 40);
-            label29.Name = "label29";
-            label29.Size = new Size(36, 15);
-            label29.TabIndex = 5;
-            label29.Text = "65-80";
-            // 
-            // label30
-            // 
-            label30.AutoSize = true;
-            label30.Location = new Point(3, 60);
-            label30.Name = "label30";
-            label30.Size = new Size(59, 15);
-            label30.TabIndex = 6;
-            label30.Text = "Tortillas    ";
-            // 
-            // label31
-            // 
-            label31.AutoSize = true;
-            label31.Location = new Point(459, 60);
-            label31.Name = "label31";
-            label31.Size = new Size(36, 15);
-            label31.TabIndex = 7;
-            label31.Text = "50-99";
-            // 
-            // label32
-            // 
-            label32.AutoSize = true;
-            label32.Location = new Point(3, 80);
-            label32.Name = "label32";
-            label32.Size = new Size(97, 15);
-            label32.TabIndex = 8;
-            label32.Text = "Cebollita Cocida ";
-            // 
-            // label33
-            // 
-            label33.AutoSize = true;
-            label33.Location = new Point(459, 80);
-            label33.Name = "label33";
-            label33.Size = new Size(36, 15);
-            label33.TabIndex = 9;
-            label33.Text = "65-80";
-            // 
-            // label34
-            // 
-            label34.AutoSize = true;
-            label34.Location = new Point(3, 100);
-            label34.Name = "label34";
-            label34.Size = new Size(60, 15);
-            label34.TabIndex = 10;
-            label34.Text = "Frijol Frito";
-            // 
-            // label35
-            // 
-            label35.AutoSize = true;
-            label35.Location = new Point(459, 100);
-            label35.Name = "label35";
-            label35.Size = new Size(36, 15);
-            label35.TabIndex = 11;
-            label35.Text = "50-75";
+            button3.Location = new Point(859, 347);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 98;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
             // 
             // FormTemperaturas
             // 
@@ -984,6 +994,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1171, 582);
+            Controls.Add(button3);
             Controls.Add(panel4);
             Controls.Add(button2);
             Controls.Add(panel3);
@@ -1015,6 +1026,8 @@
             WindowState = FormWindowState.Maximized;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            tableLayoutPanel16.ResumeLayout(false);
+            tableLayoutPanel16.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
@@ -1047,8 +1060,6 @@
             tableLayoutPanel14.PerformLayout();
             tableLayoutPanel15.ResumeLayout(false);
             tableLayoutPanel15.PerformLayout();
-            tableLayoutPanel16.ResumeLayout(false);
-            tableLayoutPanel16.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1128,5 +1139,6 @@
         private Label label26;
         private Label label25;
         private Label label23;
+        private Button button3;
     }
 }
