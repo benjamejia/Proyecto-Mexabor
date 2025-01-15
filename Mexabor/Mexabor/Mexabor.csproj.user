@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AjustesAvanzados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen\AgregarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen\Alma7Cajas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen\Alma3CamaraFria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen\Alma4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen\AlmacenProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen\Alma2CocinaCaliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen\Alma6CocinaFria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen\Alma5Personal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen\Alma1Salida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ExportacionFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormGestor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\Form8Banos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\Form3Barra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\Form2Comedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\Form1Estacionamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\Form9Juegos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\Form7Loza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\FormPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\FormPersonal2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\Form6Planchas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\FormProovedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormRegistros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\Form5Servicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\FormTemperaturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\Form4Tortillas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Restaurante\FormVarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

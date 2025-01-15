@@ -1,0 +1,1573 @@
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Mexabor.exe.config
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Mexabor.exe.manifest
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Mexabor.application
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Mexabor.exe
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Mexabor.pdb
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\EPPlus.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Google.Protobuf.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.barcodes.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.commons.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.forms.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.io.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.kernel.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.layout.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.pdfa.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.pdfua.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.sign.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.styledxmlparser.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.svg.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itextsharp.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\MySql.Data.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Buffers.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Drawing.Common.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.IO.Packaging.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Memory.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.ValueTuple.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\ZstdSharp.dll
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\EPPlus.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Google.Protobuf.pdb
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Google.Protobuf.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.barcodes.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.commons.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.forms.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.io.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.kernel.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.layout.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.pdfa.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.pdfua.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.sign.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.styledxmlparser.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itext.svg.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\itextsharp.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\MySql.Data.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Buffers.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.IO.Packaging.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Memory.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Benjamin\source\repos\App\App\bin\Debug\System.ValueTuple.xml
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\Interop.MSXML2.dll
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.Admin.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormPersonal.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.Form1.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormAgua.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormAreLoza.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormBarra.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormBaños.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormEstacionamiento.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormExportacion.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormHistorial.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormJuegos.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormMenu2.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormComedor.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormPersonal2.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormPlanchas.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormServicios.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormTortillas.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.FormVarios.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.Properties.Resources.resources
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.csproj.GenerateResource.cache
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\Mexabor.exe.manifest
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\Mexabor.application
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.csproj.Up2Date
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\Mexabor.exe
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\Mexabor.pdb
+C:\Users\Benjamin\source\repos\App\App\obj\Debug\App.DraggablePanel.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Mexabor.exe.config
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Mexabor.exe.manifest
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Mexabor.application
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Mexabor.exe
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Mexabor.pdb
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\EPPlus.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Google.Protobuf.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.barcodes.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.commons.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.forms.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.io.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.kernel.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.layout.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.pdfa.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.pdfua.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.sign.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.styledxmlparser.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.svg.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itextsharp.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\MySql.Data.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Buffers.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Drawing.Common.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.IO.Packaging.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Memory.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.ValueTuple.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\ZstdSharp.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\EPPlus.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Google.Protobuf.pdb
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Google.Protobuf.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.barcodes.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.commons.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.forms.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.io.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.kernel.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.layout.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.pdfa.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.pdfua.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.sign.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.styledxmlparser.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itext.svg.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\itextsharp.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\MySql.Data.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Buffers.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.IO.Packaging.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Memory.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Debug\System.ValueTuple.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\Interop.MSXML2.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.Admin.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormPersonal.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.Form1.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormAgua.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormAreLoza.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormBarra.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormBaños.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormEstacionamiento.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormExportacion.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormHistorial.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormJuegos.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormMenu2.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormComedor.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormPersonal2.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormPlanchas.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormServicios.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormTortillas.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.FormVarios.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.Properties.Resources.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.DraggablePanel.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.csproj.GenerateResource.cache
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\Mexabor.exe.manifest
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\Mexabor.application
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\App.csproj.Up2Date
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\Mexabor.exe
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Debug\Mexabor.pdb
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Datos.db
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Evaluaciones.xlsx
+C:\Users\PC\Desktop\App\App\App\bin\Debug\FormatoMexabor.xlsx
+C:\Users\PC\Desktop\App\App\App\bin\Debug\FormatoReporte.xlsx
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Mexabor.exe.config
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Mexabor.exe.manifest
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Mexabor.application
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Mexabor.exe
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Mexabor.pdb
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Aspose.Cells.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\EPPlus.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Google.Protobuf.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.barcodes.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.commons.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.forms.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.io.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.kernel.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.layout.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.pdfa.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.pdfua.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.sign.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.styledxmlparser.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.svg.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itextsharp.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\JetBrains.Annotations.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Spire.XLS.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Buffers.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Data.SQLite.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Drawing.Common.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.IO.Packaging.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.IO.Pipelines.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Memory.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.ValueTuple.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\ZstdSharp.dll
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Aspose.Cells.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\EPPlus.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Google.Protobuf.pdb
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Google.Protobuf.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.barcodes.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.commons.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.forms.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.io.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.kernel.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.layout.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.pdfa.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.pdfua.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.sign.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.styledxmlparser.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itext.svg.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\itextsharp.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\JetBrains.Annotations.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\Spire.XLS.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Buffers.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Data.SQLite.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.IO.Packaging.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.IO.Pipelines.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Memory.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PC\Desktop\App\App\App\bin\Debug\System.ValueTuple.xml
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\App\App\App\obj\Debug\Interop.MSXML2.dll
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.Admin.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormPersonal.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.Form1.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormAdmin.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormAgua.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormAreLoza.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormBarra.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormBaños.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormEstacionamiento.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormExportacion.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormHistorial.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormJuegos.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormMenu2.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormComedor.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormPersonal2.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormPlanchas.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormServicios.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormTortillas.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.FormVarios.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.Properties.Resources.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.DraggablePanel.resources
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\App\App\App\obj\Debug\Mexabor.exe.manifest
+C:\Users\PC\Desktop\App\App\App\obj\Debug\Mexabor.application
+C:\Users\PC\Desktop\App\App\App\obj\Debug\App.csproj.Up2Date
+C:\Users\PC\Desktop\App\App\App\obj\Debug\Mexabor.exe
+C:\Users\PC\Desktop\App\App\App\obj\Debug\Mexabor.pdb
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\Interop.MSXML2.dll
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\Mexabor.exe
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\Mexabor.pdb
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Datos.db
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Evaluaciones.xlsx
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\FormatoMexabor.xlsx
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\FormatoReporte.xlsx
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Mexabor.exe.config
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Mexabor.exe.manifest
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Mexabor.application
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Mexabor.exe
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Mexabor.pdb
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Aspose.Cells.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\EntityFramework.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\EPPlus.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Google.Protobuf.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.barcodes.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.commons.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.forms.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.io.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.kernel.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.layout.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.pdfa.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.pdfua.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.sign.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.styledxmlparser.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.svg.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itextsharp.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\JetBrains.Annotations.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Spire.XLS.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Buffers.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Data.SQLite.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Drawing.Common.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.IO.Packaging.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Memory.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.ValueTuple.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\ZstdSharp.dll
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Aspose.Cells.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\EntityFramework.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\EPPlus.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Google.Protobuf.pdb
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Google.Protobuf.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.barcodes.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.commons.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.forms.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.io.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.kernel.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.layout.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.pdfa.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.pdfua.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.sign.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.styledxmlparser.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itext.svg.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\itextsharp.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\JetBrains.Annotations.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\Spire.XLS.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Buffers.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Data.SQLite.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.IO.Packaging.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Memory.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Benjamin\Desktop\App\App\App\bin\Debug\System.ValueTuple.xml
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.Admin.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormPersonal.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.Form1.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormAdmin.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormAgua.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormAreLoza.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormBarra.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormBaños.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormEstacionamiento.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormExportacion.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormHistorial.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormJuegos.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormMenu2.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormComedor.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormPersonal2.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormPlanchas.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormServicios.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormTortillas.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.FormVarios.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.Properties.Resources.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.DraggablePanel.resources
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.csproj.GenerateResource.cache
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\Mexabor.exe.manifest
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\Mexabor.application
+C:\Users\Benjamin\Desktop\App\App\App\obj\Debug\App.csproj.Up2Date
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Datos.db
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Evaluaciones.xlsx
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\FormatoMexabor.xlsx
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\FormatoReporte.xlsx
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Mexabor.exe.config
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Mexabor.exe.manifest
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Mexabor.application
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Mexabor.exe
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Mexabor.pdb
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Aspose.Cells.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\EPPlus.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Google.Protobuf.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.barcodes.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.commons.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.forms.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.io.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.kernel.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.layout.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.pdfa.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.pdfua.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.sign.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.styledxmlparser.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.svg.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itextsharp.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\JetBrains.Annotations.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Spire.XLS.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Buffers.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Drawing.Common.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.IO.Packaging.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.IO.Pipelines.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Memory.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.ValueTuple.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\ZstdSharp.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Aspose.Cells.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\EPPlus.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Google.Protobuf.pdb
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Google.Protobuf.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.barcodes.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.commons.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.forms.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.io.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.kernel.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.layout.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.pdfa.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.pdfua.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.sign.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.styledxmlparser.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itext.svg.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\itextsharp.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\JetBrains.Annotations.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\Spire.XLS.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Buffers.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.IO.Packaging.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.IO.Pipelines.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Memory.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\bin\Debug\System.ValueTuple.xml
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\Interop.MSXML2.dll
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.Admin.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormPersonal.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.Form1.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormAdmin.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormAgua.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormAreLoza.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormBarra.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormBaños.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormEstacionamiento.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormExportacion.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormHistorial.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormJuegos.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormMenu2.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormComedor.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormPersonal2.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormPlanchas.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormServicios.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormTortillas.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.FormVarios.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.Properties.Resources.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.DraggablePanel.resources
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\Mexabor.exe.manifest
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\Mexabor.application
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\App.csproj.Up2Date
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\Mexabor.exe
+C:\Users\PC\Desktop\Mexabor\App\App\App\obj\Debug\Mexabor.pdb
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Datos.db
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Evaluaciones.xlsx
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\FormatoMexabor.xlsx
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\FormatoReporte.xlsx
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Mexabor.exe.config
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Mexabor.exe.manifest
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Mexabor.application
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Mexabor.exe
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Mexabor.pdb
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Aspose.Cells.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EntityFramework.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EntityFramework.SqlServer.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EPPlus.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EPPlus.Interfaces.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EPPlus.System.Drawing.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Google.Protobuf.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.barcodes.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.bouncy-castle-connector.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.commons.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.forms.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.io.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.kernel.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.layout.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.pdfa.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.pdfua.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.sign.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.styledxmlparser.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.svg.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itextsharp.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itextsharp.xmlworker.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\JetBrains.Annotations.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Hash.xxHash.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Newtonsoft.Json.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Spire.XLS.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\SQLitePCLRaw.core.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Buffers.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Drawing.Common.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.IO.Packaging.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.IO.Pipelines.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Memory.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Numerics.Vectors.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.ValueTuple.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\ZstdSharp.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Aspose.Cells.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EntityFramework.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EntityFramework.SqlServer.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EPPlus.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Google.Protobuf.pdb
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Google.Protobuf.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.barcodes.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.bouncy-castle-connector.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.commons.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.forms.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.io.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.kernel.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.layout.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.pdfa.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.pdfua.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.sign.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.styledxmlparser.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.svg.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itextsharp.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\JetBrains.Annotations.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Hash.xxHash.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Newtonsoft.Json.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Spire.XLS.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Buffers.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.IO.Packaging.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.IO.Pipelines.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Memory.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Numerics.Vectors.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.ValueTuple.xml
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\Interop.MSXML2.dll
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.Admin.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormPersonal.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.Form1.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormAdmin.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormAgua.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormAreLoza.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormBarra.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormBaños.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormEstacionamiento.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormExportacion.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormHistorial.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormJuegos.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormMenu2.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormComedor.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormPersonal2.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormPlanchas.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormServicios.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormTortillas.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormVarios.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.Properties.Resources.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.DraggablePanel.resources
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.csproj.GenerateResource.cache
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\Mexabor.exe.manifest
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\Mexabor.application
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.csproj.Up2Date
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\Mexabor.exe
+D:\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\Mexabor.pdb
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Datos.db
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Evaluaciones.xlsx
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\FormatoMexabor.xlsx
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\FormatoReporte.xlsx
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Mexabor.exe.config
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Mexabor.exe.manifest
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Mexabor.application
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Mexabor.exe
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Mexabor.pdb
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Aspose.Cells.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EPPlus.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Google.Protobuf.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.barcodes.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.commons.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.forms.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.io.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.kernel.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.layout.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.pdfa.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.pdfua.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.sign.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.styledxmlparser.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.svg.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itextsharp.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\JetBrains.Annotations.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Spire.XLS.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Buffers.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Drawing.Common.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.IO.Packaging.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.IO.Pipelines.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Memory.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.ValueTuple.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\ZstdSharp.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Aspose.Cells.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\EPPlus.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Google.Protobuf.pdb
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Google.Protobuf.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.barcodes.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.commons.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.forms.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.io.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.kernel.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.layout.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.pdfa.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.pdfua.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.sign.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.styledxmlparser.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itext.svg.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\itextsharp.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\JetBrains.Annotations.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\Spire.XLS.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Buffers.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Data.SQLite.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.IO.Packaging.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.IO.Pipelines.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Memory.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\bin\Debug\System.ValueTuple.xml
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\Interop.MSXML2.dll
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.Admin.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormPersonal.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.Form1.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormAdmin.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormAgua.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormAreLoza.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormBarra.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormBaños.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormEstacionamiento.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormExportacion.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormHistorial.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormJuegos.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormMenu2.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormComedor.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormPersonal2.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormPlanchas.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormServicios.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormTortillas.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.FormVarios.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.Properties.Resources.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.DraggablePanel.resources
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\Mexabor.exe.manifest
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\Mexabor.application
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\App.csproj.Up2Date
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\Mexabor.exe
+C:\Users\PC\Desktop\Codigo Completo de la app\Mexabor\App\App\App\obj\Debug\Mexabor.pdb
+D:\Codigo Completo\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+D:\Codigo Completo\App\App\obj\Debug\Interop.MSXML2.dll
+D:\Codigo Completo\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+D:\Codigo Completo\App\App\obj\Debug\App.Admin.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormPersonal.resources
+D:\Codigo Completo\App\App\obj\Debug\App.Form1.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormAdmin.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormAgua.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormAreLoza.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormBarra.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormBaños.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormEstacionamiento.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormExportacion.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormHistorial.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormJuegos.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormMenu2.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormComedor.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormPersonal2.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormPlanchas.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormServicios.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormTortillas.resources
+D:\Codigo Completo\App\App\obj\Debug\App.FormVarios.resources
+D:\Codigo Completo\App\App\obj\Debug\App.Properties.Resources.resources
+D:\Codigo Completo\App\App\obj\Debug\App.DraggablePanel.resources
+D:\Codigo Completo\App\App\obj\Debug\App.csproj.GenerateResource.cache
+D:\Codigo Completo\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+D:\Codigo Completo\App\App\obj\Debug\Mexabor.exe.manifest
+D:\Codigo Completo\App\App\obj\Debug\Mexabor.exe
+D:\Codigo Completo\App\App\obj\Debug\Mexabor.pdb
+D:\Codigo Completo\App\App\bin\Debug\Datos.db
+D:\Codigo Completo\App\App\bin\Debug\Evaluaciones.xlsx
+D:\Codigo Completo\App\App\bin\Debug\FormatoMexabor.xlsx
+D:\Codigo Completo\App\App\bin\Debug\FormatoReporte.xlsx
+D:\Codigo Completo\App\App\bin\Debug\Mexabor.exe.config
+D:\Codigo Completo\App\App\bin\Debug\Mexabor.exe.manifest
+D:\Codigo Completo\App\App\bin\Debug\Mexabor.application
+D:\Codigo Completo\App\App\bin\Debug\Mexabor.exe
+D:\Codigo Completo\App\App\bin\Debug\Mexabor.pdb
+D:\Codigo Completo\App\App\bin\Debug\Aspose.Cells.dll
+D:\Codigo Completo\App\App\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\Codigo Completo\App\App\bin\Debug\EntityFramework.dll
+D:\Codigo Completo\App\App\bin\Debug\EntityFramework.SqlServer.dll
+D:\Codigo Completo\App\App\bin\Debug\EPPlus.dll
+D:\Codigo Completo\App\App\bin\Debug\EPPlus.Interfaces.dll
+D:\Codigo Completo\App\App\bin\Debug\EPPlus.System.Drawing.dll
+D:\Codigo Completo\App\App\bin\Debug\Google.Protobuf.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.barcodes.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.bouncy-castle-connector.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.commons.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.forms.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.io.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.kernel.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.layout.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.pdfa.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.pdfua.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.sign.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.styledxmlparser.dll
+D:\Codigo Completo\App\App\bin\Debug\itext.svg.dll
+D:\Codigo Completo\App\App\bin\Debug\itextsharp.dll
+D:\Codigo Completo\App\App\bin\Debug\itextsharp.xmlworker.dll
+D:\Codigo Completo\App\App\bin\Debug\JetBrains.Annotations.dll
+D:\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.dll
+D:\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Codigo Completo\App\App\bin\Debug\K4os.Hash.xxHash.dll
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Codigo Completo\App\App\bin\Debug\Newtonsoft.Json.dll
+D:\Codigo Completo\App\App\bin\Debug\Spire.XLS.dll
+D:\Codigo Completo\App\App\bin\Debug\SQLitePCLRaw.core.dll
+D:\Codigo Completo\App\App\bin\Debug\System.Buffers.dll
+D:\Codigo Completo\App\App\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Codigo Completo\App\App\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.dll
+D:\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Codigo Completo\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Codigo Completo\App\App\bin\Debug\System.Drawing.Common.dll
+D:\Codigo Completo\App\App\bin\Debug\System.IO.Packaging.dll
+D:\Codigo Completo\App\App\bin\Debug\System.IO.Pipelines.dll
+D:\Codigo Completo\App\App\bin\Debug\System.Memory.dll
+D:\Codigo Completo\App\App\bin\Debug\System.Numerics.Vectors.dll
+D:\Codigo Completo\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Codigo Completo\App\App\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Codigo Completo\App\App\bin\Debug\System.ValueTuple.dll
+D:\Codigo Completo\App\App\bin\Debug\ZstdSharp.dll
+D:\Codigo Completo\App\App\bin\Debug\Aspose.Cells.xml
+D:\Codigo Completo\App\App\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+D:\Codigo Completo\App\App\bin\Debug\EntityFramework.xml
+D:\Codigo Completo\App\App\bin\Debug\EntityFramework.SqlServer.xml
+D:\Codigo Completo\App\App\bin\Debug\EPPlus.xml
+D:\Codigo Completo\App\App\bin\Debug\Google.Protobuf.pdb
+D:\Codigo Completo\App\App\bin\Debug\Google.Protobuf.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.barcodes.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.bouncy-castle-connector.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.commons.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.forms.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.io.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.kernel.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.layout.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.pdfa.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.pdfua.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.sign.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.styledxmlparser.xml
+D:\Codigo Completo\App\App\bin\Debug\itext.svg.xml
+D:\Codigo Completo\App\App\bin\Debug\itextsharp.xml
+D:\Codigo Completo\App\App\bin\Debug\JetBrains.Annotations.xml
+D:\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.xml
+D:\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Codigo Completo\App\App\bin\Debug\K4os.Hash.xxHash.xml
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Codigo Completo\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\Codigo Completo\App\App\bin\Debug\Newtonsoft.Json.xml
+D:\Codigo Completo\App\App\bin\Debug\Spire.XLS.xml
+D:\Codigo Completo\App\App\bin\Debug\System.Buffers.xml
+D:\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.xml
+D:\Codigo Completo\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Codigo Completo\App\App\bin\Debug\System.IO.Packaging.xml
+D:\Codigo Completo\App\App\bin\Debug\System.IO.Pipelines.xml
+D:\Codigo Completo\App\App\bin\Debug\System.Memory.xml
+D:\Codigo Completo\App\App\bin\Debug\System.Numerics.Vectors.xml
+D:\Codigo Completo\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Codigo Completo\App\App\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Codigo Completo\App\App\bin\Debug\System.ValueTuple.xml
+D:\Codigo Completo\App\App\obj\Debug\Mexabor.application
+D:\Codigo Completo\App\App\obj\Debug\App.csproj.Up2Date
+E:\Codigo Completo\App\App\bin\Debug\Datos.db
+E:\Codigo Completo\App\App\bin\Debug\Evaluaciones.xlsx
+E:\Codigo Completo\App\App\bin\Debug\FormatoMexabor.xlsx
+E:\Codigo Completo\App\App\bin\Debug\FormatoReporte.xlsx
+E:\Codigo Completo\App\App\bin\Debug\Mexabor.exe.config
+E:\Codigo Completo\App\App\bin\Debug\Mexabor.exe.manifest
+E:\Codigo Completo\App\App\bin\Debug\Mexabor.application
+E:\Codigo Completo\App\App\bin\Debug\Mexabor.exe
+E:\Codigo Completo\App\App\bin\Debug\Mexabor.pdb
+E:\Codigo Completo\App\App\bin\Debug\Aspose.Cells.dll
+E:\Codigo Completo\App\App\bin\Debug\BouncyCastle.Cryptography.dll
+E:\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.dll
+E:\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+E:\Codigo Completo\App\App\bin\Debug\EntityFramework.dll
+E:\Codigo Completo\App\App\bin\Debug\EntityFramework.SqlServer.dll
+E:\Codigo Completo\App\App\bin\Debug\EPPlus.dll
+E:\Codigo Completo\App\App\bin\Debug\EPPlus.Interfaces.dll
+E:\Codigo Completo\App\App\bin\Debug\EPPlus.System.Drawing.dll
+E:\Codigo Completo\App\App\bin\Debug\Google.Protobuf.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.barcodes.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.bouncy-castle-connector.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.commons.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.forms.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.io.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.kernel.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.layout.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.pdfa.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.pdfua.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.sign.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.styledxmlparser.dll
+E:\Codigo Completo\App\App\bin\Debug\itext.svg.dll
+E:\Codigo Completo\App\App\bin\Debug\itextsharp.dll
+E:\Codigo Completo\App\App\bin\Debug\itextsharp.xmlworker.dll
+E:\Codigo Completo\App\App\bin\Debug\JetBrains.Annotations.dll
+E:\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.dll
+E:\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Codigo Completo\App\App\bin\Debug\K4os.Hash.xxHash.dll
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Data.Sqlite.dll
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Options.dll
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+E:\Codigo Completo\App\App\bin\Debug\Newtonsoft.Json.dll
+E:\Codigo Completo\App\App\bin\Debug\Spire.XLS.dll
+E:\Codigo Completo\App\App\bin\Debug\SQLitePCLRaw.core.dll
+E:\Codigo Completo\App\App\bin\Debug\System.Buffers.dll
+E:\Codigo Completo\App\App\bin\Debug\System.ComponentModel.Annotations.dll
+E:\Codigo Completo\App\App\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.dll
+E:\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Codigo Completo\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Codigo Completo\App\App\bin\Debug\System.Drawing.Common.dll
+E:\Codigo Completo\App\App\bin\Debug\System.IO.Packaging.dll
+E:\Codigo Completo\App\App\bin\Debug\System.IO.Pipelines.dll
+E:\Codigo Completo\App\App\bin\Debug\System.Memory.dll
+E:\Codigo Completo\App\App\bin\Debug\System.Numerics.Vectors.dll
+E:\Codigo Completo\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Codigo Completo\App\App\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Codigo Completo\App\App\bin\Debug\System.ValueTuple.dll
+E:\Codigo Completo\App\App\bin\Debug\ZstdSharp.dll
+E:\Codigo Completo\App\App\bin\Debug\Aspose.Cells.xml
+E:\Codigo Completo\App\App\bin\Debug\BouncyCastle.Cryptography.xml
+E:\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.xml
+E:\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+E:\Codigo Completo\App\App\bin\Debug\EntityFramework.xml
+E:\Codigo Completo\App\App\bin\Debug\EntityFramework.SqlServer.xml
+E:\Codigo Completo\App\App\bin\Debug\EPPlus.xml
+E:\Codigo Completo\App\App\bin\Debug\Google.Protobuf.pdb
+E:\Codigo Completo\App\App\bin\Debug\Google.Protobuf.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.barcodes.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.bouncy-castle-connector.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.commons.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.forms.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.io.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.kernel.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.layout.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.pdfa.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.pdfua.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.sign.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.styledxmlparser.xml
+E:\Codigo Completo\App\App\bin\Debug\itext.svg.xml
+E:\Codigo Completo\App\App\bin\Debug\itextsharp.xml
+E:\Codigo Completo\App\App\bin\Debug\JetBrains.Annotations.xml
+E:\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.xml
+E:\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\Codigo Completo\App\App\bin\Debug\K4os.Hash.xxHash.xml
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Data.Sqlite.xml
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Options.xml
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\Codigo Completo\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+E:\Codigo Completo\App\App\bin\Debug\Newtonsoft.Json.xml
+E:\Codigo Completo\App\App\bin\Debug\Spire.XLS.xml
+E:\Codigo Completo\App\App\bin\Debug\System.Buffers.xml
+E:\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.xml
+E:\Codigo Completo\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Codigo Completo\App\App\bin\Debug\System.IO.Packaging.xml
+E:\Codigo Completo\App\App\bin\Debug\System.IO.Pipelines.xml
+E:\Codigo Completo\App\App\bin\Debug\System.Memory.xml
+E:\Codigo Completo\App\App\bin\Debug\System.Numerics.Vectors.xml
+E:\Codigo Completo\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Codigo Completo\App\App\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Codigo Completo\App\App\bin\Debug\System.ValueTuple.xml
+E:\Codigo Completo\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+E:\Codigo Completo\App\App\obj\Debug\Interop.MSXML2.dll
+E:\Codigo Completo\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+E:\Codigo Completo\App\App\obj\Debug\App.Admin.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormPersonal.resources
+E:\Codigo Completo\App\App\obj\Debug\App.Form1.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormAdmin.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormAgua.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormAreLoza.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormBarra.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormBaños.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormEstacionamiento.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormExportacion.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormHistorial.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormJuegos.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormMenu2.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormComedor.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormPersonal2.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormPlanchas.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormServicios.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormTortillas.resources
+E:\Codigo Completo\App\App\obj\Debug\App.FormVarios.resources
+E:\Codigo Completo\App\App\obj\Debug\App.Properties.Resources.resources
+E:\Codigo Completo\App\App\obj\Debug\App.DraggablePanel.resources
+E:\Codigo Completo\App\App\obj\Debug\App.csproj.GenerateResource.cache
+E:\Codigo Completo\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+E:\Codigo Completo\App\App\obj\Debug\Mexabor.exe.manifest
+E:\Codigo Completo\App\App\obj\Debug\Mexabor.application
+E:\Codigo Completo\App\App\obj\Debug\App.csproj.Up2Date
+E:\Codigo Completo\App\App\obj\Debug\Mexabor.exe
+E:\Codigo Completo\App\App\obj\Debug\Mexabor.pdb
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Datos.db
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Evaluaciones.xlsx
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\FormatoMexabor.xlsx
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\FormatoReporte.xlsx
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Mexabor.exe.config
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Mexabor.exe.manifest
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Mexabor.application
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Mexabor.exe
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Mexabor.pdb
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Aspose.Cells.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\EPPlus.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Google.Protobuf.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.barcodes.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.commons.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.forms.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.io.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.kernel.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.layout.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.pdfa.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.pdfua.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.sign.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.styledxmlparser.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.svg.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itextsharp.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\JetBrains.Annotations.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Spire.XLS.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Buffers.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Drawing.Common.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.IO.Packaging.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.IO.Pipelines.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Memory.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.ValueTuple.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\ZstdSharp.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Aspose.Cells.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\EPPlus.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Google.Protobuf.pdb
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Google.Protobuf.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.barcodes.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.commons.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.forms.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.io.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.kernel.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.layout.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.pdfa.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.pdfua.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.sign.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.styledxmlparser.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itext.svg.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\itextsharp.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\JetBrains.Annotations.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\Spire.XLS.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Buffers.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.IO.Packaging.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.IO.Pipelines.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Memory.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\bin\Debug\System.ValueTuple.xml
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\Interop.MSXML2.dll
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.Admin.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormPersonal.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.Form1.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormAdmin.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormAgua.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormAreLoza.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormBarra.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormBaños.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormEstacionamiento.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormExportacion.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormHistorial.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormJuegos.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormMenu2.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormComedor.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormPersonal2.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormPlanchas.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormServicios.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormTortillas.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.FormVarios.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.Properties.Resources.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.DraggablePanel.resources
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\Mexabor.exe.manifest
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\Mexabor.application
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\App.csproj.Up2Date
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\Mexabor.exe
+C:\Users\PC\Desktop\Codigo Completo\App\App\obj\Debug\Mexabor.pdb
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Datos.db
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Evaluaciones.xlsx
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\FormatoMexabor.xlsx
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\FormatoReporte.xlsx
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Mexabor.exe.config
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Mexabor.exe.manifest
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Mexabor.application
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Mexabor.exe
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Mexabor.pdb
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Aspose.Cells.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\EntityFramework.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\EntityFramework.SqlServer.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\EPPlus.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\EPPlus.Interfaces.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\EPPlus.System.Drawing.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Google.Protobuf.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.barcodes.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.bouncy-castle-connector.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.commons.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.forms.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.io.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.kernel.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.layout.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.pdfa.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.pdfua.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.sign.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.styledxmlparser.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.svg.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itextsharp.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itextsharp.xmlworker.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\JetBrains.Annotations.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\K4os.Hash.xxHash.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Newtonsoft.Json.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Spire.XLS.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\SQLitePCLRaw.core.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Buffers.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Drawing.Common.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.IO.Packaging.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.IO.Pipelines.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Memory.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Numerics.Vectors.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.ValueTuple.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\ZstdSharp.dll
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Aspose.Cells.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\EntityFramework.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\EntityFramework.SqlServer.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\EPPlus.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Google.Protobuf.pdb
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Google.Protobuf.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.barcodes.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.bouncy-castle-connector.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.commons.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.forms.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.io.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.kernel.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.layout.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.pdfa.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.pdfua.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.sign.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.styledxmlparser.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itext.svg.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\itextsharp.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\JetBrains.Annotations.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\K4os.Hash.xxHash.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Newtonsoft.Json.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\Spire.XLS.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Buffers.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Data.SQLite.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.IO.Packaging.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.IO.Pipelines.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Memory.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Numerics.Vectors.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Codigo Fuente\Codigo Completo\App\App\bin\Debug\System.ValueTuple.xml
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\Interop.MSXML2.dll
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.Admin.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormPersonal.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.Form1.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormAdmin.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormAgua.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormAreLoza.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormBarra.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormBaños.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormEstacionamiento.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormExportacion.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormHistorial.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormJuegos.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormMenu2.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormComedor.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormPersonal2.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormPlanchas.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormServicios.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormTortillas.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.FormVarios.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.Properties.Resources.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.DraggablePanel.resources
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.csproj.GenerateResource.cache
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\Mexabor.exe.manifest
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\Mexabor.application
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\App.csproj.Up2Date
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\Mexabor.exe
+D:\Codigo Fuente\Codigo Completo\App\App\obj\Debug\Mexabor.pdb
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.csproj.AssemblyReference.cache
+E:\13Enero\Codigo Completo\App\App\obj\Debug\Interop.MSXML2.dll
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.csproj.ResolveComReference.cache
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.Admin.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormPersonal.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.Form1.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormAdmin.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormAgua.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormAreLoza.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormBarra.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormBaños.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormEstacionamiento.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormExportacion.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormHistorial.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormJuegos.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormMenu2.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormComedor.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormPersonal2.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormPlanchas.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormProveedoresHerramientas.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormServicios.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormTortillas.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.FormVarios.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.Properties.Resources.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.DraggablePanel.resources
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.csproj.GenerateResource.cache
+E:\13Enero\Codigo Completo\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+E:\13Enero\Codigo Completo\App\App\obj\Debug\Mexabor.exe
+E:\13Enero\Codigo Completo\App\App\obj\Debug\Mexabor.pdb

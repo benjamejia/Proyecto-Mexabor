@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\13Enero\\Codigo Completo\\App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|e:\\13enero\\codigo completo\\app\\app\\restaurante\\formproveedoresherramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|solutionrelative:app\\restaurante\\formproveedoresherramientas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|e:\\13enero\\codigo completo\\app\\app\\dataforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|solutionrelative:app\\dataforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|e:\\13enero\\codigo completo\\app\\app\\restaurante\\formvarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|solutionrelative:app\\restaurante\\formvarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|E:\\13Enero\\Codigo Completo\\App\\app\\formexportacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|solutionrelative:app\\formexportacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|E:\\13Enero\\Codigo Completo\\App\\app\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|solutionrelative:app\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|E:\\13Enero\\Codigo Completo\\App\\app\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|solutionrelative:app\\formhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|e:\\13enero\\codigo completo\\app\\app\\datosfila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CEDBD3B-0A7A-4B62-BC34-362447EF344A}|App\\App.csproj|solutionrelative:app\\datosfila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormProveedoresHerramientas.cs",
+              "DocumentMoniker": "E:\\13Enero\\Codigo Completo\\App\\App\\Restaurante\\FormProveedoresHerramientas.cs",
+              "RelativeDocumentMoniker": "App\\Restaurante\\FormProveedoresHerramientas.cs",
+              "ToolTip": "E:\\13Enero\\Codigo Completo\\App\\App\\Restaurante\\FormProveedoresHerramientas.cs",
+              "RelativeToolTip": "App\\Restaurante\\FormProveedoresHerramientas.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAWwEQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T18:16:36.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormVarios.cs",
+              "DocumentMoniker": "E:\\13Enero\\Codigo Completo\\App\\App\\Restaurante\\FormVarios.cs",
+              "RelativeDocumentMoniker": "App\\Restaurante\\FormVarios.cs",
+              "ToolTip": "E:\\13Enero\\Codigo Completo\\App\\App\\Restaurante\\FormVarios.cs",
+              "RelativeToolTip": "App\\Restaurante\\FormVarios.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T18:14:40.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataForms.cs",
+              "DocumentMoniker": "E:\\13Enero\\Codigo Completo\\App\\App\\DataForms.cs",
+              "RelativeDocumentMoniker": "App\\DataForms.cs",
+              "ToolTip": "E:\\13Enero\\Codigo Completo\\App\\App\\DataForms.cs",
+              "RelativeToolTip": "App\\DataForms.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAswGcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T16:33:23.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatosFila.cs",
+              "DocumentMoniker": "E:\\13Enero\\Codigo Completo\\App\\App\\DatosFila.cs",
+              "RelativeDocumentMoniker": "App\\DatosFila.cs",
+              "ToolTip": "E:\\13Enero\\Codigo Completo\\App\\App\\DatosFila.cs",
+              "RelativeToolTip": "App\\DatosFila.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwDkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:42:29.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormHistorial.cs",
+              "DocumentMoniker": "E:\\13Enero\\Codigo Completo\\App\\App\\FormHistorial.cs",
+              "RelativeDocumentMoniker": "App\\FormHistorial.cs",
+              "ToolTip": "E:\\13Enero\\Codigo Completo\\App\\App\\FormHistorial.cs",
+              "RelativeToolTip": "App\\FormHistorial.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswMkDAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:37:42.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormHistorial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\13Enero\\Codigo Completo\\App\\App\\FormHistorial.cs",
+              "RelativeDocumentMoniker": "App\\FormHistorial.cs",
+              "ToolTip": "E:\\13Enero\\Codigo Completo\\App\\App\\FormHistorial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "App\\FormHistorial.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:37:36.125Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormExportacion.cs",
+              "DocumentMoniker": "E:\\13Enero\\Codigo Completo\\App\\App\\FormExportacion.cs",
+              "RelativeDocumentMoniker": "App\\FormExportacion.cs",
+              "ToolTip": "E:\\13Enero\\Codigo Completo\\App\\App\\FormExportacion.cs",
+              "RelativeToolTip": "App\\FormExportacion.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAWwGkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:51:15.157Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

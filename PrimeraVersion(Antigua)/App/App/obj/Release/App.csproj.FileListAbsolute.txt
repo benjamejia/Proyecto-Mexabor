@@ -1,0 +1,399 @@
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Mexabor.exe.config
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Mexabor.exe.manifest
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Mexabor.application
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Mexabor.exe
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Mexabor.pdb
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\BouncyCastle.Cryptography.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\EPPlus.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\EPPlus.Interfaces.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\EPPlus.System.Drawing.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Google.Protobuf.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.barcodes.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.bouncy-castle-connector.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.commons.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.forms.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.io.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.kernel.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.layout.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.pdfa.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.pdfua.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.sign.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.styledxmlparser.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.svg.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itextsharp.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itextsharp.xmlworker.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\K4os.Compression.LZ4.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\K4os.Compression.LZ4.Streams.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\K4os.Hash.xxHash.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.Logging.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.Options.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.Primitives.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\MySql.Data.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Newtonsoft.Json.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Buffers.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Drawing.Common.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.IO.Packaging.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.IO.Pipelines.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Memory.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Numerics.Vectors.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.ValueTuple.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\ZstdSharp.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\BouncyCastle.Cryptography.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\DocumentFormat.OpenXml.Framework.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\EPPlus.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Google.Protobuf.pdb
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Google.Protobuf.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.barcodes.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.bouncy-castle-connector.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.commons.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.forms.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.io.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.kernel.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.layout.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.pdfa.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.pdfua.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.sign.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.styledxmlparser.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itext.svg.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\itextsharp.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\K4os.Compression.LZ4.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\K4os.Compression.LZ4.Streams.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\K4os.Hash.xxHash.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.Logging.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.Options.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.Extensions.Primitives.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\MySql.Data.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\Newtonsoft.Json.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Buffers.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.IO.Packaging.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.IO.Pipelines.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Memory.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Numerics.Vectors.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\bin\Release\System.ValueTuple.xml
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.csproj.AssemblyReference.cache
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\Interop.MSXML2.dll
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.csproj.ResolveComReference.cache
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.Admin.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormPersonal.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.Form1.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormAgua.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormAreLoza.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormBarra.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormBaños.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormEstacionamiento.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormExportacion.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormHistorial.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormJuegos.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormMenu2.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormComedor.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormPersonal2.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormPlanchas.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormProveedoresHerramientas.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormServicios.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormTortillas.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.FormVarios.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.Properties.Resources.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.DraggablePanel.resources
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.csproj.GenerateResource.cache
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\Mexabor.exe.manifest
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\Mexabor.application
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\App.csproj.Up2Date
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\Mexabor.exe
+C:\Users\Benjamin\Desktop\App\App\App\App\obj\Release\Mexabor.pdb
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Evaluaciones.xlsx
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\FormatoReporte.xlsx
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\FormatoMexabor.xlsx
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Mexabor.exe.config
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Mexabor.exe.manifest
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Mexabor.application
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Mexabor.exe
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Mexabor.pdb
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\BouncyCastle.Cryptography.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\EPPlus.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\EPPlus.Interfaces.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\EPPlus.System.Drawing.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Google.Protobuf.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.barcodes.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.bouncy-castle-connector.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.commons.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.forms.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.io.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.kernel.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.layout.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.pdfa.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.pdfua.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.sign.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.styledxmlparser.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.svg.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itextsharp.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itextsharp.xmlworker.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\JetBrains.Annotations.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\K4os.Compression.LZ4.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\K4os.Compression.LZ4.Streams.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\K4os.Hash.xxHash.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.Logging.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.Options.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.Primitives.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\MySql.Data.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Newtonsoft.Json.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Spire.XLS.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Buffers.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Drawing.Common.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.IO.Packaging.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.IO.Pipelines.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Memory.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Numerics.Vectors.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.ValueTuple.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\ZstdSharp.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\BouncyCastle.Cryptography.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\DocumentFormat.OpenXml.Framework.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\EPPlus.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Google.Protobuf.pdb
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Google.Protobuf.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.barcodes.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.bouncy-castle-connector.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.commons.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.forms.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.io.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.kernel.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.layout.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.pdfa.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.pdfua.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.sign.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.styledxmlparser.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itext.svg.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\itextsharp.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\JetBrains.Annotations.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\K4os.Compression.LZ4.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\K4os.Compression.LZ4.Streams.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\K4os.Hash.xxHash.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.Logging.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.Options.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.Extensions.Primitives.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\MySql.Data.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Newtonsoft.Json.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\Spire.XLS.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Buffers.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.IO.Packaging.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.IO.Pipelines.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Memory.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Numerics.Vectors.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\bin\Release\System.ValueTuple.xml
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.csproj.AssemblyReference.cache
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\Interop.MSXML2.dll
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.csproj.ResolveComReference.cache
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.Admin.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormPersonal.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.Form1.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormAgua.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormAreLoza.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormBarra.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormBaños.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormEstacionamiento.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormExportacion.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormHistorial.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormJuegos.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormMenu2.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormComedor.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormPersonal2.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormPlanchas.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormProveedoresHerramientas.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormServicios.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormTortillas.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.FormVarios.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.Properties.Resources.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.DraggablePanel.resources
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.csproj.GenerateResource.cache
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\Mexabor.exe.manifest
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\Mexabor.application
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\App.csproj.Up2Date
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\Mexabor.exe
+C:\Users\Benjamin\Desktop\Nueva carpeta\App\App\obj\Release\Mexabor.pdb
+C:\Users\PC\Desktop\App\App\App\bin\Release\Datos.db
+C:\Users\PC\Desktop\App\App\App\bin\Release\Evaluaciones.xlsx
+C:\Users\PC\Desktop\App\App\App\bin\Release\FormatoMexabor.xlsx
+C:\Users\PC\Desktop\App\App\App\bin\Release\FormatoReporte.xlsx
+C:\Users\PC\Desktop\App\App\App\bin\Release\Mexabor.exe.config
+C:\Users\PC\Desktop\App\App\App\bin\Release\Mexabor.exe.manifest
+C:\Users\PC\Desktop\App\App\App\bin\Release\Mexabor.application
+C:\Users\PC\Desktop\App\App\App\bin\Release\Mexabor.exe
+C:\Users\PC\Desktop\App\App\App\bin\Release\Mexabor.pdb
+C:\Users\PC\Desktop\App\App\App\bin\Release\Aspose.Cells.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\BouncyCastle.Cryptography.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\DocumentFormat.OpenXml.Framework.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\EntityFramework.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\EPPlus.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\EPPlus.Interfaces.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\EPPlus.System.Drawing.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Google.Protobuf.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.barcodes.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.bouncy-castle-connector.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.commons.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.forms.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.io.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.kernel.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.layout.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.pdfa.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.pdfua.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.sign.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.styledxmlparser.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.svg.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itextsharp.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\itextsharp.xmlworker.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\JetBrains.Annotations.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\K4os.Compression.LZ4.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\K4os.Compression.LZ4.Streams.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\K4os.Hash.xxHash.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Data.Sqlite.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.Logging.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.Options.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Spire.XLS.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\SQLitePCLRaw.core.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Buffers.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Data.SQLite.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Drawing.Common.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.IO.Packaging.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.IO.Pipelines.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Memory.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Numerics.Vectors.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.ValueTuple.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\ZstdSharp.dll
+C:\Users\PC\Desktop\App\App\App\bin\Release\Aspose.Cells.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\BouncyCastle.Cryptography.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\DocumentFormat.OpenXml.Framework.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\EntityFramework.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\EPPlus.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Google.Protobuf.pdb
+C:\Users\PC\Desktop\App\App\App\bin\Release\Google.Protobuf.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.barcodes.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.bouncy-castle-connector.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.commons.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.forms.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.io.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.kernel.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.layout.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.pdfa.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.pdfua.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.sign.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.styledxmlparser.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itext.svg.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\itextsharp.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\JetBrains.Annotations.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\K4os.Compression.LZ4.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\K4os.Compression.LZ4.Streams.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\K4os.Hash.xxHash.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Data.Sqlite.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.Logging.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.Options.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.Extensions.Primitives.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\Spire.XLS.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Buffers.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Data.SQLite.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.IO.Packaging.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.IO.Pipelines.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Memory.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Numerics.Vectors.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\PC\Desktop\App\App\App\bin\Release\System.ValueTuple.xml
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\App\App\App\obj\Release\Interop.MSXML2.dll
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.csproj.ResolveComReference.cache
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.Admin.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormPersonal.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.Form1.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormAdmin.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormAgua.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormAreLoza.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormBarra.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormBaños.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormEstacionamiento.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormExportacion.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormHistorial.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormJuegos.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormMenu2.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormComedor.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormPersonal2.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormPlanchas.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormProveedoresHerramientas.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormServicios.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormTortillas.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.FormVarios.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.Properties.Resources.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.DraggablePanel.resources
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\App\App\App\obj\Release\Mexabor.exe.manifest
+C:\Users\PC\Desktop\App\App\App\obj\Release\Mexabor.application
+C:\Users\PC\Desktop\App\App\App\obj\Release\App.csproj.Up2Date
+C:\Users\PC\Desktop\App\App\App\obj\Release\Mexabor.exe
+C:\Users\PC\Desktop\App\App\App\obj\Release\Mexabor.pdb
