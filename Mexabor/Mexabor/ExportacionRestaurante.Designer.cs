@@ -1,6 +1,6 @@
 ﻿namespace Mexabor
 {
-    partial class ExportacionFinal
+    partial class ExportacionRestaurante
     {
         /// <summary>
         /// Required designer variable.
@@ -40,9 +40,10 @@
             // 
             panel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel3.BackColor = SystemColors.ButtonShadow;
-            panel3.Location = new Point(56, 173);
+            panel3.Location = new Point(49, 130);
+            panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
-            panel3.Size = new Size(15, 43);
+            panel3.Size = new Size(13, 32);
             panel3.TabIndex = 52;
             // 
             // button1
@@ -52,9 +53,10 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Yu Gothic", 12F);
-            button1.Location = new Point(56, 41);
+            button1.Location = new Point(49, 31);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(234, 45);
+            button1.Size = new Size(205, 34);
             button1.TabIndex = 51;
             button1.Text = "Volver al Menu";
             button1.UseVisualStyleBackColor = false;
@@ -67,9 +69,10 @@
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Yu Gothic", 12F);
-            button2.Location = new Point(56, 104);
+            button2.Location = new Point(49, 78);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(234, 47);
+            button2.Size = new Size(205, 35);
             button2.TabIndex = 53;
             button2.Text = "Exportar Excel";
             button2.UseVisualStyleBackColor = false;
@@ -82,9 +85,10 @@
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Yu Gothic", 12F);
-            button3.Location = new Point(56, 173);
+            button3.Location = new Point(49, 130);
+            button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(234, 43);
+            button3.Size = new Size(205, 32);
             button3.TabIndex = 55;
             button3.Text = "Exportar Pdf";
             button3.UseVisualStyleBackColor = false;
@@ -93,26 +97,28 @@
             // 
             panel4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel4.BackColor = SystemColors.ButtonShadow;
-            panel4.Location = new Point(56, 104);
+            panel4.Location = new Point(49, 78);
+            panel4.Margin = new Padding(3, 2, 3, 2);
             panel4.Name = "panel4";
-            panel4.Size = new Size(15, 47);
+            panel4.Size = new Size(13, 35);
             panel4.TabIndex = 53;
             // 
             // panel1
             // 
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel1.BackColor = SystemColors.ButtonShadow;
-            panel1.Location = new Point(56, 41);
+            panel1.Location = new Point(49, 31);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(15, 45);
+            panel1.Size = new Size(13, 34);
             panel1.TabIndex = 56;
             // 
             // ExportacionFinal
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(352, 283);
+            ClientSize = new Size(308, 212);
             Controls.Add(panel1);
             Controls.Add(panel4);
             Controls.Add(button2);
@@ -120,9 +126,10 @@
             Controls.Add(button1);
             Controls.Add(button3);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "ExportacionFinal";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "ExportacionFinal";
+            Text = "Exportacion Restaurante";
             ResumeLayout(false);
         }
 

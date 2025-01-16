@@ -6,12 +6,14 @@ using System.Data;
 using System.Data.SQLite;
 using System.Diagnostics;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Mexabor.CacheAplicacion;
 using OfficeOpenXml;
+using Syncfusion.Pdf.Parsing;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Mexabor
@@ -185,10 +187,47 @@ namespace Mexabor
             CacheFormsRestaurante.caja = datosFila.Caja.Select(c => int.Parse(c.ToString())).ToList();
             CacheFormsRestaurante.ambiente = datosFila.Ambiente.Select(c => int.Parse(c.ToString())).ToList();
 
-            // Asignar listas de strings
-            CacheFormsRestaurante.calificacionProveedores = datosFila.CalificacionProovedores.Select(c => int.Parse(c.ToString())).ToList();
+
+            // Iterar sobre la cadena de dígitos
+            for (int i = 0; i < datosFila.CalificacionProovedores.Length; i++)
+            {
+                // Convertir el carácter en entero
+                if (int.TryParse(datosFila.CalificacionProovedores[i].ToString(), out int valor))
+                {
+                    // Comprobar si es el caso especial de "1" seguido de "0"
+                    if (i < datosFila.CalificacionProovedores.Length - 1 &&
+                        datosFila.CalificacionProovedores[i] == '1' && datosFila.CalificacionProovedores[i + 1] == '0')
+                    {
+                        CacheFormsRestaurante.calificacionProveedores.Add(10);
+                        i++; // Saltar el siguiente elemento porque ya fue procesado como "10"
+                    }
+                    else
+                    {
+                        CacheFormsRestaurante.calificacionProveedores.Add(valor);
+                    }
+                }
+                else
+                {
+                    // Manejar el caso en que el carácter no pueda ser convertido a int
+                    Console.WriteLine($"Carácter inválido en la calificación: {datosFila.CalificacionProovedores[i]}");
+                }
+            }
+
             CacheFormsRestaurante.herramienta = datosFila.ExistenciaHerramienta.Select(c => int.Parse(c.ToString())).ToList();
-            CacheFormsRestaurante.temperatura = datosFila.Temperatura.Select(c => int.Parse(c.ToString())).ToList();
+
+            //for para guardar la temperatura de manera correcta y no indivualmente digito por digito
+            if (!string.IsNullOrEmpty(datosFila.Temperatura) && datosFila.Temperatura.Length % 2 == 0)
+            {
+                for (int i = 0; i < datosFila.Temperatura.Length; i += 2) // Iterar de dos en dos
+                {
+                    // Combinar los caracteres consecutivos en un número de dos dígitos
+                    string numero = $"{datosFila.Temperatura[i]}{datosFila.Temperatura[i + 1]}";
+
+                    // Convertir el número a entero y agregarlo a la lista
+                    CacheFormsRestaurante.temperatura.Add(int.Parse(numero));
+                }
+            }
+
             CacheFormsRestaurante.sabor = datosFila.Sabor.Select(c => int.Parse(c.ToString())).ToList();
 
             // Asignar valores individuales
@@ -313,7 +352,8 @@ namespace Mexabor
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ExcelTablaDesglozada();
+            //ExcelTablaDesglozada();
+            GenerarExcel.ExportarDatosExcel();
         }
 
         private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -385,6 +425,91 @@ namespace Mexabor
         private void button4_Click_1(object sender, EventArgs e)
         {
             panelDobleClick.Visible = false;
+            CacheFormsRestaurante.LimpiarCache();
         }
+
+        //Queda pendiente a mejorar ya que es un codigo pegado del antigui proyecto.
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string encargado = txbGerente.Text;
+            string sucursal = txbSucursal.Text;
+            string fecha = txbFecha.Text;
+            string auditor = txbAuditor.Text;
+            using (SQLiteConnection conn = new SQLiteConnection(cadena))
+            {
+                // IF para buscar los cuatro datos
+                if (string.IsNullOrEmpty(encargado) && string.IsNullOrEmpty(sucursal) &&
+                string.IsNullOrEmpty(fecha) && string.IsNullOrEmpty(auditor))
+                {
+                        MessageBox.Show("Ingresa un dato.");
+                        return;
+                }
+                if(txbGerente.Text != string.Empty && txbSucursal.Text != string.Empty && txbAuditor.Text != string.Empty)
+                { 
+                    conn.Open();
+                    SQLiteCommand cmd = new SQLiteCommand("SELECT * FROM reporteRestaurante WHERE Sucursal = @sucursal AND Encargado = @encargado AND Auditor = @auditor", conn);
+                    cmd.Parameters.AddWithValue("@encargado", encargado);
+                    cmd.Parameters.AddWithValue("@sucursal", sucursal);
+                    cmd.Parameters.AddWithValue("@auditor", auditor);
+
+                    SQLiteDataAdapter sda = new SQLiteDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    dataGridView1.DataSource = dt;
+                    if (dt.Rows.Count == 0)
+                    {
+                        MessageBox.Show("No se encontró ningún reporte con esos datos.");
+                    }
+                }
+                // IF para buscar solo gerente
+                else if (!string.IsNullOrEmpty(encargado))
+                {
+                    conn.Open();
+                    SQLiteCommand cmd = new SQLiteCommand("SELECT * FROM reporteRestaurante WHERE Encargado = @encargado", conn);
+                    cmd.Parameters.AddWithValue("@encargado", encargado);
+
+                    SQLiteDataAdapter sda = new SQLiteDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
+                    dataGridView1.DataSource = dt;
+                    if (dt.Rows.Count == 0)
+                    {
+                        MessageBox.Show("No se encontró ningún Encargado con ese nombre.");
+                    }
+                }
+                // IF para buscar solo sucursal
+                else if (!string.IsNullOrEmpty(sucursal))
+                {
+                    conn.Open();
+                    SQLiteCommand cmd2 = new SQLiteCommand("SELECT * FROM reporteRestaurante WHERE Sucursal = @sucursal", conn);
+                    cmd2.Parameters.AddWithValue("@sucursal", sucursal);
+
+                    SQLiteDataAdapter sda2 = new SQLiteDataAdapter(cmd2);
+                    DataTable dt2 = new DataTable();
+                    sda2.Fill(dt2);
+                    dataGridView1.DataSource = dt2;
+                    if (dt2.Rows.Count == 0)
+                    {
+                        MessageBox.Show("No se encontró ninguna Sucursal con ese nombre.");
+                    }
+                }
+                // IF para buscar solo auditor
+                else if (!string.IsNullOrEmpty(auditor))
+                {
+                    conn.Open();
+                    SQLiteCommand cmd2 = new SQLiteCommand("SELECT * FROM reporteRestaurante WHERE Auditor = @auditor", conn);
+                    cmd2.Parameters.AddWithValue("@auditor", auditor);
+
+                    SQLiteDataAdapter sda2 = new SQLiteDataAdapter(cmd2);
+                    DataTable dt2 = new DataTable();
+                    sda2.Fill(dt2);
+                    dataGridView1.DataSource = dt2;
+                    if (dt2.Rows.Count == 0)
+                    {
+                        MessageBox.Show("No se encontró ningún Auditor con ese nombre.");
+                    }
+                }
+        }
+    }
     }
 }

@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegistros));
             panel1 = new Panel();
             sucursalFecha = new Label();
-            textBox1 = new TextBox();
+            txbSucursal = new TextBox();
             panel4 = new Panel();
             panel3 = new Panel();
             button3 = new Button();
@@ -39,9 +39,9 @@
             fechaTetxto = new Label();
             txbFecha = new TextBox();
             label1 = new Label();
-            txbAuditor = new Label();
+            lblAuditor = new Label();
             gerenteTexto = new Label();
-            textBox2 = new TextBox();
+            txbAuditor = new TextBox();
             txbGerente = new TextBox();
             panel2 = new Panel();
             panelDobleClick = new Panel();
@@ -74,7 +74,7 @@
             panel1.BackColor = SystemColors.ButtonHighlight;
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(sucursalFecha);
-            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(txbSucursal);
             panel1.Controls.Add(panel4);
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(button3);
@@ -82,9 +82,9 @@
             panel1.Controls.Add(fechaTetxto);
             panel1.Controls.Add(txbFecha);
             panel1.Controls.Add(label1);
-            panel1.Controls.Add(txbAuditor);
+            panel1.Controls.Add(lblAuditor);
             panel1.Controls.Add(gerenteTexto);
-            panel1.Controls.Add(textBox2);
+            panel1.Controls.Add(txbAuditor);
             panel1.Controls.Add(txbGerente);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 48);
@@ -98,22 +98,22 @@
             // 
             sucursalFecha.AutoSize = true;
             sucursalFecha.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            sucursalFecha.Location = new Point(54, 158);
+            sucursalFecha.Location = new Point(54, 33);
             sucursalFecha.Name = "sucursalFecha";
             sucursalFecha.Size = new Size(89, 25);
             sucursalFecha.TabIndex = 19;
             sucursalFecha.Text = "Sucursal";
             // 
-            // textBox1
+            // txbSucursal
             // 
-            textBox1.BackColor = Color.Gainsboro;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(54, 182);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(276, 30);
-            textBox1.TabIndex = 18;
+            txbSucursal.BackColor = Color.Gainsboro;
+            txbSucursal.BorderStyle = BorderStyle.None;
+            txbSucursal.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txbSucursal.Location = new Point(54, 57);
+            txbSucursal.Margin = new Padding(3, 2, 3, 2);
+            txbSucursal.Name = "txbSucursal";
+            txbSucursal.Size = new Size(276, 30);
+            txbSucursal.TabIndex = 18;
             // 
             // panel4
             // 
@@ -127,7 +127,7 @@
             // panel3
             // 
             panel3.Anchor = AnchorStyles.Bottom;
-            panel3.BackColor = Color.DarkOliveGreen;
+            panel3.BackColor = Color.Gray;
             panel3.Location = new Point(35, 512);
             panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
@@ -147,11 +147,12 @@
             button3.TabIndex = 16;
             button3.Text = "Buscar";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
             button2.Anchor = AnchorStyles.Bottom;
-            button2.BackColor = Color.LightGreen;
+            button2.BackColor = SystemColors.ButtonFace;
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Yu Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -197,43 +198,43 @@
             label1.Text = "Filtrar por dato";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
-            // txbAuditor
+            // lblAuditor
             // 
-            txbAuditor.AutoSize = true;
-            txbAuditor.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txbAuditor.Location = new Point(54, 96);
-            txbAuditor.Name = "txbAuditor";
-            txbAuditor.Size = new Size(76, 25);
-            txbAuditor.TabIndex = 10;
-            txbAuditor.Text = "Auditor";
+            lblAuditor.AutoSize = true;
+            lblAuditor.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblAuditor.Location = new Point(54, 158);
+            lblAuditor.Name = "lblAuditor";
+            lblAuditor.Size = new Size(76, 25);
+            lblAuditor.TabIndex = 10;
+            lblAuditor.Text = "Auditor";
             // 
             // gerenteTexto
             // 
             gerenteTexto.AutoSize = true;
             gerenteTexto.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            gerenteTexto.Location = new Point(54, 30);
+            gerenteTexto.Location = new Point(54, 96);
             gerenteTexto.Name = "gerenteTexto";
             gerenteTexto.Size = new Size(84, 25);
             gerenteTexto.TabIndex = 9;
             gerenteTexto.Text = "Gerente";
             // 
-            // textBox2
+            // txbAuditor
             // 
-            textBox2.BackColor = Color.Gainsboro;
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(54, 121);
-            textBox2.Margin = new Padding(3, 2, 3, 2);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(276, 30);
-            textBox2.TabIndex = 8;
+            txbAuditor.BackColor = Color.Gainsboro;
+            txbAuditor.BorderStyle = BorderStyle.None;
+            txbAuditor.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txbAuditor.Location = new Point(54, 185);
+            txbAuditor.Margin = new Padding(3, 2, 3, 2);
+            txbAuditor.Name = "txbAuditor";
+            txbAuditor.Size = new Size(276, 30);
+            txbAuditor.TabIndex = 8;
             // 
             // txbGerente
             // 
             txbGerente.BackColor = Color.Gainsboro;
             txbGerente.BorderStyle = BorderStyle.None;
             txbGerente.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txbGerente.Location = new Point(54, 55);
+            txbGerente.Location = new Point(54, 121);
             txbGerente.Margin = new Padding(3, 2, 3, 2);
             txbGerente.Name = "txbGerente";
             txbGerente.Size = new Size(276, 30);
@@ -290,6 +291,7 @@
             // dataGridView2
             // 
             dataGridView2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dataGridView2.BackgroundColor = Color.SlateGray;
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView2.Location = new Point(27, 41);
             dataGridView2.Name = "dataGridView2";
@@ -379,6 +381,7 @@
             // dataGridView1
             // 
             dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dataGridView1.BackgroundColor = Color.SlateGray;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(51, 63);
             dataGridView1.Margin = new Padding(3, 2, 3, 2);
@@ -472,9 +475,9 @@
 
         private Panel panel1;
         private Panel panel2;
-        private Label txbAuditor;
+        private Label lblAuditor;
         private Label gerenteTexto;
-        private TextBox textBox2;
+        private TextBox txbAuditor;
         private TextBox txbGerente;
         private Button button1;
         private Label fechaTetxto;
@@ -485,7 +488,7 @@
         private Panel panel4;
         private Panel panel3;
         private Label sucursalFecha;
-        private TextBox textBox1;
+        private TextBox txbSucursal;
         private Button button5;
         private Panel panel5;
         private Panel panel6;

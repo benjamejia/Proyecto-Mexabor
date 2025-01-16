@@ -207,13 +207,13 @@ namespace Mexabor.CacheAplicacion
                         worksheet.Cells["D61"].Value = Convert.ToInt32(CacheFormsRestaurante.calificacionProveedores[8]);
                         worksheet.Cells["E61"].Value = Convert.ToInt32(CacheFormsRestaurante.calificacionProveedores[9]);
 
-                        // Asignar valores a las celdas
-                        worksheet.Cells["C42"].Value = CacheFormsRestaurante.temperatura[0];
-                        worksheet.Cells["C43"].Value = CacheFormsRestaurante.temperatura[1];
-                        worksheet.Cells["C44"].Value = CacheFormsRestaurante.temperatura[2];
-                        worksheet.Cells["C45"].Value = CacheFormsRestaurante.temperatura[3];
-                        worksheet.Cells["C46"].Value = CacheFormsRestaurante.temperatura[4];
-                        worksheet.Cells["C47"].Value = CacheFormsRestaurante.temperatura[5];
+                        // Asignar valores a las celdas con un bucle
+                        for (int i = 0; i < CacheFormsRestaurante.temperatura.Count; i++)
+                        {
+                            int row = 42 + i; // La fila comienza en 42 y aumenta con cada iteración
+                            string cell = $"C{row}"; // Construir la referencia de celda
+                            worksheet.Cells[cell].Value = CacheFormsRestaurante.temperatura[i]; // Asignar el valor
+                        }
                         //Cloracion
                         worksheet.Cells["G47"].Value = CacheFormsRestaurante.cloracion == 1 ? "bien" : "mal";
                         //Observaciones

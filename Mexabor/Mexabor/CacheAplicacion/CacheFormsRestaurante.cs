@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Mexabor.CacheAplicacion
 {
@@ -70,6 +71,16 @@ namespace Mexabor.CacheAplicacion
         public static int traposBanios;
         public static int traposCaja;
 
+        public static Dictionary<string, int[]> temperaturasIdeales = new Dictionary<string, int[]>
+        {
+            { "1.- Jugo de Carne (Olla Grande)", new int[] { 55, 75 } },
+            { "2.- Jugo de Carne (Olla Chica)", new int[] { 55, 88 } },
+            { "3.- Frijol de la Olla (Baño María)", new int[] { 55, 90 } },
+            { "4.- Tortillas", new int[] { 40, 99 } },
+            { "5.- Cebollita Cocida", new int[] { 55, 90 } },
+            { "6.- Frijol Frito", new int[] { 40, 67 } }
+        };
+
         public static List<string> observaciones = new List<string>()
         {
             "Sin Observacion", // observacionGas
@@ -84,18 +95,12 @@ namespace Mexabor.CacheAplicacion
             "Sin Observacion", // observacionBasura
             "Sin Observacion"  // observacionMantenimiento
         };
-         public static void ReiniciarObservaciones()
-        {
-            for (int i = 0; i < observaciones.Count; i++)
-            {
-                observaciones[i] = "Sin Observacion";
-            }
-        }
         public static void LimpiarCache()
         {
-            sucursal = string.Empty;
-            gerente = string.Empty;
-            auditor = string.Empty;
+            // Limpiar las variables de tipo string
+            sucursal = null;
+            gerente = null;
+            auditor = null;
             // Agrupar todas las listas en una sola colección
             var listas = new List<List<int>>()
             {
@@ -119,6 +124,17 @@ namespace Mexabor.CacheAplicacion
             foreach (var lista in listas)
             {
                 lista.Clear();
+            }
+            // Limpiar las variables de tipo int
+            cloracion = 0;
+            traposCocina = 0;
+            traposMesas = 0;
+            traposBanios = 0;
+            traposCaja = 0;
+            //Limpiar observaciones
+            for (int i = 0; i < observaciones.Count; i++)
+            {
+                observaciones[i] = "Sin Observacion";
             }
         }
 

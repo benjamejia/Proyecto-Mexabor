@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mexabor.CacheAplicacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,11 +23,12 @@ namespace Mexabor
             Login login = new Login();
             login.Show();
             this.Close();
-            CacheAplicacion.CacheUsuario.LimpiarDatos();
+            CacheUsuario.LimpiarDatos();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            CacheFormsRestaurante.LimpiarCache();
             FormRegistros formRegistros = new FormRegistros();
             formRegistros.Show();
             this.Close();
@@ -44,6 +46,7 @@ namespace Mexabor
 
         private void btnRedtaurante_Click(object sender, EventArgs e)
         {
+            CacheFormsRestaurante.LimpiarCache();
             Form1Estacionamiento formEstacionamiento = new Form1Estacionamiento();
             formEstacionamiento.Show();
             this.Close();

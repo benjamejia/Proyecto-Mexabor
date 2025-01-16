@@ -34,7 +34,7 @@ namespace Mexabor
 
         private void button25_Click(object sender, EventArgs e)
         {
-            ExportacionFinal exportacionFinal = new();
+            ExportacionRestaurante exportacionFinal = new();
             exportacionFinal.Show();
             this.Close();
         }

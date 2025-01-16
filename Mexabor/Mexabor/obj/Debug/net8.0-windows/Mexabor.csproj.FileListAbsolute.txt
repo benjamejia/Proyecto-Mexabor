@@ -734,7 +734,6 @@ C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\obj\Debug\net8.0-windows\Mexabor.Alm
 C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\obj\Debug\net8.0-windows\Mexabor.Almacen.Alma7Cajas.resources
 C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\obj\Debug\net8.0-windows\Mexabor.Almacen.AlmacenProductos.resources
 C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\obj\Debug\net8.0-windows\Mexabor.Configuracion.resources
-C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\obj\Debug\net8.0-windows\Mexabor.ExportacionFinal.resources
 C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\obj\Debug\net8.0-windows\Mexabor.Login.resources
 C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\obj\Debug\net8.0-windows\Mexabor.FormGestor.resources
 C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\obj\Debug\net8.0-windows\Mexabor.FormMenu.resources
@@ -786,3 +785,4 @@ C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\bin\Debug\net8.0-windows\runtimes\os
 C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
 C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\bin\Debug\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
 C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\PC\Desktop\13Enero\Mexabor\Mexabor\obj\Debug\net8.0-windows\Mexabor.ExportacionRestaurante.resources

@@ -152,7 +152,7 @@ namespace Mexabor.Almacen
             {
                 //ActualizarDatos();
                 ConexionBD_Almacen.SubirDatos();
-                ExportacionFinal exportacionFinal = new ExportacionFinal();
+                ExportacionRestaurante exportacionFinal = new ExportacionRestaurante();
                 exportacionFinal.Show();
                 this.Close();
             }

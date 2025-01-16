@@ -11,15 +11,16 @@ using System.Windows.Forms;
 
 namespace Mexabor
 {
-    public partial class ExportacionFinal : Form
+    public partial class ExportacionRestaurante : Form
     {
-        public ExportacionFinal()
+        public ExportacionRestaurante()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            CacheFormsRestaurante.LimpiarCache();
             FormMenu formMenu = new FormMenu();
             formMenu.Show();
             this.Close();

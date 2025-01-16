@@ -113,5 +113,12 @@ namespace Mexabor
         {
             MarcarTodo(this.Controls);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4Tortillas form4Tortillas = new Form4Tortillas();
+            form4Tortillas.Show();
+            this.Close();
+        }
     }
 }

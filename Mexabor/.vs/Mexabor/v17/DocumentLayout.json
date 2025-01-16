@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\13enero\\mexabor\\mexabor\\cacheaplicacion\\generarexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\cacheaplicacion\\generarexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\13enero\\mexabor\\mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\13enero\\mexabor\\mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,20 +25,28 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormRegistros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\FormRegistros.cs",
+              "RelativeDocumentMoniker": "Mexabor\\FormRegistros.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\FormRegistros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Mexabor\\FormRegistros.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T04:48:18.105Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GenerarExcel.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\CacheAplicacion\\GenerarExcel.cs",
-              "RelativeDocumentMoniker": "Mexabor\\CacheAplicacion\\GenerarExcel.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\CacheAplicacion\\GenerarExcel.cs",
-              "RelativeToolTip": "Mexabor\\CacheAplicacion\\GenerarExcel.cs",
-              "ViewState": "AQIAAMQAAAAAAAAAAAA2wNIAAAAYAAAA",
+              "Title": "FormRegistros.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\FormRegistros.cs",
+              "RelativeDocumentMoniker": "Mexabor\\FormRegistros.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\FormRegistros.cs",
+              "RelativeToolTip": "Mexabor\\FormRegistros.cs",
+              "ViewState": "AQIAAKYBAAAAAAAAAAAAAK4BAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T05:51:06.378Z",
+              "WhenOpened": "2025-01-16T04:35:21.832Z",
               "EditorCaption": ""
             }
           ]

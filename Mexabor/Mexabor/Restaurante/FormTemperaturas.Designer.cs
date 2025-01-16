@@ -101,7 +101,6 @@
             button2 = new Button();
             panel3 = new Panel();
             button1 = new Button();
-            button3 = new Button();
             panel1.SuspendLayout();
             tableLayoutPanel16.SuspendLayout();
             panel2.SuspendLayout();
@@ -139,8 +138,8 @@
             // tableLayoutPanel16
             // 
             tableLayoutPanel16.ColumnCount = 2;
-            tableLayoutPanel16.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.01797F));
-            tableLayoutPanel16.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.982036F));
+            tableLayoutPanel16.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 90.61876F));
+            tableLayoutPanel16.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 9.381238F));
             tableLayoutPanel16.Controls.Add(label35, 1, 5);
             tableLayoutPanel16.Controls.Add(label34, 0, 5);
             tableLayoutPanel16.Controls.Add(label33, 1, 4);
@@ -168,7 +167,7 @@
             // label35
             // 
             label35.AutoSize = true;
-            label35.Location = new Point(459, 100);
+            label35.Location = new Point(457, 100);
             label35.Name = "label35";
             label35.Size = new Size(36, 15);
             label35.TabIndex = 11;
@@ -186,7 +185,7 @@
             // label33
             // 
             label33.AutoSize = true;
-            label33.Location = new Point(459, 80);
+            label33.Location = new Point(457, 80);
             label33.Name = "label33";
             label33.Size = new Size(36, 15);
             label33.TabIndex = 9;
@@ -204,7 +203,7 @@
             // label31
             // 
             label31.AutoSize = true;
-            label31.Location = new Point(459, 60);
+            label31.Location = new Point(457, 60);
             label31.Name = "label31";
             label31.Size = new Size(36, 15);
             label31.TabIndex = 7;
@@ -222,7 +221,7 @@
             // label29
             // 
             label29.AutoSize = true;
-            label29.Location = new Point(459, 40);
+            label29.Location = new Point(457, 40);
             label29.Name = "label29";
             label29.Size = new Size(36, 15);
             label29.TabIndex = 5;
@@ -240,7 +239,7 @@
             // label27
             // 
             label27.AutoSize = true;
-            label27.Location = new Point(459, 20);
+            label27.Location = new Point(457, 20);
             label27.Name = "label27";
             label27.Size = new Size(36, 15);
             label27.TabIndex = 3;
@@ -258,7 +257,7 @@
             // label25
             // 
             label25.AutoSize = true;
-            label25.Location = new Point(459, 0);
+            label25.Location = new Point(457, 0);
             label25.Name = "label25";
             label25.Size = new Size(36, 15);
             label25.TabIndex = 1;
@@ -302,7 +301,7 @@
             comboBox1.Margin = new Padding(3, 2, 3, 2);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(161, 23);
-            comboBox1.TabIndex = 1;
+            comboBox1.TabIndex = 2;
             // 
             // label2
             // 
@@ -362,7 +361,7 @@
             radioButton2.Margin = new Padding(3, 2, 3, 2);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(14, 13);
-            radioButton2.TabIndex = 31;
+            radioButton2.TabIndex = 21;
             radioButton2.TabStop = true;
             radioButton2.UseVisualStyleBackColor = true;
             // 
@@ -382,7 +381,7 @@
             radioButton1.Margin = new Padding(3, 2, 3, 2);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(14, 13);
-            radioButton1.TabIndex = 30;
+            radioButton1.TabIndex = 20;
             radioButton1.TabStop = true;
             radioButton1.UseVisualStyleBackColor = true;
             // 
@@ -419,7 +418,7 @@
             label7.Location = new Point(3, 0);
             label7.Name = "label7";
             label7.Size = new Size(245, 21);
-            label7.TabIndex = 2;
+            label7.TabIndex = 1;
             label7.Text = "1.- Jugo de Carne (Olla Grande)";
             // 
             // tableLayoutPanel3
@@ -445,7 +444,7 @@
             comboBox2.Margin = new Padding(3, 2, 3, 2);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(161, 23);
-            comboBox2.TabIndex = 1;
+            comboBox2.TabIndex = 4;
             // 
             // label8
             // 
@@ -454,7 +453,7 @@
             label8.Location = new Point(3, 0);
             label8.Name = "label8";
             label8.Size = new Size(232, 21);
-            label8.TabIndex = 2;
+            label8.TabIndex = 3;
             label8.Text = "2.- Jugo de Carne (Olla Chica)";
             // 
             // tableLayoutPanel4
@@ -480,7 +479,7 @@
             comboBox3.Margin = new Padding(3, 2, 3, 2);
             comboBox3.Name = "comboBox3";
             comboBox3.Size = new Size(161, 23);
-            comboBox3.TabIndex = 1;
+            comboBox3.TabIndex = 8;
             // 
             // label9
             // 
@@ -489,7 +488,7 @@
             label9.Location = new Point(3, 0);
             label9.Name = "label9";
             label9.Size = new Size(93, 21);
-            label9.TabIndex = 2;
+            label9.TabIndex = 7;
             label9.Text = "4.- Tortillas";
             // 
             // tableLayoutPanel5
@@ -515,7 +514,7 @@
             comboBox4.Margin = new Padding(3, 2, 3, 2);
             comboBox4.Name = "comboBox4";
             comboBox4.Size = new Size(161, 23);
-            comboBox4.TabIndex = 1;
+            comboBox4.TabIndex = 6;
             // 
             // label10
             // 
@@ -524,7 +523,7 @@
             label10.Location = new Point(3, 0);
             label10.Name = "label10";
             label10.Size = new Size(250, 21);
-            label10.TabIndex = 2;
+            label10.TabIndex = 5;
             label10.Text = "3.- Frijol de la Olla (Baño María)";
             // 
             // tableLayoutPanel6
@@ -550,7 +549,7 @@
             comboBox5.Margin = new Padding(3, 2, 3, 2);
             comboBox5.Name = "comboBox5";
             comboBox5.Size = new Size(161, 23);
-            comboBox5.TabIndex = 1;
+            comboBox5.TabIndex = 10;
             // 
             // label11
             // 
@@ -559,7 +558,7 @@
             label11.Location = new Point(3, 0);
             label11.Name = "label11";
             label11.Size = new Size(155, 21);
-            label11.TabIndex = 2;
+            label11.TabIndex = 9;
             label11.Text = "5.- Cebollita Cocida";
             // 
             // tableLayoutPanel7
@@ -585,7 +584,7 @@
             comboBox6.Margin = new Padding(3, 2, 3, 2);
             comboBox6.Name = "comboBox6";
             comboBox6.Size = new Size(161, 23);
-            comboBox6.TabIndex = 1;
+            comboBox6.TabIndex = 12;
             // 
             // label12
             // 
@@ -594,7 +593,7 @@
             label12.Location = new Point(3, 0);
             label12.Name = "label12";
             label12.Size = new Size(111, 21);
-            label12.TabIndex = 2;
+            label12.TabIndex = 11;
             label12.Text = "6.- Frijol Frito";
             // 
             // label4
@@ -633,7 +632,7 @@
             checkBox8.Margin = new Padding(3, 2, 3, 2);
             checkBox8.Name = "checkBox8";
             checkBox8.Size = new Size(15, 14);
-            checkBox8.TabIndex = 2;
+            checkBox8.TabIndex = 19;
             checkBox8.UseVisualStyleBackColor = true;
             // 
             // label13
@@ -670,7 +669,7 @@
             checkBox7.Margin = new Padding(3, 2, 3, 2);
             checkBox7.Name = "checkBox7";
             checkBox7.Size = new Size(15, 14);
-            checkBox7.TabIndex = 2;
+            checkBox7.TabIndex = 18;
             checkBox7.UseVisualStyleBackColor = true;
             // 
             // label14
@@ -708,7 +707,7 @@
             checkBox6.Margin = new Padding(3, 2, 3, 2);
             checkBox6.Name = "checkBox6";
             checkBox6.Size = new Size(15, 14);
-            checkBox6.TabIndex = 2;
+            checkBox6.TabIndex = 17;
             checkBox6.UseVisualStyleBackColor = true;
             // 
             // label15
@@ -745,7 +744,7 @@
             checkBox5.Margin = new Padding(3, 2, 3, 2);
             checkBox5.Name = "checkBox5";
             checkBox5.Size = new Size(15, 14);
-            checkBox5.TabIndex = 2;
+            checkBox5.TabIndex = 16;
             checkBox5.UseVisualStyleBackColor = true;
             // 
             // label16
@@ -782,7 +781,7 @@
             checkBox4.Margin = new Padding(3, 2, 3, 2);
             checkBox4.Name = "checkBox4";
             checkBox4.Size = new Size(15, 14);
-            checkBox4.TabIndex = 2;
+            checkBox4.TabIndex = 16;
             checkBox4.UseVisualStyleBackColor = true;
             // 
             // label17
@@ -819,7 +818,7 @@
             checkBox3.Margin = new Padding(3, 2, 3, 2);
             checkBox3.Name = "checkBox3";
             checkBox3.Size = new Size(15, 14);
-            checkBox3.TabIndex = 2;
+            checkBox3.TabIndex = 15;
             checkBox3.UseVisualStyleBackColor = true;
             // 
             // label18
@@ -856,7 +855,7 @@
             checkBox2.Margin = new Padding(3, 2, 3, 2);
             checkBox2.Name = "checkBox2";
             checkBox2.Size = new Size(15, 14);
-            checkBox2.TabIndex = 2;
+            checkBox2.TabIndex = 14;
             checkBox2.UseVisualStyleBackColor = true;
             // 
             // label19
@@ -902,7 +901,7 @@
             checkBox1.Margin = new Padding(3, 2, 3, 2);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(15, 14);
-            checkBox1.TabIndex = 1;
+            checkBox1.TabIndex = 13;
             checkBox1.UseVisualStyleBackColor = true;
             // 
             // label22
@@ -974,19 +973,10 @@
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(151, 33);
-            button1.TabIndex = 94;
+            button1.TabIndex = 22;
             button1.Text = "Siguiente";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click_1;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(859, 347);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 98;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
             // 
             // FormTemperaturas
             // 
@@ -994,7 +984,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1171, 582);
-            Controls.Add(button3);
             Controls.Add(panel4);
             Controls.Add(button2);
             Controls.Add(panel3);
@@ -1024,6 +1013,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormTemperaturas";
             WindowState = FormWindowState.Maximized;
+            Load += FormTemperaturas_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             tableLayoutPanel16.ResumeLayout(false);
@@ -1139,6 +1129,5 @@
         private Label label26;
         private Label label25;
         private Label label23;
-        private Button button3;
     }
 }

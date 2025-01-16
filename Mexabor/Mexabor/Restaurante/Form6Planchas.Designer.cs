@@ -142,20 +142,22 @@
             tableLayoutPanel22.Controls.Add(checkBox24, 1, 0);
             tableLayoutPanel22.Controls.Add(label24, 0, 0);
             tableLayoutPanel22.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel22.Location = new Point(790, 577);
+            tableLayoutPanel22.Location = new Point(691, 433);
+            tableLayoutPanel22.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel22.Name = "tableLayoutPanel22";
             tableLayoutPanel22.RowCount = 1;
             tableLayoutPanel22.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel22.Size = new Size(489, 28);
+            tableLayoutPanel22.Size = new Size(428, 21);
             tableLayoutPanel22.TabIndex = 130;
             tableLayoutPanel22.TabStop = true;
             // 
             // checkBox24
             // 
             checkBox24.AutoSize = true;
-            checkBox24.Location = new Point(449, 3);
+            checkBox24.Location = new Point(393, 2);
+            checkBox24.Margin = new Padding(3, 2, 3, 2);
             checkBox24.Name = "checkBox24";
-            checkBox24.Size = new Size(18, 17);
+            checkBox24.Size = new Size(15, 14);
             checkBox24.TabIndex = 2;
             checkBox24.UseVisualStyleBackColor = true;
             // 
@@ -164,7 +166,7 @@
             label24.AutoSize = true;
             label24.Location = new Point(3, 0);
             label24.Name = "label24";
-            label24.Size = new Size(262, 26);
+            label24.Size = new Size(211, 21);
             label24.TabIndex = 0;
             label24.Text = "12.- Bote de basura limpio ";
             // 
@@ -177,20 +179,22 @@
             tableLayoutPanel23.Controls.Add(checkBox23, 1, 0);
             tableLayoutPanel23.Controls.Add(label25, 0, 0);
             tableLayoutPanel23.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel23.Location = new Point(790, 531);
+            tableLayoutPanel23.Location = new Point(691, 398);
+            tableLayoutPanel23.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel23.Name = "tableLayoutPanel23";
             tableLayoutPanel23.RowCount = 1;
             tableLayoutPanel23.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel23.Size = new Size(489, 28);
+            tableLayoutPanel23.Size = new Size(428, 21);
             tableLayoutPanel23.TabIndex = 129;
             tableLayoutPanel23.TabStop = true;
             // 
             // checkBox23
             // 
             checkBox23.AutoSize = true;
-            checkBox23.Location = new Point(449, 3);
+            checkBox23.Location = new Point(393, 2);
+            checkBox23.Margin = new Padding(3, 2, 3, 2);
             checkBox23.Name = "checkBox23";
-            checkBox23.Size = new Size(18, 17);
+            checkBox23.Size = new Size(15, 14);
             checkBox23.TabIndex = 2;
             checkBox23.UseVisualStyleBackColor = true;
             // 
@@ -199,7 +203,7 @@
             label25.AutoSize = true;
             label25.Location = new Point(3, 0);
             label25.Name = "label25";
-            label25.Size = new Size(211, 26);
+            label25.Size = new Size(171, 21);
             label25.TabIndex = 0;
             label25.Text = "11.- Mobiliario limpio ";
             // 
@@ -208,9 +212,10 @@
             panel4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             panel4.BackColor = SystemColors.ButtonShadow;
             panel4.Font = new Font("Yu Gothic", 18F);
-            panel4.Location = new Point(31, 722);
+            panel4.Location = new Point(27, 542);
+            panel4.Margin = new Padding(3, 2, 3, 2);
             panel4.Name = "panel4";
-            panel4.Size = new Size(15, 44);
+            panel4.Size = new Size(13, 33);
             panel4.TabIndex = 128;
             // 
             // button2
@@ -220,9 +225,10 @@
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Yu Gothic", 18F);
-            button2.Location = new Point(31, 722);
+            button2.Location = new Point(27, 542);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(173, 44);
+            button2.Size = new Size(151, 33);
             button2.TabIndex = 127;
             button2.Text = "Anterior";
             button2.UseVisualStyleBackColor = false;
@@ -233,9 +239,10 @@
             panel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             panel3.BackColor = SystemColors.ButtonShadow;
             panel3.Font = new Font("Yu Gothic", 18F);
-            panel3.Location = new Point(1103, 722);
+            panel3.Location = new Point(965, 542);
+            panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
-            panel3.Size = new Size(15, 44);
+            panel3.Size = new Size(13, 33);
             panel3.TabIndex = 126;
             // 
             // button1
@@ -245,9 +252,10 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Yu Gothic", 18F);
-            button1.Location = new Point(1114, 722);
+            button1.Location = new Point(975, 542);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(173, 44);
+            button1.Size = new Size(151, 33);
             button1.TabIndex = 125;
             button1.Text = "Siguiente";
             button1.UseVisualStyleBackColor = false;
@@ -258,9 +266,9 @@
             label17.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label17.AutoSize = true;
             label17.Font = new Font("Yu Gothic", 12F, FontStyle.Bold);
-            label17.Location = new Point(789, 22);
+            label17.Location = new Point(690, 16);
             label17.Name = "label17";
-            label17.Size = new Size(211, 26);
+            label17.Size = new Size(170, 21);
             label17.TabIndex = 123;
             label17.Text = "Planchas - Limpieza";
             // 
@@ -273,20 +281,22 @@
             tableLayoutPanel10.Controls.Add(checkBox22, 1, 0);
             tableLayoutPanel10.Controls.Add(label10, 0, 0);
             tableLayoutPanel10.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel10.Location = new Point(785, 482);
+            tableLayoutPanel10.Location = new Point(687, 362);
+            tableLayoutPanel10.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel10.Name = "tableLayoutPanel10";
             tableLayoutPanel10.RowCount = 1;
             tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel10.Size = new Size(489, 28);
+            tableLayoutPanel10.Size = new Size(428, 21);
             tableLayoutPanel10.TabIndex = 112;
             tableLayoutPanel10.TabStop = true;
             // 
             // checkBox22
             // 
             checkBox22.AutoSize = true;
-            checkBox22.Location = new Point(449, 3);
+            checkBox22.Location = new Point(393, 2);
+            checkBox22.Margin = new Padding(3, 2, 3, 2);
             checkBox22.Name = "checkBox22";
-            checkBox22.Size = new Size(18, 17);
+            checkBox22.Size = new Size(15, 14);
             checkBox22.TabIndex = 2;
             checkBox22.UseVisualStyleBackColor = true;
             // 
@@ -295,7 +305,7 @@
             label10.AutoSize = true;
             label10.Location = new Point(3, 0);
             label10.Name = "label10";
-            label10.Size = new Size(203, 26);
+            label10.Size = new Size(164, 21);
             label10.TabIndex = 0;
             label10.Text = "10.- Franelas limpias";
             label10.Click += label10_Click;
@@ -309,20 +319,22 @@
             tableLayoutPanel7.Controls.Add(checkBox21, 1, 0);
             tableLayoutPanel7.Controls.Add(label7, 0, 0);
             tableLayoutPanel7.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel7.Location = new Point(786, 435);
+            tableLayoutPanel7.Location = new Point(688, 326);
+            tableLayoutPanel7.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel7.Name = "tableLayoutPanel7";
             tableLayoutPanel7.RowCount = 1;
             tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel7.Size = new Size(489, 28);
+            tableLayoutPanel7.Size = new Size(428, 21);
             tableLayoutPanel7.TabIndex = 111;
             tableLayoutPanel7.TabStop = true;
             // 
             // checkBox21
             // 
             checkBox21.AutoSize = true;
-            checkBox21.Location = new Point(449, 3);
+            checkBox21.Location = new Point(393, 2);
+            checkBox21.Margin = new Padding(3, 2, 3, 2);
             checkBox21.Name = "checkBox21";
-            checkBox21.Size = new Size(18, 17);
+            checkBox21.Size = new Size(15, 14);
             checkBox21.TabIndex = 2;
             checkBox21.UseVisualStyleBackColor = true;
             // 
@@ -331,7 +343,7 @@
             label7.AutoSize = true;
             label7.Location = new Point(3, 0);
             label7.Name = "label7";
-            label7.Size = new Size(189, 26);
+            label7.Size = new Size(153, 21);
             label7.TabIndex = 0;
             label7.Text = "9.- Paredes limpias";
             // 
@@ -344,20 +356,22 @@
             tableLayoutPanel8.Controls.Add(checkBox20, 1, 0);
             tableLayoutPanel8.Controls.Add(label8, 0, 0);
             tableLayoutPanel8.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel8.Location = new Point(786, 389);
+            tableLayoutPanel8.Location = new Point(688, 292);
+            tableLayoutPanel8.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel8.Name = "tableLayoutPanel8";
             tableLayoutPanel8.RowCount = 1;
             tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel8.Size = new Size(489, 28);
+            tableLayoutPanel8.Size = new Size(428, 21);
             tableLayoutPanel8.TabIndex = 110;
             tableLayoutPanel8.TabStop = true;
             // 
             // checkBox20
             // 
             checkBox20.AutoSize = true;
-            checkBox20.Location = new Point(449, 3);
+            checkBox20.Location = new Point(393, 2);
+            checkBox20.Margin = new Padding(3, 2, 3, 2);
             checkBox20.Name = "checkBox20";
-            checkBox20.Size = new Size(18, 17);
+            checkBox20.Size = new Size(15, 14);
             checkBox20.TabIndex = 2;
             checkBox20.UseVisualStyleBackColor = true;
             // 
@@ -366,7 +380,7 @@
             label8.AutoSize = true;
             label8.Location = new Point(3, 0);
             label8.Name = "label8";
-            label8.Size = new Size(156, 26);
+            label8.Size = new Size(125, 21);
             label8.TabIndex = 0;
             label8.Text = "8.- Suelo limpio";
             // 
@@ -379,20 +393,22 @@
             tableLayoutPanel9.Controls.Add(checkBox19, 1, 0);
             tableLayoutPanel9.Controls.Add(label9, 0, 0);
             tableLayoutPanel9.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel9.Location = new Point(786, 344);
+            tableLayoutPanel9.Location = new Point(688, 258);
+            tableLayoutPanel9.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel9.Name = "tableLayoutPanel9";
             tableLayoutPanel9.RowCount = 1;
             tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel9.Size = new Size(489, 28);
+            tableLayoutPanel9.Size = new Size(428, 21);
             tableLayoutPanel9.TabIndex = 109;
             tableLayoutPanel9.TabStop = true;
             // 
             // checkBox19
             // 
             checkBox19.AutoSize = true;
-            checkBox19.Location = new Point(449, 3);
+            checkBox19.Location = new Point(393, 2);
+            checkBox19.Margin = new Padding(3, 2, 3, 2);
             checkBox19.Name = "checkBox19";
-            checkBox19.Size = new Size(18, 17);
+            checkBox19.Size = new Size(15, 14);
             checkBox19.TabIndex = 2;
             checkBox19.UseVisualStyleBackColor = true;
             // 
@@ -401,7 +417,7 @@
             label9.AutoSize = true;
             label9.Location = new Point(3, 0);
             label9.Name = "label9";
-            label9.Size = new Size(242, 26);
+            label9.Size = new Size(195, 21);
             label9.TabIndex = 0;
             label9.Text = "7.- Cajas de carne limpia";
             // 
@@ -414,21 +430,23 @@
             tableLayoutPanel2.Controls.Add(checkBox18, 1, 0);
             tableLayoutPanel2.Controls.Add(label2, 0, 0);
             tableLayoutPanel2.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel2.Location = new Point(786, 301);
+            tableLayoutPanel2.Location = new Point(688, 226);
+            tableLayoutPanel2.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel2.Size = new Size(489, 28);
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 21F));
+            tableLayoutPanel2.Size = new Size(428, 21);
             tableLayoutPanel2.TabIndex = 108;
             tableLayoutPanel2.TabStop = true;
             // 
             // checkBox18
             // 
             checkBox18.AutoSize = true;
-            checkBox18.Location = new Point(449, 3);
+            checkBox18.Location = new Point(393, 2);
+            checkBox18.Margin = new Padding(3, 2, 3, 2);
             checkBox18.Name = "checkBox18";
-            checkBox18.Size = new Size(18, 17);
+            checkBox18.Size = new Size(15, 14);
             checkBox18.TabIndex = 2;
             checkBox18.UseVisualStyleBackColor = true;
             // 
@@ -437,7 +455,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(3, 0);
             label2.Name = "label2";
-            label2.Size = new Size(190, 26);
+            label2.Size = new Size(155, 21);
             label2.TabIndex = 0;
             label2.Text = "6.- Mesa fría limpia";
             // 
@@ -450,20 +468,22 @@
             tableLayoutPanel3.Controls.Add(checkBox17, 1, 0);
             tableLayoutPanel3.Controls.Add(label3, 0, 0);
             tableLayoutPanel3.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel3.Location = new Point(786, 252);
+            tableLayoutPanel3.Location = new Point(688, 189);
+            tableLayoutPanel3.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 1;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel3.Size = new Size(489, 28);
+            tableLayoutPanel3.Size = new Size(428, 21);
             tableLayoutPanel3.TabIndex = 107;
             tableLayoutPanel3.TabStop = true;
             // 
             // checkBox17
             // 
             checkBox17.AutoSize = true;
-            checkBox17.Location = new Point(449, 3);
+            checkBox17.Location = new Point(393, 2);
+            checkBox17.Margin = new Padding(3, 2, 3, 2);
             checkBox17.Name = "checkBox17";
-            checkBox17.Size = new Size(18, 17);
+            checkBox17.Size = new Size(15, 14);
             checkBox17.TabIndex = 2;
             checkBox17.UseVisualStyleBackColor = true;
             // 
@@ -472,7 +492,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(3, 0);
             label3.Name = "label3";
-            label3.Size = new Size(205, 26);
+            label3.Size = new Size(165, 21);
             label3.TabIndex = 0;
             label3.Text = "5.- Utensilios limpios";
             // 
@@ -485,20 +505,22 @@
             tableLayoutPanel6.Controls.Add(checkBox16, 1, 0);
             tableLayoutPanel6.Controls.Add(label6, 0, 0);
             tableLayoutPanel6.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel6.Location = new Point(786, 208);
+            tableLayoutPanel6.Location = new Point(688, 156);
+            tableLayoutPanel6.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel6.Name = "tableLayoutPanel6";
             tableLayoutPanel6.RowCount = 1;
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel6.Size = new Size(489, 28);
+            tableLayoutPanel6.Size = new Size(428, 21);
             tableLayoutPanel6.TabIndex = 106;
             tableLayoutPanel6.TabStop = true;
             // 
             // checkBox16
             // 
             checkBox16.AutoSize = true;
-            checkBox16.Location = new Point(449, 3);
+            checkBox16.Location = new Point(393, 2);
+            checkBox16.Margin = new Padding(3, 2, 3, 2);
             checkBox16.Name = "checkBox16";
-            checkBox16.Size = new Size(18, 17);
+            checkBox16.Size = new Size(15, 14);
             checkBox16.TabIndex = 2;
             checkBox16.UseVisualStyleBackColor = true;
             // 
@@ -507,7 +529,7 @@
             label6.AutoSize = true;
             label6.Location = new Point(3, 0);
             label6.Name = "label6";
-            label6.Size = new Size(183, 26);
+            label6.Size = new Size(149, 21);
             label6.TabIndex = 0;
             label6.Text = "4.- Pretiles limpios";
             // 
@@ -520,20 +542,22 @@
             tableLayoutPanel5.Controls.Add(checkBox15, 1, 0);
             tableLayoutPanel5.Controls.Add(label5, 0, 0);
             tableLayoutPanel5.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel5.Location = new Point(786, 157);
+            tableLayoutPanel5.Location = new Point(688, 118);
+            tableLayoutPanel5.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             tableLayoutPanel5.RowCount = 1;
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel5.Size = new Size(489, 28);
+            tableLayoutPanel5.Size = new Size(428, 21);
             tableLayoutPanel5.TabIndex = 105;
             tableLayoutPanel5.TabStop = true;
             // 
             // checkBox15
             // 
             checkBox15.AutoSize = true;
-            checkBox15.Location = new Point(449, 3);
+            checkBox15.Location = new Point(393, 2);
+            checkBox15.Margin = new Padding(3, 2, 3, 2);
             checkBox15.Name = "checkBox15";
-            checkBox15.Size = new Size(18, 17);
+            checkBox15.Size = new Size(15, 14);
             checkBox15.TabIndex = 2;
             checkBox15.UseVisualStyleBackColor = true;
             // 
@@ -542,7 +566,7 @@
             label5.AutoSize = true;
             label5.Location = new Point(3, 0);
             label5.Name = "label5";
-            label5.Size = new Size(198, 26);
+            label5.Size = new Size(159, 21);
             label5.TabIndex = 0;
             label5.Text = "3.- Planchas limpias";
             // 
@@ -555,20 +579,22 @@
             tableLayoutPanel4.Controls.Add(checkBox14, 1, 0);
             tableLayoutPanel4.Controls.Add(label4, 0, 0);
             tableLayoutPanel4.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel4.Location = new Point(786, 106);
+            tableLayoutPanel4.Location = new Point(688, 80);
+            tableLayoutPanel4.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 1;
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel4.Size = new Size(489, 28);
+            tableLayoutPanel4.Size = new Size(428, 21);
             tableLayoutPanel4.TabIndex = 104;
             tableLayoutPanel4.TabStop = true;
             // 
             // checkBox14
             // 
             checkBox14.AutoSize = true;
-            checkBox14.Location = new Point(449, 3);
+            checkBox14.Location = new Point(393, 2);
+            checkBox14.Margin = new Padding(3, 2, 3, 2);
             checkBox14.Name = "checkBox14";
-            checkBox14.Size = new Size(18, 17);
+            checkBox14.Size = new Size(15, 14);
             checkBox14.TabIndex = 2;
             checkBox14.UseVisualStyleBackColor = true;
             // 
@@ -577,7 +603,7 @@
             label4.AutoSize = true;
             label4.Location = new Point(3, 0);
             label4.Name = "label4";
-            label4.Size = new Size(159, 26);
+            label4.Size = new Size(128, 21);
             label4.TabIndex = 0;
             label4.Text = "2.- Vajilla limpia";
             // 
@@ -590,20 +616,22 @@
             tableLayoutPanel1.Controls.Add(checkBox13, 1, 0);
             tableLayoutPanel1.Controls.Add(label1, 0, 0);
             tableLayoutPanel1.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel1.Location = new Point(786, 60);
+            tableLayoutPanel1.Location = new Point(688, 45);
+            tableLayoutPanel1.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(489, 28);
+            tableLayoutPanel1.Size = new Size(428, 21);
             tableLayoutPanel1.TabIndex = 103;
             tableLayoutPanel1.TabStop = true;
             // 
             // checkBox13
             // 
             checkBox13.AutoSize = true;
-            checkBox13.Location = new Point(449, 3);
+            checkBox13.Location = new Point(393, 2);
+            checkBox13.Margin = new Padding(3, 2, 3, 2);
             checkBox13.Name = "checkBox13";
-            checkBox13.Size = new Size(18, 17);
+            checkBox13.Size = new Size(15, 14);
             checkBox13.TabIndex = 2;
             checkBox13.UseVisualStyleBackColor = true;
             // 
@@ -612,7 +640,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(3, 0);
             label1.Name = "label1";
-            label1.Size = new Size(212, 26);
+            label1.Size = new Size(170, 21);
             label1.TabIndex = 0;
             label1.Text = "1.- Campanas limpias";
             // 
@@ -624,20 +652,22 @@
             tableLayoutPanel25.Controls.Add(checkBox12, 1, 0);
             tableLayoutPanel25.Controls.Add(label27, 0, 0);
             tableLayoutPanel25.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel25.Location = new Point(32, 578);
+            tableLayoutPanel25.Location = new Point(28, 434);
+            tableLayoutPanel25.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel25.Name = "tableLayoutPanel25";
             tableLayoutPanel25.RowCount = 1;
             tableLayoutPanel25.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel25.Size = new Size(515, 28);
+            tableLayoutPanel25.Size = new Size(451, 21);
             tableLayoutPanel25.TabIndex = 147;
             tableLayoutPanel25.TabStop = true;
             // 
             // checkBox12
             // 
             checkBox12.AutoSize = true;
-            checkBox12.Location = new Point(471, 3);
+            checkBox12.Location = new Point(413, 2);
+            checkBox12.Margin = new Padding(3, 2, 3, 2);
             checkBox12.Name = "checkBox12";
-            checkBox12.Size = new Size(18, 17);
+            checkBox12.Size = new Size(15, 14);
             checkBox12.TabIndex = 2;
             checkBox12.UseVisualStyleBackColor = true;
             // 
@@ -646,32 +676,34 @@
             label27.AutoSize = true;
             label27.Location = new Point(3, 0);
             label27.Name = "label27";
-            label27.Size = new Size(345, 26);
+            label27.Size = new Size(276, 21);
             label27.TabIndex = 0;
             label27.Text = "12.- Bote de basura en buen estado";
             // 
             // tableLayoutPanel26
             // 
             tableLayoutPanel26.ColumnCount = 2;
-            tableLayoutPanel26.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 84.61212F));
-            tableLayoutPanel26.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.558468F));
+            tableLayoutPanel26.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.35255F));
+            tableLayoutPanel26.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.64745F));
             tableLayoutPanel26.Controls.Add(checkBox11, 1, 0);
             tableLayoutPanel26.Controls.Add(label28, 0, 0);
             tableLayoutPanel26.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel26.Location = new Point(32, 532);
+            tableLayoutPanel26.Location = new Point(28, 399);
+            tableLayoutPanel26.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel26.Name = "tableLayoutPanel26";
             tableLayoutPanel26.RowCount = 1;
             tableLayoutPanel26.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel26.Size = new Size(515, 28);
+            tableLayoutPanel26.Size = new Size(451, 21);
             tableLayoutPanel26.TabIndex = 146;
             tableLayoutPanel26.TabStop = true;
             // 
             // checkBox11
             // 
             checkBox11.AutoSize = true;
-            checkBox11.Location = new Point(470, 3);
+            checkBox11.Location = new Point(415, 2);
+            checkBox11.Margin = new Padding(3, 2, 3, 2);
             checkBox11.Name = "checkBox11";
-            checkBox11.Size = new Size(18, 17);
+            checkBox11.Size = new Size(15, 14);
             checkBox11.TabIndex = 2;
             checkBox11.UseVisualStyleBackColor = true;
             // 
@@ -680,7 +712,7 @@
             label28.AutoSize = true;
             label28.Location = new Point(3, 0);
             label28.Name = "label28";
-            label28.Size = new Size(294, 26);
+            label28.Size = new Size(236, 21);
             label28.TabIndex = 0;
             label28.Text = "11.- Mobiliario en buen estado";
             // 
@@ -688,9 +720,9 @@
             // 
             label21.AutoSize = true;
             label21.Font = new Font("Yu Gothic", 12F, FontStyle.Bold);
-            label21.Location = new Point(38, 25);
+            label21.Location = new Point(33, 19);
             label21.Name = "label21";
-            label21.Size = new Size(232, 26);
+            label21.Size = new Size(185, 21);
             label21.TabIndex = 145;
             label21.Text = "Planchas - Estructura ";
             // 
@@ -702,20 +734,22 @@
             tableLayoutPanel11.Controls.Add(checkBox10, 1, 0);
             tableLayoutPanel11.Controls.Add(label11, 0, 0);
             tableLayoutPanel11.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel11.Location = new Point(35, 485);
+            tableLayoutPanel11.Location = new Point(31, 364);
+            tableLayoutPanel11.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel11.Name = "tableLayoutPanel11";
             tableLayoutPanel11.RowCount = 1;
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel11.Size = new Size(514, 28);
+            tableLayoutPanel11.Size = new Size(450, 21);
             tableLayoutPanel11.TabIndex = 144;
             tableLayoutPanel11.TabStop = true;
             // 
             // checkBox10
             // 
             checkBox10.AutoSize = true;
-            checkBox10.Location = new Point(472, 3);
+            checkBox10.Location = new Point(414, 2);
+            checkBox10.Margin = new Padding(3, 2, 3, 2);
             checkBox10.Name = "checkBox10";
-            checkBox10.Size = new Size(18, 17);
+            checkBox10.Size = new Size(15, 14);
             checkBox10.TabIndex = 2;
             checkBox10.UseVisualStyleBackColor = true;
             // 
@@ -724,7 +758,7 @@
             label11.AutoSize = true;
             label11.Location = new Point(3, 0);
             label11.Name = "label11";
-            label11.Size = new Size(363, 26);
+            label11.Size = new Size(291, 21);
             label11.TabIndex = 0;
             label11.Text = "10.- Franelas en buen estado y orden ";
             // 
@@ -736,20 +770,22 @@
             tableLayoutPanel12.Controls.Add(checkBox9, 1, 0);
             tableLayoutPanel12.Controls.Add(label12, 0, 0);
             tableLayoutPanel12.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel12.Location = new Point(35, 438);
+            tableLayoutPanel12.Location = new Point(31, 328);
+            tableLayoutPanel12.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel12.Name = "tableLayoutPanel12";
             tableLayoutPanel12.RowCount = 1;
             tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel12.Size = new Size(515, 28);
+            tableLayoutPanel12.Size = new Size(451, 21);
             tableLayoutPanel12.TabIndex = 143;
             tableLayoutPanel12.TabStop = true;
             // 
             // checkBox9
             // 
             checkBox9.AutoSize = true;
-            checkBox9.Location = new Point(471, 3);
+            checkBox9.Location = new Point(413, 2);
+            checkBox9.Margin = new Padding(3, 2, 3, 2);
             checkBox9.Name = "checkBox9";
-            checkBox9.Size = new Size(18, 17);
+            checkBox9.Size = new Size(15, 14);
             checkBox9.TabIndex = 2;
             checkBox9.UseVisualStyleBackColor = true;
             // 
@@ -758,32 +794,34 @@
             label12.AutoSize = true;
             label12.Location = new Point(3, 0);
             label12.Name = "label12";
-            label12.Size = new Size(268, 26);
+            label12.Size = new Size(215, 21);
             label12.TabIndex = 0;
             label12.Text = "9.- Paredes en buen estado";
             // 
             // tableLayoutPanel13
             // 
             tableLayoutPanel13.ColumnCount = 2;
-            tableLayoutPanel13.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 84.61212F));
-            tableLayoutPanel13.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.558468F));
+            tableLayoutPanel13.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.35255F));
+            tableLayoutPanel13.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.64745F));
             tableLayoutPanel13.Controls.Add(checkBox8, 1, 0);
             tableLayoutPanel13.Controls.Add(label13, 0, 0);
             tableLayoutPanel13.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel13.Location = new Point(35, 392);
+            tableLayoutPanel13.Location = new Point(31, 294);
+            tableLayoutPanel13.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel13.Name = "tableLayoutPanel13";
             tableLayoutPanel13.RowCount = 1;
             tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel13.Size = new Size(515, 28);
+            tableLayoutPanel13.Size = new Size(451, 21);
             tableLayoutPanel13.TabIndex = 142;
             tableLayoutPanel13.TabStop = true;
             // 
             // checkBox8
             // 
             checkBox8.AutoSize = true;
-            checkBox8.Location = new Point(470, 3);
+            checkBox8.Location = new Point(415, 2);
+            checkBox8.Margin = new Padding(3, 2, 3, 2);
             checkBox8.Name = "checkBox8";
-            checkBox8.Size = new Size(18, 17);
+            checkBox8.Size = new Size(15, 14);
             checkBox8.TabIndex = 2;
             checkBox8.UseVisualStyleBackColor = true;
             // 
@@ -792,7 +830,7 @@
             label13.AutoSize = true;
             label13.Location = new Point(3, 0);
             label13.Name = "label13";
-            label13.Size = new Size(245, 26);
+            label13.Size = new Size(195, 21);
             label13.TabIndex = 0;
             label13.Text = "8.- Suelo en buen estado";
             // 
@@ -804,20 +842,22 @@
             tableLayoutPanel14.Controls.Add(checkBox7, 1, 0);
             tableLayoutPanel14.Controls.Add(label14, 0, 0);
             tableLayoutPanel14.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel14.Location = new Point(35, 347);
+            tableLayoutPanel14.Location = new Point(31, 260);
+            tableLayoutPanel14.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel14.Name = "tableLayoutPanel14";
             tableLayoutPanel14.RowCount = 1;
             tableLayoutPanel14.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel14.Size = new Size(515, 28);
+            tableLayoutPanel14.Size = new Size(451, 21);
             tableLayoutPanel14.TabIndex = 141;
             tableLayoutPanel14.TabStop = true;
             // 
             // checkBox7
             // 
             checkBox7.AutoSize = true;
-            checkBox7.Location = new Point(472, 3);
+            checkBox7.Location = new Point(414, 2);
+            checkBox7.Margin = new Padding(3, 2, 3, 2);
             checkBox7.Name = "checkBox7";
-            checkBox7.Size = new Size(18, 17);
+            checkBox7.Size = new Size(15, 14);
             checkBox7.TabIndex = 2;
             checkBox7.UseVisualStyleBackColor = true;
             // 
@@ -826,7 +866,7 @@
             label14.AutoSize = true;
             label14.Location = new Point(3, 0);
             label14.Name = "label14";
-            label14.Size = new Size(331, 26);
+            label14.Size = new Size(265, 21);
             label14.TabIndex = 0;
             label14.Text = "7.- Cajas de carne en buen estado";
             // 
@@ -838,20 +878,22 @@
             tableLayoutPanel15.Controls.Add(checkBox6, 1, 0);
             tableLayoutPanel15.Controls.Add(label15, 0, 0);
             tableLayoutPanel15.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel15.Location = new Point(35, 304);
+            tableLayoutPanel15.Location = new Point(31, 228);
+            tableLayoutPanel15.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel15.Name = "tableLayoutPanel15";
             tableLayoutPanel15.RowCount = 1;
             tableLayoutPanel15.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel15.Size = new Size(515, 28);
+            tableLayoutPanel15.Size = new Size(451, 21);
             tableLayoutPanel15.TabIndex = 140;
             tableLayoutPanel15.TabStop = true;
             // 
             // checkBox6
             // 
             checkBox6.AutoSize = true;
-            checkBox6.Location = new Point(472, 3);
+            checkBox6.Location = new Point(414, 2);
+            checkBox6.Margin = new Padding(3, 2, 3, 2);
             checkBox6.Name = "checkBox6";
-            checkBox6.Size = new Size(18, 17);
+            checkBox6.Size = new Size(15, 14);
             checkBox6.TabIndex = 2;
             checkBox6.UseVisualStyleBackColor = true;
             // 
@@ -860,7 +902,7 @@
             label15.AutoSize = true;
             label15.Location = new Point(3, 0);
             label15.Name = "label15";
-            label15.Size = new Size(285, 26);
+            label15.Size = new Size(230, 21);
             label15.TabIndex = 0;
             label15.Text = "6.- Mesa fría en buen estado ";
             // 
@@ -872,20 +914,22 @@
             tableLayoutPanel16.Controls.Add(checkBox5, 1, 0);
             tableLayoutPanel16.Controls.Add(label16, 0, 0);
             tableLayoutPanel16.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel16.Location = new Point(35, 255);
+            tableLayoutPanel16.Location = new Point(31, 191);
+            tableLayoutPanel16.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel16.Name = "tableLayoutPanel16";
             tableLayoutPanel16.RowCount = 1;
             tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel16.Size = new Size(515, 28);
+            tableLayoutPanel16.Size = new Size(451, 21);
             tableLayoutPanel16.TabIndex = 139;
             tableLayoutPanel16.TabStop = true;
             // 
             // checkBox5
             // 
             checkBox5.AutoSize = true;
-            checkBox5.Location = new Point(474, 3);
+            checkBox5.Location = new Point(415, 2);
+            checkBox5.Margin = new Padding(3, 2, 3, 2);
             checkBox5.Name = "checkBox5";
-            checkBox5.Size = new Size(18, 17);
+            checkBox5.Size = new Size(15, 14);
             checkBox5.TabIndex = 2;
             checkBox5.UseVisualStyleBackColor = true;
             // 
@@ -894,32 +938,34 @@
             label16.AutoSize = true;
             label16.Location = new Point(3, 0);
             label16.Name = "label16";
-            label16.Size = new Size(284, 26);
+            label16.Size = new Size(227, 21);
             label16.TabIndex = 0;
             label16.Text = "5.- Utensilios en buen estado";
             // 
             // tableLayoutPanel17
             // 
             tableLayoutPanel17.ColumnCount = 2;
-            tableLayoutPanel17.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 85.22882F));
-            tableLayoutPanel17.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 7.94177628F));
+            tableLayoutPanel17.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 90.90909F));
+            tableLayoutPanel17.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 9.090909F));
             tableLayoutPanel17.Controls.Add(checkBox4, 1, 0);
             tableLayoutPanel17.Controls.Add(label22, 0, 0);
             tableLayoutPanel17.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel17.Location = new Point(35, 211);
+            tableLayoutPanel17.Location = new Point(31, 158);
+            tableLayoutPanel17.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel17.Name = "tableLayoutPanel17";
             tableLayoutPanel17.RowCount = 1;
             tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel17.Size = new Size(515, 26);
+            tableLayoutPanel17.Size = new Size(451, 20);
             tableLayoutPanel17.TabIndex = 138;
             tableLayoutPanel17.TabStop = true;
             // 
             // checkBox4
             // 
             checkBox4.AutoSize = true;
-            checkBox4.Location = new Point(474, 3);
+            checkBox4.Location = new Point(413, 2);
+            checkBox4.Margin = new Padding(3, 2, 3, 2);
             checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(18, 17);
+            checkBox4.Size = new Size(15, 14);
             checkBox4.TabIndex = 4;
             checkBox4.UseVisualStyleBackColor = true;
             // 
@@ -928,7 +974,7 @@
             label22.AutoSize = true;
             label22.Location = new Point(3, 0);
             label22.Name = "label22";
-            label22.Size = new Size(262, 26);
+            label22.Size = new Size(211, 20);
             label22.TabIndex = 3;
             label22.Text = "4.- Pretiles en buen estado";
             // 
@@ -940,11 +986,12 @@
             tableLayoutPanel18.Controls.Add(checkBox3, 1, 0);
             tableLayoutPanel18.Controls.Add(label18, 0, 0);
             tableLayoutPanel18.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel18.Location = new Point(32, 160);
+            tableLayoutPanel18.Location = new Point(28, 120);
+            tableLayoutPanel18.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel18.Name = "tableLayoutPanel18";
             tableLayoutPanel18.RowCount = 1;
             tableLayoutPanel18.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel18.Size = new Size(518, 28);
+            tableLayoutPanel18.Size = new Size(453, 21);
             tableLayoutPanel18.TabIndex = 137;
             tableLayoutPanel18.TabStop = true;
             tableLayoutPanel18.Paint += tableLayoutPanel18_Paint;
@@ -952,9 +999,10 @@
             // checkBox3
             // 
             checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(475, 3);
+            checkBox3.Location = new Point(416, 2);
+            checkBox3.Margin = new Padding(3, 2, 3, 2);
             checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(18, 17);
+            checkBox3.Size = new Size(15, 14);
             checkBox3.TabIndex = 2;
             checkBox3.UseVisualStyleBackColor = true;
             // 
@@ -963,7 +1011,7 @@
             label18.AutoSize = true;
             label18.Location = new Point(3, 0);
             label18.Name = "label18";
-            label18.Size = new Size(277, 26);
+            label18.Size = new Size(221, 21);
             label18.TabIndex = 0;
             label18.Text = "3.- Planchas en buen estado";
             // 
@@ -975,20 +1023,22 @@
             tableLayoutPanel19.Controls.Add(checkBox2, 1, 0);
             tableLayoutPanel19.Controls.Add(label19, 0, 0);
             tableLayoutPanel19.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel19.Location = new Point(32, 109);
+            tableLayoutPanel19.Location = new Point(28, 82);
+            tableLayoutPanel19.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel19.Name = "tableLayoutPanel19";
             tableLayoutPanel19.RowCount = 1;
             tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel19.Size = new Size(517, 28);
+            tableLayoutPanel19.Size = new Size(452, 21);
             tableLayoutPanel19.TabIndex = 136;
             tableLayoutPanel19.TabStop = true;
             // 
             // checkBox2
             // 
             checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(474, 3);
+            checkBox2.Location = new Point(415, 2);
+            checkBox2.Margin = new Padding(3, 2, 3, 2);
             checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(18, 17);
+            checkBox2.Size = new Size(15, 14);
             checkBox2.TabIndex = 2;
             checkBox2.UseVisualStyleBackColor = true;
             // 
@@ -997,23 +1047,24 @@
             label19.AutoSize = true;
             label19.Location = new Point(3, 0);
             label19.Name = "label19";
-            label19.Size = new Size(316, 26);
+            label19.Size = new Size(251, 21);
             label19.TabIndex = 0;
             label19.Text = "2.- Vajilla en buenas condiciones";
             // 
             // tableLayoutPanel20
             // 
             tableLayoutPanel20.ColumnCount = 2;
-            tableLayoutPanel20.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 85.15358F));
-            tableLayoutPanel20.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 7.508533F));
+            tableLayoutPanel20.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 90.94923F));
+            tableLayoutPanel20.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 9.050773F));
             tableLayoutPanel20.Controls.Add(label20, 0, 0);
             tableLayoutPanel20.Controls.Add(checkBox1, 1, 0);
             tableLayoutPanel20.Font = new Font("Yu Gothic", 12F);
-            tableLayoutPanel20.Location = new Point(31, 63);
+            tableLayoutPanel20.Location = new Point(27, 47);
+            tableLayoutPanel20.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel20.Name = "tableLayoutPanel20";
             tableLayoutPanel20.RowCount = 1;
             tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel20.Size = new Size(518, 28);
+            tableLayoutPanel20.Size = new Size(453, 21);
             tableLayoutPanel20.TabIndex = 135;
             tableLayoutPanel20.TabStop = true;
             // 
@@ -1022,7 +1073,7 @@
             label20.AutoSize = true;
             label20.Location = new Point(3, 0);
             label20.Name = "label20";
-            label20.Size = new Size(291, 26);
+            label20.Size = new Size(232, 21);
             label20.TabIndex = 0;
             label20.Text = "1.- Campanas en buen estado";
             label20.Click += label20_Click;
@@ -1030,9 +1081,10 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(479, 3);
+            checkBox1.Location = new Point(415, 2);
+            checkBox1.Margin = new Padding(3, 2, 3, 2);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(18, 17);
+            checkBox1.Size = new Size(15, 14);
             checkBox1.TabIndex = 1;
             checkBox1.UseVisualStyleBackColor = true;
             // 
@@ -1042,10 +1094,11 @@
             cbxMarcarTodo.AutoSize = true;
             cbxMarcarTodo.Font = new Font("Yu Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             cbxMarcarTodo.ImageAlign = ContentAlignment.MiddleRight;
-            cbxMarcarTodo.Location = new Point(1195, 12);
+            cbxMarcarTodo.Location = new Point(1054, 9);
+            cbxMarcarTodo.Margin = new Padding(3, 2, 3, 2);
             cbxMarcarTodo.Name = "cbxMarcarTodo";
             cbxMarcarTodo.RightToLeft = RightToLeft.Yes;
-            cbxMarcarTodo.Size = new Size(120, 23);
+            cbxMarcarTodo.Size = new Size(97, 20);
             cbxMarcarTodo.TabIndex = 148;
             cbxMarcarTodo.Text = "Marcar todo";
             cbxMarcarTodo.UseVisualStyleBackColor = true;
@@ -1053,10 +1106,10 @@
             // 
             // Form6Planchas
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(1327, 788);
+            ClientSize = new Size(1161, 591);
             Controls.Add(cbxMarcarTodo);
             Controls.Add(tableLayoutPanel25);
             Controls.Add(tableLayoutPanel26);
@@ -1088,6 +1141,7 @@
             Controls.Add(tableLayoutPanel5);
             Controls.Add(tableLayoutPanel4);
             Controls.Add(tableLayoutPanel1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form6Planchas";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormPlanchas";
