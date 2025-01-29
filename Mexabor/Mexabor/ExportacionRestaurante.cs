@@ -30,7 +30,7 @@ namespace Mexabor
         {
             //string rutaExcel = Path.Combine(Directory.GetCurrentDirectory(),"CacheAplicacion", "FormatoReporte.xlsx");
             //GenerarExcel.LlenarExcel();
-            GenerarExcel.ExportarDatosExcel();
+            GenerarExcelRestaurante.ExportarDatosExcel();
         }
     }
 }

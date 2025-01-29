@@ -126,7 +126,7 @@
             btnCedis.FlatAppearance.BorderSize = 0;
             btnCedis.FlatStyle = FlatStyle.Flat;
             btnCedis.Font = new Font("Yu Gothic", 13.8F);
-            btnCedis.Location = new Point(115, 82);
+            btnCedis.Location = new Point(113, 67);
             btnCedis.Margin = new Padding(3, 2, 3, 2);
             btnCedis.Name = "btnCedis";
             btnCedis.Size = new Size(223, 31);
@@ -195,6 +195,7 @@
             Opacity = 0.9D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestion";
+            FormClosing += FormMenu_FormClosing;
             Load += FormMenu_Load;
             ((System.ComponentModel.ISupportInitialize)iconoAdmin).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

@@ -141,6 +141,7 @@
             Opacity = 0.85D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            FormClosing += Login_FormClosing;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)imagenMexabor).EndInit();
             ResumeLayout(false);

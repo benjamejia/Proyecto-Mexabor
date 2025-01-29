@@ -90,5 +90,10 @@ namespace Mexabor
             configuracion.Show();
             this.Close();
         }
+
+        private void FormMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //Application.Exit();
+        }
     }
 }

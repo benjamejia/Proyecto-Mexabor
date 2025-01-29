@@ -73,12 +73,12 @@ namespace Mexabor.CacheAplicacion
 
         public static Dictionary<string, int[]> temperaturasIdeales = new Dictionary<string, int[]>
         {
-            { "1.- Jugo de Carne (Olla Grande)", new int[] { 55, 75 } },
-            { "2.- Jugo de Carne (Olla Chica)", new int[] { 55, 88 } },
-            { "3.- Frijol de la Olla (Baño María)", new int[] { 55, 90 } },
-            { "4.- Tortillas", new int[] { 40, 99 } },
-            { "5.- Cebollita Cocida", new int[] { 55, 90 } },
-            { "6.- Frijol Frito", new int[] { 40, 67 } }
+            { "1.- Jugo de Carne (Olla Grande)", new int[] { 60, 67 } },
+            { "2.- Jugo de Carne (Olla Chica)", new int[] { 65, 78 } },
+            { "3.- Frijol de la Olla (Baño María)", new int[] { 65, 80 } },
+            { "4.- Tortillas", new int[] { 50, 99 } },
+            { "5.- Cebollita Cocida", new int[] { 65, 80 } },
+            { "6.- Frijol Frito", new int[] { 60, 75 } }
         };
 
         public static List<string> observaciones = new List<string>()

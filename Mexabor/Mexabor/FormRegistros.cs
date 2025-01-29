@@ -26,117 +26,17 @@ namespace Mexabor
             ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
             InitializeComponent();
         }
-        public void ExcelTablaDesglozada()
+        private void SetControlsEnabled(Control parent, bool enabled, params Control[] exceptions)
         {
-            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            foreach (Control control in parent.Controls)
             {
-                saveFileDialog.Filter = "Archivos Excel (*.xlsx)|*.xlsx|Todos los archivos (*.*)|*.*";
-                saveFileDialog.Title = "Guardar archivo Excel";
-                saveFileDialog.FileName = "NombreArchivo.xlsx";
-                saveFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-
-                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                // Excluir los controles que están en la lista de excepciones o son hijos de excepciones
+                if (exceptions.Contains(control) || exceptions.Any(e => e.Controls.Contains(control)))
                 {
-                    string filePath = saveFileDialog.FileName;
-                    string modifiedFilePath = Path.Combine(Directory.GetCurrentDirectory(), "CacheAplicacion", "FormatoMexabor.xlsx");
-
-                    using (ExcelPackage package = new ExcelPackage(new FileInfo(modifiedFilePath)))
-                    {
-                        ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
-
-                        // Información adicional
-                        worksheet.Cells["B1"].Value = CacheFormsRestaurante.sucursal;
-                        worksheet.Cells["B2"].Value = CacheFormsRestaurante.gerente;
-                        worksheet.Cells["B3"].Value = CacheFormsRestaurante.auditor;
-                        worksheet.Cells["B4"].Value = CacheFormsRestaurante.fecha;
-
-                        // Datos por columna
-                        var datosPorColumna = new Dictionary<int, List<int>>
-                    {
-                        { 3, CacheFormsRestaurante.estacionamientoEstructura },
-                        { 4, CacheFormsRestaurante.estacionamientoLimpieza},
-                        { 5, CacheFormsRestaurante.comedorEstructura },
-                        { 6, CacheFormsRestaurante.comedorLimpieza },
-                        { 7, CacheFormsRestaurante.barraEstructura },
-                        { 8, CacheFormsRestaurante.barraLimpieza },
-                        { 9, CacheFormsRestaurante.tortillasEstructura },
-                        { 10, CacheFormsRestaurante.tortillasLimpieza },
-                        { 11, CacheFormsRestaurante.serviciosEstructura },
-                        { 12, CacheFormsRestaurante.serviciosLimpieza },
-                        { 13, CacheFormsRestaurante.planchasEstructura },
-                        { 14, CacheFormsRestaurante.planchasLimpieza },
-                        { 15, CacheFormsRestaurante.lozaEstructura },
-                        { 16, CacheFormsRestaurante.lozaLimpieza },
-                        { 17, CacheFormsRestaurante.bañosEstructura },
-                        { 18, CacheFormsRestaurante.bañosLimpieza },
-                        { 19, CacheFormsRestaurante.juegosEstructura },
-                        { 20, CacheFormsRestaurante.juegosLimpieza },
-                        { 21, CacheFormsRestaurante.personalPlanchas },
-                        { 22, CacheFormsRestaurante.personalAseo },
-                        { 23, CacheFormsRestaurante.personalLoza },
-                        { 24, CacheFormsRestaurante.personalTortillas },
-                        { 25, CacheFormsRestaurante.personalBarra },
-                        { 26, CacheFormsRestaurante.personalServicios },
-                        { 27, CacheFormsRestaurante.personalMesas },
-                        { 28, CacheFormsRestaurante.documentos },
-                        { 29, CacheFormsRestaurante.almacen },
-                        { 30, CacheFormsRestaurante.caja },
-                        { 31, CacheFormsRestaurante.ambiente },
-                        { 32, CacheFormsRestaurante.calificacionProveedores },
-                        { 33, CacheFormsRestaurante.herramienta },
-                        { 34, CacheFormsRestaurante.temperatura },
-                        { 35, CacheFormsRestaurante.sabor },
-                    };
-
-                        foreach (var item in datosPorColumna)
-                        {
-                            RellenarDatos(worksheet, item.Key, 6, item.Value);
-                        }
-
-                        // Observaciones
-                        var observaciones = new Dictionary<string, string>
-                    {
-                        { "AU6", CacheFormsRestaurante.observaciones[0] },
-                        { "AU7", CacheFormsRestaurante.observaciones[1] },
-                        { "AU8", CacheFormsRestaurante.observaciones[2] },
-                        { "AU9", CacheFormsRestaurante.observaciones[3] },
-                        { "AU10", CacheFormsRestaurante.observaciones[4] },
-                        { "AU11", CacheFormsRestaurante.observaciones[5] },
-                        { "AU12", CacheFormsRestaurante.observaciones[6] },
-                        { "AU13", CacheFormsRestaurante.observaciones[7] },
-                        { "AU14", CacheFormsRestaurante.observaciones[8] },
-                        { "AU15", CacheFormsRestaurante.observaciones[9] },
-                        { "AU16", CacheFormsRestaurante.observaciones[10] }
-                    };
-
-                        foreach (var obs in observaciones)
-                        {
-                            worksheet.Cells[obs.Key].Value = obs.Value;
-                        }
-
-                        worksheet.Cells.AutoFitColumns();
-
-                        package.SaveAs(new FileInfo(filePath));
-                        MessageBox.Show("El archivo se ha guardado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                        try
-                        {
-                            Process.Start(new ProcessStartInfo(filePath) { UseShellExecute = true });
-                        }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine("Error al abrir el archivo Excel: " + ex.Message);
-                        }
-                    }
+                    continue;
                 }
-            }
-        }
 
-        private void RellenarDatos(ExcelWorksheet worksheet, int columnaInicio, int filaInicio, List<int> datos)
-        {
-            for (int i = 0; i < datos.Count; i++)
-            {
-                worksheet.Cells[filaInicio + i, columnaInicio].Value = datos[i];
+                control.Enabled = enabled;
             }
         }
         private void GuardarEnCache(DatosFila datosFila)
@@ -347,13 +247,13 @@ namespace Mexabor
 
         private void btnExportarExcel_Click(object sender, EventArgs e)
         {
-            GenerarExcel.ExcelTablaCompleta(dataGridView1);
+            GenerarExcelRestaurante.ExcelTablaCompleta(dataGridView1);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             //ExcelTablaDesglozada();
-            GenerarExcel.ExportarDatosExcel();
+            GenerarExcelRestaurante.ExportarDatosExcel();
         }
 
         private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -419,6 +319,9 @@ namespace Mexabor
                 List<DatosFila> listaDatos = new List<DatosFila> { datosFila };
                 dataGridView2.DataSource = listaDatos;
                 panelDobleClick.Visible = true;
+                btnCerrar.Enabled = false;
+                btnBuscar.Enabled = false;
+
             }
         }
 
@@ -426,6 +329,9 @@ namespace Mexabor
         {
             panelDobleClick.Visible = false;
             CacheFormsRestaurante.LimpiarCache();
+            btnCerrar.Enabled = true;
+            btnBuscar.Enabled = true;
+
         }
 
         //Queda pendiente a mejorar ya que es un codigo pegado del antigui proyecto.
@@ -441,11 +347,11 @@ namespace Mexabor
                 if (string.IsNullOrEmpty(encargado) && string.IsNullOrEmpty(sucursal) &&
                 string.IsNullOrEmpty(fecha) && string.IsNullOrEmpty(auditor))
                 {
-                        MessageBox.Show("Ingresa un dato.");
-                        return;
+                    MessageBox.Show("Ingresa un dato.");
+                    return;
                 }
-                if(txbGerente.Text != string.Empty && txbSucursal.Text != string.Empty && txbAuditor.Text != string.Empty)
-                { 
+                if (txbGerente.Text != string.Empty && txbSucursal.Text != string.Empty && txbAuditor.Text != string.Empty)
+                {
                     conn.Open();
                     SQLiteCommand cmd = new SQLiteCommand("SELECT * FROM reporteRestaurante WHERE Sucursal = @sucursal AND Encargado = @encargado AND Auditor = @auditor", conn);
                     cmd.Parameters.AddWithValue("@encargado", encargado);
@@ -509,7 +415,13 @@ namespace Mexabor
                         MessageBox.Show("No se encontró ningún Auditor con ese nombre.");
                     }
                 }
+            }
         }
-    }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine(string.Join(", ", CacheFormsRestaurante.temperatura));
+            GenerarExcelRestaurante.ExcelTablaDesglozada();
+        }
     }
 }

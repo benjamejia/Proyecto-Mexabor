@@ -33,9 +33,7 @@
             sucursalFecha = new Label();
             txbSucursal = new TextBox();
             panel4 = new Panel();
-            panel3 = new Panel();
-            button3 = new Button();
-            button2 = new Button();
+            btnBuscar = new Button();
             fechaTetxto = new Label();
             txbFecha = new TextBox();
             label1 = new Label();
@@ -45,6 +43,7 @@
             txbGerente = new TextBox();
             panel2 = new Panel();
             panelDobleClick = new Panel();
+            button6 = new Button();
             button4 = new Button();
             dataGridView2 = new DataGridView();
             btnDobleClick = new Button();
@@ -52,7 +51,7 @@
             label2 = new Label();
             pictureBox1 = new PictureBox();
             comboBox1 = new ComboBox();
-            button5 = new Button();
+            btnCerrar = new Button();
             dataGridView1 = new DataGridView();
             button1 = new Button();
             panel5 = new Panel();
@@ -76,9 +75,7 @@
             panel1.Controls.Add(sucursalFecha);
             panel1.Controls.Add(txbSucursal);
             panel1.Controls.Add(panel4);
-            panel1.Controls.Add(panel3);
-            panel1.Controls.Add(button3);
-            panel1.Controls.Add(button2);
+            panel1.Controls.Add(btnBuscar);
             panel1.Controls.Add(fechaTetxto);
             panel1.Controls.Add(txbFecha);
             panel1.Controls.Add(label1);
@@ -87,10 +84,9 @@
             panel1.Controls.Add(txbAuditor);
             panel1.Controls.Add(txbGerente);
             panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 48);
-            panel1.Margin = new Padding(3, 2, 3, 2);
+            panel1.Location = new Point(0, 63);
             panel1.Name = "panel1";
-            panel1.Size = new Size(362, 613);
+            panel1.Size = new Size(413, 818);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
             // 
@@ -98,9 +94,9 @@
             // 
             sucursalFecha.AutoSize = true;
             sucursalFecha.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            sucursalFecha.Location = new Point(54, 33);
+            sucursalFecha.Location = new Point(62, 44);
             sucursalFecha.Name = "sucursalFecha";
-            sucursalFecha.Size = new Size(89, 25);
+            sucursalFecha.Size = new Size(104, 30);
             sucursalFecha.TabIndex = 19;
             sucursalFecha.Text = "Sucursal";
             // 
@@ -109,69 +105,40 @@
             txbSucursal.BackColor = Color.Gainsboro;
             txbSucursal.BorderStyle = BorderStyle.None;
             txbSucursal.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txbSucursal.Location = new Point(54, 57);
-            txbSucursal.Margin = new Padding(3, 2, 3, 2);
+            txbSucursal.Location = new Point(62, 76);
             txbSucursal.Name = "txbSucursal";
-            txbSucursal.Size = new Size(276, 30);
+            txbSucursal.Size = new Size(315, 37);
             txbSucursal.TabIndex = 18;
             // 
             // panel4
             // 
             panel4.BackColor = Color.Gray;
-            panel4.Location = new Point(54, 315);
-            panel4.Margin = new Padding(3, 2, 3, 2);
+            panel4.Location = new Point(62, 420);
             panel4.Name = "panel4";
-            panel4.Size = new Size(12, 37);
+            panel4.Size = new Size(14, 49);
             panel4.TabIndex = 7;
             // 
-            // panel3
+            // btnBuscar
             // 
-            panel3.Anchor = AnchorStyles.Bottom;
-            panel3.BackColor = Color.Gray;
-            panel3.Location = new Point(35, 512);
-            panel3.Margin = new Padding(3, 2, 3, 2);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(12, 31);
-            panel3.TabIndex = 17;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.Gainsboro;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Yu Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(54, 315);
-            button3.Margin = new Padding(3, 2, 3, 2);
-            button3.Name = "button3";
-            button3.Size = new Size(276, 37);
-            button3.TabIndex = 16;
-            button3.Text = "Buscar";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
-            // 
-            // button2
-            // 
-            button2.Anchor = AnchorStyles.Bottom;
-            button2.BackColor = SystemColors.ButtonFace;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Yu Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(35, 512);
-            button2.Margin = new Padding(3, 2, 3, 2);
-            button2.Name = "button2";
-            button2.Size = new Size(276, 31);
-            button2.TabIndex = 15;
-            button2.Text = "Ajustes Avanzados";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            btnBuscar.BackColor = Color.Gainsboro;
+            btnBuscar.FlatAppearance.BorderSize = 0;
+            btnBuscar.FlatStyle = FlatStyle.Flat;
+            btnBuscar.Font = new Font("Yu Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnBuscar.Location = new Point(62, 420);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(315, 49);
+            btnBuscar.TabIndex = 16;
+            btnBuscar.Text = "Buscar";
+            btnBuscar.UseVisualStyleBackColor = false;
+            btnBuscar.Click += button3_Click;
             // 
             // fechaTetxto
             // 
             fechaTetxto.AutoSize = true;
             fechaTetxto.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            fechaTetxto.Location = new Point(54, 223);
+            fechaTetxto.Location = new Point(62, 297);
             fechaTetxto.Name = "fechaTetxto";
-            fechaTetxto.Size = new Size(66, 25);
+            fechaTetxto.Size = new Size(77, 30);
             fechaTetxto.TabIndex = 14;
             fechaTetxto.Text = "Fecha";
             // 
@@ -180,10 +147,9 @@
             txbFecha.BackColor = Color.Gainsboro;
             txbFecha.BorderStyle = BorderStyle.None;
             txbFecha.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txbFecha.Location = new Point(54, 248);
-            txbFecha.Margin = new Padding(3, 2, 3, 2);
+            txbFecha.Location = new Point(62, 331);
             txbFecha.Name = "txbFecha";
-            txbFecha.Size = new Size(276, 30);
+            txbFecha.Size = new Size(315, 37);
             txbFecha.TabIndex = 12;
             // 
             // label1
@@ -191,9 +157,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Yu Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.AppWorkspace;
-            label1.Location = new Point(220, 30);
+            label1.Location = new Point(251, 40);
             label1.Name = "label1";
-            label1.Size = new Size(106, 18);
+            label1.Size = new Size(126, 22);
             label1.TabIndex = 11;
             label1.Text = "Filtrar por dato";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -202,9 +168,9 @@
             // 
             lblAuditor.AutoSize = true;
             lblAuditor.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblAuditor.Location = new Point(54, 158);
+            lblAuditor.Location = new Point(62, 211);
             lblAuditor.Name = "lblAuditor";
-            lblAuditor.Size = new Size(76, 25);
+            lblAuditor.Size = new Size(89, 30);
             lblAuditor.TabIndex = 10;
             lblAuditor.Text = "Auditor";
             // 
@@ -212,9 +178,9 @@
             // 
             gerenteTexto.AutoSize = true;
             gerenteTexto.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            gerenteTexto.Location = new Point(54, 96);
+            gerenteTexto.Location = new Point(62, 128);
             gerenteTexto.Name = "gerenteTexto";
-            gerenteTexto.Size = new Size(84, 25);
+            gerenteTexto.Size = new Size(98, 30);
             gerenteTexto.TabIndex = 9;
             gerenteTexto.Text = "Gerente";
             // 
@@ -223,10 +189,9 @@
             txbAuditor.BackColor = Color.Gainsboro;
             txbAuditor.BorderStyle = BorderStyle.None;
             txbAuditor.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txbAuditor.Location = new Point(54, 185);
-            txbAuditor.Margin = new Padding(3, 2, 3, 2);
+            txbAuditor.Location = new Point(62, 247);
             txbAuditor.Name = "txbAuditor";
-            txbAuditor.Size = new Size(276, 30);
+            txbAuditor.Size = new Size(315, 37);
             txbAuditor.TabIndex = 8;
             // 
             // txbGerente
@@ -234,10 +199,9 @@
             txbGerente.BackColor = Color.Gainsboro;
             txbGerente.BorderStyle = BorderStyle.None;
             txbGerente.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txbGerente.Location = new Point(54, 121);
-            txbGerente.Margin = new Padding(3, 2, 3, 2);
+            txbGerente.Location = new Point(62, 161);
             txbGerente.Name = "txbGerente";
-            txbGerente.Size = new Size(276, 30);
+            txbGerente.Size = new Size(315, 37);
             txbGerente.TabIndex = 7;
             // 
             // panel2
@@ -249,28 +213,42 @@
             panel2.Controls.Add(label2);
             panel2.Controls.Add(pictureBox1);
             panel2.Controls.Add(comboBox1);
-            panel2.Controls.Add(button5);
+            panel2.Controls.Add(btnCerrar);
             panel2.Controls.Add(dataGridView1);
             panel2.Controls.Add(button1);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(362, 48);
-            panel2.Margin = new Padding(3, 2, 3, 2);
+            panel2.Location = new Point(413, 63);
             panel2.Name = "panel2";
-            panel2.Size = new Size(902, 613);
+            panel2.Size = new Size(1032, 818);
             panel2.TabIndex = 1;
             // 
             // panelDobleClick
             // 
             panelDobleClick.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             panelDobleClick.BorderStyle = BorderStyle.FixedSingle;
+            panelDobleClick.Controls.Add(button6);
             panelDobleClick.Controls.Add(button4);
             panelDobleClick.Controls.Add(dataGridView2);
             panelDobleClick.Controls.Add(btnDobleClick);
-            panelDobleClick.Location = new Point(24, 183);
+            panelDobleClick.Location = new Point(27, 245);
+            panelDobleClick.Margin = new Padding(3, 4, 3, 4);
             panelDobleClick.Name = "panelDobleClick";
-            panelDobleClick.Size = new Size(866, 153);
+            panelDobleClick.Size = new Size(990, 203);
             panelDobleClick.TabIndex = 135;
             panelDobleClick.Visible = false;
+            // 
+            // button6
+            // 
+            button6.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            button6.Font = new Font("Yu Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button6.Location = new Point(198, 152);
+            button6.Margin = new Padding(3, 4, 3, 4);
+            button6.Name = "button6";
+            button6.Size = new Size(200, 31);
+            button6.TabIndex = 136;
+            button6.Text = "Exportar Datos Desglozados";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button4
             // 
@@ -279,10 +257,9 @@
             button4.FlatAppearance.BorderSize = 0;
             button4.FlatStyle = FlatStyle.Popup;
             button4.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.Location = new Point(732, 5);
-            button4.Margin = new Padding(3, 2, 3, 2);
+            button4.Location = new Point(838, 7);
             button4.Name = "button4";
-            button4.Size = new Size(106, 25);
+            button4.Size = new Size(121, 33);
             button4.TabIndex = 135;
             button4.Text = "Cerrar";
             button4.UseVisualStyleBackColor = false;
@@ -293,18 +270,21 @@
             dataGridView2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView2.BackgroundColor = Color.SlateGray;
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Location = new Point(27, 41);
+            dataGridView2.Location = new Point(31, 55);
+            dataGridView2.Margin = new Padding(3, 4, 3, 4);
             dataGridView2.Name = "dataGridView2";
-            dataGridView2.Size = new Size(811, 67);
+            dataGridView2.RowHeadersWidth = 51;
+            dataGridView2.Size = new Size(928, 89);
             dataGridView2.TabIndex = 0;
             // 
             // btnDobleClick
             // 
             btnDobleClick.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             btnDobleClick.Font = new Font("Yu Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnDobleClick.Location = new Point(27, 114);
+            btnDobleClick.Location = new Point(31, 152);
+            btnDobleClick.Margin = new Padding(3, 4, 3, 4);
             btnDobleClick.Name = "btnDobleClick";
-            btnDobleClick.Size = new Size(140, 23);
+            btnDobleClick.Size = new Size(160, 31);
             btnDobleClick.TabIndex = 134;
             btnDobleClick.Text = "Exportar Datos Excel";
             btnDobleClick.UseVisualStyleBackColor = true;
@@ -314,9 +294,10 @@
             // 
             btnExportarExcel.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             btnExportarExcel.Font = new Font("Yu Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnExportarExcel.Location = new Point(51, 541);
+            btnExportarExcel.Location = new Point(58, 722);
+            btnExportarExcel.Margin = new Padding(3, 4, 3, 4);
             btnExportarExcel.Name = "btnExportarExcel";
-            btnExportarExcel.Size = new Size(140, 23);
+            btnExportarExcel.Size = new Size(160, 31);
             btnExportarExcel.TabIndex = 133;
             btnExportarExcel.Text = "Exportar Datos Excel";
             btnExportarExcel.UseVisualStyleBackColor = true;
@@ -328,9 +309,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Yu Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.ControlDarkDark;
-            label2.Location = new Point(592, 14);
+            label2.Location = new Point(678, 19);
             label2.Name = "label2";
-            label2.Size = new Size(268, 18);
+            label2.Size = new Size(319, 22);
             label2.TabIndex = 131;
             label2.Text = "Seleccione La tabla que desea mostrar..";
             // 
@@ -339,10 +320,9 @@
             pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox1.Cursor = Cursors.AppStarting;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(565, 25);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(647, 33);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(47, 34);
+            pictureBox1.Size = new Size(54, 45);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 132;
             pictureBox1.TabStop = false;
@@ -354,40 +334,37 @@
             comboBox1.Font = new Font("Yu Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Reporte de Restaurante", "Reporte de Almacen", "Productos de Almacen" });
-            comboBox1.Location = new Point(617, 32);
-            comboBox1.Margin = new Padding(3, 2, 3, 2);
+            comboBox1.Location = new Point(706, 43);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(250, 26);
+            comboBox1.Size = new Size(285, 31);
             comboBox1.TabIndex = 130;
             comboBox1.Tag = "";
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
-            // button5
+            // btnCerrar
             // 
-            button5.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            button5.BackColor = Color.Gainsboro;
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Popup;
-            button5.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button5.Location = new Point(734, 572);
-            button5.Margin = new Padding(3, 2, 3, 2);
-            button5.Name = "button5";
-            button5.Size = new Size(130, 31);
-            button5.TabIndex = 129;
-            button5.Text = "Volver";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
+            btnCerrar.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnCerrar.BackColor = Color.Gainsboro;
+            btnCerrar.FlatAppearance.BorderSize = 0;
+            btnCerrar.FlatStyle = FlatStyle.Popup;
+            btnCerrar.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCerrar.Location = new Point(840, 764);
+            btnCerrar.Name = "btnCerrar";
+            btnCerrar.Size = new Size(149, 41);
+            btnCerrar.TabIndex = 129;
+            btnCerrar.Text = "Volver";
+            btnCerrar.UseVisualStyleBackColor = false;
+            btnCerrar.Click += button5_Click;
             // 
             // dataGridView1
             // 
             dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.BackgroundColor = Color.SlateGray;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(51, 63);
-            dataGridView1.Margin = new Padding(3, 2, 3, 2);
+            dataGridView1.Location = new Point(58, 84);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(813, 473);
+            dataGridView1.Size = new Size(930, 632);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentDoubleClick += dataGridView1_CellContentDoubleClick;
             // 
@@ -398,10 +375,9 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Yu Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(334, 572);
-            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Location = new Point(383, 764);
             button1.Name = "button1";
-            button1.Size = new Size(276, 31);
+            button1.Size = new Size(315, 41);
             button1.TabIndex = 6;
             button1.Text = "Refrescar";
             button1.UseVisualStyleBackColor = false;
@@ -414,9 +390,8 @@
             panel5.Controls.Add(panel6);
             panel5.Dock = DockStyle.Fill;
             panel5.Location = new Point(0, 0);
-            panel5.Margin = new Padding(3, 2, 3, 2);
             panel5.Name = "panel5";
-            panel5.Size = new Size(1264, 661);
+            panel5.Size = new Size(1445, 881);
             panel5.TabIndex = 2;
             // 
             // panel6
@@ -426,31 +401,28 @@
             panel6.Controls.Add(imagenMexabor);
             panel6.Dock = DockStyle.Top;
             panel6.Location = new Point(0, 0);
-            panel6.Margin = new Padding(3, 2, 3, 2);
             panel6.Name = "panel6";
-            panel6.Size = new Size(1264, 48);
+            panel6.Size = new Size(1445, 63);
             panel6.TabIndex = 0;
             // 
             // imagenMexabor
             // 
             imagenMexabor.Image = (Image)resources.GetObject("imagenMexabor.Image");
-            imagenMexabor.Location = new Point(2, 2);
-            imagenMexabor.Margin = new Padding(3, 2, 3, 2);
+            imagenMexabor.Location = new Point(2, 3);
             imagenMexabor.Name = "imagenMexabor";
-            imagenMexabor.Size = new Size(166, 43);
+            imagenMexabor.Size = new Size(190, 57);
             imagenMexabor.SizeMode = PictureBoxSizeMode.Zoom;
             imagenMexabor.TabIndex = 2;
             imagenMexabor.TabStop = false;
             // 
             // FormRegistros
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1264, 661);
+            ClientSize = new Size(1445, 881);
             Controls.Add(panel5);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(3, 2, 3, 2);
-            MinimumSize = new Size(1260, 653);
+            MinimumSize = new Size(1437, 855);
             Name = "FormRegistros";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Registros";
@@ -483,13 +455,11 @@
         private Label fechaTetxto;
         private TextBox txbFecha;
         private Label label1;
-        private Button button3;
-        private Button button2;
+        private Button btnBuscar;
         private Panel panel4;
-        private Panel panel3;
         private Label sucursalFecha;
         private TextBox txbSucursal;
-        private Button button5;
+        private Button btnCerrar;
         private Panel panel5;
         private Panel panel6;
         private DataGridView dataGridView1;
@@ -502,5 +472,6 @@
         private Panel panelDobleClick;
         private DataGridView dataGridView2;
         private Button button4;
+        private Button button6;
     }
 }

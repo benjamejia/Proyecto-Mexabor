@@ -188,7 +188,7 @@
             this.dataGridView2.BackgroundColor = System.Drawing.Color.SlateGray;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(8, 55);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(5);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.Size = new System.Drawing.Size(885, 63);
@@ -342,7 +342,7 @@
             // 
             // calendario
             // 
-            this.calendario.Location = new System.Drawing.Point(8, 187);
+            this.calendario.Location = new System.Drawing.Point(18, 40);
             this.calendario.Name = "calendario";
             this.calendario.ShowTodayCircle = false;
             this.calendario.TabIndex = 68;

@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>E:\Mexabor\Mexabor\Properties\PublishProfiles\ClickOnceProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Update="AjustesAvanzados.cs">
       <SubType>Form</SubType>
@@ -31,7 +34,13 @@
     <Compile Update="Almacen\Alma1Salida.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Almacen\Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ExportacionAlmacen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ExportacionRestaurante.cs">

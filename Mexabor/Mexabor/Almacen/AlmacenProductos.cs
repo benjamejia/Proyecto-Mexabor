@@ -1,16 +1,7 @@
 ﻿using Mexabor.CacheAplicacion;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Configuration;
 using System.Data;
-using System.Data.SqlClient;
 using System.Data.SQLite;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Mexabor.Almacen
 {
@@ -184,6 +175,11 @@ namespace Mexabor.Almacen
         {
             AgregarProducto agregarProducto = new AgregarProducto();
             agregarProducto.Show();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

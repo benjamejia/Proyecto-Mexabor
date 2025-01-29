@@ -1,38 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\13Enero\\Mexabor\\",
+  "WorkspaceRootPath": "D:\\Mexabor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|e:\\13enero\\mexabor\\mexabor\\restaurante\\form1estacionamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|d:\\mexabor\\mexabor\\mexabor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\mexabor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|d:\\mexabor\\mexabor\\restaurante\\form1estacionamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\restaurante\\form1estacionamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|e:\\13enero\\mexabor\\mexabor\\cacheaplicacion\\generarexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\cacheaplicacion\\generarexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|d:\\mexabor\\mexabor\\restaurante\\form1estacionamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\restaurante\\form1estacionamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|e:\\13enero\\mexabor\\mexabor\\cacheaplicacion\\conexionbd_restaruante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\cacheaplicacion\\conexionbd_restaruante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|d:\\mexabor\\mexabor\\cacheaplicacion\\cacheconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\cacheaplicacion\\cacheconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|e:\\13enero\\mexabor\\mexabor\\restaurante\\formtemperaturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\restaurante\\formtemperaturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|d:\\mexabor\\mexabor\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|e:\\13enero\\mexabor\\mexabor\\cacheaplicacion\\cacheformsrestaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\cacheaplicacion\\cacheformsrestaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|e:\\13enero\\mexabor\\mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|e:\\13enero\\mexabor\\mexabor\\exportacionfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\exportacionfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|e:\\13enero\\mexabor\\mexabor\\restaurante\\formproovedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\restaurante\\formproovedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|d:\\mexabor\\mexabor\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,111 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConexionBD_Restaruante.cs",
-              "DocumentMoniker": "E:\\13Enero\\Mexabor\\Mexabor\\CacheAplicacion\\ConexionBD_Restaruante.cs",
-              "RelativeDocumentMoniker": "Mexabor\\CacheAplicacion\\ConexionBD_Restaruante.cs",
-              "ToolTip": "E:\\13Enero\\Mexabor\\Mexabor\\CacheAplicacion\\ConexionBD_Restaruante.cs",
-              "RelativeToolTip": "Mexabor\\CacheAplicacion\\ConexionBD_Restaruante.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwEQAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T19:08:36.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1Estacionamiento.cs",
-              "DocumentMoniker": "E:\\13Enero\\Mexabor\\Mexabor\\Restaurante\\Form1Estacionamiento.cs",
-              "RelativeDocumentMoniker": "Mexabor\\Restaurante\\Form1Estacionamiento.cs",
-              "ToolTip": "E:\\13Enero\\Mexabor\\Mexabor\\Restaurante\\Form1Estacionamiento.cs",
-              "RelativeToolTip": "Mexabor\\Restaurante\\Form1Estacionamiento.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T19:03:42.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CacheFormsRestaurante.cs",
-              "DocumentMoniker": "E:\\13Enero\\Mexabor\\Mexabor\\CacheAplicacion\\CacheFormsRestaurante.cs",
-              "RelativeDocumentMoniker": "Mexabor\\CacheAplicacion\\CacheFormsRestaurante.cs",
-              "ToolTip": "E:\\13Enero\\Mexabor\\Mexabor\\CacheAplicacion\\CacheFormsRestaurante.cs",
-              "RelativeToolTip": "Mexabor\\CacheAplicacion\\CacheFormsRestaurante.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:26:56.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormProovedores.cs",
-              "DocumentMoniker": "E:\\13Enero\\Mexabor\\Mexabor\\Restaurante\\FormProovedores.cs",
-              "RelativeDocumentMoniker": "Mexabor\\Restaurante\\FormProovedores.cs",
-              "ToolTip": "E:\\13Enero\\Mexabor\\Mexabor\\Restaurante\\FormProovedores.cs",
-              "RelativeToolTip": "Mexabor\\Restaurante\\FormProovedores.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwG4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:18:00.618Z",
+              "Title": "Mexabor",
+              "DocumentMoniker": "D:\\Mexabor\\Mexabor\\Mexabor.csproj",
+              "RelativeDocumentMoniker": "Mexabor\\Mexabor.csproj",
+              "ToolTip": "D:\\Mexabor\\Mexabor\\Mexabor.csproj",
+              "RelativeToolTip": "Mexabor\\Mexabor.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-23T18:47:30.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GenerarExcel.cs",
-              "DocumentMoniker": "E:\\13Enero\\Mexabor\\Mexabor\\CacheAplicacion\\GenerarExcel.cs",
-              "RelativeDocumentMoniker": "Mexabor\\CacheAplicacion\\GenerarExcel.cs",
-              "ToolTip": "E:\\13Enero\\Mexabor\\Mexabor\\CacheAplicacion\\GenerarExcel.cs*",
-              "RelativeToolTip": "Mexabor\\CacheAplicacion\\GenerarExcel.cs*",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJgAAAAfAAAAAAAAAA==",
+              "Title": "Form1Estacionamiento.cs",
+              "DocumentMoniker": "D:\\Mexabor\\Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "RelativeDocumentMoniker": "Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "ToolTip": "D:\\Mexabor\\Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "RelativeToolTip": "Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAgwGwAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:09:50.463Z",
+              "WhenOpened": "2025-01-23T18:11:52.272Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1Estacionamiento.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Mexabor\\Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "RelativeDocumentMoniker": "Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "ToolTip": "D:\\Mexabor\\Mexabor\\Restaurante\\Form1Estacionamiento.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Mexabor\\Restaurante\\Form1Estacionamiento.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:11:45.008Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FormTemperaturas.cs",
-              "DocumentMoniker": "E:\\13Enero\\Mexabor\\Mexabor\\Restaurante\\FormTemperaturas.cs",
-              "RelativeDocumentMoniker": "Mexabor\\Restaurante\\FormTemperaturas.cs",
-              "ToolTip": "E:\\13Enero\\Mexabor\\Mexabor\\Restaurante\\FormTemperaturas.cs*",
-              "RelativeToolTip": "Mexabor\\Restaurante\\FormTemperaturas.cs*",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAcwF4AAAA5AAAAAAAAAA==",
+              "Title": "CacheConfiguracion.cs",
+              "DocumentMoniker": "D:\\Mexabor\\Mexabor\\CacheAplicacion\\CacheConfiguracion.cs",
+              "RelativeDocumentMoniker": "Mexabor\\CacheAplicacion\\CacheConfiguracion.cs",
+              "ToolTip": "D:\\Mexabor\\Mexabor\\CacheAplicacion\\CacheConfiguracion.cs",
+              "RelativeToolTip": "Mexabor\\CacheAplicacion\\CacheConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:24:57.883Z",
+              "WhenOpened": "2025-01-23T18:10:29.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExportacionFinal.cs",
-              "DocumentMoniker": "E:\\13Enero\\Mexabor\\Mexabor\\ExportacionFinal.cs",
-              "RelativeDocumentMoniker": "Mexabor\\ExportacionFinal.cs",
-              "ToolTip": "E:\\13Enero\\Mexabor\\Mexabor\\ExportacionFinal.cs",
-              "RelativeToolTip": "Mexabor\\ExportacionFinal.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "D:\\Mexabor\\Mexabor\\Configuracion.cs",
+              "RelativeDocumentMoniker": "Mexabor\\Configuracion.cs",
+              "ToolTip": "D:\\Mexabor\\Mexabor\\Configuracion.cs",
+              "RelativeToolTip": "Mexabor\\Configuracion.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIA/wCgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:42:10.658Z",
+              "WhenOpened": "2025-01-23T18:09:42.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FormRegistros.cs",
-              "DocumentMoniker": "E:\\13Enero\\Mexabor\\Mexabor\\FormRegistros.cs",
-              "RelativeDocumentMoniker": "Mexabor\\FormRegistros.cs",
-              "ToolTip": "E:\\13Enero\\Mexabor\\Mexabor\\FormRegistros.cs",
-              "RelativeToolTip": "Mexabor\\FormRegistros.cs",
-              "ViewState": "AgIAAD8BAAAAAAAAAAAowDYBAAAZAAAAAAAAAA==",
+              "Title": "Configuracion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Mexabor\\Mexabor\\Configuracion.cs",
+              "RelativeDocumentMoniker": "Mexabor\\Configuracion.cs",
+              "ToolTip": "D:\\Mexabor\\Mexabor\\Configuracion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Mexabor\\Configuracion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:10:00.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T18:09:40.309Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

@@ -34,6 +34,7 @@
             label1 = new Label();
             checkBox1 = new CheckBox();
             btnCedis = new Button();
+            btnAjustesAvanzados = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imagenMexabor).BeginInit();
             SuspendLayout();
@@ -78,6 +79,7 @@
             checkBox1.Size = new Size(18, 17);
             checkBox1.TabIndex = 2;
             checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // btnCedis
             // 
@@ -86,7 +88,7 @@
             btnCedis.FlatAppearance.BorderSize = 0;
             btnCedis.FlatStyle = FlatStyle.Flat;
             btnCedis.Font = new Font("Yu Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCedis.Location = new Point(12, 178);
+            btnCedis.Location = new Point(12, 219);
             btnCedis.Name = "btnCedis";
             btnCedis.Size = new Size(122, 27);
             btnCedis.TabIndex = 8;
@@ -94,12 +96,28 @@
             btnCedis.UseVisualStyleBackColor = false;
             btnCedis.Click += btnCedis_Click;
             // 
+            // btnAjustesAvanzados
+            // 
+            btnAjustesAvanzados.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnAjustesAvanzados.BackColor = Color.WhiteSmoke;
+            btnAjustesAvanzados.FlatAppearance.BorderSize = 0;
+            btnAjustesAvanzados.FlatStyle = FlatStyle.Flat;
+            btnAjustesAvanzados.Font = new Font("Yu Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnAjustesAvanzados.Location = new Point(259, 219);
+            btnAjustesAvanzados.Name = "btnAjustesAvanzados";
+            btnAjustesAvanzados.Size = new Size(218, 27);
+            btnAjustesAvanzados.TabIndex = 9;
+            btnAjustesAvanzados.Text = "Ajustes Avanzados";
+            btnAjustesAvanzados.UseVisualStyleBackColor = false;
+            btnAjustesAvanzados.Click += btnAjustesAvanzados_Click;
+            // 
             // Configuracion
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(489, 217);
+            ClientSize = new Size(489, 258);
+            Controls.Add(btnAjustesAvanzados);
             Controls.Add(btnCedis);
             Controls.Add(checkBox1);
             Controls.Add(label1);
@@ -107,6 +125,7 @@
             Name = "Configuracion";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Configuracion";
+            Load += Configuracion_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)imagenMexabor).EndInit();
             ResumeLayout(false);
@@ -120,5 +139,6 @@
         private Label label1;
         private CheckBox checkBox1;
         private Button btnCedis;
+        private Button btnAjustesAvanzados;
     }
 }

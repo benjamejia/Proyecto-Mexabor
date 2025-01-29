@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\13enero\\mexabor\\mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\13enero\\mexabor\\mexabor\\restaurante\\form1estacionamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\restaurante\\form1estacionamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\13enero\\mexabor\\mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\mexabor\\restaurante\\form1estacionamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\restaurante\\form1estacionamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\13enero\\mexabor\\mexabor\\mexabor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\mexabor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\13enero\\mexabor\\mexabor\\cacheaplicacion\\cacheconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\cacheaplicacion\\cacheconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\13enero\\mexabor\\mexabor\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\mexabor\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +42,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormRegistros.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\FormRegistros.cs",
-              "RelativeDocumentMoniker": "Mexabor\\FormRegistros.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\FormRegistros.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Mexabor\\FormRegistros.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T04:48:18.105Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "DocumentIndex": 2,
+              "Title": "Mexabor",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\Mexabor.csproj",
+              "RelativeDocumentMoniker": "Mexabor\\Mexabor.csproj",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\Mexabor.csproj",
+              "RelativeToolTip": "Mexabor\\Mexabor.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-23T18:47:30.471Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormRegistros.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\FormRegistros.cs",
-              "RelativeDocumentMoniker": "Mexabor\\FormRegistros.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\FormRegistros.cs",
-              "RelativeToolTip": "Mexabor\\FormRegistros.cs",
-              "ViewState": "AQIAAKYBAAAAAAAAAAAAAK4BAABUAAAA",
+              "Title": "Form1Estacionamiento.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "RelativeDocumentMoniker": "Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "RelativeToolTip": "Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T04:35:21.832Z",
+              "WhenOpened": "2025-01-23T18:11:52.272Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1Estacionamiento.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "RelativeDocumentMoniker": "Mexabor\\Restaurante\\Form1Estacionamiento.cs",
+              "ToolTip": "D:\\Mexabor\\Mexabor\\Restaurante\\Form1Estacionamiento.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:11:45.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CacheConfiguracion.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\CacheAplicacion\\CacheConfiguracion.cs",
+              "RelativeDocumentMoniker": "Mexabor\\CacheAplicacion\\CacheConfiguracion.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\CacheAplicacion\\CacheConfiguracion.cs",
+              "RelativeToolTip": "Mexabor\\CacheAplicacion\\CacheConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:10:29.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\Configuracion.cs",
+              "RelativeDocumentMoniker": "Mexabor\\Configuracion.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\Configuracion.cs",
+              "RelativeToolTip": "Mexabor\\Configuracion.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIA/wCgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:09:42.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Configuracion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\Configuracion.cs",
+              "RelativeDocumentMoniker": "Mexabor\\Configuracion.cs",
+              "ToolTip": "D:\\Mexabor\\Mexabor\\Configuracion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:09:40.309Z"
             }
           ]
         }
