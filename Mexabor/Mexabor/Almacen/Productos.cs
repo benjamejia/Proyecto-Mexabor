@@ -1,6 +1,7 @@
 ﻿using System.Data;
 using System.Data.SQLite;
 using System.Configuration;
+using Mexabor.CacheAplicacion;
 
 namespace Mexabor.Almacen
 {
@@ -13,7 +14,6 @@ namespace Mexabor.Almacen
             CargarDatos();
         }
 
-        bool Modificacion = false;
         public int IdProducto = 1; // Inicializa el ID en 1
         int empacado;
         SQLiteConnection conn = new SQLiteConnection(cadena);
@@ -52,7 +52,7 @@ namespace Mexabor.Almacen
                 command.Parameters.AddWithValue("@Producto", txbProducto.Text);
                 command.Parameters.AddWithValue("@Folio", txbFolio.Text);
                 command.Parameters.AddWithValue("@Empacado", empacado);
-                command.Parameters.AddWithValue("@Calidad", txbCalidad.Text);
+                command.Parameters.AddWithValue("@Calidad", cbxCalidad.Text);
                 command.Parameters.AddWithValue("@CantidadIdeal", txbCantidad.Text + comboBox1.Text);
                 command.Parameters.AddWithValue("@Observaciones", rtbObservaciones.Text);
                 command.Parameters.AddWithValue("@id", IdProducto);
@@ -61,130 +61,88 @@ namespace Mexabor.Almacen
                 conn.Close();
             }
         }
-        private void MostrarProducto(int id)
-        {
-            // Asegurémonos de crear una nueva conexión y abrirla en cada llamada
-            using (SQLiteConnection conn = new SQLiteConnection(cadena))
-            {
-                conn.Open();
-
-                // Consulta SQL con parámetros
-                string consulta = "SELECT Producto, Folio, Empacado, Calidad, CantidadIdeal, Observaciones FROM productosAlmacen WHERE Id = @id";
-
-                // Preparamos el comando
-                SQLiteCommand command = new SQLiteCommand(consulta, conn);
-                command.Parameters.AddWithValue("@id", id); // Asignamos el valor del ID a la consulta
-
-                // Ejecutamos la consulta y obtenemos los datos
-                SQLiteDataReader reader = command.ExecuteReader();
-
-                if (reader.Read())
-                {
-                    // Si encontramos el producto, asignamos los valores a los controles
-                    txbProducto.Text = reader["Producto"].ToString();
-                    txbFolio.Text = reader["Folio"].ToString();
-                    empacado = Convert.ToInt32(reader["Empacado"]);
-                    checkBox1.Checked = empacado == 1 ? true : false;
-                    txbCalidad.Text = reader["Calidad"].ToString();
-                    txbCantidad.Text = reader["CantidadIdeal"].ToString();
-                    rtbObservaciones.Text = reader["Observaciones"].ToString();
-                    conn.Close();
-                }
-                else
-                {
-                    // Si no encontramos el producto, mostramos mensaje
-                    MessageBox.Show("Producto no encontrado con el ID " + id.ToString());
-                }
-            } // El using garantiza que la conexión se cierra correctamente aquí
-        }
         private void LimpiarCampos()
         {
             txbProducto.Clear();
             txbFolio.Clear();
             checkBox1.Checked = false;
-            txbCalidad.Clear();
+            cbxCalidad.Text = string.Empty;
             txbCantidad.Clear();
             rtbObservaciones.Clear();
-
-            // Reiniciamos el indicador de cambios
-            Modificacion = false;
         }
-        private void btnSiguiente_Click(object sender, EventArgs e)
-        {
-            // Primero verificamos si hay cambios en los campos
-            if (Modificacion == true)
-            {
-                // Preguntamos al usuario si desea guardar los cambios
-                DialogResult result = MessageBox.Show("¿Realizaste cambios en los campos?", "Confirmar", MessageBoxButtons.YesNo);
 
-                if (result == DialogResult.Yes)
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow filaSeleccionada = dataGridView1.Rows[e.RowIndex];
+                CacheFormsAlmacen datosFila = new CacheFormsAlmacen
                 {
-                    // Si el usuario acepta, actualizamos los datos
-                    ActualizarProducto();
-                    MessageBox.Show("Producto actualizado.");
-                    CargarDatos();
-                }
-
-                // Limpiamos los campos después de la actualización
+                    id = (int)Convert.ToInt64(filaSeleccionada.Cells["Id"].Value),
+                    producto = filaSeleccionada.Cells["Producto"].Value.ToString(),
+                    folio = (int)Convert.ToInt64(filaSeleccionada.Cells["Folio"].Value),
+                    empacado = (int)Convert.ToInt64(filaSeleccionada.Cells["Empacado"].Value) == 1 ? true : false,
+                    calidad = filaSeleccionada.Cells["Calidad"].Value.ToString(),
+                    cantidad = filaSeleccionada.Cells["CantidadIdeal"].Value.ToString(),
+                    observaciones = filaSeleccionada.Cells["Observaciones"].Value.ToString()
+                };
                 LimpiarCampos();
+                IdProducto = datosFila.id;
+                txbProducto.Text = datosFila.producto;
+                txbFolio.Text = datosFila.folio.ToString();
+                checkBox1.Checked = datosFila.empacado ? true : false;
+                empacado = datosFila.empacado == true ? 1 : 0;
+                cbxCalidad.Text = datosFila.calidad.ToString();
+                txbCantidad.Text = datosFila.cantidad.ToString();
+                rtbObservaciones.Text = datosFila.observaciones;
             }
-            // Intentamos encontrar un producto válido con el ID actual
-            MostrarProducto(IdProducto);
+        }
 
-            // Incrementamos el ID para el siguiente producto
-            IdProducto++;
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            AgregarProducto agregarProducto = new AgregarProducto();
+            agregarProducto.Show();
+        }
 
-            // Verificamos si ya no hay más productos
-            if (IdProducto > 30) // Ajusta el límite a la cantidad total de productos en tu base de datos
+        private void Productos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            //verifica campos vacios
+            if (txbProducto.Text == string.Empty ||
+                txbFolio.Text == string.Empty ||
+                checkBox1.Text == string.Empty ||
+                cbxCalidad.Text == string.Empty ||
+                txbCantidad.Text == string.Empty ||
+                rtbObservaciones.Text == string.Empty)
             {
-                MessageBox.Show("No hay más productos disponibles.");
-                return; // Salimos del evento si no hay más productos
+                MessageBox.Show("Seleccione un producto");
             }
-        }
-
-        private void txbProducto_TextChanged(object sender, EventArgs e)
-        {
-            Modificacion = true;
-        }
-
-        private void txbFolio_TextChanged(object sender, EventArgs e)
-        {
-            Modificacion = true;
-        }
-
-        private void txbEmpacado_TextChanged(object sender, EventArgs e)
-        {
-            Modificacion = true;
-        }
-
-        private void txbCalidad_TextChanged(object sender, EventArgs e)
-        {
-            Modificacion = true;
-        }
-
-        private void txbCantidad_TextChanged(object sender, EventArgs e)
-        {
-            Modificacion = true;
+            else
+            {
+                //Metodo UPDATE para actualizar datos del prodcuto en la base de datos 
+                ActualizarProducto();
+                MessageBox.Show("¡Se ha actualizado el producto correctamente!.");
+                CargarDatos();
+            }
         }
 
         private void rtbObservaciones_TextChanged(object sender, EventArgs e)
         {
-            Modificacion = true;
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void cbxCalidad_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Incrementamos el ID para el siguiente producto
-            IdProducto--;
-            // Intentamos encontrar un producto válido con el ID actual
-            MostrarProducto(IdProducto);
 
-            // Verificamos si ya no hay más productos
-            if (IdProducto <= 1) // Ajusta el límite a la cantidad total de productos en tu base de datos
-            {
-                MessageBox.Show("No hay más productos disponibles.");
-                return; // Salimos del evento si no hay más productos
-            }
+        }
+
+        private void btnRefrescar_Click(object sender, EventArgs e)
+        {
+            CargarDatos();
         }
     }
 }

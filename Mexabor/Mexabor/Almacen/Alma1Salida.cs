@@ -60,12 +60,9 @@ namespace Mexabor
                 System.Media.SystemSounds.Beep.Play();
                 return;
             }
-            else { lblAviso.Visible = false; }
-
-            //Opcion para poder verificar que el uuario selecciono las respuestas correctamente.
-            DialogResult opcion = MessageBox.Show("¿Estas seguro que deseas continuar?\n Asegurate de que las opciones esten correctamente seleccionadas", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (opcion == DialogResult.OK)
+            else
             {
+                lblAviso.Visible = false;
                 //Limpia la lista principal donde se guardan las respeustas de los checks
                 elementos.Clear();
                 //Vuelve a llamar al metodo para verificar las respuestas.

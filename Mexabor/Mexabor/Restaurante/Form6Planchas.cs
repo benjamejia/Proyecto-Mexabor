@@ -99,9 +99,6 @@ namespace Mexabor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult opcion = MessageBox.Show("¿Estas seguro que deseas continuar?\n Asegurate de que las opciones esten correctamente seleccionadas", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (opcion == DialogResult.OK)
-            {
                 elementos.Clear();
                 Verificar(this.Controls);
                 //Limpiar memoria de las listas
@@ -113,7 +110,6 @@ namespace Mexabor
                 Form7Loza formLoza = new Form7Loza();
                 formLoza.Show();
                 this.Close();
-            }
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)

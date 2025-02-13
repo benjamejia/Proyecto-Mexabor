@@ -82,10 +82,6 @@ namespace Mexabor
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            // Call Verificar method to fill the list with checkbox states
-            DialogResult opcion = MessageBox.Show("¿Estas seguro que deseas continuar?\n Asegurate de que las opciones esten correctamente seleccionadas", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (opcion == DialogResult.OK)
-            {
                 elementos.Clear();
                 Verificar(this.Controls);
                 //Limpiar memoria de las listas
@@ -97,7 +93,6 @@ namespace Mexabor
                 Form4Tortillas formTortillas = new Form4Tortillas();
                 formTortillas.Show();
                 this.Close();
-            }
         }
 
         private void button2_Click(object sender, EventArgs e)

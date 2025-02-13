@@ -89,10 +89,6 @@ namespace Mexabor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Call Verificar method to fill the list with checkbox states
-            DialogResult opcion = MessageBox.Show("¿Estas seguro que deseas continuar?\n Asegurate de que las opciones esten correctamente seleccionadas", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (opcion == DialogResult.OK)
-            {
                 elementos.Clear();
                 Verificar(this.Controls);
                 CacheFormsRestaurante.juegosEstructura.Clear();
@@ -103,7 +99,6 @@ namespace Mexabor
                 Form10Personal formPersonal = new Form10Personal();
                 formPersonal.Show();
                 this.Close();
-            }
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)

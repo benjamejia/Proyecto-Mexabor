@@ -19,7 +19,51 @@ namespace Mexabor.Almacen
         {
             InitializeComponent();
         }
+        public void AgregarProductos()
+        {
+            try
+            {
+                // Validación de entradas
+                if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(txtCantidad.Text))
+                {
+                    MessageBox.Show("Por favor, complete todos los campos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
+                using (SQLiteConnection connection = new SQLiteConnection(cadena))
+                {
+                    string cantidad = txtCantidad.Text + " " + comboBox1.Text;
+                    connection.Open();
+                    string query = @"INSERT INTO ProductosAlmacen
+                             (Producto, Folio, Empacado, Calidad, CantidadIdeal, Observaciones)
+                             VALUES
+                             (@producto, @folio,@empacado,@calidad ,@cantidadIdeal, @observaciones)";
+                    using (SQLiteCommand cmd = new SQLiteCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@producto", txtNombre.Text);
+                        cmd.Parameters.AddWithValue("@folio", 0);
+                        cmd.Parameters.AddWithValue("@empacado", 0);
+                        cmd.Parameters.AddWithValue("@calidad", "");
+                        cmd.Parameters.AddWithValue("@cantidadIdeal", cantidad);
+                        cmd.Parameters.AddWithValue("@observaciones", "");
+                        // Ejecutar la consulta
+                        cmd.ExecuteNonQuery();
+                        connection.Close();
+                    }
+                }
+
+                // Notificar éxito y limpiar campos
+                MessageBox.Show("Producto agregado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtNombre.Text = string.Empty;
+                txtCantidad.Text = string.Empty;
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+        }
         private void AgregarProducto_Load(object sender, EventArgs e)
         {
 
@@ -32,44 +76,7 @@ namespace Mexabor.Almacen
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                // Validación de entradas
-                if (string.IsNullOrWhiteSpace(txtNombre.Text)|| string.IsNullOrWhiteSpace(txtCantidad.Text))
-                {
-                    MessageBox.Show("Por favor, complete todos los campos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-
-                using (SQLiteConnection connection = new SQLiteConnection(cadena))
-                {
-                    string cantidad = txtCantidad.Text + " " + comboBox1.Text;
-                    connection.Open();
-                    string query = @"INSERT INTO ProductosAlmacen
-                             (Producto, CantidadIdeal)
-                             VALUES
-                             (@producto, @cantidadIdeal)";
-                    using (SQLiteCommand cmd = new SQLiteCommand(query, connection))
-                    {
-                        cmd.Parameters.AddWithValue("@producto", txtNombre.Text);
-                        cmd.Parameters.AddWithValue("@cantidadIdeal", cantidad);
-
-                        // Ejecutar la consulta
-                        cmd.ExecuteNonQuery();
-                        connection.Close();
-                    }
-                }
-
-                // Notificar éxito y limpiar campos
-                MessageBox.Show("Producto agregado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                txtNombre.Text = string.Empty;
-                txtCantidad.Text = string.Empty;
-                
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            AgregarProductos();
         }
 
 
@@ -78,6 +85,11 @@ namespace Mexabor.Almacen
             txtNombre.Text = String.Empty;
             txtCantidad.Text = String.Empty;
             this.Close();
+        }
+
+        private void txtCantidad_Enter(object sender, EventArgs e)
+        {
+            AgregarProductos();
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f8iFEBZkjJpfO6xwCPQ5UE5Lv5xAu0FDKYLQpmpCxJD7XE/J5uy4RF5BJMove4pu/wx0wlVzWS/TUWiszUSQfw==",
+  "dgSpecHash": "5NZ22Dl1/CqLKS9N08X1FSC2P89nO3+b8FAW5QrrLR96E/yk9KH2Xt/qZq9wdYnriD9KK8zrU1qH3RUYiKdWig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\13Enero\\Mexabor\\Mexabor\\Mexabor.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\Mexabor\\Mexabor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\bitmiracle.libtiff.net.2.4.649.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

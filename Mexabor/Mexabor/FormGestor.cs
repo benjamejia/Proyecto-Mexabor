@@ -195,7 +195,7 @@ namespace Mexabor
 
         private void button18_Click(object sender, EventArgs e)
         {
-            Productos almacenProductos = new();
+            RevisionProductos almacenProductos = new();
             almacenProductos.Show();
             this.Close();
         }

@@ -9,60 +9,30 @@ namespace Mexabor
         {
             InitializeComponent();
         }
-        private void Verificar(Control.ControlCollection controls)
+        private List<int> ObtenerValoresDeCheckBox(TableLayoutPanel tableLayout)
         {
-            // Suponiendo que tienes dos TableLayoutPanel específicos que quieres verificar
-            TableLayoutPanel tableLayoutEstructura = null;
-            TableLayoutPanel tableLayoutLimpieza = null;
+            List<int> valores = new List<int>();
 
-            // Buscar específicamente los dos TableLayoutPanel
-            foreach (Control control in controls)
+            for (int fila = 0; fila < tableLayout.RowCount; fila++)
             {
-                if (control is TableLayoutPanel tableLayout)
+                for (int columna = 0; columna < tableLayout.ColumnCount; columna++)
                 {
-                    // Asignamos el TableLayoutPanel correspondiente a estructura
-                    if (tableLayout.Name == "tlpEstructura")
+                    Control control = tableLayout.GetControlFromPosition(columna, fila);
+
+                    if (control is CheckBox checkBox)
                     {
-                        tableLayoutEstructura = tableLayout;
-                    }
-                    // Asignamos el TableLayoutPanel correspondiente a limpieza
-                    if (tableLayout.Name == "tlpLayoutLimpieza")
-                    {
-                        tableLayoutLimpieza = tableLayout;
+                        valores.Add(checkBox.Checked ? 1 : 0);
                     }
                 }
             }
 
-            // Verificar los CheckBox en el TableLayoutPanel de estructura
-            if (tableLayoutEstructura != null)
-            {
-                foreach (Control cellControl in tableLayoutEstructura.Controls)
-                {
-                    if (cellControl is CheckBox checkBox)
-                    {
-                        // Puedes usar el índice de Tabulación o cualquier otra lógica para agregar el valor
-                        int i = checkBox.TabIndex;
-                        // Agregar 1 o 0 según el estado del CheckBox
-                        CacheFormsRestaurante.estacionamientoEstructura.Add(checkBox.Checked ? 1 : 0);
-                    }
-                }
-            }
-
-            // Verificar los CheckBox en el TableLayoutPanel de limpieza
-            if (tableLayoutLimpieza != null)
-            {
-                foreach (Control cellControl in tableLayoutLimpieza.Controls)
-                {
-                    if (cellControl is CheckBox checkBox)
-                    {
-                        int i = checkBox.TabIndex;
-                        // Agregar 1 o 0 según el estado del CheckBox
-                        CacheFormsRestaurante.estacionamientoLimpieza.Add(checkBox.Checked ? 1 : 0);
-                    }
-                }
-            }
+            return valores;
         }
-
+        public void ObtenerRespuestas(TableLayoutPanel t1, TableLayoutPanel t2)
+        {
+            CacheFormsRestaurante.estacionamientoEstructura = ObtenerValoresDeCheckBox(t1);
+            CacheFormsRestaurante.estacionamientoLimpieza = ObtenerValoresDeCheckBox(t2);
+        }
         public void MarcarTodo(Control.ControlCollection controls)
         {
             var orderedControls = controls.Cast<Control>().OrderBy(c => c.TabIndex).ToList();
@@ -95,21 +65,8 @@ namespace Mexabor
         }
         public void SiguienteForm()
         {
-            //Vuelve a llamar al metodo para verificar las respuestas.
-            Verificar(this.Controls);
-            /*Aqui se limpira y se guardan los elementos tomando la posicion 0 como 1,
-             * en caso de que se agreguen mas opciones, se debera cambiar manualmente este indice,
-             * en este caso se hace del 0 y el segundo parametro es el numero de opciones que quieres copiar.
-             */
-            //Asignamos los valores de los campos de texto a rellenar.
-            foreach (var item in CacheFormsRestaurante.estacionamientoEstructura)
-            {
-                Console.WriteLine(item);
-            }
-            foreach (var item in CacheFormsRestaurante.estacionamientoLimpieza)
-            {
-                Console.WriteLine(item);
-            }
+            //Este metodo obtiene las repsuestas emitidas por el usausrio haciendo dos instancias de los nombres de los tableLayoutPanel's
+            ObtenerRespuestas(tlpEstructura,tlpLimpieza);
             CacheFormsRestaurante.sucursal = txbSucursal.Text;
             CacheFormsRestaurante.auditor = txbAuditor.Text;
             CacheFormsRestaurante.gerente = txbGerente.Text;
@@ -127,19 +84,10 @@ namespace Mexabor
                 System.Media.SystemSounds.Beep.Play();
                 return;
             }
-            else { lblAviso.Visible = false; }
-            if (CacheConfiguracion.DobleConfirmacion == false)
+            else 
             {
+                lblAviso.Visible = false; 
                 SiguienteForm();
-            }
-            else
-            {
-                //Opcion para poder verificar que el uuario selecciono las respuestas correctamente.
-                DialogResult opcion = MessageBox.Show("¿Estas seguro que deseas continuar?\n Asegurate de que las opciones esten correctamente seleccionadas", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-                if (opcion == DialogResult.OK)
-                {
-                    SiguienteForm();
-                }
             }
         }
 

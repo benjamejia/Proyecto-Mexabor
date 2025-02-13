@@ -92,9 +92,6 @@ namespace Mexabor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult opcion = MessageBox.Show("¿Estas seguro que deseas continuar?\n Asegurate de que las opciones esten correctamente seleccionadas", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (opcion == DialogResult.OK)
-            {
                 elementos.Clear();
                 Verificar(this.Controls);
                 //Limpiamos la memoria almacenada de las listas
@@ -110,7 +107,6 @@ namespace Mexabor
                 FormProovedores formProovedores = new FormProovedores();
                 formProovedores.Show();
                 this.Close();
-            }
         }
 
         private void button2_Click(object sender, EventArgs e)

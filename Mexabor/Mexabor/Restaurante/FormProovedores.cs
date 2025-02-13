@@ -15,16 +15,16 @@ namespace Mexabor
         }
         public void VerificarCampos()
         {
-            if (txtObersavacion.Text == string.Empty)
+            if (txtObservacion.Text == string.Empty)
             {
                 MessageBox.Show("Los campos no pueden ir vacios");
                 return;
             }
             else
             {
-                CacheFormsRestaurante.observaciones[cbProveedores.SelectedIndex] = txtObersavacion.Text;
+                CacheFormsRestaurante.observaciones[cbProveedores.SelectedIndex] = txtObservacion.Text;
                 MessageBox.Show($"Se agrego la observacion del proveedor {cbProveedores.Text} con exíto");
-                txtObersavacion.Text = string.Empty;
+                txtObservacion.Text = string.Empty;
                 Console.WriteLine(CacheFormsRestaurante.observaciones[cbProveedores.SelectedIndex]);
             }
         }
@@ -124,9 +124,6 @@ namespace Mexabor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult opcion = MessageBox.Show("¿Estas seguro que deseas continuar?\n Asegurate de que las opciones esten correctamente seleccionadas", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (opcion == DialogResult.OK)
-            {
                 //Limpiamos la memoria almacenadas en las listas
                 CacheFormsRestaurante.herramienta.Clear();
                 CacheFormsRestaurante.calificacionProveedores.Clear();
@@ -138,7 +135,6 @@ namespace Mexabor
                 FormTemperaturas formTemperaturas = new FormTemperaturas();
                 formTemperaturas.Show();
                 this.Close();
-            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -152,11 +148,11 @@ namespace Mexabor
         {
             const int maxCaracteres = 200;
 
-            if (txtObersavacion.Text.Length > maxCaracteres)
+            if (txtObservacion.Text.Length > maxCaracteres)
             {
                 // Si se excede el límite, recortar el texto y notificar al usuario si es necesario
-                txtObersavacion.Text = txtObersavacion.Text.Substring(0, maxCaracteres);
-                txtObersavacion.SelectionStart = txtObersavacion.Text.Length; // Mantener el cursor al final
+                txtObservacion.Text = txtObservacion.Text.Substring(0, maxCaracteres);
+                txtObservacion.SelectionStart = txtObservacion.Text.Length; // Mantener el cursor al final
             }
         }
     }

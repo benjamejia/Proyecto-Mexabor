@@ -44,6 +44,14 @@ namespace Mexabor.CacheAplicacion
         public static int CantidadIdeal;
         public static string Observaciones = "";
 
+        //Datos de la tabla prodcutos temporales
+        public int id;
+        public string? producto;
+        public int folio;
+        public bool empacado;
+        public string? calidad;
+        public string? cantidad;
+        public string? observaciones;
 
 
         //Producto, Folio, Empacado, Calidad, CantidadIdeal, 
