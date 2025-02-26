@@ -928,7 +928,7 @@
             // 
             panel4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             panel4.BackColor = SystemColors.ButtonShadow;
-            panel4.Font = new Font("Yu Gothic", 18F);
+            panel4.Font = new Font("Yu Gothic", 15.75F);
             panel4.Location = new Point(10, 540);
             panel4.Margin = new Padding(3, 2, 3, 2);
             panel4.Name = "panel4";
@@ -941,7 +941,7 @@
             button2.BackColor = Color.WhiteSmoke;
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Yu Gothic", 18F);
+            button2.Font = new Font("Yu Gothic", 15.75F);
             button2.Location = new Point(10, 540);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
@@ -955,7 +955,7 @@
             // 
             panel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             panel3.BackColor = SystemColors.ButtonShadow;
-            panel3.Font = new Font("Yu Gothic", 18F);
+            panel3.Font = new Font("Yu Gothic", 15.75F);
             panel3.Location = new Point(990, 540);
             panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
@@ -968,7 +968,7 @@
             button1.BackColor = Color.WhiteSmoke;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Yu Gothic", 18F);
+            button1.Font = new Font("Yu Gothic", 15.75F);
             button1.Location = new Point(999, 540);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
@@ -1009,6 +1009,7 @@
             Controls.Add(label2);
             Controls.Add(panel1);
             Margin = new Padding(3, 2, 3, 2);
+            MinimumSize = new Size(1187, 621);
             Name = "FormTemperaturas";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormTemperaturas";

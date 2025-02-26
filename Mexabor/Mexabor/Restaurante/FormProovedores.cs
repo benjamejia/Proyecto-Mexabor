@@ -124,17 +124,28 @@ namespace Mexabor
 
         private void button1_Click(object sender, EventArgs e)
         {
-                //Limpiamos la memoria almacenadas en las listas
-                CacheFormsRestaurante.herramienta.Clear();
-                CacheFormsRestaurante.calificacionProveedores.Clear();
-                VerificarCalificaciones(this.Controls);
-                VerificarHerramienta(this.Controls);
-                //Agregar el valor de la lista elemetnos a las listas
-                CacheFormsRestaurante.herramienta = herramienta;
-                CacheFormsRestaurante.calificacionProveedores = calificaciones;
-                FormTemperaturas formTemperaturas = new FormTemperaturas();
-                formTemperaturas.Show();
-                this.Close();
+            foreach (Control control in this.Controls)
+            {
+                if (control is ComboBox comboBox) 
+                {
+                    if (string.IsNullOrEmpty(comboBox.Text)) 
+                    {
+                        MessageBox.Show("Se necesitan califiaciones validas.");
+                        return;
+                    }
+                }
+            }
+            //Limpiamos la memoria almacenadas en las listas
+            CacheFormsRestaurante.herramienta.Clear();
+            CacheFormsRestaurante.calificacionProveedores.Clear();
+            VerificarCalificaciones(this.Controls);
+            VerificarHerramienta(this.Controls);
+            //Agregar el valor de la lista elemetnos a las listas
+            CacheFormsRestaurante.herramienta = herramienta;
+            CacheFormsRestaurante.calificacionProveedores = calificaciones;
+            FormTemperaturas formTemperaturas = new FormTemperaturas();
+            formTemperaturas.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)

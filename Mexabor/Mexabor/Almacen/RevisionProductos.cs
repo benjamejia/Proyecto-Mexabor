@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Mexabor.CacheAplicacion;
 
 namespace Mexabor.Almacen
 {
@@ -35,35 +36,16 @@ namespace Mexabor.Almacen
                 }
 
                 // Validar que los valores numéricos sean correctos
-                if (!int.TryParse(txbProducto.Text, out int producto) ||
-                    !int.TryParse(txbEmpacados.Text, out int empacado) ||
-                    !int.TryParse(txbCalidad.Text, out int calidad))
+                if (!int.TryParse(txbProducto.Text, out ConexionBD_Productos.productos) ||
+                    !int.TryParse(txbEmpacados.Text, out ConexionBD_Productos.empacado) ||
+                    !int.TryParse(txbCalidad.Text, out ConexionBD_Productos.calidad))
                 {
                     MessageBox.Show("Los valores de Producto, Empacados y Calidad deben ser números enteros válidos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                string observaciones = string.IsNullOrWhiteSpace(txtObservacion.Text) ? "Sin observaciones" : txtObservacion.Text;
-
-                using (SQLiteConnection connection = new SQLiteConnection(cadena))
-                {
-                    connection.Open();
-                    string query = @"INSERT INTO productosAlmacen
-                             (ProductosRevisados, EmpacadosCorrectamente, CalidadCorrecta, Observaciones)
-                             VALUES
-                             (@productos, @empacado, @calidad, @observaciones)";
-
-                    using (SQLiteCommand cmd = new SQLiteCommand(query, connection))
-                    {
-                        cmd.Parameters.AddWithValue("@productos", producto);
-                        cmd.Parameters.AddWithValue("@empacado", empacado);
-                        cmd.Parameters.AddWithValue("@calidad", calidad);
-                        cmd.Parameters.AddWithValue("@observaciones", observaciones);
-
-                        cmd.ExecuteNonQuery();
-                    }
-                }
-
+                ConexionBD_Productos.observaciones = string.IsNullOrWhiteSpace(txtObservacion.Text) ? "Sin observaciones" : txtObservacion.Text;
+                ConexionBD_Productos.SubirProductos();
                 // Notificar éxito y limpiar campos
                 MessageBox.Show("Producto agregado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
 

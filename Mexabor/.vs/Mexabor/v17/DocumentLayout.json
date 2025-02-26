@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\3febreromexabor\\mexabor\\mexabor\\mexabor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\mexabor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,23 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Mexabor",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\Mexabor\\Mexabor.csproj",
-              "RelativeDocumentMoniker": "Mexabor\\Mexabor.csproj",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\Mexabor\\Mexabor.csproj",
-              "RelativeToolTip": "Mexabor\\Mexabor.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-13T04:35:01.213Z",
-              "EditorCaption": ""
             }
           ]
         }

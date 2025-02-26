@@ -63,18 +63,6 @@ namespace Mexabor
                 }
             }
         }
-        public void SiguienteForm()
-        {
-            //Este metodo obtiene las repsuestas emitidas por el usausrio haciendo dos instancias de los nombres de los tableLayoutPanel's
-            ObtenerRespuestas(tlpEstructura,tlpLimpieza);
-            CacheFormsRestaurante.sucursal = txbSucursal.Text;
-            CacheFormsRestaurante.auditor = txbAuditor.Text;
-            CacheFormsRestaurante.gerente = txbGerente.Text;
-            //Muestra el siguiente form
-            Form2Comedor formComedor = new Form2Comedor();
-            formComedor.Show();
-            this.Close();
-        }
         private void button1_Click(object sender, EventArgs e)
         {
             //Condicionales para los campos de texto.
@@ -86,8 +74,16 @@ namespace Mexabor
             }
             else 
             {
-                lblAviso.Visible = false; 
-                SiguienteForm();
+                lblAviso.Visible = false;
+                //Este metodo obtiene las repsuestas emitidas por el usausrio haciendo dos instancias de los nombres de los tableLayoutPanel's
+                ObtenerRespuestas(tlpEstructura, tlpLimpieza);
+                CacheFormsRestaurante.sucursal = txbSucursal.Text;
+                CacheFormsRestaurante.auditor = txbAuditor.Text;
+                CacheFormsRestaurante.gerente = txbGerente.Text;
+                //Muestra el siguiente form
+                Form2Comedor formComedor = new Form2Comedor();
+                formComedor.Show();
+                this.Close();
             }
         }
 

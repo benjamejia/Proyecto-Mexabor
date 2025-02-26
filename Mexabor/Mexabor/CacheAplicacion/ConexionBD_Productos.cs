@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mexabor.Almacen;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SQLite;
@@ -11,29 +12,33 @@ namespace Mexabor.CacheAplicacion
     public class ConexionBD_Productos
     {
         private static string cadena = ConfigurationManager.ConnectionStrings["cadena"].ConnectionString;
+        //Datos obtenidos de RevisionDeProductos
+        static public long idAuditoria;
+        static public string observaciones;
+        static public int productos;
+        static public int empacado;
+        static public int calidad;
         static public void SubirProductos()
         {
             try
             {
-                using (SQLiteConnection conn = new SQLiteConnection(cadena))
+                using (SQLiteConnection connection = new SQLiteConnection(cadena))
                 {
-                    conn.Open();
+                    connection.Open();
+                    string query = @"INSERT INTO productosAlmacen
+                             (ProductosRevisados, EmpacadosCorrectamente, CalidadCorrecta, Observaciones, id_auditoria)
+                             VALUES
+                             (@productos, @empacado, @calidad, @observaciones, @idAuditoria)";
 
-                    string insertQuery = @"INSERT INTO prodcutosAlmacen 
-                            (Producto, Folio, Empacado, Calidad, CantidadIdeal, 
-                            Observaciones)
-                            VALUES 
-                            (@producto, @folio, @empacado, @calidad, @cantidadIdeal,  
-                            @observaciones)";
-
-                    using (SQLiteCommand cmd = new SQLiteCommand(insertQuery, conn))
+                    using (SQLiteCommand cmd = new SQLiteCommand(query, connection))
                     {
-                        cmd.Parameters.AddWithValue("@producto", CacheFormsAlmacen.sucursal);
-                        cmd.Parameters.AddWithValue("@folio", CacheFormsAlmacen.gerente);
-                        cmd.Parameters.AddWithValue("@empacado", CacheFormsAlmacen.auditor);
-                        cmd.Parameters.AddWithValue("@calidad", CacheFormsAlmacen.sucursal);
-                        cmd.Parameters.AddWithValue("@cantiadIdeal", CacheFormsAlmacen.gerente);
-                        cmd.Parameters.AddWithValue("@observaciones", CacheFormsAlmacen.auditor);
+                        cmd.Parameters.AddWithValue("@productos", productos);
+                        cmd.Parameters.AddWithValue("@empacado", empacado);
+                        cmd.Parameters.AddWithValue("@calidad", calidad);
+                        cmd.Parameters.AddWithValue("@observaciones", observaciones);
+                        cmd.Parameters.AddWithValue("@idAuditoria", idAuditoria);
+
+                        cmd.ExecuteNonQuery();
                     }
                 }
             }

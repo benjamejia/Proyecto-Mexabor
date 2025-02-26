@@ -13,42 +13,34 @@ namespace Mexabor
 {
     public partial class FormPersonal2 : Form
     {
-        private List<int> elementos = new List<int>();
         public FormPersonal2()
         {
             InitializeComponent();
         }
-        private void Verificar(Control.ControlCollection controls)
+        private List<int> ObtenerValoresDeCheckBox(TableLayoutPanel tableLayout)
         {
-            var orderedControls = controls.Cast<Control>().OrderBy(c => c.TabIndex).ToList();
+            List<int> valores = new List<int>();
 
-            foreach (Control control in orderedControls)
+            for (int fila = 0; fila < tableLayout.RowCount; fila++)
             {
-                // Verificar si el control es un Panel o GroupBox
-                if (control is Panel || control is GroupBox)
+                for (int columna = 0; columna < tableLayout.ColumnCount; columna++)
                 {
-                    // Llamar recursivamente a Verificar para controles dentro del Panel o GroupBox
-                    Verificar(control.Controls);
-                }
+                    Control control = tableLayout.GetControlFromPosition(columna, fila);
 
-                // Verificar si el control es un TableLayoutPanel
-                if (control is TableLayoutPanel tableLayout)
-                {
-                    // Recorrer los controles dentro del TableLayoutPanel
-                    foreach (Control cellControl in tableLayout.Controls)
+                    if (control is CheckBox checkBox)
                     {
-                        // Verificar si el control es un CheckBox
-                        if (cellControl is CheckBox checkBox)
-                        {
-                            int i = 0;
-                            checkBox.TabIndex = i;
-                            i++;
-                            // Agregar 1 o 0 según el estado del CheckBox
-                            elementos.Add(checkBox.Checked ? 1 : 0);
-                        }
+                        valores.Add(checkBox.Checked ? 1 : 0);
                     }
                 }
             }
+
+            return valores;
+        }
+        public void ObtenerRespuestas(TableLayoutPanel t1, TableLayoutPanel t2, TableLayoutPanel t3)
+        {
+            CacheFormsRestaurante.personalBarra = ObtenerValoresDeCheckBox(barraP);
+            CacheFormsRestaurante.personalMesas = ObtenerValoresDeCheckBox(mesasP);
+            CacheFormsRestaurante.personalServicios = ObtenerValoresDeCheckBox(serviciosP);
         }
         public void MarcarTodo(Control.ControlCollection controls)
         {
@@ -89,19 +81,10 @@ namespace Mexabor
 
         private void button1_Click(object sender, EventArgs e)
         {
-                elementos.Clear();
-                Verificar(this.Controls);
-                //Limpiamos la memoria almacenada de las listas
-                CacheFormsRestaurante.personalBarra.Clear();
-                CacheFormsRestaurante.personalServicios.Clear();
-                CacheFormsRestaurante.personalMesas.Clear();
-                //Agregar el valor de la lista elemetnos a las listas
-                CacheFormsRestaurante.personalBarra = elementos.GetRange(0, 7);
-                CacheFormsRestaurante.personalServicios = elementos.GetRange(7, 7);
-                CacheFormsRestaurante.personalMesas = elementos.GetRange(14, 7);
-                FormVarios formVarios = new FormVarios();
-                formVarios.Show();
-                this.Close();
+            ObtenerRespuestas(barraP,mesasP,serviciosP);
+            FormVarios formVarios = new FormVarios();
+            formVarios.Show();
+            this.Close();
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)

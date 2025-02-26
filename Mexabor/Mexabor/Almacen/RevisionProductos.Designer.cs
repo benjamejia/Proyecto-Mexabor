@@ -217,6 +217,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            MinimumSize = new Size(1096, 414);
             Name = "RevisionProductos";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Revision de Productos";

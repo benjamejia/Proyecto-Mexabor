@@ -115,7 +115,7 @@
             panel4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             panel4.BackColor = SystemColors.ButtonShadow;
             panel4.Font = new Font("Yu Gothic", 18F);
-            panel4.Location = new Point(36, 745);
+            panel4.Location = new Point(36, 779);
             panel4.Margin = new Padding(3, 2, 3, 2);
             panel4.Name = "panel4";
             panel4.Size = new Size(13, 33);
@@ -127,8 +127,8 @@
             button2.BackColor = Color.WhiteSmoke;
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Yu Gothic", 18F);
-            button2.Location = new Point(12, 655);
+            button2.Font = new Font("Yu Gothic", 15.75F);
+            button2.Location = new Point(12, 689);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.Size = new Size(151, 33);
@@ -142,7 +142,7 @@
             panel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             panel3.BackColor = SystemColors.ButtonShadow;
             panel3.Font = new Font("Yu Gothic", 18F);
-            panel3.Location = new Point(997, 745);
+            panel3.Location = new Point(971, 779);
             panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
             panel3.Size = new Size(13, 33);
@@ -154,8 +154,8 @@
             button1.BackColor = Color.WhiteSmoke;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Yu Gothic", 18F);
-            button1.Location = new Point(1018, 655);
+            button1.Font = new Font("Yu Gothic", 15.75F);
+            button1.Location = new Point(992, 689);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(151, 33);
@@ -331,7 +331,7 @@
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label3.AutoSize = true;
             label3.Font = new Font("Yu Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(939, 16);
+            label3.Location = new Point(913, 16);
             label3.Name = "label3";
             label3.Size = new Size(160, 31);
             label3.TabIndex = 116;
@@ -347,7 +347,7 @@
             tableLayoutPanel1.Controls.Add(label5, 1, 0);
             tableLayoutPanel1.Controls.Add(label4, 0, 0);
             tableLayoutPanel1.Controls.Add(n1, 2, 0);
-            tableLayoutPanel1.Location = new Point(768, 86);
+            tableLayoutPanel1.Location = new Point(742, 86);
             tableLayoutPanel1.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
@@ -392,7 +392,7 @@
             label6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label6.AutoSize = true;
             label6.Font = new Font("Yu Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(1019, 64);
+            label6.Location = new Point(993, 64);
             label6.Name = "label6";
             label6.Size = new Size(42, 20);
             label6.TabIndex = 118;
@@ -408,7 +408,7 @@
             tableLayoutPanel2.Controls.Add(label7, 1, 0);
             tableLayoutPanel2.Controls.Add(label8, 0, 0);
             tableLayoutPanel2.Controls.Add(n2, 2, 0);
-            tableLayoutPanel2.Location = new Point(768, 138);
+            tableLayoutPanel2.Location = new Point(742, 138);
             tableLayoutPanel2.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
@@ -456,7 +456,7 @@
             tableLayoutPanel3.Controls.Add(label9, 1, 0);
             tableLayoutPanel3.Controls.Add(label10, 0, 0);
             tableLayoutPanel3.Controls.Add(n3, 2, 0);
-            tableLayoutPanel3.Location = new Point(770, 192);
+            tableLayoutPanel3.Location = new Point(744, 192);
             tableLayoutPanel3.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 1;
@@ -504,7 +504,7 @@
             tableLayoutPanel4.Controls.Add(label11, 1, 0);
             tableLayoutPanel4.Controls.Add(label12, 0, 0);
             tableLayoutPanel4.Controls.Add(n6, 2, 0);
-            tableLayoutPanel4.Location = new Point(770, 350);
+            tableLayoutPanel4.Location = new Point(744, 350);
             tableLayoutPanel4.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 1;
@@ -552,7 +552,7 @@
             tableLayoutPanel5.Controls.Add(label13, 1, 0);
             tableLayoutPanel5.Controls.Add(label14, 0, 0);
             tableLayoutPanel5.Controls.Add(n5, 2, 0);
-            tableLayoutPanel5.Location = new Point(768, 296);
+            tableLayoutPanel5.Location = new Point(742, 296);
             tableLayoutPanel5.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             tableLayoutPanel5.RowCount = 1;
@@ -600,7 +600,7 @@
             tableLayoutPanel6.Controls.Add(label15, 1, 0);
             tableLayoutPanel6.Controls.Add(label16, 0, 0);
             tableLayoutPanel6.Controls.Add(n4, 2, 0);
-            tableLayoutPanel6.Location = new Point(768, 244);
+            tableLayoutPanel6.Location = new Point(742, 244);
             tableLayoutPanel6.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel6.Name = "tableLayoutPanel6";
             tableLayoutPanel6.RowCount = 1;
@@ -645,7 +645,7 @@
             label18.BackColor = SystemColors.ButtonHighlight;
             label18.Font = new Font("Yu Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label18.ForeColor = SystemColors.ButtonShadow;
-            label18.Location = new Point(284, 11);
+            label18.Location = new Point(379, 11);
             label18.Name = "label18";
             label18.Size = new Size(283, 31);
             label18.TabIndex = 125;
@@ -661,9 +661,9 @@
             panelObservaciones.Controls.Add(label19);
             panelObservaciones.Controls.Add(cbProveedores);
             panelObservaciones.Controls.Add(label18);
-            panelObservaciones.Location = new Point(594, 400);
+            panelObservaciones.Location = new Point(473, 400);
             panelObservaciones.Name = "panelObservaciones";
-            panelObservaciones.Size = new Size(575, 233);
+            panelObservaciones.Size = new Size(670, 267);
             panelObservaciones.TabIndex = 126;
             // 
             // label20
@@ -671,7 +671,7 @@
             label20.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label20.AutoSize = true;
             label20.ForeColor = SystemColors.ControlDarkDark;
-            label20.Location = new Point(14, 196);
+            label20.Location = new Point(14, 230);
             label20.Name = "label20";
             label20.Size = new Size(75, 15);
             label20.TabIndex = 130;
@@ -684,7 +684,7 @@
             btnAgregarObersavaciones.FlatAppearance.BorderSize = 0;
             btnAgregarObersavaciones.FlatStyle = FlatStyle.Flat;
             btnAgregarObersavaciones.Font = new Font("Yu Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnAgregarObersavaciones.Location = new Point(414, 198);
+            btnAgregarObersavaciones.Location = new Point(509, 232);
             btnAgregarObersavaciones.Margin = new Padding(3, 2, 3, 2);
             btnAgregarObersavaciones.Name = "btnAgregarObersavaciones";
             btnAgregarObersavaciones.Size = new Size(156, 28);
@@ -699,7 +699,7 @@
             txtObservacion.Font = new Font("Yu Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtObservacion.Location = new Point(14, 70);
             txtObservacion.Name = "txtObservacion";
-            txtObservacion.Size = new Size(556, 123);
+            txtObservacion.Size = new Size(651, 157);
             txtObservacion.TabIndex = 128;
             txtObservacion.Text = "";
             txtObservacion.TextChanged += txtObersavacion_TextChanged;
@@ -729,7 +729,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(1184, 699);
+            ClientSize = new Size(1158, 733);
             Controls.Add(panelObservaciones);
             Controls.Add(label3);
             Controls.Add(tableLayoutPanel1);
@@ -760,6 +760,7 @@
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             Margin = new Padding(3, 2, 3, 2);
+            MinimumSize = new Size(1174, 772);
             Name = "FormProovedores";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormProovedores";

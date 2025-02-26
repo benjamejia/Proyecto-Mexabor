@@ -14,42 +14,34 @@ namespace Mexabor
 {
     public partial class Alma2CocinaCaliente : Form
     {
-        private List<int> elementos = new List<int>();
         public Alma2CocinaCaliente()
         {
             InitializeComponent();
+            this.AutoScroll = true;
         }
-        private void Verificar(Control.ControlCollection controls)
+        private List<int> ObtenerValoresDeCheckBox(TableLayoutPanel tableLayout)
         {
-            var orderedControls = controls.Cast<Control>().OrderBy(c => c.TabIndex).ToList();
+            List<int> valores = new List<int>();
 
-            foreach (Control control in orderedControls)
+            for (int fila = 0; fila < tableLayout.RowCount; fila++)
             {
-                // Verificar si el control es un Panel o GroupBox
-                if (control is Panel || control is GroupBox)
+                for (int columna = 0; columna < tableLayout.ColumnCount; columna++)
                 {
-                    // Llamar recursivamente a Verificar para controles dentro del Panel o GroupBox
-                    Verificar(control.Controls);
-                }
+                    Control control = tableLayout.GetControlFromPosition(columna, fila);
 
-                // Verificar si el control es un TableLayoutPanel
-                if (control is TableLayoutPanel tableLayout)
-                {
-                    // Recorrer los controles dentro del TableLayoutPanel
-                    foreach (Control cellControl in tableLayout.Controls)
+                    if (control is CheckBox checkBox)
                     {
-                        // Verificar si el control es un CheckBox
-                        if (cellControl is CheckBox checkBox)
-                        {
-                            int i = 0;
-                            checkBox.TabIndex = i;
-                            i++;
-                            // Agregar 1 o 0 según el estado del CheckBox
-                            elementos.Add(checkBox.Checked ? 1 : 0);
-                        }
+                        valores.Add(checkBox.Checked ? 1 : 0);
                     }
                 }
             }
+
+            return valores;
+        }
+        public void ObtenerRespuestas(TableLayoutPanel t1, TableLayoutPanel t2)
+        {
+            CacheFormsAlmacen.cocincaCalienteEstructura = ObtenerValoresDeCheckBox(t1);
+            CacheFormsAlmacen.cocinaCalienteLimpieza = ObtenerValoresDeCheckBox(t2);
         }
         public void MarcarTodo(Control.ControlCollection controls)
         {
@@ -100,17 +92,10 @@ namespace Mexabor
 
         private void button1_Click(object sender, EventArgs e)
         {
-                elementos.Clear();
-                Verificar(this.Controls);
-                //Limpiar memoria de las listas
-                CacheFormsAlmacen.cocincaCalienteEstructura.Clear();
-                CacheFormsAlmacen.cocinaCalienteLimpieza.Clear();
-                //Agregar el valor de la lista elemetnos a las listas
-                CacheFormsAlmacen.cocincaCalienteEstructura = elementos.GetRange(0, 14);
-                CacheFormsAlmacen.cocinaCalienteLimpieza = elementos.GetRange(14, 15);
-                Alma3CamaraFria almaCamaraFria = new Alma3CamaraFria();
-                almaCamaraFria.Show();
-                this.Close();
+            ObtenerRespuestas(tlpE,tlpL);
+            Alma3CamaraFria almaCamaraFria = new Alma3CamaraFria();
+            almaCamaraFria.Show();
+            this.Close();
         }
 
         private void tableLayoutPanel10_Paint(object sender, PaintEventArgs e)
