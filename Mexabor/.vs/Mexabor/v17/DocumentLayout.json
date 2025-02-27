@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\3febreromexabor\\mexabor\\mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\3febreromexabor\\mexabor\\mexabor\\cacheaplicacion\\datosrestaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\cacheaplicacion\\datosrestaurante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\3febreromexabor\\mexabor\\mexabor\\cacheaplicacion\\datosalmacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\cacheaplicacion\\datosalmacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|c:\\users\\pc\\desktop\\3febreromexabor\\mexabor\\mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A70E88A-5A3E-43CB-A0AC-B29395D09E54}|Mexabor\\Mexabor.csproj|solutionrelative:mexabor\\formregistros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormRegistros.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\Mexabor\\FormRegistros.cs",
+              "RelativeDocumentMoniker": "Mexabor\\FormRegistros.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\Mexabor\\FormRegistros.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Mexabor\\FormRegistros.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:50:29.937Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatosAlmacen.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\Mexabor\\CacheAplicacion\\DatosAlmacen.cs",
+              "RelativeDocumentMoniker": "Mexabor\\CacheAplicacion\\DatosAlmacen.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\Mexabor\\CacheAplicacion\\DatosAlmacen.cs",
+              "RelativeToolTip": "Mexabor\\CacheAplicacion\\DatosAlmacen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:41:17.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatosRestaurante.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\Mexabor\\CacheAplicacion\\DatosRestaurante.cs",
+              "RelativeDocumentMoniker": "Mexabor\\CacheAplicacion\\DatosRestaurante.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\Mexabor\\CacheAplicacion\\DatosRestaurante.cs",
+              "RelativeToolTip": "Mexabor\\CacheAplicacion\\DatosRestaurante.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:41:10.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormRegistros.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\Mexabor\\FormRegistros.cs",
+              "RelativeDocumentMoniker": "Mexabor\\FormRegistros.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\3FebreroMexabor\\Mexabor\\Mexabor\\FormRegistros.cs",
+              "RelativeToolTip": "Mexabor\\FormRegistros.cs",
+              "ViewState": "AQIAADwBAAAAAAAAAAA2wFcBAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T05:48:30.944Z",
+              "EditorCaption": ""
             }
           ]
         }

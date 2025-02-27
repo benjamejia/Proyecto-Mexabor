@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mexabor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d2fb69f5c14e1861dcd0913188fc0cc6be945de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abd9daa194c4fa2de2bfeba6e0b22e5e5b2e6063")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mexabor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mexabor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

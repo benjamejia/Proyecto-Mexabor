@@ -70,7 +70,7 @@ namespace Mexabor.Almacen
             txbCantidad.Clear();
             rtbObservaciones.Clear();
         }
-
+        /*
         private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -96,7 +96,7 @@ namespace Mexabor.Almacen
                 txbCantidad.Text = datosFila.cantidad.ToString();
                 rtbObservaciones.Text = datosFila.observaciones;
             }
-        }
+        }*/
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {

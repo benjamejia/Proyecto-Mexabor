@@ -37,21 +37,13 @@ namespace Mexabor.CacheAplicacion
         public static List<int> cajasEstructura = new List<int>();
         public static List<int> cajasLimpieza = new List<int>();
 
-        public static string Producto = "";
-        public static int Folio;
-        public static bool Empacado = false;
-        public static int Calidad;
-        public static int CantidadIdeal;
-        public static string Observaciones = "";
-
         //Datos de la tabla prodcutos temporales
-        public int id;
-        public string? producto;
-        public int folio;
-        public bool empacado;
-        public string? calidad;
-        public string? cantidad;
-        public string? observaciones;
+        public static int id_producto;
+        public static int productosRevisados;
+        public static int empacadosCorrectamente;
+        public static int calidadCorrecta;
+        public static string? observaciones;
+        public static int id_auditoria;
 
 
         //Producto, Folio, Empacado, Calidad, CantidadIdeal, 

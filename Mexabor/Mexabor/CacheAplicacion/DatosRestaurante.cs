@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mexabor.CacheAplicacion
 {
-    public class DatosFila
+    public class DatosRestaurante
     {
         public DateTime Fecha { get; set; }
         public string? Hora { get; set; }

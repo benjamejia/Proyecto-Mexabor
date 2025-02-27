@@ -44,22 +44,11 @@ namespace Mexabor.CacheAplicacion
                             cmd.Parameters.AddWithValue("@sucursal", CacheFormsAlmacen.sucursal);
                             cmd.Parameters.AddWithValue("@gerente", CacheFormsAlmacen.gerente);
                             cmd.Parameters.AddWithValue("@auditor", CacheFormsAlmacen.auditor);
+                            cmd.Parameters.AddWithValue("@fecha", CacheFormsAlmacen.fecha.ToString("yyyy-MM-dd"));
+                            cmd.Parameters.AddWithValue("@hora", CacheFormsAlmacen.hora.ToString("HH:mm:ss"));
 
-                            // Obtener la fecha y la hora en un solo instante
-                            DateTime ahora = DateTime.Now;
-
-                            // Extraer solo la parte de la fecha en formato "yyyy-MM-dd"
-                            string soloFecha = ahora.ToString("yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture);
-
-                            // Extraer solo la parte de la hora en formato "HH:mm:ss"
-                            string soloHora = ahora.ToString("HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture);
-
-                            // Asignar los valores a los parámetros
-                            cmd.Parameters.AddWithValue("@fecha", soloFecha);
-                            cmd.Parameters.AddWithValue("@hora", soloHora);
-
-                            //se convierte en string y se separa por comas cada dato
-                            cmd.Parameters.AddWithValue("@salidaEstructura", string.Join(",", CacheFormsAlmacen.salidaEstructura.Select(x => x.ToString())));
+                        //se convierte en string y se separa por comas cada dato
+                        cmd.Parameters.AddWithValue("@salidaEstructura", string.Join(",", CacheFormsAlmacen.salidaEstructura.Select(x => x.ToString())));
                             cmd.Parameters.AddWithValue("@salidaLimpieza", string.Join(",", CacheFormsAlmacen.salidaLimpieza.Select(x => x.ToString())));
                             cmd.Parameters.AddWithValue("@cocinaCalienteEstructura", string.Join(",", CacheFormsAlmacen.cocincaCalienteEstructura.Select(x => x.ToString())));
                             cmd.Parameters.AddWithValue("@cocinaCalienteLimpieza", string.Join(",", CacheFormsAlmacen.cocinaCalienteLimpieza.Select(x => x.ToString())));

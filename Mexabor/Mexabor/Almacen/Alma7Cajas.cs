@@ -86,6 +86,8 @@ namespace Mexabor.Almacen
         private void button1_Click(object sender, EventArgs e)
         {
             ObtenerRespuestas(tlpE,tlpL);
+            CacheFormsAlmacen.fecha = DateTime.Now;
+            CacheFormsAlmacen.hora = DateTime.Now;
             ConexionBD_Almacen.SubirDatos();
             RevisionProductos productos = new RevisionProductos();
             productos.Show();

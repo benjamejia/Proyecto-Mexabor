@@ -26,20 +26,33 @@ namespace Mexabor
             ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
             InitializeComponent();
         }
-        private void SetControlsEnabled(Control parent, bool enabled, params Control[] exceptions)
+        private void GuardarEnCacheAlmacen(DatosAlmacen datos)
         {
-            foreach (Control control in parent.Controls)
-            {
-                // Excluir los controles que están en la lista de excepciones o son hijos de excepciones
-                if (exceptions.Contains(control) || exceptions.Any(e => e.Controls.Contains(control)))
-                {
-                    continue;
-                }
+            CacheFormsAlmacen.fecha = datos.Fecha;
+            CacheFormsAlmacen.hora = Convert.ToDateTime(datos.Hora);
+            CacheFormsAlmacen.sucursal = datos.Sucursal;
+            CacheFormsAlmacen.gerente = datos.Gerente;
+            CacheFormsAlmacen.auditor = datos.Auditor;
+            CacheFormsAlmacen.id_auditoria = datos.Id;
 
-                control.Enabled = enabled;
-            }
+            // Agregar los valores a las listas correspondientes
+            CacheFormsAlmacen.salidaEstructura.Add(datos.SalidaEstructura);
+            CacheFormsAlmacen.salidaLimpieza.Add(datos.SalidaLimpieza);
+            CacheFormsAlmacen.cocincaCalienteEstructura.Add(datos.CocinaCalienteEstructura);
+            CacheFormsAlmacen.cocinaCalienteLimpieza.Add(datos.CocinaCalienteLimpieza);
+            CacheFormsAlmacen.camaraEstructura.Add(datos.CamaraEstructura);
+            CacheFormsAlmacen.camaraLimpieza.Add(datos.CamaraLimpieza);
+            CacheFormsAlmacen.almacenEstructura.Add(datos.AlmacenEstructura);
+            CacheFormsAlmacen.almacenLimpieza.Add(datos.AlmacenLimpieza);
+            CacheFormsAlmacen.areaPersonalEstructura.Add(datos.AreaPersonalEstructura);
+            CacheFormsAlmacen.areaPersonalLimpieza.Add(datos.AreaPersonalLimpieza);
+            CacheFormsAlmacen.cocinaFriaEstructura.Add(datos.CocinaFriaEstructura);
+            CacheFormsAlmacen.cocinaFriaLimpieza.Add(datos.CocinaFriaLimpieza);
+            CacheFormsAlmacen.cajasEstructura.Add(datos.CajasEstructura);
+            CacheFormsAlmacen.cajasLimpieza.Add(datos.CajasLimpieza);
         }
-        private void GuardarEnCache(DatosFila datosFila)
+
+        private void GuardarEnCacheRestaurante(DatosRestaurante datosFila)
         {
             // Convertir y asignar listas de enteros
             CacheFormsRestaurante.fecha = datosFila.Fecha;
@@ -145,9 +158,6 @@ namespace Mexabor
             CacheFormsRestaurante.observaciones[8] = datosFila.observacionAlmacen;
             CacheFormsRestaurante.observaciones[9] = datosFila.observacionBasura;
             CacheFormsRestaurante.observaciones[10] = datosFila.observacionMantenimiento;
-            Console.WriteLine("Datos guardados en cacheRestaurante:");
-            Console.WriteLine($"EstacionamientoEstructura: {string.Join(",", CacheFormsRestaurante.estacionamientoEstructura)}");
-            Console.WriteLine($"ComedorEstructura: {string.Join(",", CacheFormsRestaurante.comedorEstructura)}");
 
         }
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -255,13 +265,94 @@ namespace Mexabor
             //ExcelTablaDesglozada();
             GenerarExcelRestaurante.ExportarDatosExcel();
         }
+        public void dobleClicAlmacen(object sender, DataGridViewCellEventArgs e) 
+        {
+            if (e.RowIndex >= 0)
+            {
+                    DataGridViewRow filaSeleccionada = dataGridView1.Rows[e.RowIndex];
 
-        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+                DatosAlmacen datosAlmacen = new DatosAlmacen
+                {
+                    Id = TryConvertToInt(filaSeleccionada.Cells["id_auditoria"].Value)/*
+                    Sucursal = filaSeleccionada.Cells["Sucursal"].Value?.ToString(),
+                    Gerente = filaSeleccionada.Cells["Gerente"].Value?.ToString(),
+                    Auditor = filaSeleccionada.Cells["Auditor"].Value?.ToString(),
+
+                    // Manejo seguro de fecha
+                    Fecha = Convert.ToDateTime(filaSeleccionada.Cells["Fecha"].Value),
+                    Hora = filaSeleccionada.Cells["Hora"].Value.ToString(),
+                    // Conversión segura a int
+                    SalidaEstructura = TryConvertToInt(filaSeleccionada.Cells["SalidaEstructura"].Value),
+                    SalidaLimpieza = TryConvertToInt(filaSeleccionada.Cells["SalidaLimpieza"].Value),
+                    CocinaCalienteEstructura = TryConvertToInt(filaSeleccionada.Cells["CocinaCalienteEstructura"].Value),
+                    CocinaCalienteLimpieza = TryConvertToInt(filaSeleccionada.Cells["CocinaCalienteLimpieza"].Value),
+                    CamaraEstructura = TryConvertToInt(filaSeleccionada.Cells["CamaraEstructura"].Value),
+                    CamaraLimpieza = TryConvertToInt(filaSeleccionada.Cells["CamaraLimpieza"].Value),
+                    AlmacenEstructura = TryConvertToInt(filaSeleccionada.Cells["AlmacenEstructura"].Value),
+                    AlmacenLimpieza = TryConvertToInt(filaSeleccionada.Cells["AlmacenLimpieza"].Value),
+                    AreaPersonalEstructura = TryConvertToInt(filaSeleccionada.Cells["AreaPersonalEstructura"].Value),
+                    AreaPersonalLimpieza = TryConvertToInt(filaSeleccionada.Cells["AreaPersonalLimpieza"].Value),
+                    CocinaFriaEstructura = TryConvertToInt(filaSeleccionada.Cells["CocinaFriaEstructura"].Value),
+                    CocinaFriaLimpieza = TryConvertToInt(filaSeleccionada.Cells["CocinaFriaLimpieza"].Value),
+                    CajasEstructura = TryConvertToInt(filaSeleccionada.Cells["CajasEstructura"].Value),
+                    CajasLimpieza = TryConvertToInt(filaSeleccionada.Cells["CajasLimpieza"].Value)*/
+                };
+
+                //GuardarEnCacheAlmacen(datosAlmacen);
+                    // Configurar DataGridView2 para usar DataSource
+                    //List<DatosAlmacen> listaDatos = new List<DatosAlmacen> { datosAlmacen };
+                    //dataGridView2.DataSource = listaDatos;
+
+                CargarAuditoriaYProductos(datosAlmacen.Id);
+                panelDobleClick.Visible = true;
+                    btnCerrar.Enabled = false;
+                    btnBuscar.Enabled = false;
+            }
+
+        }
+        private int TryConvertToInt(object value)
+        {
+            if (value == null) return 0;
+
+            if (int.TryParse(value.ToString()?.Replace(",", ""), out int result))
+            {
+                return result;
+            }
+
+            return 0; // Retorna 0 si el valor no se puede convertir
+        }
+        private void CargarAuditoriaYProductos(int idAuditoria)
+        {
+            string query = @"
+        SELECT r.*, p.id_producto, p.ProductosRevisados, p.EmpacadosCorrectamente, 
+               p.CalidadCorrecta, p.Observaciones 
+        FROM reporteAlmacen r
+        LEFT JOIN productosAlmacen p ON r.id_auditoria = p.id_auditoria
+        WHERE r.id_auditoria = @idAuditoria";
+
+            using (SQLiteConnection conn = new SQLiteConnection(cadena))
+            {
+                conn.Open();
+                using (SQLiteCommand cmd = new SQLiteCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@idAuditoria", idAuditoria);
+
+                    using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        adapter.Fill(dt);
+                        dataGridView2.DataSource = dt;
+                    }
+                }
+            }
+        }
+
+        public void dobleClicRestaurante(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow filaSeleccionada = dataGridView1.Rows[e.RowIndex];
-                DatosFila datosFila = new DatosFila
+                DatosRestaurante datosRestaurante = new DatosRestaurante
                 {
                     Fecha = Convert.ToDateTime(filaSeleccionada.Cells["Fecha"].Value),
                     Hora = filaSeleccionada.Cells["Hora"].Value.ToString(),
@@ -314,13 +405,26 @@ namespace Mexabor
                     observacionBasura = filaSeleccionada.Cells["ObservacionBasura"].Value.ToString(),
                     observacionMantenimiento = filaSeleccionada.Cells["ObservacionMantenimiento"].Value.ToString()
                 };
-                GuardarEnCache(datosFila);
+                GuardarEnCacheRestaurante(datosRestaurante);
                 // Configurar DataGridView2 para usar DataSource
-                List<DatosFila> listaDatos = new List<DatosFila> { datosFila };
+                List<DatosRestaurante> listaDatos = new List<DatosRestaurante> { datosRestaurante };
                 dataGridView2.DataSource = listaDatos;
                 panelDobleClick.Visible = true;
                 btnCerrar.Enabled = false;
                 btnBuscar.Enabled = false;
+
+            }
+        }
+
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (comboBox1.Text == "Reporte de Restaurante")
+            {
+                dobleClicRestaurante(sender, e);
+            } 
+            else if (comboBox1.Text == "Reporte de Almacen")
+            {
+                dobleClicAlmacen(sender, e);
 
             }
         }
@@ -334,7 +438,7 @@ namespace Mexabor
 
         }
 
-        //Queda pendiente a mejorar ya que es un codigo pegado del antigui proyecto.
+        //Queda pendiente a mejorar ya que es un codigo pegado del antiguo proyecto.
         private void button3_Click(object sender, EventArgs e)
         {
             string encargado = txbGerente.Text;

@@ -174,7 +174,6 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(803, 333);
             dataGridView1.TabIndex = 218;
-            dataGridView1.CellContentDoubleClick += dataGridView1_CellContentDoubleClick;
             // 
             // checkBox1
             // 
