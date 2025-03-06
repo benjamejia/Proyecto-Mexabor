@@ -29,31 +29,40 @@ namespace Mexabor.Almacen
                 // Validación de entradas
                 if (string.IsNullOrWhiteSpace(txbProducto.Text) ||
                     string.IsNullOrWhiteSpace(txbCalidad.Text) ||
-                    string.IsNullOrWhiteSpace(txbEmpacados.Text))
+                    string.IsNullOrWhiteSpace(txbEmpacados.Text) ||
+                    string.IsNullOrEmpty(txbPesoIdeal.Text))
                 {
                     MessageBox.Show("Por favor, complete todos los campos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
                 // Validar que los valores numéricos sean correctos
-                if (!int.TryParse(txbProducto.Text, out ConexionBD_Productos.productos) ||
-                    !int.TryParse(txbEmpacados.Text, out ConexionBD_Productos.empacado) ||
-                    !int.TryParse(txbCalidad.Text, out ConexionBD_Productos.calidad))
+                if (!int.TryParse(txbProducto.Text, out int producto) ||
+                    !int.TryParse(txbEmpacados.Text, out int empacados) ||
+                    !int.TryParse(txbCalidad.Text, out int calidad) ||
+                    !int.TryParse(txbPesoIdeal.Text, out int pesoIdeal))
                 {
                     MessageBox.Show("Los valores de Producto, Empacados y Calidad deben ser números enteros válidos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                ConexionBD_Productos.observaciones = string.IsNullOrWhiteSpace(txtObservacion.Text) ? "Sin observaciones" : txtObservacion.Text;
-                ConexionBD_Productos.SubirProductos();
-                // Notificar éxito y limpiar campos
-                MessageBox.Show("Producto agregado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                // Asignar observaciones
+                CacheFormsAlmacen.observaciones = string.IsNullOrWhiteSpace(txtObservacion.Text) ? "Sin observaciones" : txtObservacion.Text;
 
+                CacheFormsAlmacen.productosRevisados.Add(producto);
+                CacheFormsAlmacen.productosRevisados.Add(empacados);
+                CacheFormsAlmacen.productosRevisados.Add(calidad);
+                CacheFormsAlmacen.productosRevisados.Add(pesoIdeal);
+
+
+                // Notificar éxito
+                MessageBox.Show("Producto revisado y agregado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 // Limpiar campos después de la inserción
                 txbProducto.Clear();
                 txbEmpacados.Clear();
                 txbCalidad.Clear();
-                txtObservacion.Text = "Sin observacion.";
+                txbPesoIdeal.Clear();
+                txtObservacion.Text = "Sin observación.";
             }
             catch (Exception ex)
             {
@@ -62,17 +71,18 @@ namespace Mexabor.Almacen
         }
 
 
+
         private void button1_Click(object sender, EventArgs e)
         {
             RevisionDeProductos();
-            ExportacionAlmacen exportacionAlmacen = new ExportacionAlmacen();
-            exportacionAlmacen.Show();
-            this.Close();
+            Responsables responsables = new Responsables();
+            responsables.Show();
+            this.Hide();
         }
 
         private void txtObservacion_TextChanged(object sender, EventArgs e)
         {
-            const int maxCaracteres = 200;
+            const int maxCaracteres = 500;
 
             if (txtObservacion.Text.Length > maxCaracteres)
             {
@@ -87,6 +97,24 @@ namespace Mexabor.Almacen
             Alma7Cajas alma7Cajas = new Alma7Cajas();
             alma7Cajas.Show();
             this.Close();
+        }
+
+        private void RevisionProductos_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult opcion = MessageBox.Show("¿Estás seguro que deseas continuar?\n Se perderá el progreso de la auditoría", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+
+            if (opcion == DialogResult.OK)
+            {
+                e.Cancel = false;
+
+                FormMenu formMenu = new FormMenu();
+                formMenu.Show();
+                this.Hide();
+            }
+            else
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

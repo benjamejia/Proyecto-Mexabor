@@ -83,10 +83,10 @@ namespace Mexabor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ObtenerRespuestas(tlpE,tlpL);
+            ObtenerRespuestas(tlpE, tlpL);
             Form5Servicios formServicios = new Form5Servicios();
             formServicios.Show();
-            this.Close(); 
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -104,6 +104,28 @@ namespace Mexabor
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)
         {
             MarcarTodo(this.Controls);
+        }
+
+        private void Form4Tortillas_FormClosed(object sender, FormClosedEventArgs e)
+        {
+        }
+
+        private void Form4Tortillas_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult opcion = MessageBox.Show("¿Estás seguro que deseas continuar?\n Se perderá el progreso de la auditoría", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+
+            if (opcion == DialogResult.OK)
+            {
+                e.Cancel = false;
+
+                FormMenu formMenu = new FormMenu();
+                formMenu.Show();
+                this.Hide();
+            }
+            else
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

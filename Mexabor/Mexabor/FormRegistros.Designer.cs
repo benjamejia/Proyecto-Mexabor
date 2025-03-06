@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRegistros));
             panel1 = new Panel();
+            txbSucursal = new ComboBox();
             sucursalFecha = new Label();
-            txbSucursal = new TextBox();
             panel4 = new Panel();
             btnBuscar = new Button();
             fechaTetxto = new Label();
@@ -72,8 +72,8 @@
             // 
             panel1.BackColor = SystemColors.ButtonHighlight;
             panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Controls.Add(sucursalFecha);
             panel1.Controls.Add(txbSucursal);
+            panel1.Controls.Add(sucursalFecha);
             panel1.Controls.Add(panel4);
             panel1.Controls.Add(btnBuscar);
             panel1.Controls.Add(fechaTetxto);
@@ -87,35 +87,35 @@
             panel1.Location = new Point(0, 48);
             panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(362, 613);
+            panel1.Size = new Size(350, 613);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
+            // 
+            // txbSucursal
+            // 
+            txbSucursal.DropDownStyle = ComboBoxStyle.DropDownList;
+            txbSucursal.Font = new Font("Yu Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txbSucursal.FormattingEnabled = true;
+            txbSucursal.Items.AddRange(new object[] { "Patria", "Loma", "Chapalita" });
+            txbSucursal.Location = new Point(34, 62);
+            txbSucursal.Name = "txbSucursal";
+            txbSucursal.Size = new Size(276, 33);
+            txbSucursal.TabIndex = 20;
             // 
             // sucursalFecha
             // 
             sucursalFecha.AutoSize = true;
             sucursalFecha.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            sucursalFecha.Location = new Point(54, 33);
+            sucursalFecha.Location = new Point(34, 33);
             sucursalFecha.Name = "sucursalFecha";
             sucursalFecha.Size = new Size(89, 25);
             sucursalFecha.TabIndex = 19;
             sucursalFecha.Text = "Sucursal";
             // 
-            // txbSucursal
-            // 
-            txbSucursal.BackColor = Color.Gainsboro;
-            txbSucursal.BorderStyle = BorderStyle.None;
-            txbSucursal.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txbSucursal.Location = new Point(54, 57);
-            txbSucursal.Margin = new Padding(3, 2, 3, 2);
-            txbSucursal.Name = "txbSucursal";
-            txbSucursal.Size = new Size(276, 30);
-            txbSucursal.TabIndex = 18;
-            // 
             // panel4
             // 
             panel4.BackColor = Color.Gray;
-            panel4.Location = new Point(54, 315);
+            panel4.Location = new Point(34, 315);
             panel4.Margin = new Padding(3, 2, 3, 2);
             panel4.Name = "panel4";
             panel4.Size = new Size(12, 37);
@@ -124,10 +124,11 @@
             // btnBuscar
             // 
             btnBuscar.BackColor = Color.Gainsboro;
+            btnBuscar.Enabled = false;
             btnBuscar.FlatAppearance.BorderSize = 0;
             btnBuscar.FlatStyle = FlatStyle.Flat;
             btnBuscar.Font = new Font("Yu Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnBuscar.Location = new Point(54, 315);
+            btnBuscar.Location = new Point(34, 315);
             btnBuscar.Margin = new Padding(3, 2, 3, 2);
             btnBuscar.Name = "btnBuscar";
             btnBuscar.Size = new Size(276, 37);
@@ -140,7 +141,7 @@
             // 
             fechaTetxto.AutoSize = true;
             fechaTetxto.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            fechaTetxto.Location = new Point(54, 223);
+            fechaTetxto.Location = new Point(34, 223);
             fechaTetxto.Name = "fechaTetxto";
             fechaTetxto.Size = new Size(66, 25);
             fechaTetxto.TabIndex = 14;
@@ -151,7 +152,7 @@
             txbFecha.BackColor = Color.Gainsboro;
             txbFecha.BorderStyle = BorderStyle.None;
             txbFecha.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txbFecha.Location = new Point(54, 248);
+            txbFecha.Location = new Point(34, 248);
             txbFecha.Margin = new Padding(3, 2, 3, 2);
             txbFecha.Name = "txbFecha";
             txbFecha.Size = new Size(276, 30);
@@ -162,7 +163,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Yu Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.AppWorkspace;
-            label1.Location = new Point(220, 30);
+            label1.Location = new Point(200, 30);
             label1.Name = "label1";
             label1.Size = new Size(106, 18);
             label1.TabIndex = 11;
@@ -173,7 +174,7 @@
             // 
             lblAuditor.AutoSize = true;
             lblAuditor.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblAuditor.Location = new Point(54, 158);
+            lblAuditor.Location = new Point(34, 158);
             lblAuditor.Name = "lblAuditor";
             lblAuditor.Size = new Size(76, 25);
             lblAuditor.TabIndex = 10;
@@ -183,7 +184,7 @@
             // 
             gerenteTexto.AutoSize = true;
             gerenteTexto.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            gerenteTexto.Location = new Point(54, 96);
+            gerenteTexto.Location = new Point(34, 96);
             gerenteTexto.Name = "gerenteTexto";
             gerenteTexto.Size = new Size(84, 25);
             gerenteTexto.TabIndex = 9;
@@ -194,7 +195,7 @@
             txbAuditor.BackColor = Color.Gainsboro;
             txbAuditor.BorderStyle = BorderStyle.None;
             txbAuditor.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txbAuditor.Location = new Point(54, 185);
+            txbAuditor.Location = new Point(34, 185);
             txbAuditor.Margin = new Padding(3, 2, 3, 2);
             txbAuditor.Name = "txbAuditor";
             txbAuditor.Size = new Size(276, 30);
@@ -205,7 +206,7 @@
             txbGerente.BackColor = Color.Gainsboro;
             txbGerente.BorderStyle = BorderStyle.None;
             txbGerente.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txbGerente.Location = new Point(54, 121);
+            txbGerente.Location = new Point(34, 121);
             txbGerente.Margin = new Padding(3, 2, 3, 2);
             txbGerente.Name = "txbGerente";
             txbGerente.Size = new Size(276, 30);
@@ -224,10 +225,10 @@
             panel2.Controls.Add(dataGridView1);
             panel2.Controls.Add(button1);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(362, 48);
+            panel2.Location = new Point(350, 48);
             panel2.Margin = new Padding(3, 2, 3, 2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(902, 613);
+            panel2.Size = new Size(914, 613);
             panel2.TabIndex = 1;
             // 
             // panelDobleClick
@@ -240,7 +241,7 @@
             panelDobleClick.Controls.Add(btnDobleClick);
             panelDobleClick.Location = new Point(24, 183);
             panelDobleClick.Name = "panelDobleClick";
-            panelDobleClick.Size = new Size(865, 153);
+            panelDobleClick.Size = new Size(877, 153);
             panelDobleClick.TabIndex = 135;
             panelDobleClick.Visible = false;
             // 
@@ -263,7 +264,7 @@
             button4.FlatAppearance.BorderSize = 0;
             button4.FlatStyle = FlatStyle.Popup;
             button4.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.Location = new Point(732, 5);
+            button4.Location = new Point(744, 5);
             button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
             button4.Size = new Size(106, 25);
@@ -280,7 +281,7 @@
             dataGridView2.Location = new Point(27, 41);
             dataGridView2.Name = "dataGridView2";
             dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.Size = new Size(811, 67);
+            dataGridView2.Size = new Size(823, 67);
             dataGridView2.TabIndex = 0;
             // 
             // btnDobleClick
@@ -313,7 +314,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Yu Gothic", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.ControlDarkDark;
-            label2.Location = new Point(592, 14);
+            label2.Location = new Point(604, 14);
             label2.Name = "label2";
             label2.Size = new Size(268, 18);
             label2.TabIndex = 131;
@@ -324,7 +325,7 @@
             pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox1.Cursor = Cursors.AppStarting;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(565, 25);
+            pictureBox1.Location = new Point(577, 25);
             pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(47, 34);
@@ -339,7 +340,7 @@
             comboBox1.Font = new Font("Yu Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Reporte de Restaurante", "Reporte de Almacen" });
-            comboBox1.Location = new Point(617, 32);
+            comboBox1.Location = new Point(629, 32);
             comboBox1.Margin = new Padding(3, 2, 3, 2);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(250, 26);
@@ -354,7 +355,7 @@
             btnCerrar.FlatAppearance.BorderSize = 0;
             btnCerrar.FlatStyle = FlatStyle.Popup;
             btnCerrar.Font = new Font("Yu Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCerrar.Location = new Point(734, 572);
+            btnCerrar.Location = new Point(746, 572);
             btnCerrar.Margin = new Padding(3, 2, 3, 2);
             btnCerrar.Name = "btnCerrar";
             btnCerrar.Size = new Size(130, 31);
@@ -372,7 +373,7 @@
             dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(813, 473);
+            dataGridView1.Size = new Size(825, 473);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentDoubleClick += dataGridView1_CellContentDoubleClick;
             // 
@@ -383,7 +384,7 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Yu Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(335, 572);
+            button1.Location = new Point(341, 572);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(276, 31);
@@ -471,7 +472,6 @@
         private Button btnBuscar;
         private Panel panel4;
         private Label sucursalFecha;
-        private TextBox txbSucursal;
         private Button btnCerrar;
         private Panel panel5;
         private Panel panel6;
@@ -486,5 +486,6 @@
         private DataGridView dataGridView2;
         private Button button4;
         private Button button6;
+        private ComboBox txbSucursal;
     }
 }

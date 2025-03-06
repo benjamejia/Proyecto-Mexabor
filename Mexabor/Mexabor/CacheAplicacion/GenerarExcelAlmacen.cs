@@ -1,4 +1,8 @@
-﻿using System;
+﻿using OfficeOpenXml;
+using Syncfusion.Pdf;
+using Syncfusion.XlsIO;
+using Syncfusion.XlsIORenderer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +14,120 @@ namespace Mexabor.CacheAplicacion
     {
         static public void ExportarDatosExcel()
         {
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            {
+                saveFileDialog.Filter = "Archivos Excel (*.xlsx)|*.xlsx";
+                saveFileDialog.Title = "Guardar archivo Excel modificado";
 
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string filePath = saveFileDialog.FileName;
+
+                    // Ruta del archivo Excel modificado (deberías tenerlo en una variable o haberlo modificado previamente)
+                    string modifiedFilePath = Path.Combine(Directory.GetCurrentDirectory(), "CacheAplicacion", "EvaluacionAlmacen.xlsx");
+
+                    // Cargar el archivo Excel
+                    FileInfo fileInfo = new FileInfo(modifiedFilePath);
+                    using (ExcelPackage package = new ExcelPackage(fileInfo))
+                    {
+                        // Obtener la primera hoja
+                        ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
+                        //Fecha
+                        worksheet.Cells["G1"].Value = "Fecha" + CacheFormsAlmacen.fecha.ToString("yyyy-MM-dd");
+                        //Sucusal
+                        worksheet.Cells["E3"].Value = CacheFormsAlmacen.sucursal;
+                        // Modificar las celdas incorrectas de las areas
+                        worksheet.Cells["B13"].Value = 100 - CacheFormsAlmacen.areaPersonalEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C13"].Value = 100 - CacheFormsAlmacen.areaPersonalLimpieza.Count(x => x == 0) * 10;
+
+                        worksheet.Cells["B14"].Value = 100 - CacheFormsAlmacen.cocincaCalienteEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C14"].Value = 100 - CacheFormsAlmacen.cocinaCalienteLimpieza.Count(x => x == 0) * 10;
+                        worksheet.Cells["D14"].Value = 100 - CacheFormsAlmacen.personalCocinaCaliente.Count(x => x == 0) * 10;
+
+                        worksheet.Cells["B15"].Value = 100 - CacheFormsAlmacen.camaraEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C15"].Value = 100 - CacheFormsAlmacen.camaraLimpieza.Count(x => x == 0) * 10;
+                        worksheet.Cells["D15"].Value = 100 - CacheFormsAlmacen.personalCamaraFria.Count(x => x == 0) * 10;
+
+                        worksheet.Cells["B16"].Value = 100 - CacheFormsAlmacen.almacenEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C16"].Value = 100 - CacheFormsAlmacen.almacenLimpieza.Count(x => x == 0) * 10;
+
+                        worksheet.Cells["B17"].Value = 100 - CacheFormsAlmacen.cocinaFriaEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C17"].Value = 100 - CacheFormsAlmacen.cocinaFriaLimpieza.Count(x => x == 0) * 10;
+                        worksheet.Cells["D17"].Value = 100 - CacheFormsAlmacen.personalCocinaFria.Count(x => x == 0) * 10;
+
+                        worksheet.Cells["B18"].Value = 100 - CacheFormsAlmacen.cajasEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C18"].Value = 100 - CacheFormsAlmacen.cajasLimpieza.Count(x => x == 0) * 10;
+
+                        worksheet.Cells["B17"].Value = 100 - CacheFormsAlmacen.cocinaFriaEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C17"].Value = 100 - CacheFormsAlmacen.cocinaFriaLimpieza.Count(x => x == 0) * 10;
+                        worksheet.Cells["D17"].Value = 100 - CacheFormsAlmacen.personalCocinaFria.Count(x => x == 0) * 10;
+                        //Responsables
+                        worksheet.Cells["F13"].Value = CacheFormsAlmacen.responsables[0];
+                        worksheet.Cells["F14"].Value = CacheFormsAlmacen.responsables[1];
+                        worksheet.Cells["F15"].Value = CacheFormsAlmacen.responsables[2];
+                        worksheet.Cells["F16"].Value = CacheFormsAlmacen.responsables[3];
+                        worksheet.Cells["F17"].Value = CacheFormsAlmacen.responsables[4];
+                        worksheet.Cells["F18"].Value = CacheFormsAlmacen.responsables[5];
+                        worksheet.Cells["F19"].Value = CacheFormsAlmacen.responsables[6];
+                        worksheet.Cells["F20"].Value = CacheFormsAlmacen.responsables[7];
+                        //Obersevaciones
+                        worksheet.Cells["H13"].Value = CacheFormsAlmacen.observaciones;
+                        worksheet.Cells["A29"].Value = CacheFormsAlmacen.leyendaAlmacen;
+                        
+
+                        MessageBox.Show("El archivo se ha guardado exitosamente en la ubicación seleccionada.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        FileInfo newFile = new FileInfo(filePath);
+                        package.SaveAs(newFile);
+                        DialogResult result = MessageBox.Show("¿Deseas exportarlo en PDF?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        if (result == DialogResult.Yes)
+                        {
+                            ConvertirExcelAPdf(filePath);
+                        }
+                    }
+                }
+            }
+        }
+        static public void ConvertirExcelAPdf(string excelFilePath)
+        {
+            // Inicializar el ExcelEngine y la aplicación
+            using (ExcelEngine excelEngine = new ExcelEngine())
+            {
+                IApplication application = excelEngine.Excel;
+                application.DefaultVersion = ExcelVersion.Xlsx;
+
+                // Abrir el archivo Excel desde la ruta proporcionada
+                using (FileStream excelStream = new FileStream(excelFilePath, FileMode.Open, FileAccess.Read))
+                {
+                    IWorkbook workbook = application.Workbooks.Open(excelStream);
+
+                    // Inicializar el renderizador de XlsIO
+                    XlsIORenderer renderer = new XlsIORenderer();
+
+                    // Convertir el documento Excel a un documento PDF
+                    PdfDocument pdfDocument = renderer.ConvertToPDF(workbook);
+
+                    // Usar un cuadro de diálogo para permitir que el usuario elija la ruta para guardar el archivo PDF
+                    SaveFileDialog saveFileDialog = new SaveFileDialog();
+                    saveFileDialog.Filter = "Archivos PDF (*.pdf)|*.pdf";
+                    saveFileDialog.Title = "Guardar PDF";
+
+                    if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        string pdfFilePath = saveFileDialog.FileName;
+
+                        // Guardar el archivo PDF en la ruta seleccionada
+                        using (FileStream pdfStream = new FileStream(pdfFilePath, FileMode.Create, FileAccess.Write))
+                        {
+                            pdfDocument.Save(pdfStream);
+                        }
+
+                        MessageBox.Show("Archivo PDF guardado correctamente en: " + pdfFilePath);
+                    }
+
+                    // Cerrar el documento PDF
+                    pdfDocument.Close();
+                }
+            }
         }
         static public void ExcelTablaDesglozada()
         {

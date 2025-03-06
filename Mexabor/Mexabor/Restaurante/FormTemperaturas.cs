@@ -153,5 +153,27 @@ namespace Mexabor
         {
             TemperaturasIdeales(this.Controls);
         }
+
+        private void FormTemperaturas_FormClosed(object sender, FormClosedEventArgs e)
+        {
+        }
+
+        private void FormTemperaturas_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult opcion = MessageBox.Show("¿Estás seguro que deseas continuar?\n Se perderá el progreso de la auditoría", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+
+            if (opcion == DialogResult.OK)
+            {
+                e.Cancel = false;
+
+                FormMenu formMenu = new FormMenu();
+                formMenu.Show();
+                this.Hide();
+            }
+            else
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }

@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Remove="Almacen\AgregarProducto.resx~RF19de52d1.TMP" />
     <None Remove="App.config" />
+    <None Remove="CacheAplicacion\EvaluacionAlmacen.xlsx" />
     <None Remove="CacheAplicacion\FormatoMexabor.xlsx" />
     <None Remove="CacheAplicacion\FormatoReporte.xlsx" />
     <None Remove="Configuracion.resx~RF1a1f42e7.TMP" />
@@ -22,6 +23,9 @@
   <ItemGroup>
     <Content Include="App.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CacheAplicacion\EvaluacionAlmacen.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="CacheAplicacion\FormatoMexabor.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

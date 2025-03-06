@@ -83,7 +83,7 @@ namespace Mexabor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ObtenerRespuestas(tlpE,tlpL);
+            ObtenerRespuestas(tlpE, tlpL);
             Form6Planchas formPlanchas = new Form6Planchas();
             formPlanchas.Show();
             this.Close();
@@ -99,6 +99,28 @@ namespace Mexabor
             Form4Tortillas form4Tortillas = new Form4Tortillas();
             form4Tortillas.Show();
             this.Close();
+        }
+
+        private void Form5Servicios_FormClosed(object sender, FormClosedEventArgs e)
+        {
+        }
+
+        private void Form5Servicios_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult opcion = MessageBox.Show("¿Estás seguro que deseas continuar?\n Se perderá el progreso de la auditoría", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+
+            if (opcion == DialogResult.OK)
+            {
+                e.Cancel = false;
+
+                FormMenu formMenu = new FormMenu();
+                formMenu.Show();
+                this.Hide();
+            }
+            else
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

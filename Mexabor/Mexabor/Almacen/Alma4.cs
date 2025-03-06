@@ -85,15 +85,33 @@ namespace Mexabor.Almacen
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ObtenerRespuestas(tlpE,tlpL);
+            ObtenerRespuestas(tlpE, tlpL);
             Alma5Personal almaPersonal = new Alma5Personal();
             almaPersonal.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)
         {
             MarcarTodo(this.Controls);
+        }
+
+        private void Alma4_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult opcion = MessageBox.Show("¿Estás seguro que deseas continuar?\n Se perderá el progreso de la auditoría", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+
+            if (opcion == DialogResult.OK)
+            {
+                e.Cancel = false;
+
+                FormMenu formMenu = new FormMenu();
+                formMenu.Show();
+                this.Hide();
+            }
+            else
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

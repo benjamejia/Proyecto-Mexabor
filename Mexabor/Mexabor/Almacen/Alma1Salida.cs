@@ -84,7 +84,7 @@ namespace Mexabor
             else
             {
                 lblAviso.Visible = false;
-                ObtenerRespuestas(tlpE,tlpL);
+                ObtenerRespuestas(tlpE, tlpL);
                 //Asignamos los valores de los campos de texto a rellenar.
                 CacheFormsAlmacen.sucursal = txbSucursal.Text;
                 CacheFormsAlmacen.gerente = txbGerente.Text;
@@ -92,10 +92,10 @@ namespace Mexabor
 
                 Alma2CocinaCaliente almaCocinaCalient = new Alma2CocinaCaliente();
                 almaCocinaCalient.Show();
-                this.Close();
+                this.Hide();
             }
         }
-       
+
         private void button2_Click(object sender, EventArgs e)
         {
             FormMenu formMenu = new FormMenu();
@@ -109,12 +109,38 @@ namespace Mexabor
 
         private void AlmaSalida_Load(object sender, EventArgs e)
         {
-
+            txbAuditor.Text = CacheUsuario.usuario;
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)
         {
             MarcarTodo(this.Controls);
+        }
+
+        private void AlmaSalida_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+        }
+
+        private void AlmaSalida_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Verificamos si la causa del cierre es la "X" o si el usuario está cerrando el formulario explícitamente.
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                // Mostrar la alerta solo si el usuario está intentando cerrar el formulario
+                DialogResult opcion = MessageBox.Show("¿Estás seguro que deseas cerrar el formulario?\nSe perderá el progreso no guardado.", "Cerrar formulario", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                // Si el usuario cancela el cierre, evitamos que el formulario se cierre
+                if (opcion == DialogResult.No)
+                {
+                    e.Cancel = true;
+                }
+                else
+                {
+                    // Si el usuario acepta, permitimos que el formulario se cierre
+                    e.Cancel = false;
+                }
+            }
         }
     }
 }

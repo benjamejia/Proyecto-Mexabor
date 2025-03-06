@@ -31,10 +31,16 @@
     <Compile Update="Almacen\Alma1Salida.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Almacen\Almacen8Personal.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Almacen\AlmacenProductos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Almacen\Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen\Responsables.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Almacen\RevisionProductos.cs">

@@ -21,6 +21,8 @@ namespace Mexabor
     public partial class FormRegistros : Form
     {
         private static string cadena = ConfigurationManager.ConnectionStrings["cadena"].ConnectionString;
+
+        public string areaDeBusqueda = "";
         public FormRegistros()
         {
             ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
@@ -50,6 +52,11 @@ namespace Mexabor
             CacheFormsAlmacen.cocinaFriaLimpieza.Add(datos.CocinaFriaLimpieza);
             CacheFormsAlmacen.cajasEstructura.Add(datos.CajasEstructura);
             CacheFormsAlmacen.cajasLimpieza.Add(datos.CajasLimpieza);
+            CacheFormsAlmacen.personalCocinaCaliente.Add(datos.PersonalCocinaCaliente);
+            CacheFormsAlmacen.personalCamaraFria.Add(datos.PersonalCamaraFria);
+            CacheFormsAlmacen.personalCocinaFria.Add(datos.PersonalCocinaFria);
+            CacheFormsAlmacen.personalCaja.Add(datos.PersonalCajas);
+            CacheFormsAlmacen.productosRevisados.Add(datos.ProductosRevisados);
         }
 
         private void GuardarEnCacheRestaurante(DatosRestaurante datosFila)
@@ -222,6 +229,8 @@ namespace Mexabor
                     string consulta = "SELECT * FROM reporteRestaurante";
                     SQLiteDataAdapter adapter = new SQLiteDataAdapter(consulta, conn);
                     DataTable ds = new DataTable();
+                    areaDeBusqueda = "reporteRestaurante";
+                    btnBuscar.Enabled = true;
                     adapter.Fill(ds);
                     dataGridView1.DataSource = ds;
                     conn.Close();
@@ -235,19 +244,8 @@ namespace Mexabor
                     string consulta = "SELECT * FROM ReporteAlmacen";
                     SQLiteDataAdapter adapter = new SQLiteDataAdapter(consulta, conn);
                     DataTable ds = new DataTable();
-                    adapter.Fill(ds);
-                    dataGridView1.DataSource = ds;
-                    conn.Close();
-                }
-            }
-            else if (comboBox1.Text == "Productos de Almacen")
-            {
-                using (SQLiteConnection conn = new SQLiteConnection(cadena))
-                {
-                    conn.Open();
-                    string consulta = "SELECT * FROM ProductosAlmacen";
-                    SQLiteDataAdapter adapter = new SQLiteDataAdapter(consulta, conn);
-                    DataTable ds = new DataTable();
+                    areaDeBusqueda = "ReporteAlmacen";
+                    btnBuscar.Enabled = true;
                     adapter.Fill(ds);
                     dataGridView1.DataSource = ds;
                     conn.Close();
@@ -265,87 +263,75 @@ namespace Mexabor
             //ExcelTablaDesglozada();
             GenerarExcelRestaurante.ExportarDatosExcel();
         }
-        public void dobleClicAlmacen(object sender, DataGridViewCellEventArgs e) 
+        public void dobleClicAlmacen(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
-                    DataGridViewRow filaSeleccionada = dataGridView1.Rows[e.RowIndex];
+                DataGridViewRow filaSeleccionada = dataGridView1.Rows[e.RowIndex];
 
+                // Aquí almacenamos en un objeto DatosAlmacen los valores
                 DatosAlmacen datosAlmacen = new DatosAlmacen
                 {
-                    Id = TryConvertToInt(filaSeleccionada.Cells["id_auditoria"].Value)/*
-                    Sucursal = filaSeleccionada.Cells["Sucursal"].Value?.ToString(),
-                    Gerente = filaSeleccionada.Cells["Gerente"].Value?.ToString(),
-                    Auditor = filaSeleccionada.Cells["Auditor"].Value?.ToString(),
-
-                    // Manejo seguro de fecha
+                    // Manejo de la fecha, como en el caso del restaurante
                     Fecha = Convert.ToDateTime(filaSeleccionada.Cells["Fecha"].Value),
                     Hora = filaSeleccionada.Cells["Hora"].Value.ToString(),
-                    // Conversión segura a int
-                    SalidaEstructura = TryConvertToInt(filaSeleccionada.Cells["SalidaEstructura"].Value),
-                    SalidaLimpieza = TryConvertToInt(filaSeleccionada.Cells["SalidaLimpieza"].Value),
-                    CocinaCalienteEstructura = TryConvertToInt(filaSeleccionada.Cells["CocinaCalienteEstructura"].Value),
-                    CocinaCalienteLimpieza = TryConvertToInt(filaSeleccionada.Cells["CocinaCalienteLimpieza"].Value),
-                    CamaraEstructura = TryConvertToInt(filaSeleccionada.Cells["CamaraEstructura"].Value),
-                    CamaraLimpieza = TryConvertToInt(filaSeleccionada.Cells["CamaraLimpieza"].Value),
-                    AlmacenEstructura = TryConvertToInt(filaSeleccionada.Cells["AlmacenEstructura"].Value),
-                    AlmacenLimpieza = TryConvertToInt(filaSeleccionada.Cells["AlmacenLimpieza"].Value),
-                    AreaPersonalEstructura = TryConvertToInt(filaSeleccionada.Cells["AreaPersonalEstructura"].Value),
-                    AreaPersonalLimpieza = TryConvertToInt(filaSeleccionada.Cells["AreaPersonalLimpieza"].Value),
-                    CocinaFriaEstructura = TryConvertToInt(filaSeleccionada.Cells["CocinaFriaEstructura"].Value),
-                    CocinaFriaLimpieza = TryConvertToInt(filaSeleccionada.Cells["CocinaFriaLimpieza"].Value),
-                    CajasEstructura = TryConvertToInt(filaSeleccionada.Cells["CajasEstructura"].Value),
-                    CajasLimpieza = TryConvertToInt(filaSeleccionada.Cells["CajasLimpieza"].Value)*/
+                    Sucursal = filaSeleccionada.Cells["Sucursal"].Value.ToString(),
+                    Gerente = filaSeleccionada.Cells["Encargado"].Value.ToString(),
+                    Auditor= filaSeleccionada.Cells["Auditor"].Value.ToString(),
+
+                    // Convertimos las celdas a int de forma segura
+                    SalidaEstructura = TryParseInt(filaSeleccionada.Cells["SalidaEstructura"].Value),
+                    SalidaLimpieza = TryParseInt(filaSeleccionada.Cells["SalidaLimpieza"].Value),
+                    CocinaCalienteEstructura = TryParseInt(filaSeleccionada.Cells["CocinaCalienteEstructura"].Value),
+                    CocinaCalienteLimpieza = TryParseInt(filaSeleccionada.Cells["CocinaCalienteLimpieza"].Value),
+                    CamaraEstructura = TryParseInt(filaSeleccionada.Cells["CamaraEstructura"].Value),
+                    CamaraLimpieza = TryParseInt(filaSeleccionada.Cells["CamaraLimpieza"].Value),
+                    AlmacenEstructura = TryParseInt(filaSeleccionada.Cells["AlmacenEstructura"].Value),
+                    AlmacenLimpieza = TryParseInt(filaSeleccionada.Cells["AlmacenLimpieza"].Value),
+                    AreaPersonalEstructura = TryParseInt(filaSeleccionada.Cells["AreaPersonalEstructura"].Value),
+                    AreaPersonalLimpieza = TryParseInt(filaSeleccionada.Cells["AreaPersonalLimpieza"].Value),
+                    CocinaFriaEstructura = TryParseInt(filaSeleccionada.Cells["CocinaFriaEstructura"].Value),
+                    CocinaFriaLimpieza = TryParseInt(filaSeleccionada.Cells["CocinaFriaLimpieza"].Value),
+                    CajasEstructura = TryParseInt(filaSeleccionada.Cells["CajasEstructura"].Value),
+                    CajasLimpieza = TryParseInt(filaSeleccionada.Cells["CajasLimpieza"].Value),
+                    PersonalCocinaCaliente = TryParseInt(filaSeleccionada.Cells["PersonalCocinaCaliente"].Value),
+                    PersonalCamaraFria = TryParseInt(filaSeleccionada.Cells["PersonalCamaraFria"].Value),
+                    PersonalCocinaFria = TryParseInt(filaSeleccionada.Cells["PersonalCocinaFria"].Value),
+                    PersonalCajas = TryParseInt(filaSeleccionada.Cells["PersonalCaja"].Value),
+                    ProductosRevisados = TryParseInt(filaSeleccionada.Cells["ProductosRevisados"].Value)
                 };
 
-                //GuardarEnCacheAlmacen(datosAlmacen);
-                    // Configurar DataGridView2 para usar DataSource
-                    //List<DatosAlmacen> listaDatos = new List<DatosAlmacen> { datosAlmacen };
-                    //dataGridView2.DataSource = listaDatos;
+                GuardarEnCacheAlmacen(datosAlmacen);
 
-                CargarAuditoriaYProductos(datosAlmacen.Id);
+                // Configurar DataGridView2 para usar DataSource
+                List<DatosAlmacen> listaDatos = new List<DatosAlmacen> { datosAlmacen };
+                dataGridView2.DataSource = listaDatos;
+
                 panelDobleClick.Visible = true;
-                    btnCerrar.Enabled = false;
-                    btnBuscar.Enabled = false;
+                btnCerrar.Enabled = false;
+                btnBuscar.Enabled = false;
             }
-
         }
-        private int TryConvertToInt(object value)
+
+        // Método de conversión seguro a int
+        private int TryParseInt(object value)
         {
-            if (value == null) return 0;
-
-            if (int.TryParse(value.ToString()?.Replace(",", ""), out int result))
+            if (value == null || value == DBNull.Value)
             {
-                return result;
+                return 0; // Retorna 0 si el valor es nulo o vació
             }
 
-            return 0; // Retorna 0 si el valor no se puede convertir
-        }
-        private void CargarAuditoriaYProductos(int idAuditoria)
-        {
-            string query = @"
-        SELECT r.*, p.id_producto, p.ProductosRevisados, p.EmpacadosCorrectamente, 
-               p.CalidadCorrecta, p.Observaciones 
-        FROM reporteAlmacen r
-        LEFT JOIN productosAlmacen p ON r.id_auditoria = p.id_auditoria
-        WHERE r.id_auditoria = @idAuditoria";
+            string valueString = value.ToString().Replace(",", "").Trim(); // Elimina comas y espacios
 
-            using (SQLiteConnection conn = new SQLiteConnection(cadena))
+            int result;
+            if (int.TryParse(valueString, out result))
             {
-                conn.Open();
-                using (SQLiteCommand cmd = new SQLiteCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@idAuditoria", idAuditoria);
-
-                    using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd))
-                    {
-                        DataTable dt = new DataTable();
-                        adapter.Fill(dt);
-                        dataGridView2.DataSource = dt;
-                    }
-                }
+                return result; // Si la conversión es exitosa, retorna el valor
             }
+
+            return 0; // Si no se puede convertir, retorna 0
         }
+
 
         public void dobleClicRestaurante(object sender, DataGridViewCellEventArgs e)
         {
@@ -457,7 +443,7 @@ namespace Mexabor
                 if (txbGerente.Text != string.Empty && txbSucursal.Text != string.Empty && txbAuditor.Text != string.Empty)
                 {
                     conn.Open();
-                    SQLiteCommand cmd = new SQLiteCommand("SELECT * FROM reporteRestaurante WHERE Sucursal = @sucursal AND Encargado = @encargado AND Auditor = @auditor", conn);
+                    SQLiteCommand cmd = new SQLiteCommand($"SELECT * FROM {areaDeBusqueda} WHERE Sucursal = @sucursal AND Encargado = @encargado AND Auditor = @auditor", conn);
                     cmd.Parameters.AddWithValue("@encargado", encargado);
                     cmd.Parameters.AddWithValue("@sucursal", sucursal);
                     cmd.Parameters.AddWithValue("@auditor", auditor);
@@ -475,7 +461,7 @@ namespace Mexabor
                 else if (!string.IsNullOrEmpty(encargado))
                 {
                     conn.Open();
-                    SQLiteCommand cmd = new SQLiteCommand("SELECT * FROM reporteRestaurante WHERE Encargado = @encargado", conn);
+                    SQLiteCommand cmd = new SQLiteCommand($"SELECT * FROM {areaDeBusqueda} WHERE Encargado = @encargado", conn);
                     cmd.Parameters.AddWithValue("@encargado", encargado);
 
                     SQLiteDataAdapter sda = new SQLiteDataAdapter(cmd);
@@ -491,7 +477,7 @@ namespace Mexabor
                 else if (!string.IsNullOrEmpty(sucursal))
                 {
                     conn.Open();
-                    SQLiteCommand cmd2 = new SQLiteCommand("SELECT * FROM reporteRestaurante WHERE Sucursal = @sucursal", conn);
+                    SQLiteCommand cmd2 = new SQLiteCommand($"SELECT * FROM {areaDeBusqueda} WHERE Sucursal = @sucursal", conn);
                     cmd2.Parameters.AddWithValue("@sucursal", sucursal);
 
                     SQLiteDataAdapter sda2 = new SQLiteDataAdapter(cmd2);
@@ -507,7 +493,7 @@ namespace Mexabor
                 else if (!string.IsNullOrEmpty(auditor))
                 {
                     conn.Open();
-                    SQLiteCommand cmd2 = new SQLiteCommand("SELECT * FROM reporteRestaurante WHERE Auditor = @auditor", conn);
+                    SQLiteCommand cmd2 = new SQLiteCommand($"SELECT * FROM {areaDeBusqueda} WHERE Auditor = @auditor", conn);
                     cmd2.Parameters.AddWithValue("@auditor", auditor);
 
                     SQLiteDataAdapter sda2 = new SQLiteDataAdapter(cmd2);

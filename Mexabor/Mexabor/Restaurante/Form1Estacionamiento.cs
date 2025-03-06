@@ -72,7 +72,7 @@ namespace Mexabor
                 System.Media.SystemSounds.Beep.Play();
                 return;
             }
-            else 
+            else
             {
                 lblAviso.Visible = false;
                 //Este metodo obtiene las repsuestas emitidas por el usausrio haciendo dos instancias de los nombres de los tableLayoutPanel's
@@ -96,7 +96,7 @@ namespace Mexabor
 
         private void FormEstacionamiento_Load(object sender, EventArgs e)
         {
-
+            txbAuditor.Text = CacheUsuario.usuario;
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)
@@ -142,6 +142,7 @@ namespace Mexabor
 
         private void Form1Estacionamiento_FormClosed(object sender, FormClosedEventArgs e)
         {
+            
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -152,6 +153,28 @@ namespace Mexabor
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void Form1Estacionamiento_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Mostrar el mensaje de confirmación
+            DialogResult opcion = MessageBox.Show("¿Estás seguro que deseas continuar?\n Se perderá el progreso de la auditoría", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+
+            // Si el usuario hace clic en OK, entonces cerramos el formulario
+            if (opcion == DialogResult.OK)
+            {
+                // Prevenir que el formulario se cierre hasta que se muestre el nuevo formulario
+                e.Cancel = false; // Esto permite que el formulario se cierre.
+
+                FormMenu formMenu = new FormMenu();
+                formMenu.Show(); // Mostrar el formulario Menu
+                this.Hide(); // Ocultar el formulario actual en vez de cerrarlo directamente
+            }
+            else
+            {
+                // Si el usuario hace clic en Cancelar, no hacer nada
+                e.Cancel = true; // Esto cancela el cierre del formulario
+            }
         }
     }
 }

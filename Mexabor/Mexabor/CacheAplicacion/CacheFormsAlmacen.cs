@@ -8,7 +8,7 @@ namespace Mexabor.CacheAplicacion
 {
     public class CacheFormsAlmacen
     {
-        //Cache de los datos alaamcenados en los forms.
+        //Cache de los datos almacenados en los forms.
 
         public static DateTime hora;
         public static DateTime fecha;
@@ -37,17 +37,18 @@ namespace Mexabor.CacheAplicacion
         public static List<int> cajasEstructura = new List<int>();
         public static List<int> cajasLimpieza = new List<int>();
 
-        //Datos de la tabla prodcutos temporales
-        public static int id_producto;
-        public static int productosRevisados;
-        public static int empacadosCorrectamente;
-        public static int calidadCorrecta;
+        public static List<int> personalCocinaCaliente = new List<int>();
+        public static List<int> personalCamaraFria = new List<int>();
+        public static List<int> personalCocinaFria = new List<int>();
+        public static List<int> personalCaja = new List<int>();
+        public static List<int> productosRevisados = new List<int>();
+
+        public static string[] responsables = new string[7];
+        public static string leyendaAlmacen = $"La auditoría fue realizada por {auditor} el día {fecha}  " +
+            $"en el horario de {hora} pm La persona encargada de la sucursal en el momento que se realizo la auditoria y firmo de enterado fue {gerente}.";
+
         public static string? observaciones;
         public static int id_auditoria;
-
-
-        //Producto, Folio, Empacado, Calidad, CantidadIdeal, 
-        //Observaciones
 
     }
 }

@@ -28,5 +28,10 @@ namespace Mexabor.CacheAplicacion
         public int CocinaFriaLimpieza { get; set; }
         public int CajasEstructura { get; set; }
         public int CajasLimpieza { get; set; }
+        public int PersonalCocinaCaliente { get; set; }
+        public int PersonalCamaraFria {  get; set; }
+        public int PersonalCocinaFria { get; set; }
+        public int PersonalCajas { get; set; } 
+        public int ProductosRevisados {  get; set; }
     }
 }

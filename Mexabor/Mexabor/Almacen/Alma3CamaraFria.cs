@@ -88,7 +88,7 @@ namespace Mexabor.Almacen
             ObtenerRespuestas(tlpE, tlpL);
             Alma4 almacen = new Alma4();
             almacen.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void tableLayoutPanel33_Paint(object sender, PaintEventArgs e)
@@ -99,6 +99,24 @@ namespace Mexabor.Almacen
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)
         {
             MarcarTodo(this.Controls);
+        }
+
+        private void Alma3CamaraFria_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult opcion = MessageBox.Show("¿Estás seguro que deseas continuar?\n Se perderá el progreso de la auditoría", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+
+            if (opcion == DialogResult.OK)
+            {
+                e.Cancel = false;
+
+                FormMenu formMenu = new FormMenu();
+                formMenu.Show();
+                this.Hide();
+            }
+            else
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

@@ -20,14 +20,15 @@ namespace Mexabor.CacheAplicacion
                         conn.Open();
 
                         string insertQuery = @"INSERT INTO reporteAlmacen 
-                        (Sucursal, Gerente, Auditor, Fecha, Hora, 
+                        (Sucursal, Encargado, Auditor, Fecha, Hora, 
                         SalidaEstructura, SalidaLimpieza, 
                         CocinaCalienteEstructura, CocinaCalienteLimpieza, 
                         CamaraEstructura, CamaraLimpieza, 
                         AlmacenEstructura, AlmacenLimpieza, 
                         AreaPersonalEstructura, AreaPersonalLimpieza, 
                         CocinaFriaEstructura, CocinaFriaLimpieza, 
-                        CajasEstructura, CajasLimpieza)
+                        CajasEstructura, CajasLimpieza, PersonalCocinaCaliente,
+                        PersonalCamaraFria, PersonalCocinaFria, PersonalCaja, ProductosRevisados)
                         VALUES 
                         (@sucursal, @gerente, @auditor, @fecha, @hora,  
                         @salidaEstructura, @salidaLimpieza, 
@@ -36,7 +37,8 @@ namespace Mexabor.CacheAplicacion
                         @almacenEstructura, @almacenLimpieza, 
                         @areaPersonalEstructura, @areaPersonalLimpieza, 
                         @cocinaFriaEstructura, @cocinaFriaLimpieza, 
-                        @cajasEstructura, @cajasLimpieza)";
+                        @cajasEstructura, @cajasLimpieza, @personalCocinaCaliente,
+                        @personalCamaraFria,@personalCocinaFria,@personalCaja,@productosRevisados)";
 
                         using (SQLiteCommand cmd = new SQLiteCommand(insertQuery, conn))
                         {
@@ -62,17 +64,15 @@ namespace Mexabor.CacheAplicacion
                             cmd.Parameters.AddWithValue("@cocinaFriaLimpieza", string.Join(",", CacheFormsAlmacen.cocinaFriaLimpieza.Select(x => x.ToString())));
                             cmd.Parameters.AddWithValue("@cajasEstructura", string.Join(",", CacheFormsAlmacen.cajasEstructura.Select(x => x.ToString())));
                             cmd.Parameters.AddWithValue("@cajasLimpieza", string.Join(",", CacheFormsAlmacen.cajasLimpieza.Select(x => x.ToString())));
-
-
-                            // Ejecutar el comando
-                            cmd.ExecuteNonQuery();
+                            cmd.Parameters.AddWithValue("@personalCocinaCaliente", string.Join(",", CacheFormsAlmacen.cocinaFriaEstructura.Select(x => x.ToString())));
+                            cmd.Parameters.AddWithValue("@personalCamaraFria", string.Join(",", CacheFormsAlmacen.cocinaFriaLimpieza.Select(x => x.ToString())));
+                            cmd.Parameters.AddWithValue("@personalCocinaFria", string.Join(",", CacheFormsAlmacen.cajasEstructura.Select(x => x.ToString())));
+                            cmd.Parameters.AddWithValue("@personalCaja", string.Join(",", CacheFormsAlmacen.cajasLimpieza.Select(x => x.ToString())));
+                            cmd.Parameters.AddWithValue("@productosRevisados", string.Join(",", CacheFormsAlmacen.productosRevisados.Select(x => x.ToString())));
+                        // Ejecutar el comando
+                        cmd.ExecuteNonQuery();
                         }
-                        using (SQLiteCommand cmd = new SQLiteCommand("SELECT last_insert_rowid();", conn))
-                        {
-                            ConexionBD_Productos.idAuditoria = (long)cmd.ExecuteScalar();
-                        }
 
-                        Console.WriteLine($"ID de la auditoría insertada: {ConexionBD_Productos.idAuditoria}");
                     }
                 }
                 catch (Exception ex)

@@ -92,10 +92,10 @@ namespace Mexabor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ObtenerRespuestas(tlpE,tlpL);
+            ObtenerRespuestas(tlpE, tlpL);
             Alma3CamaraFria almaCamaraFria = new Alma3CamaraFria();
             almaCamaraFria.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void tableLayoutPanel10_Paint(object sender, PaintEventArgs e)
@@ -106,6 +106,27 @@ namespace Mexabor
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)
         {
             MarcarTodo(this.Controls);
+        }
+
+        private void Alma2CocinaCaliente_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Verificamos si la causa del cierre es la "X" o si el usuario está cerrando el formulario explícitamente.
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                // Mostrar la alerta solo si el usuario está intentando cerrar el formulario
+                DialogResult opcion = MessageBox.Show("¿Estás seguro que deseas cerrar el formulario?\nSe perderá el progreso no guardado.", "Cerrar formulario", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                // Si el usuario cancela el cierre, evitamos que el formulario se cierre
+                if (opcion == DialogResult.No)
+                {
+                    e.Cancel = true;
+                }
+                else
+                {
+                    // Si el usuario acepta, permitimos que el formulario se cierre
+                    e.Cancel = false;
+                }
+            }
         }
     }
 }

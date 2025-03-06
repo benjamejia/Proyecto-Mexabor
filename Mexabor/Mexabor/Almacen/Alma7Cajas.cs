@@ -85,18 +85,33 @@ namespace Mexabor.Almacen
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ObtenerRespuestas(tlpE,tlpL);
-            CacheFormsAlmacen.fecha = DateTime.Now;
-            CacheFormsAlmacen.hora = DateTime.Now;
-            ConexionBD_Almacen.SubirDatos();
-            RevisionProductos productos = new RevisionProductos();
-            productos.Show();
-            this.Close();
+            ObtenerRespuestas(tlpE, tlpL);
+            Almacen8Personal almacen8Personal = new Almacen8Personal();
+            almacen8Personal.Show();
+            this.Hide();
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)
         {
             MarcarTodo(this.Controls);
+        }
+
+        private void Alma7Cajas_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult opcion = MessageBox.Show("¿Estás seguro que deseas continuar?\n Se perderá el progreso de la auditoría", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+
+            if (opcion == DialogResult.OK)
+            {
+                e.Cancel = false;
+
+                FormMenu formMenu = new FormMenu();
+                formMenu.Show();
+                this.Hide();
+            }
+            else
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

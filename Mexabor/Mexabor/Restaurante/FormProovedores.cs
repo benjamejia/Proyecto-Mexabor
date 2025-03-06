@@ -8,7 +8,7 @@ namespace Mexabor
     {
         private List<int> calificaciones = new List<int>();
         private List<int> herramienta = new List<int>();
-        public int[] valores = { 1,2,3,4,5,6,7,8,9,10 };
+        public int[] valores = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         public FormProovedores()
         {
             InitializeComponent();
@@ -25,7 +25,7 @@ namespace Mexabor
                 CacheFormsRestaurante.observaciones[cbProveedores.SelectedIndex] = txtObservacion.Text;
                 MessageBox.Show($"Se agrego la observacion del proveedor {cbProveedores.Text} con exíto");
                 txtObservacion.Text = string.Empty;
-                Console.WriteLine(CacheFormsRestaurante.observaciones[cbProveedores.SelectedIndex]);
+                cbProveedores.Text = string.Empty;
             }
         }
 
@@ -126,9 +126,9 @@ namespace Mexabor
         {
             foreach (Control control in this.Controls)
             {
-                if (control is ComboBox comboBox) 
+                if (control is ComboBox comboBox)
                 {
-                    if (string.IsNullOrEmpty(comboBox.Text)) 
+                    if (string.IsNullOrEmpty(comboBox.Text))
                     {
                         MessageBox.Show("Se necesitan califiaciones validas.");
                         return;
@@ -154,7 +154,7 @@ namespace Mexabor
             formVarios.Show();
             this.Close();
         }
-        
+
         private void txtObersavacion_TextChanged(object sender, EventArgs e)
         {
             const int maxCaracteres = 200;
@@ -164,6 +164,28 @@ namespace Mexabor
                 // Si se excede el límite, recortar el texto y notificar al usuario si es necesario
                 txtObservacion.Text = txtObservacion.Text.Substring(0, maxCaracteres);
                 txtObservacion.SelectionStart = txtObservacion.Text.Length; // Mantener el cursor al final
+            }
+        }
+
+        private void FormProovedores_FormClosed(object sender, FormClosedEventArgs e)
+        {
+        }
+
+        private void FormProovedores_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult opcion = MessageBox.Show("¿Estás seguro que deseas continuar?\n Se perderá el progreso de la auditoría", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+
+            if (opcion == DialogResult.OK)
+            {
+                e.Cancel = false;
+
+                FormMenu formMenu = new FormMenu();
+                formMenu.Show();
+                this.Hide();
+            }
+            else
+            {
+                e.Cancel = true;
             }
         }
     }
