@@ -16,6 +16,7 @@ namespace Mexabor
         public Form2Comedor()
         {
             InitializeComponent();
+            this.AutoScroll = true;
         }
         private List<int> ObtenerValoresDeCheckBox(TableLayoutPanel tableLayout)
         {
@@ -80,7 +81,7 @@ namespace Mexabor
         {
             Form1Estacionamiento formEstacionamiento = new Form1Estacionamiento();
             formEstacionamiento.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void label17_Click(object sender, EventArgs e)
@@ -98,7 +99,7 @@ namespace Mexabor
             ObtenerRespuestas(tlpE, tlpL);
             Form3Barra formBarra = new Form3Barra();
             formBarra.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)
@@ -127,6 +128,11 @@ namespace Mexabor
             {
                 e.Cancel = true;
             }
+        }
+
+        private void Form2Comedor_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

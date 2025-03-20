@@ -44,8 +44,11 @@
             label4 = new Label();
             txbPesoIdeal = new TextBox();
             label5 = new Label();
+            label6 = new Label();
+            n1 = new NumericUpDown();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)n1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -74,9 +77,9 @@
             label3.Font = new Font("Yu Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(22, 241);
             label3.Name = "label3";
-            label3.Size = new Size(239, 20);
+            label3.Size = new Size(209, 20);
             label3.TabIndex = 241;
-            label3.Text = "Productos que con buena calidad";
+            label3.Text = "Productos con buena calidad";
             // 
             // label20
             // 
@@ -85,9 +88,9 @@
             label20.ForeColor = SystemColors.ControlDarkDark;
             label20.Location = new Point(16, 306);
             label20.Name = "label20";
-            label20.Size = new Size(75, 15);
+            label20.Size = new Size(131, 15);
             label20.TabIndex = 248;
-            label20.Text = "Maximo 500.";
+            label20.Text = "Maximo 500 caracteres.";
             // 
             // txtObservacion
             // 
@@ -95,7 +98,7 @@
             txtObservacion.Font = new Font("Yu Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtObservacion.Location = new Point(16, 43);
             txtObservacion.Name = "txtObservacion";
-            txtObservacion.Size = new Size(708, 260);
+            txtObservacion.Size = new Size(615, 260);
             txtObservacion.TabIndex = 246;
             txtObservacion.Text = "Sin obersevaciones.";
             txtObservacion.TextChanged += txtObservacion_TextChanged;
@@ -106,7 +109,7 @@
             label18.AutoSize = true;
             label18.BackColor = SystemColors.ButtonHighlight;
             label18.Font = new Font("Yu Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label18.Location = new Point(512, 10);
+            label18.Location = new Point(419, 10);
             label18.Name = "label18";
             label18.Size = new Size(189, 21);
             label18.TabIndex = 243;
@@ -119,9 +122,9 @@
             panel1.Controls.Add(label20);
             panel1.Controls.Add(label18);
             panel1.Controls.Add(txtObservacion);
-            panel1.Location = new Point(382, 90);
+            panel1.Location = new Point(475, 90);
             panel1.Name = "panel1";
-            panel1.Size = new Size(736, 346);
+            panel1.Size = new Size(643, 346);
             panel1.TabIndex = 249;
             // 
             // button2
@@ -222,12 +225,35 @@
             label5.TabIndex = 256;
             label5.Text = "Productos con peso ideal";
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Yu Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(329, 91);
+            label6.Name = "label6";
+            label6.Size = new Size(128, 17);
+            label6.TabIndex = 259;
+            label6.Text = "Puntuaje a Calificar";
+            // 
+            // n1
+            // 
+            n1.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            n1.Location = new Point(329, 111);
+            n1.Maximum = new decimal(new int[] { 30, 0, 0, 0 });
+            n1.Name = "n1";
+            n1.Size = new Size(72, 33);
+            n1.TabIndex = 260;
+            n1.TextAlign = HorizontalAlignment.Center;
+            n1.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            // 
             // RevisionProductos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1148, 508);
+            Controls.Add(n1);
+            Controls.Add(label6);
             Controls.Add(txbPesoIdeal);
             Controls.Add(label5);
             Controls.Add(panel2);
@@ -240,7 +266,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            MinimumSize = new Size(1096, 412);
+            MinimumSize = new Size(1096, 410);
             Name = "RevisionProductos";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Revision de Productos";
@@ -250,6 +276,7 @@
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)n1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -271,5 +298,7 @@
         private Label label4;
         private TextBox txbPesoIdeal;
         private Label label5;
+        private Label label6;
+        private NumericUpDown n1;
     }
 }

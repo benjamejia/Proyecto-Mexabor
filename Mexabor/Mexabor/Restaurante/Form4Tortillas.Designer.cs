@@ -739,17 +739,18 @@
             // 
             // cbxMarcarTodo
             // 
-            cbxMarcarTodo.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            cbxMarcarTodo.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             cbxMarcarTodo.AutoSize = true;
+            cbxMarcarTodo.BackColor = SystemColors.ButtonFace;
             cbxMarcarTodo.Font = new Font("Yu Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             cbxMarcarTodo.ImageAlign = ContentAlignment.MiddleRight;
-            cbxMarcarTodo.Location = new Point(1085, 12);
+            cbxMarcarTodo.Location = new Point(845, 636);
             cbxMarcarTodo.Name = "cbxMarcarTodo";
             cbxMarcarTodo.RightToLeft = RightToLeft.Yes;
             cbxMarcarTodo.Size = new Size(120, 23);
             cbxMarcarTodo.TabIndex = 159;
             cbxMarcarTodo.Text = "Marcar todo";
-            cbxMarcarTodo.UseVisualStyleBackColor = true;
+            cbxMarcarTodo.UseVisualStyleBackColor = false;
             cbxMarcarTodo.CheckedChanged += cbxMarcarTodo_CheckedChanged;
             // 
             // Form4Tortillas
@@ -818,7 +819,6 @@
         private Label label4;
         private TableLayoutPanel tlpE;
         private Label label1;
-        private CheckBox cbxMarcarTodo;
         private CheckBox checkBox14;
         private CheckBox checkBox1;
         private CheckBox checkBox26;
@@ -845,5 +845,6 @@
         private CheckBox checkBox4;
         private CheckBox checkBox3;
         private CheckBox checkBox2;
+        private CheckBox cbxMarcarTodo;
     }
 }

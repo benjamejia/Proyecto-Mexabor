@@ -76,7 +76,7 @@ namespace Mexabor
         {
             Form10Personal formPersonal = new Form10Personal();
             formPersonal.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -84,7 +84,7 @@ namespace Mexabor
             ObtenerRespuestas(barraP, mesasP, serviciosP);
             FormVarios formVarios = new FormVarios();
             formVarios.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)

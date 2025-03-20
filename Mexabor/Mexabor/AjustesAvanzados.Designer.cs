@@ -42,8 +42,8 @@
             pictureBox1 = new PictureBox();
             dataGridView1 = new DataGridView();
             panel1 = new Panel();
-            imagenMexabor = new PictureBox();
             label6 = new Label();
+            imagenMexabor = new PictureBox();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -70,7 +70,7 @@
             panel2.Location = new Point(0, 72);
             panel2.Margin = new Padding(3, 2, 3, 2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(366, 369);
+            panel2.Size = new Size(367, 369);
             panel2.TabIndex = 1;
             panel2.Paint += panel2_Paint_1;
             // 
@@ -80,9 +80,9 @@
             label3.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(51, 226);
             label3.Name = "label3";
-            label3.Size = new Size(127, 21);
+            label3.Size = new Size(17, 21);
             label3.TabIndex = 62;
-            label3.Text = "Tipo de Usuario";
+            label3.Text = "-";
             // 
             // cbCredenciales
             // 
@@ -140,9 +140,9 @@
             label4.ForeColor = SystemColors.ControlDarkDark;
             label4.Location = new Point(62, 343);
             label4.Name = "label4";
-            label4.Size = new Size(53, 15);
+            label4.Size = new Size(39, 15);
             label4.TabIndex = 56;
-            label4.Text = "Cancelar";
+            label4.Text = "Volver";
             // 
             // pictureBox2
             // 
@@ -201,19 +201,8 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(366, 67);
+            panel1.Size = new Size(367, 67);
             panel1.TabIndex = 2;
-            // 
-            // imagenMexabor
-            // 
-            imagenMexabor.Image = (Image)resources.GetObject("imagenMexabor.Image");
-            imagenMexabor.Location = new Point(0, 0);
-            imagenMexabor.Margin = new Padding(3, 2, 3, 2);
-            imagenMexabor.Name = "imagenMexabor";
-            imagenMexabor.Size = new Size(101, 65);
-            imagenMexabor.SizeMode = PictureBoxSizeMode.Zoom;
-            imagenMexabor.TabIndex = 3;
-            imagenMexabor.TabStop = false;
             // 
             // label6
             // 
@@ -226,12 +215,23 @@
             label6.TabIndex = 63;
             label6.Text = "Para eliminar haga doble clic en el \r\nusuario que desea eliminar\r\n";
             // 
+            // imagenMexabor
+            // 
+            imagenMexabor.Image = (Image)resources.GetObject("imagenMexabor.Image");
+            imagenMexabor.Location = new Point(0, 0);
+            imagenMexabor.Margin = new Padding(3, 2, 3, 2);
+            imagenMexabor.Name = "imagenMexabor";
+            imagenMexabor.Size = new Size(101, 65);
+            imagenMexabor.SizeMode = PictureBoxSizeMode.Zoom;
+            imagenMexabor.TabIndex = 3;
+            imagenMexabor.TabStop = false;
+            // 
             // AjustesAvanzados
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(366, 441);
+            ClientSize = new Size(367, 441);
             Controls.Add(panel1);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;

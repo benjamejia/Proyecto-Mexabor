@@ -31,7 +31,7 @@
             cbxMarcarTodo = new CheckBox();
             panel1 = new Panel();
             label11 = new Label();
-            tlp4 = new TableLayoutPanel();
+            tlp3 = new TableLayoutPanel();
             checkBox28 = new CheckBox();
             checkBox27 = new CheckBox();
             checkBox26 = new CheckBox();
@@ -46,24 +46,8 @@
             label16 = new Label();
             label18 = new Label();
             label19 = new Label();
-            label20 = new Label();
-            tlp2 = new TableLayoutPanel();
-            checkBox21 = new CheckBox();
-            checkBox20 = new CheckBox();
-            checkBox19 = new CheckBox();
-            checkBox18 = new CheckBox();
-            checkBox17 = new CheckBox();
-            checkBox16 = new CheckBox();
-            checkBox15 = new CheckBox();
-            label21 = new Label();
-            label22 = new Label();
-            label26 = new Label();
-            label27 = new Label();
-            label28 = new Label();
-            label31 = new Label();
-            label32 = new Label();
             label7 = new Label();
-            tlp3 = new TableLayoutPanel();
+            tlp2 = new TableLayoutPanel();
             checkBox14 = new CheckBox();
             checkBox13 = new CheckBox();
             checkBox12 = new CheckBox();
@@ -97,9 +81,8 @@
             label5 = new Label();
             label4 = new Label();
             checkBox1 = new CheckBox();
-            tlp4.SuspendLayout();
-            tlp2.SuspendLayout();
             tlp3.SuspendLayout();
+            tlp2.SuspendLayout();
             tlp1.SuspendLayout();
             SuspendLayout();
             // 
@@ -134,46 +117,46 @@
             label11.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label11.AutoSize = true;
             label11.Font = new Font("Yu Gothic", 12F, FontStyle.Bold);
-            label11.Location = new Point(582, 368);
+            label11.Location = new Point(577, 11);
             label11.Name = "label11";
             label11.Size = new Size(175, 26);
             label11.TabIndex = 180;
             label11.Text = "Personal - Cajas";
             // 
-            // tlp4
+            // tlp3
             // 
-            tlp4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            tlp4.ColumnCount = 2;
-            tlp4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.23769F));
-            tlp4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.762301F));
-            tlp4.Controls.Add(checkBox28, 1, 6);
-            tlp4.Controls.Add(checkBox27, 1, 5);
-            tlp4.Controls.Add(checkBox26, 1, 4);
-            tlp4.Controls.Add(checkBox25, 1, 3);
-            tlp4.Controls.Add(checkBox24, 1, 2);
-            tlp4.Controls.Add(checkBox23, 1, 1);
-            tlp4.Controls.Add(checkBox22, 1, 0);
-            tlp4.Controls.Add(label12, 0, 6);
-            tlp4.Controls.Add(label13, 0, 5);
-            tlp4.Controls.Add(label14, 0, 4);
-            tlp4.Controls.Add(label15, 0, 3);
-            tlp4.Controls.Add(label16, 0, 2);
-            tlp4.Controls.Add(label18, 0, 1);
-            tlp4.Controls.Add(label19, 0, 0);
-            tlp4.Font = new Font("Yu Gothic", 12F);
-            tlp4.Location = new Point(579, 405);
-            tlp4.Name = "tlp4";
-            tlp4.RowCount = 7;
-            tlp4.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp4.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp4.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp4.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp4.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp4.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp4.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp4.Size = new Size(489, 263);
-            tlp4.TabIndex = 179;
-            tlp4.TabStop = true;
+            tlp3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            tlp3.ColumnCount = 2;
+            tlp3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.23769F));
+            tlp3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.762301F));
+            tlp3.Controls.Add(checkBox28, 1, 6);
+            tlp3.Controls.Add(checkBox27, 1, 5);
+            tlp3.Controls.Add(checkBox26, 1, 4);
+            tlp3.Controls.Add(checkBox25, 1, 3);
+            tlp3.Controls.Add(checkBox24, 1, 2);
+            tlp3.Controls.Add(checkBox23, 1, 1);
+            tlp3.Controls.Add(checkBox22, 1, 0);
+            tlp3.Controls.Add(label12, 0, 6);
+            tlp3.Controls.Add(label13, 0, 5);
+            tlp3.Controls.Add(label14, 0, 4);
+            tlp3.Controls.Add(label15, 0, 3);
+            tlp3.Controls.Add(label16, 0, 2);
+            tlp3.Controls.Add(label18, 0, 1);
+            tlp3.Controls.Add(label19, 0, 0);
+            tlp3.Font = new Font("Yu Gothic", 12F);
+            tlp3.Location = new Point(574, 48);
+            tlp3.Name = "tlp3";
+            tlp3.RowCount = 7;
+            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp3.Size = new Size(489, 263);
+            tlp3.TabIndex = 179;
+            tlp3.TabStop = true;
             // 
             // checkBox28
             // 
@@ -303,180 +286,6 @@
             label19.Text = "1.- Uniforme completo";
             label19.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label20
-            // 
-            label20.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label20.AutoSize = true;
-            label20.Font = new Font("Yu Gothic", 12F, FontStyle.Bold);
-            label20.Location = new Point(580, 11);
-            label20.Name = "label20";
-            label20.Size = new Size(240, 26);
-            label20.TabIndex = 178;
-            label20.Text = "Personal - Camara Fria";
-            // 
-            // tlp2
-            // 
-            tlp2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            tlp2.ColumnCount = 2;
-            tlp2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.23769F));
-            tlp2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.762301F));
-            tlp2.Controls.Add(checkBox21, 1, 6);
-            tlp2.Controls.Add(checkBox20, 1, 5);
-            tlp2.Controls.Add(checkBox19, 1, 4);
-            tlp2.Controls.Add(checkBox18, 1, 3);
-            tlp2.Controls.Add(checkBox17, 1, 2);
-            tlp2.Controls.Add(checkBox16, 1, 1);
-            tlp2.Controls.Add(checkBox15, 1, 0);
-            tlp2.Controls.Add(label21, 0, 6);
-            tlp2.Controls.Add(label22, 0, 5);
-            tlp2.Controls.Add(label26, 0, 4);
-            tlp2.Controls.Add(label27, 0, 3);
-            tlp2.Controls.Add(label28, 0, 2);
-            tlp2.Controls.Add(label31, 0, 1);
-            tlp2.Controls.Add(label32, 0, 0);
-            tlp2.Font = new Font("Yu Gothic", 12F);
-            tlp2.Location = new Point(575, 48);
-            tlp2.Name = "tlp2";
-            tlp2.RowCount = 7;
-            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp2.Size = new Size(489, 252);
-            tlp2.TabIndex = 177;
-            tlp2.TabStop = true;
-            // 
-            // checkBox21
-            // 
-            checkBox21.AutoSize = true;
-            checkBox21.Location = new Point(449, 219);
-            checkBox21.Name = "checkBox21";
-            checkBox21.Size = new Size(18, 17);
-            checkBox21.TabIndex = 9;
-            checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // checkBox20
-            // 
-            checkBox20.AutoSize = true;
-            checkBox20.Location = new Point(449, 183);
-            checkBox20.Name = "checkBox20";
-            checkBox20.Size = new Size(18, 17);
-            checkBox20.TabIndex = 8;
-            checkBox20.UseVisualStyleBackColor = true;
-            // 
-            // checkBox19
-            // 
-            checkBox19.AutoSize = true;
-            checkBox19.Location = new Point(449, 147);
-            checkBox19.Name = "checkBox19";
-            checkBox19.Size = new Size(18, 17);
-            checkBox19.TabIndex = 7;
-            checkBox19.UseVisualStyleBackColor = true;
-            // 
-            // checkBox18
-            // 
-            checkBox18.AutoSize = true;
-            checkBox18.Location = new Point(449, 111);
-            checkBox18.Name = "checkBox18";
-            checkBox18.Size = new Size(18, 17);
-            checkBox18.TabIndex = 6;
-            checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // checkBox17
-            // 
-            checkBox17.AutoSize = true;
-            checkBox17.Location = new Point(449, 75);
-            checkBox17.Name = "checkBox17";
-            checkBox17.Size = new Size(18, 17);
-            checkBox17.TabIndex = 5;
-            checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox16
-            // 
-            checkBox16.AutoSize = true;
-            checkBox16.Location = new Point(449, 39);
-            checkBox16.Name = "checkBox16";
-            checkBox16.Size = new Size(18, 17);
-            checkBox16.TabIndex = 4;
-            checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // checkBox15
-            // 
-            checkBox15.AutoSize = true;
-            checkBox15.Location = new Point(449, 3);
-            checkBox15.Name = "checkBox15";
-            checkBox15.Size = new Size(18, 17);
-            checkBox15.TabIndex = 3;
-            checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Location = new Point(3, 216);
-            label21.Name = "label21";
-            label21.Size = new Size(326, 26);
-            label21.TabIndex = 0;
-            label21.Text = "7.- Cabello recortado y/o recogido";
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.Location = new Point(3, 180);
-            label22.Name = "label22";
-            label22.Size = new Size(231, 26);
-            label22.TabIndex = 0;
-            label22.Text = "6.- Protocolo de ingreso";
-            // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.Location = new Point(3, 144);
-            label26.Name = "label26";
-            label26.Size = new Size(141, 26);
-            label26.TabIndex = 0;
-            label26.Text = "5.- Accesorios";
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.Location = new Point(3, 108);
-            label27.Name = "label27";
-            label27.Size = new Size(194, 26);
-            label27.TabIndex = 0;
-            label27.Text = "4.- Uñas recortadas";
-            // 
-            // label28
-            // 
-            label28.AutoSize = true;
-            label28.Location = new Point(3, 72);
-            label28.Name = "label28";
-            label28.Size = new Size(326, 26);
-            label28.TabIndex = 0;
-            label28.Text = "3.- Personal aseado y presentable";
-            label28.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label31
-            // 
-            label31.AutoSize = true;
-            label31.Location = new Point(3, 36);
-            label31.Name = "label31";
-            label31.Size = new Size(189, 26);
-            label31.TabIndex = 0;
-            label31.Text = "2.- Uniforme limpio";
-            // 
-            // label32
-            // 
-            label32.AutoSize = true;
-            label32.Location = new Point(3, 0);
-            label32.Name = "label32";
-            label32.Size = new Size(218, 26);
-            label32.TabIndex = 0;
-            label32.Text = "1.- Uniforme completo";
-            label32.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // label7
             // 
             label7.AutoSize = true;
@@ -487,39 +296,39 @@
             label7.TabIndex = 176;
             label7.Text = "Personal - Cocina Caliente";
             // 
-            // tlp3
+            // tlp2
             // 
-            tlp3.ColumnCount = 2;
-            tlp3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.23769F));
-            tlp3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.762301F));
-            tlp3.Controls.Add(checkBox14, 1, 6);
-            tlp3.Controls.Add(checkBox13, 1, 5);
-            tlp3.Controls.Add(checkBox12, 1, 4);
-            tlp3.Controls.Add(checkBox11, 1, 3);
-            tlp3.Controls.Add(checkBox10, 1, 2);
-            tlp3.Controls.Add(checkBox9, 1, 1);
-            tlp3.Controls.Add(checkBox8, 1, 0);
-            tlp3.Controls.Add(label8, 0, 6);
-            tlp3.Controls.Add(label10, 0, 5);
-            tlp3.Controls.Add(label23, 0, 4);
-            tlp3.Controls.Add(label24, 0, 3);
-            tlp3.Controls.Add(label25, 0, 2);
-            tlp3.Controls.Add(label29, 0, 1);
-            tlp3.Controls.Add(label30, 0, 0);
-            tlp3.Font = new Font("Yu Gothic", 12F);
-            tlp3.Location = new Point(25, 405);
-            tlp3.Name = "tlp3";
-            tlp3.RowCount = 7;
-            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp3.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tlp3.Size = new Size(489, 263);
-            tlp3.TabIndex = 175;
-            tlp3.TabStop = true;
+            tlp2.ColumnCount = 2;
+            tlp2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.23769F));
+            tlp2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.762301F));
+            tlp2.Controls.Add(checkBox14, 1, 6);
+            tlp2.Controls.Add(checkBox13, 1, 5);
+            tlp2.Controls.Add(checkBox12, 1, 4);
+            tlp2.Controls.Add(checkBox11, 1, 3);
+            tlp2.Controls.Add(checkBox10, 1, 2);
+            tlp2.Controls.Add(checkBox9, 1, 1);
+            tlp2.Controls.Add(checkBox8, 1, 0);
+            tlp2.Controls.Add(label8, 0, 6);
+            tlp2.Controls.Add(label10, 0, 5);
+            tlp2.Controls.Add(label23, 0, 4);
+            tlp2.Controls.Add(label24, 0, 3);
+            tlp2.Controls.Add(label25, 0, 2);
+            tlp2.Controls.Add(label29, 0, 1);
+            tlp2.Controls.Add(label30, 0, 0);
+            tlp2.Font = new Font("Yu Gothic", 12F);
+            tlp2.Location = new Point(25, 405);
+            tlp2.Name = "tlp2";
+            tlp2.RowCount = 7;
+            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tlp2.Size = new Size(489, 263);
+            tlp2.TabIndex = 175;
+            tlp2.TabStop = true;
             // 
             // checkBox14
             // 
@@ -870,11 +679,9 @@
             Controls.Add(cbxMarcarTodo);
             Controls.Add(panel1);
             Controls.Add(label11);
-            Controls.Add(tlp4);
-            Controls.Add(label20);
-            Controls.Add(tlp2);
-            Controls.Add(label7);
             Controls.Add(tlp3);
+            Controls.Add(label7);
+            Controls.Add(tlp2);
             Controls.Add(button2);
             Controls.Add(panel3);
             Controls.Add(button1);
@@ -886,12 +693,10 @@
             Text = "Almacen8Personal";
             WindowState = FormWindowState.Maximized;
             FormClosing += Almacen8Personal_FormClosing;
-            tlp4.ResumeLayout(false);
-            tlp4.PerformLayout();
-            tlp2.ResumeLayout(false);
-            tlp2.PerformLayout();
             tlp3.ResumeLayout(false);
             tlp3.PerformLayout();
+            tlp2.ResumeLayout(false);
+            tlp2.PerformLayout();
             tlp1.ResumeLayout(false);
             tlp1.PerformLayout();
             ResumeLayout(false);
@@ -903,7 +708,7 @@
         private CheckBox cbxMarcarTodo;
         private Panel panel1;
         private Label label11;
-        private TableLayoutPanel tlp4;
+        private TableLayoutPanel tlp3;
         private CheckBox checkBox28;
         private CheckBox checkBox27;
         private CheckBox checkBox26;
@@ -918,24 +723,8 @@
         private Label label16;
         private Label label18;
         private Label label19;
-        private Label label20;
-        private TableLayoutPanel tlp2;
-        private CheckBox checkBox21;
-        private CheckBox checkBox20;
-        private CheckBox checkBox19;
-        private CheckBox checkBox18;
-        private CheckBox checkBox17;
-        private CheckBox checkBox16;
-        private CheckBox checkBox15;
-        private Label label21;
-        private Label label22;
-        private Label label26;
-        private Label label27;
-        private Label label28;
-        private Label label31;
-        private Label label32;
         private Label label7;
-        private TableLayoutPanel tlp3;
+        private TableLayoutPanel tlp2;
         private CheckBox checkBox14;
         private CheckBox checkBox13;
         private CheckBox checkBox12;

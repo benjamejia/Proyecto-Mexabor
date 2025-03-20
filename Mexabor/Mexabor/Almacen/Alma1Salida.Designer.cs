@@ -133,7 +133,7 @@
             // txbAuditor
             // 
             txbAuditor.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            txbAuditor.BackColor = Color.LightGray;
+            txbAuditor.BackColor = Color.White;
             txbAuditor.BorderStyle = BorderStyle.None;
             txbAuditor.Font = new Font("Yu Gothic", 9F);
             txbAuditor.Location = new Point(999, 7);
@@ -156,10 +156,10 @@
             // txbGerente
             // 
             txbGerente.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            txbGerente.BackColor = Color.LightGray;
+            txbGerente.BackColor = Color.White;
             txbGerente.BorderStyle = BorderStyle.None;
             txbGerente.Font = new Font("Yu Gothic", 9F);
-            txbGerente.Location = new Point(999, 37);
+            txbGerente.Location = new Point(999, 42);
             txbGerente.Name = "txbGerente";
             txbGerente.Size = new Size(251, 25);
             txbGerente.TabIndex = 15;

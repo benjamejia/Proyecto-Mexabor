@@ -86,7 +86,7 @@ namespace Mexabor
             ObtenerRespuestas(tlpE, tlpL);
             Form6Planchas formPlanchas = new Form6Planchas();
             formPlanchas.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)
@@ -98,7 +98,7 @@ namespace Mexabor
         {
             Form4Tortillas form4Tortillas = new Form4Tortillas();
             form4Tortillas.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void Form5Servicios_FormClosed(object sender, FormClosedEventArgs e)

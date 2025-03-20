@@ -87,7 +87,7 @@ namespace Mexabor
         {
             AlmaSalida almaSalida = new AlmaSalida();
             almaSalida.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)

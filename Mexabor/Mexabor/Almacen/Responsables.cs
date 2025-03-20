@@ -26,6 +26,8 @@ namespace Mexabor.Almacen
             CacheFormsAlmacen.responsables[4] = cbCocinaFria.Text;
             CacheFormsAlmacen.responsables[5] = cbCajas.Text;
             CacheFormsAlmacen.responsables[6] = cbVajillas.Text;
+            CacheFormsAlmacen.responsables[7] = cbVajillas.Text;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -37,6 +39,13 @@ namespace Mexabor.Almacen
             ExportacionAlmacen exportacionAlmacen = new ExportacionAlmacen();
             this.Hide();
             exportacionAlmacen.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            RevisionProductos revisionProductos = new RevisionProductos();
+            this.Hide();
+            revisionProductos.Show();
         }
     }
 }

@@ -8,30 +8,30 @@ namespace Mexabor.CacheAplicacion
 {
     public class DatosAlmacen
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Sucursal { get; set; }
         public string Gerente { get; set; }
         public string Auditor { get; set; }
         public DateTime Fecha { get; set; }
         public string? Hora { get; set; }
-        public int SalidaEstructura { get; set; }
-        public int SalidaLimpieza { get; set; }
-        public int CocinaCalienteEstructura { get; set; }
-        public int CocinaCalienteLimpieza { get; set; }
-        public int CamaraEstructura { get; set; }
-        public int CamaraLimpieza { get; set; }
-        public int AlmacenEstructura { get; set; }
-        public int AlmacenLimpieza { get; set; }
-        public int AreaPersonalEstructura { get; set; }
-        public int AreaPersonalLimpieza { get; set; }
-        public int CocinaFriaEstructura { get; set; }
-        public int CocinaFriaLimpieza { get; set; }
-        public int CajasEstructura { get; set; }
-        public int CajasLimpieza { get; set; }
-        public int PersonalCocinaCaliente { get; set; }
-        public int PersonalCamaraFria {  get; set; }
-        public int PersonalCocinaFria { get; set; }
-        public int PersonalCajas { get; set; } 
-        public int ProductosRevisados {  get; set; }
+        public string SalidaEstructura { get; set; }
+        public string SalidaLimpieza { get; set; }
+        public string CocinaCalienteEstructura { get; set; }
+        public string CocinaCalienteLimpieza { get; set; }
+        public string CamaraEstructura { get; set; }
+        public string CamaraLimpieza { get; set; }
+        public string AlmacenEstructura { get; set; }
+        public string AlmacenLimpieza { get; set; }
+        public string AreaPersonalEstructura { get; set; }
+        public string AreaPersonalLimpieza { get; set; }
+        public string CocinaFriaEstructura { get; set; }
+        public string CocinaFriaLimpieza { get; set; }
+        public string CajasEstructura { get; set; }
+        public string CajasLimpieza { get; set; }
+        public string PersonalCocinaCaliente { get; set; }
+        public string PersonalCamaraFria { get; set; }
+        public string PersonalCocinaFria { get; set; }
+        public string PersonalCajas { get; set; }
+        public string ProductosRevisados { get; set; }
     }
 }

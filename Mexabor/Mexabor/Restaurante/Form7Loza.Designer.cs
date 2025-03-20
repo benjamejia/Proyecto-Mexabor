@@ -486,17 +486,18 @@
             // 
             // cbxMarcarTodo
             // 
-            cbxMarcarTodo.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            cbxMarcarTodo.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             cbxMarcarTodo.AutoSize = true;
+            cbxMarcarTodo.BackColor = SystemColors.ButtonFace;
             cbxMarcarTodo.Font = new Font("Yu Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             cbxMarcarTodo.ImageAlign = ContentAlignment.MiddleRight;
-            cbxMarcarTodo.Location = new Point(1079, 12);
+            cbxMarcarTodo.Location = new Point(852, 487);
             cbxMarcarTodo.Name = "cbxMarcarTodo";
             cbxMarcarTodo.RightToLeft = RightToLeft.Yes;
             cbxMarcarTodo.Size = new Size(120, 23);
             cbxMarcarTodo.TabIndex = 93;
             cbxMarcarTodo.Text = "Marcar todo";
-            cbxMarcarTodo.UseVisualStyleBackColor = true;
+            cbxMarcarTodo.UseVisualStyleBackColor = false;
             cbxMarcarTodo.CheckedChanged += cbxMarcarTodo_CheckedChanged;
             // 
             // Form7Loza

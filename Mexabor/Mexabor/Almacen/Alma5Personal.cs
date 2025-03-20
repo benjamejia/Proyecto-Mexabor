@@ -91,7 +91,7 @@ namespace Mexabor.Almacen
         {
             Alma4 almacen = new Alma4();
             almacen.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)

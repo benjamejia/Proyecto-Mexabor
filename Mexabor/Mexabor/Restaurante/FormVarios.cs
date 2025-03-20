@@ -89,14 +89,14 @@ namespace Mexabor
             ObtenerRespuestas(documentos, ambiente, almacen, caja);
             FormProovedores formProovedores = new FormProovedores();
             formProovedores.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             FormPersonal2 formPersonal2 = new FormPersonal2();
             formPersonal2.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)

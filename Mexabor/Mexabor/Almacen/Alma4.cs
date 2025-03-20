@@ -80,7 +80,7 @@ namespace Mexabor.Almacen
         {
             Alma3CamaraFria almaCamaraFria = new Alma3CamaraFria();
             almaCamaraFria.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)

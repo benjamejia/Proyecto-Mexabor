@@ -28,6 +28,34 @@ namespace Mexabor
 
             return valores;
         }
+        public void CargarRespuestas(Control.ControlCollection controls, List<int> respuestas, ref int index)
+        {
+            // Ordenar controles por TabIndex
+            var orderedControls = controls.Cast<Control>().OrderBy(c => c.TabIndex).ToList();
+
+            foreach (Control control in orderedControls)
+            {
+                // Si es Panel o GroupBox, busca recursivamente en sus controles
+                if (control is Panel || control is GroupBox)
+                {
+                    CargarRespuestas(control.Controls, respuestas, ref index);
+                }
+
+                // Si es TableLayoutPanel, revisa sus controles
+                if (control is TableLayoutPanel tableLayout)
+                {
+                    foreach (Control cellControl in tableLayout.Controls)
+                    {
+                        if (cellControl is CheckBox checkBox && index < respuestas.Count)
+                        {
+                            checkBox.Checked = respuestas[index] == 1;
+                            index++;
+                        }
+                    }
+                }
+            }
+        }
+
         public void ObtenerRespuestas(TableLayoutPanel t1, TableLayoutPanel t2)
         {
             CacheFormsRestaurante.estacionamientoEstructura = ObtenerValoresDeCheckBox(t1);
@@ -83,7 +111,13 @@ namespace Mexabor
                 //Muestra el siguiente form
                 Form2Comedor formComedor = new Form2Comedor();
                 formComedor.Show();
-                this.Close();
+                this.Hide();
+                int i = 0;
+                foreach (var item in CacheFormsRestaurante.estacionamientoEstructura)
+                {
+                    Console.WriteLine(i + ": "+ item);
+                    i++;
+                }
             }
         }
 
@@ -91,12 +125,16 @@ namespace Mexabor
         {
             FormMenu menu = new FormMenu();
             menu.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void FormEstacionamiento_Load(object sender, EventArgs e)
         {
             txbAuditor.Text = CacheUsuario.usuario;
+            txbGerente.Text = CacheFormsRestaurante.gerente;
+            txbSucursal.Text = CacheFormsRestaurante.sucursal;
+            int index = 0;
+            CargarRespuestas(this.Controls, CacheFormsRestaurante.estacionamientoEstructura,ref index);
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)
@@ -142,7 +180,7 @@ namespace Mexabor
 
         private void Form1Estacionamiento_FormClosed(object sender, FormClosedEventArgs e)
         {
-            
+
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -175,6 +213,11 @@ namespace Mexabor
                 // Si el usuario hace clic en Cancelar, no hacer nada
                 e.Cancel = true; // Esto cancela el cierre del formulario
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }

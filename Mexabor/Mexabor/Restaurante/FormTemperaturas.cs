@@ -19,52 +19,6 @@ namespace Mexabor
         {
             InitializeComponent();
         }
-        //Este metodo llena los items del checkBox de cada alimento de acuerdo a sus temperaturas
-        public void TemperaturasIdeales(Control.ControlCollection controls)
-        {
-            // Ordenar los controles una sola vez
-            var orderedControls = controls.Cast<Control>().OrderBy(c => c.TabIndex).ToList();
-
-            foreach (Control control in orderedControls)
-            {
-                // Verificar si el control es un TableLayoutPanel
-                if (control is TableLayoutPanel tableLayout)
-                {
-                    // Recorrer los controles dentro del TableLayoutPanel
-                    foreach (Control cellControl in tableLayout.Controls)
-                    {
-                        // Verificar si el control es un Label
-                        if (cellControl is Label label)
-                        {
-                            string alimento = label.Text;
-
-                            // Si el alimento está en temperaturasIdeales
-                            if (CacheFormsRestaurante.temperaturasIdeales.ContainsKey(alimento))
-                            {
-                                int[] rango = CacheFormsRestaurante.temperaturasIdeales[alimento];
-                                int tempMin = rango[0];
-                                int tempMax = rango[1];
-
-                                // Buscar el ComboBox relacionado dentro del mismo contenedor
-                                var relatedComboBox = tableLayout.Controls
-                                    .OfType<ComboBox>()
-                                    .FirstOrDefault(cb => cb.TabIndex > label.TabIndex); // Relacionar por TabIndex
-
-                                if (relatedComboBox != null)
-                                {
-                                    // Agregar las temperaturas al ComboBox
-                                    relatedComboBox.Items.Clear(); // Limpia los valores previos
-                                    for (int i = tempMin; i <= tempMax; i++)
-                                    {
-                                        relatedComboBox.Items.Add(i);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
         private void VerificarSabores(Control.ControlCollection controls)
         {
             var orderedControls = controls.Cast<Control>().OrderBy(c => c.TabIndex).ToList();
@@ -99,7 +53,7 @@ namespace Mexabor
                     foreach (Control cellControl in tableLayout.Controls)
                     {
                         // Verificar si el control es un CheckBox
-                        if (cellControl is ComboBox comboBox)
+                        if (cellControl is TextBox comboBox)
                         {
                             temperaturas.Add(int.Parse(comboBox.Text));
                         }
@@ -118,11 +72,30 @@ namespace Mexabor
         {
             FormProovedores formProovedores = new FormProovedores();
             formProovedores.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            foreach (Control control in this.Controls)
+            {
+                if (control is TableLayoutPanel tableLayoutPanel) 
+                {
+                    // Recorrer los controles dentro del TableLayoutPanel
+                    foreach (Control cellControl in tableLayoutPanel.Controls)
+                    {
+                        if (cellControl is TextBox textBox)
+                        {
+                            if (textBox.Text == string.Empty) 
+                            {
+                                MessageBox.Show("Hay campos de temperaturas vacias.");
+                                return;
+                            }
+                        }
+                    }
+                }
+                
+            }
             DialogResult opcion = MessageBox.Show("¿Estas seguro que deseas continuar?\n Asegurate de que las opciones esten correctamente seleccionadas", "Avanzar", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             if (opcion == DialogResult.OK)
             {
@@ -140,18 +113,16 @@ namespace Mexabor
                 ConexionBD_Restaruante.SubirDatos();
                 ExportacionRestaurante exportacionFinal = new ExportacionRestaurante();
                 exportacionFinal.Show();
-                this.Close();
+                this.Hide();
             }
         }
 
         private void FormTemperaturas_Load(object sender, EventArgs e)
         {
-            TemperaturasIdeales(this.Controls);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            TemperaturasIdeales(this.Controls);
         }
 
         private void FormTemperaturas_FormClosed(object sender, FormClosedEventArgs e)
@@ -174,6 +145,11 @@ namespace Mexabor
             {
                 e.Cancel = true;
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -85,7 +85,7 @@ namespace Mexabor
         {
             Form5Servicios formServicios = new Form5Servicios();
             formServicios.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -93,7 +93,7 @@ namespace Mexabor
             ObtenerRespuestas(tlpE, tlpL);
             Form7Loza formLoza = new Form7Loza();
             formLoza.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)

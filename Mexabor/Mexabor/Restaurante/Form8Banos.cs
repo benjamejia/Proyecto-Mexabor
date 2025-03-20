@@ -81,14 +81,14 @@ namespace Mexabor
             ObtenerRespuestas(tlpE, tlpL);
             Form9Juegos formJuegos = new Form9Juegos();
             formJuegos.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form7Loza formLoza = new Form7Loza();
             formLoza.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)

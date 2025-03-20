@@ -12,6 +12,9 @@ namespace Mexabor.CacheAplicacion
 {
     public class GenerarExcelAlmacen
     {
+        public static string leyendaAlmacen = $"La auditoría fue realizada por {CacheUsuario.usuario} el día {DateTime.Now.ToString("yyyy-MM-dd")}  " +
+          $"en el horario de {DateTime.Now.ToString("hh:mm")} pm La persona encargada de la sucursal en el momento que se realizo la auditoria y firmo de enterado fue {CacheFormsAlmacen.gerente}.";
+
         static public void ExportarDatosExcel()
         {
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
@@ -33,34 +36,33 @@ namespace Mexabor.CacheAplicacion
                         // Obtener la primera hoja
                         ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
                         //Fecha
-                        worksheet.Cells["G1"].Value = "Fecha" + CacheFormsAlmacen.fecha.ToString("yyyy-MM-dd");
+                        worksheet.Cells["G1"].Value = "Fecha: " + CacheFormsAlmacen.fecha.ToString("yyyy-MM-dd");
                         //Sucusal
                         worksheet.Cells["E3"].Value = CacheFormsAlmacen.sucursal;
                         // Modificar las celdas incorrectas de las areas
-                        worksheet.Cells["B13"].Value = 100 - CacheFormsAlmacen.areaPersonalEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["C13"].Value = 100 - CacheFormsAlmacen.areaPersonalLimpieza.Count(x => x == 0) * 10;
+                        worksheet.Cells["B13"].Value = 100 - CacheFormsAlmacen.areaPersonalEstructura.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
+                        worksheet.Cells["C13"].Value = 100 - CacheFormsAlmacen.areaPersonalLimpieza.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
 
-                        worksheet.Cells["B14"].Value = 100 - CacheFormsAlmacen.cocincaCalienteEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["C14"].Value = 100 - CacheFormsAlmacen.cocinaCalienteLimpieza.Count(x => x == 0) * 10;
-                        worksheet.Cells["D14"].Value = 100 - CacheFormsAlmacen.personalCocinaCaliente.Count(x => x == 0) * 10;
+                        worksheet.Cells["B14"].Value = 100 - CacheFormsAlmacen.cocincaCalienteEstructura.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
+                        worksheet.Cells["C14"].Value = 100 - CacheFormsAlmacen.cocinaCalienteLimpieza.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
+                        worksheet.Cells["D14"].Value = 100 - CacheFormsAlmacen.personalCocinaCaliente.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
 
-                        worksheet.Cells["B15"].Value = 100 - CacheFormsAlmacen.camaraEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["C15"].Value = 100 - CacheFormsAlmacen.camaraLimpieza.Count(x => x == 0) * 10;
-                        worksheet.Cells["D15"].Value = 100 - CacheFormsAlmacen.personalCamaraFria.Count(x => x == 0) * 10;
+                        worksheet.Cells["B15"].Value = 100 - CacheFormsAlmacen.camaraEstructura.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
+                        worksheet.Cells["C15"].Value = 100 - CacheFormsAlmacen.camaraLimpieza.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
 
-                        worksheet.Cells["B16"].Value = 100 - CacheFormsAlmacen.almacenEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["C16"].Value = 100 - CacheFormsAlmacen.almacenLimpieza.Count(x => x == 0) * 10;
+                        worksheet.Cells["B16"].Value = 100 - CacheFormsAlmacen.almacenEstructura.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
+                        worksheet.Cells["C16"].Value = 100 - CacheFormsAlmacen.almacenLimpieza.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
 
-                        worksheet.Cells["B17"].Value = 100 - CacheFormsAlmacen.cocinaFriaEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["C17"].Value = 100 - CacheFormsAlmacen.cocinaFriaLimpieza.Count(x => x == 0) * 10;
-                        worksheet.Cells["D17"].Value = 100 - CacheFormsAlmacen.personalCocinaFria.Count(x => x == 0) * 10;
+                        worksheet.Cells["B17"].Value = 100 - CacheFormsAlmacen.cocinaFriaEstructura.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
+                        worksheet.Cells["C17"].Value = 100 - CacheFormsAlmacen.cocinaFriaLimpieza.Count(x => x == 0) *  CacheFormsAlmacen.ponderacion;
+                        worksheet.Cells["D17"].Value = 100 - CacheFormsAlmacen.personalCocinaFria.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
 
-                        worksheet.Cells["B18"].Value = 100 - CacheFormsAlmacen.cajasEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["C18"].Value = 100 - CacheFormsAlmacen.cajasLimpieza.Count(x => x == 0) * 10;
+                        worksheet.Cells["B18"].Value = 100 - CacheFormsAlmacen.cajasEstructura.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
+                        worksheet.Cells["C18"].Value = 100 - CacheFormsAlmacen.cajasLimpieza.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
 
-                        worksheet.Cells["B17"].Value = 100 - CacheFormsAlmacen.cocinaFriaEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["C17"].Value = 100 - CacheFormsAlmacen.cocinaFriaLimpieza.Count(x => x == 0) * 10;
-                        worksheet.Cells["D17"].Value = 100 - CacheFormsAlmacen.personalCocinaFria.Count(x => x == 0) * 10;
+                        worksheet.Cells["B17"].Value = 100 - CacheFormsAlmacen.cocinaFriaEstructura.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
+                        worksheet.Cells["C17"].Value = 100 - CacheFormsAlmacen.cocinaFriaLimpieza.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
+                        worksheet.Cells["D17"].Value = 100 - CacheFormsAlmacen.personalCocinaFria.Count(x => x == 0) * CacheFormsAlmacen.ponderacion;
                         //Responsables
                         worksheet.Cells["F13"].Value = CacheFormsAlmacen.responsables[0];
                         worksheet.Cells["F14"].Value = CacheFormsAlmacen.responsables[1];
@@ -72,8 +74,11 @@ namespace Mexabor.CacheAplicacion
                         worksheet.Cells["F20"].Value = CacheFormsAlmacen.responsables[7];
                         //Obersevaciones
                         worksheet.Cells["H13"].Value = CacheFormsAlmacen.observaciones;
-                        worksheet.Cells["A29"].Value = CacheFormsAlmacen.leyendaAlmacen;
+                        worksheet.Cells["A29"].Value = leyendaAlmacen;
                         
+                        worksheet.Cells["A27"].Value = CacheFormsAlmacen.productosIncorrectos;
+
+
 
                         MessageBox.Show("El archivo se ha guardado exitosamente en la ubicación seleccionada.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         FileInfo newFile = new FileInfo(filePath);
@@ -87,6 +92,7 @@ namespace Mexabor.CacheAplicacion
                 }
             }
         }
+       
         static public void ConvertirExcelAPdf(string excelFilePath)
         {
             // Inicializar el ExcelEngine y la aplicación

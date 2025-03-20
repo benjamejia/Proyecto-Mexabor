@@ -37,10 +37,10 @@ namespace Mexabor.Almacen
                 }
 
                 // Validar que los valores numéricos sean correctos
-                if (!int.TryParse(txbProducto.Text, out int producto) ||
-                    !int.TryParse(txbEmpacados.Text, out int empacados) ||
-                    !int.TryParse(txbCalidad.Text, out int calidad) ||
-                    !int.TryParse(txbPesoIdeal.Text, out int pesoIdeal))
+                if (!int.TryParse(txbProducto.Text, out int t) ||
+                    !int.TryParse(txbEmpacados.Text, out int p1) ||
+                    !int.TryParse(txbCalidad.Text, out int p2) ||
+                    !int.TryParse(txbPesoIdeal.Text, out int p3))
                 {
                     MessageBox.Show("Los valores de Producto, Empacados y Calidad deben ser números enteros válidos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
@@ -49,14 +49,12 @@ namespace Mexabor.Almacen
                 // Asignar observaciones
                 CacheFormsAlmacen.observaciones = string.IsNullOrWhiteSpace(txtObservacion.Text) ? "Sin observaciones" : txtObservacion.Text;
 
-                CacheFormsAlmacen.productosRevisados.Add(producto);
-                CacheFormsAlmacen.productosRevisados.Add(empacados);
-                CacheFormsAlmacen.productosRevisados.Add(calidad);
-                CacheFormsAlmacen.productosRevisados.Add(pesoIdeal);
+                CacheFormsAlmacen.productosRevisados.Add(t);
+                CacheFormsAlmacen.productosRevisados.Add(p1);
+                CacheFormsAlmacen.productosRevisados.Add(p2);
+                CacheFormsAlmacen.productosRevisados.Add(p3);
+                CacheFormsAlmacen.productosIncorrectos = 100 - (3*t - p1 - p2 - p3) * 10;
 
-
-                // Notificar éxito
-                MessageBox.Show("Producto revisado y agregado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 // Limpiar campos después de la inserción
                 txbProducto.Clear();
                 txbEmpacados.Clear();
@@ -74,6 +72,7 @@ namespace Mexabor.Almacen
 
         private void button1_Click(object sender, EventArgs e)
         {
+            n1.Value = CacheFormsAlmacen.ponderacion;
             RevisionDeProductos();
             Responsables responsables = new Responsables();
             responsables.Show();
@@ -83,6 +82,7 @@ namespace Mexabor.Almacen
         private void txtObservacion_TextChanged(object sender, EventArgs e)
         {
             const int maxCaracteres = 500;
+            AutoScroll = true;
 
             if (txtObservacion.Text.Length > maxCaracteres)
             {
@@ -96,7 +96,7 @@ namespace Mexabor.Almacen
         {
             Alma7Cajas alma7Cajas = new Alma7Cajas();
             alma7Cajas.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void RevisionProductos_FormClosing(object sender, FormClosingEventArgs e)

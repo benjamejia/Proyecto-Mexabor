@@ -75,7 +75,7 @@ namespace Mexabor
         {
             Form6Planchas formPlanchas = new Form6Planchas();
             formPlanchas.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -83,7 +83,7 @@ namespace Mexabor
             ObtenerRespuestas(tlpE, tlpL);
             Form8Banos formBanos = new Form8Banos();
             formBanos.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)

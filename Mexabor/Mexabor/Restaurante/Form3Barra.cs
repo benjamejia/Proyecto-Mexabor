@@ -76,14 +76,14 @@ namespace Mexabor
             ObtenerRespuestas(tlpE, tlpL);
             Form4Tortillas formTortillas = new Form4Tortillas();
             formTortillas.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form2Comedor formComedor = new Form2Comedor();
             formComedor.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)

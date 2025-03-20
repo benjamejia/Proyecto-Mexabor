@@ -66,17 +66,16 @@ namespace Mexabor.Almacen
 
             return valores;
         }
-        public void ObtenerRespuestas(TableLayoutPanel t1, TableLayoutPanel t2, TableLayoutPanel t3, TableLayoutPanel t4)
+        public void ObtenerRespuestas(TableLayoutPanel t1, TableLayoutPanel t2, TableLayoutPanel t3)
         {
             CacheFormsAlmacen.personalCocinaCaliente = ObtenerValoresDeCheckBox(tlp1);
-            CacheFormsAlmacen.personalCamaraFria = ObtenerValoresDeCheckBox(tlp2);
-            CacheFormsAlmacen.personalCocinaFria = ObtenerValoresDeCheckBox(tlp3);
-            CacheFormsAlmacen.personalCaja = ObtenerValoresDeCheckBox(tlp4);
+            CacheFormsAlmacen.personalCocinaFria = ObtenerValoresDeCheckBox(tlp2);
+            CacheFormsAlmacen.personalCaja = ObtenerValoresDeCheckBox(tlp2);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ObtenerRespuestas(tlp1, tlp2, tlp3, tlp4);
+            ObtenerRespuestas(tlp1, tlp2, tlp2);
             RevisionProductos revisionProductos = new RevisionProductos();
             revisionProductos.Show();
             this.Hide();

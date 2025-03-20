@@ -80,7 +80,7 @@ namespace Mexabor.Almacen
         {
             Alma2CocinaCaliente almaCocinaCaliente = new Alma2CocinaCaliente();
             almaCocinaCaliente.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)

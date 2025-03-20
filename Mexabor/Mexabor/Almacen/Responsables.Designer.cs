@@ -46,6 +46,8 @@
             button2 = new Button();
             label8 = new Label();
             panel1 = new Panel();
+            cbPersonal = new ComboBox();
+            label9 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -86,7 +88,7 @@
             label4.Location = new Point(12, 250);
             label4.Name = "label4";
             label4.Size = new Size(97, 27);
-            label4.TabIndex = 2;
+            label4.TabIndex = 3;
             label4.Text = "Almacen";
             // 
             // label5
@@ -96,7 +98,7 @@
             label5.Location = new Point(12, 305);
             label5.Name = "label5";
             label5.Size = new Size(123, 27);
-            label5.TabIndex = 7;
+            label5.TabIndex = 4;
             label5.Text = "Cocina Fria";
             // 
             // label6
@@ -106,7 +108,7 @@
             label6.Location = new Point(12, 358);
             label6.Name = "label6";
             label6.Size = new Size(149, 27);
-            label6.TabIndex = 6;
+            label6.TabIndex = 5;
             label6.Text = "Area de Cajas";
             // 
             // label7
@@ -115,9 +117,9 @@
             label7.Font = new Font("Yu Gothic", 15.75F);
             label7.Location = new Point(12, 410);
             label7.Name = "label7";
-            label7.Size = new Size(205, 27);
-            label7.TabIndex = 5;
-            label7.Text = "Almacen de Vajillas";
+            label7.Size = new Size(179, 27);
+            label7.TabIndex = 6;
+            label7.Text = "Area de personal";
             // 
             // cbAreaSalida
             // 
@@ -144,7 +146,7 @@
             cbCamaraFria.Location = new Point(241, 188);
             cbCamaraFria.Name = "cbCamaraFria";
             cbCamaraFria.Size = new Size(238, 35);
-            cbCamaraFria.TabIndex = 11;
+            cbCamaraFria.TabIndex = 10;
             // 
             // cbAlmacen
             // 
@@ -153,7 +155,7 @@
             cbAlmacen.Location = new Point(241, 247);
             cbAlmacen.Name = "cbAlmacen";
             cbAlmacen.Size = new Size(238, 35);
-            cbAlmacen.TabIndex = 10;
+            cbAlmacen.TabIndex = 11;
             // 
             // cbCocinaFria
             // 
@@ -162,7 +164,7 @@
             cbCocinaFria.Location = new Point(241, 302);
             cbCocinaFria.Name = "cbCocinaFria";
             cbCocinaFria.Size = new Size(238, 35);
-            cbCocinaFria.TabIndex = 14;
+            cbCocinaFria.TabIndex = 12;
             // 
             // cbCajas
             // 
@@ -177,10 +179,10 @@
             // 
             cbVajillas.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cbVajillas.FormattingEnabled = true;
-            cbVajillas.Location = new Point(241, 407);
+            cbVajillas.Location = new Point(241, 457);
             cbVajillas.Name = "cbVajillas";
             cbVajillas.Size = new Size(238, 35);
-            cbVajillas.TabIndex = 12;
+            cbVajillas.TabIndex = 15;
             // 
             // button1
             // 
@@ -189,11 +191,11 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(730, 511);
+            button1.Location = new Point(666, 511);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(151, 33);
-            button1.TabIndex = 253;
+            button1.TabIndex = 16;
             button1.Text = "Finalizar";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -209,15 +211,17 @@
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.Size = new Size(151, 33);
-            button2.TabIndex = 252;
+            button2.TabIndex = 17;
             button2.Text = "Anterior";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // label8
             // 
+            label8.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label8.AutoSize = true;
             label8.Font = new Font("Yu Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(420, 19);
+            label8.Location = new Point(288, 20);
             label8.Name = "label8";
             label8.Size = new Size(461, 27);
             label8.TabIndex = 254;
@@ -230,15 +234,36 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(893, 64);
+            panel1.Size = new Size(829, 64);
             panel1.TabIndex = 255;
+            // 
+            // cbPersonal
+            // 
+            cbPersonal.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cbPersonal.FormattingEnabled = true;
+            cbPersonal.Location = new Point(241, 410);
+            cbPersonal.Name = "cbPersonal";
+            cbPersonal.Size = new Size(238, 35);
+            cbPersonal.TabIndex = 14;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Yu Gothic", 15.75F);
+            label9.Location = new Point(12, 459);
+            label9.Name = "label9";
+            label9.Size = new Size(205, 27);
+            label9.TabIndex = 7;
+            label9.Text = "Almacen de Vajillas";
             // 
             // Responsables
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(893, 555);
+            ClientSize = new Size(829, 555);
+            Controls.Add(cbPersonal);
+            Controls.Add(label9);
             Controls.Add(panel1);
             Controls.Add(button1);
             Controls.Add(button2);
@@ -256,6 +281,7 @@
             Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(label1);
+            MinimumSize = new Size(567, 594);
             Name = "Responsables";
             Text = "Responsables";
             panel1.ResumeLayout(false);
@@ -284,5 +310,7 @@
         private Button button2;
         private Label label8;
         private Panel panel1;
+        private ComboBox cbPersonal;
+        private Label label9;
     }
 }

@@ -38,17 +38,19 @@ namespace Mexabor.CacheAplicacion
         public static List<int> cajasLimpieza = new List<int>();
 
         public static List<int> personalCocinaCaliente = new List<int>();
-        public static List<int> personalCamaraFria = new List<int>();
         public static List<int> personalCocinaFria = new List<int>();
         public static List<int> personalCaja = new List<int>();
         public static List<int> productosRevisados = new List<int>();
 
-        public static string[] responsables = new string[7];
-        public static string leyendaAlmacen = $"La auditoría fue realizada por {auditor} el día {fecha}  " +
-            $"en el horario de {hora} pm La persona encargada de la sucursal en el momento que se realizo la auditoria y firmo de enterado fue {gerente}.";
+        public static int productosIncorrectos;
 
+        public static string[] responsables = new string[8];
+       
         public static string? observaciones;
         public static int id_auditoria;
+
+        //Puntuaje que se le dara a las opciones de los prodcutos
+        public static int ponderacion;   
 
     }
 }

@@ -86,14 +86,14 @@ namespace Mexabor
             ObtenerRespuestas(tlpE, tlpL);
             Form5Servicios formServicios = new Form5Servicios();
             formServicios.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form3Barra formBarra = new Form3Barra();
             formBarra.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void label26_Click(object sender, EventArgs e)
@@ -126,6 +126,11 @@ namespace Mexabor
             {
                 e.Cancel = true;
             }
+        }
+
+        private void cbxMarcarTodo_CheckedChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

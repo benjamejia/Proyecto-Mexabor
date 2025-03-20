@@ -9,6 +9,9 @@ namespace Mexabor.CacheAplicacion
 {
     public class GenerarExcelRestaurante
     {
+        public static string leyendaAlmacen = $"La auditoría fue realizada por {CacheUsuario.usuario} el día {DateTime.Now.ToString("yyyy-MM-dd")}  " +
+         $"en el horario de {DateTime.Now.ToString("hh:mm")} pm La persona encargada de la sucursal en el momento que se realizo la auditoria y firmo de enterado fue {CacheFormsRestaurante.gerente}.";
+
         static public void ExcelTablaDesglozada()
         {
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
@@ -293,7 +296,18 @@ namespace Mexabor.CacheAplicacion
                         double porcentajeCumplimiento = ((double)temperaturasCorrectas / totalTemperaturas) * 100;
 
                         // Asignar el porcentaje a la celda C48
-                        worksheet.Cells["C48"].Value = $"{porcentajeCumplimiento:F2}%";
+                        if(porcentajeCumplimiento >= 100) 
+                        {
+                            worksheet.Cells["C48"].Value = $"100%";
+                        }
+                        else if(porcentajeCumplimiento <= 0)
+                        {
+                            worksheet.Cells["C48"].Value = $"0%";
+                        }
+                        else 
+                        {
+                            worksheet.Cells["C48"].Value = $"{porcentajeCumplimiento:F2}%";
+                        }
                         //Cloracion
                         worksheet.Cells["G47"].Value = CacheFormsRestaurante.cloracion == 1 ? "bien" : "mal";
                         //Observaciones
@@ -336,6 +350,8 @@ namespace Mexabor.CacheAplicacion
                         worksheet.Cells["I47"].Value = $"{CacheFormsRestaurante.documentos.Count(x => x == 1)} de 5";
                         //Manifestos
                         worksheet.Cells["H47"].Value = CacheFormsRestaurante.documentos[4] == 1 ? "bien" : "mal";
+                        //Leyenda
+                        worksheet.Cells["B33"].Value = leyendaAlmacen;
 
                         MessageBox.Show("El archivo se ha guardado exitosamente en la ubicación seleccionada.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         FileInfo newFile = new FileInfo(filePath);

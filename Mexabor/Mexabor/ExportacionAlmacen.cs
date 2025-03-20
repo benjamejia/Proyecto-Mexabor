@@ -1,4 +1,5 @@
 ﻿using Mexabor.CacheAplicacion;
+using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +16,7 @@ namespace Mexabor
     {
         public ExportacionAlmacen()
         {
+            ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
             InitializeComponent();
         }
 
@@ -22,7 +24,7 @@ namespace Mexabor
         {
             FormMenu formMenu = new FormMenu();
             formMenu.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -30,34 +30,37 @@ namespace Mexabor
         }
         private void GuardarEnCacheAlmacen(DatosAlmacen datos)
         {
+            // Convertir Fecha y Hora directamente a sus respectivos tipos sin necesidad de Parse adicional
             CacheFormsAlmacen.fecha = datos.Fecha;
-            CacheFormsAlmacen.hora = Convert.ToDateTime(datos.Hora);
+            CacheFormsAlmacen.hora = datos.Hora != null ? DateTime.Parse(datos.Hora) : DateTime.MinValue; // Asegurando que si Hora es null, se maneje adecuadamente
+
+            // Asignar valores de los campos simples
             CacheFormsAlmacen.sucursal = datos.Sucursal;
             CacheFormsAlmacen.gerente = datos.Gerente;
             CacheFormsAlmacen.auditor = datos.Auditor;
-            CacheFormsAlmacen.id_auditoria = datos.Id;
 
-            // Agregar los valores a las listas correspondientes
-            CacheFormsAlmacen.salidaEstructura.Add(datos.SalidaEstructura);
-            CacheFormsAlmacen.salidaLimpieza.Add(datos.SalidaLimpieza);
-            CacheFormsAlmacen.cocincaCalienteEstructura.Add(datos.CocinaCalienteEstructura);
-            CacheFormsAlmacen.cocinaCalienteLimpieza.Add(datos.CocinaCalienteLimpieza);
-            CacheFormsAlmacen.camaraEstructura.Add(datos.CamaraEstructura);
-            CacheFormsAlmacen.camaraLimpieza.Add(datos.CamaraLimpieza);
-            CacheFormsAlmacen.almacenEstructura.Add(datos.AlmacenEstructura);
-            CacheFormsAlmacen.almacenLimpieza.Add(datos.AlmacenLimpieza);
-            CacheFormsAlmacen.areaPersonalEstructura.Add(datos.AreaPersonalEstructura);
-            CacheFormsAlmacen.areaPersonalLimpieza.Add(datos.AreaPersonalLimpieza);
-            CacheFormsAlmacen.cocinaFriaEstructura.Add(datos.CocinaFriaEstructura);
-            CacheFormsAlmacen.cocinaFriaLimpieza.Add(datos.CocinaFriaLimpieza);
-            CacheFormsAlmacen.cajasEstructura.Add(datos.CajasEstructura);
-            CacheFormsAlmacen.cajasLimpieza.Add(datos.CajasLimpieza);
-            CacheFormsAlmacen.personalCocinaCaliente.Add(datos.PersonalCocinaCaliente);
-            CacheFormsAlmacen.personalCamaraFria.Add(datos.PersonalCamaraFria);
-            CacheFormsAlmacen.personalCocinaFria.Add(datos.PersonalCocinaFria);
-            CacheFormsAlmacen.personalCaja.Add(datos.PersonalCajas);
-            CacheFormsAlmacen.productosRevisados.Add(datos.ProductosRevisados);
+            // Ahora se agregan las listas de enteros con el método Select y ToList
+            CacheFormsAlmacen.salidaEstructura = datos.SalidaEstructura.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.salidaLimpieza = datos.SalidaLimpieza.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.cocincaCalienteEstructura = datos.CocinaCalienteEstructura.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.cocinaCalienteLimpieza = datos.CocinaCalienteLimpieza.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.camaraEstructura = datos.CamaraEstructura.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.camaraLimpieza = datos.CamaraLimpieza.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.almacenEstructura = datos.AlmacenEstructura.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.almacenLimpieza = datos.AlmacenLimpieza.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.areaPersonalEstructura = datos.AreaPersonalEstructura.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.areaPersonalLimpieza = datos.AreaPersonalLimpieza.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.cocinaFriaEstructura = datos.CocinaFriaEstructura.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.cocinaFriaLimpieza = datos.CocinaFriaLimpieza.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.cajasEstructura = datos.CajasEstructura.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.cajasLimpieza = datos.CajasLimpieza.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.personalCocinaCaliente = datos.PersonalCocinaCaliente.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.personalCocinaFria = datos.PersonalCocinaFria.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.personalCaja = datos.PersonalCajas.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.productosRevisados = datos.ProductosRevisados.Select(c => int.Parse(c.ToString())).ToList();
         }
+
+
 
         private void GuardarEnCacheRestaurante(DatosRestaurante datosFila)
         {
@@ -269,41 +272,39 @@ namespace Mexabor
             {
                 DataGridViewRow filaSeleccionada = dataGridView1.Rows[e.RowIndex];
 
-                // Aquí almacenamos en un objeto DatosAlmacen los valores
+                // Crear un objeto DatosAlmacen y asignar valores
                 DatosAlmacen datosAlmacen = new DatosAlmacen
                 {
-                    // Manejo de la fecha, como en el caso del restaurante
                     Fecha = Convert.ToDateTime(filaSeleccionada.Cells["Fecha"].Value),
-                    Hora = filaSeleccionada.Cells["Hora"].Value.ToString(),
-                    Sucursal = filaSeleccionada.Cells["Sucursal"].Value.ToString(),
-                    Gerente = filaSeleccionada.Cells["Encargado"].Value.ToString(),
-                    Auditor= filaSeleccionada.Cells["Auditor"].Value.ToString(),
+                    Hora = filaSeleccionada.Cells["Hora"].Value?.ToString() ?? string.Empty,
+                    Sucursal = filaSeleccionada.Cells["Sucursal"].Value?.ToString() ?? string.Empty,
+                    Gerente = filaSeleccionada.Cells["Encargado"].Value?.ToString() ?? string.Empty,
+                    Auditor = filaSeleccionada.Cells["Auditor"].Value?.ToString() ?? string.Empty,
 
-                    // Convertimos las celdas a int de forma segura
-                    SalidaEstructura = TryParseInt(filaSeleccionada.Cells["SalidaEstructura"].Value),
-                    SalidaLimpieza = TryParseInt(filaSeleccionada.Cells["SalidaLimpieza"].Value),
-                    CocinaCalienteEstructura = TryParseInt(filaSeleccionada.Cells["CocinaCalienteEstructura"].Value),
-                    CocinaCalienteLimpieza = TryParseInt(filaSeleccionada.Cells["CocinaCalienteLimpieza"].Value),
-                    CamaraEstructura = TryParseInt(filaSeleccionada.Cells["CamaraEstructura"].Value),
-                    CamaraLimpieza = TryParseInt(filaSeleccionada.Cells["CamaraLimpieza"].Value),
-                    AlmacenEstructura = TryParseInt(filaSeleccionada.Cells["AlmacenEstructura"].Value),
-                    AlmacenLimpieza = TryParseInt(filaSeleccionada.Cells["AlmacenLimpieza"].Value),
-                    AreaPersonalEstructura = TryParseInt(filaSeleccionada.Cells["AreaPersonalEstructura"].Value),
-                    AreaPersonalLimpieza = TryParseInt(filaSeleccionada.Cells["AreaPersonalLimpieza"].Value),
-                    CocinaFriaEstructura = TryParseInt(filaSeleccionada.Cells["CocinaFriaEstructura"].Value),
-                    CocinaFriaLimpieza = TryParseInt(filaSeleccionada.Cells["CocinaFriaLimpieza"].Value),
-                    CajasEstructura = TryParseInt(filaSeleccionada.Cells["CajasEstructura"].Value),
-                    CajasLimpieza = TryParseInt(filaSeleccionada.Cells["CajasLimpieza"].Value),
-                    PersonalCocinaCaliente = TryParseInt(filaSeleccionada.Cells["PersonalCocinaCaliente"].Value),
-                    PersonalCamaraFria = TryParseInt(filaSeleccionada.Cells["PersonalCamaraFria"].Value),
-                    PersonalCocinaFria = TryParseInt(filaSeleccionada.Cells["PersonalCocinaFria"].Value),
-                    PersonalCajas = TryParseInt(filaSeleccionada.Cells["PersonalCaja"].Value),
-                    ProductosRevisados = TryParseInt(filaSeleccionada.Cells["ProductosRevisados"].Value)
+                    // Reemplazar las comas en las celdas antes de asignar a las propiedades
+                    SalidaEstructura = filaSeleccionada.Cells["SalidaEstructura"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    SalidaLimpieza = filaSeleccionada.Cells["SalidaLimpieza"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    CocinaCalienteEstructura = filaSeleccionada.Cells["CocinaCalienteEstructura"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    CocinaCalienteLimpieza = filaSeleccionada.Cells["CocinaCalienteLimpieza"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    CamaraEstructura = filaSeleccionada.Cells["CamaraEstructura"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    CamaraLimpieza = filaSeleccionada.Cells["CamaraLimpieza"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    AlmacenEstructura = filaSeleccionada.Cells["AlmacenEstructura"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    AlmacenLimpieza = filaSeleccionada.Cells["AlmacenLimpieza"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    AreaPersonalEstructura = filaSeleccionada.Cells["AreaPersonalEstructura"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    AreaPersonalLimpieza = filaSeleccionada.Cells["AreaPersonalLimpieza"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    CocinaFriaEstructura = filaSeleccionada.Cells["CocinaFriaEstructura"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    CocinaFriaLimpieza = filaSeleccionada.Cells["CocinaFriaLimpieza"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    CajasEstructura = filaSeleccionada.Cells["CajasEstructura"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    CajasLimpieza = filaSeleccionada.Cells["CajasLimpieza"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    PersonalCocinaCaliente = filaSeleccionada.Cells["PersonalCocinaCaliente"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    PersonalCocinaFria = filaSeleccionada.Cells["PersonalCocinaFria"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    PersonalCajas = filaSeleccionada.Cells["PersonalCaja"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    ProductosRevisados = filaSeleccionada.Cells["ProductosRevisados"].Value?.ToString().Replace(",", "") ?? string.Empty
                 };
 
                 GuardarEnCacheAlmacen(datosAlmacen);
 
-                // Configurar DataGridView2 para usar DataSource
+                // Configurar DataGridView2 para mostrar la lista de datos
                 List<DatosAlmacen> listaDatos = new List<DatosAlmacen> { datosAlmacen };
                 dataGridView2.DataSource = listaDatos;
 
@@ -312,26 +313,6 @@ namespace Mexabor
                 btnBuscar.Enabled = false;
             }
         }
-
-        // Método de conversión seguro a int
-        private int TryParseInt(object value)
-        {
-            if (value == null || value == DBNull.Value)
-            {
-                return 0; // Retorna 0 si el valor es nulo o vació
-            }
-
-            string valueString = value.ToString().Replace(",", "").Trim(); // Elimina comas y espacios
-
-            int result;
-            if (int.TryParse(valueString, out result))
-            {
-                return result; // Si la conversión es exitosa, retorna el valor
-            }
-
-            return 0; // Si no se puede convertir, retorna 0
-        }
-
 
         public void dobleClicRestaurante(object sender, DataGridViewCellEventArgs e)
         {

@@ -85,7 +85,7 @@ namespace Mexabor.Almacen
         {
             Alma5Personal almaPersonal = new Alma5Personal();
             almaPersonal.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)

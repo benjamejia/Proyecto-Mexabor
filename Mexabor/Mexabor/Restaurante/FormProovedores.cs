@@ -145,14 +145,14 @@ namespace Mexabor
             CacheFormsRestaurante.calificacionProveedores = calificaciones;
             FormTemperaturas formTemperaturas = new FormTemperaturas();
             formTemperaturas.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             FormVarios formVarios = new FormVarios();
             formVarios.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void txtObersavacion_TextChanged(object sender, EventArgs e)

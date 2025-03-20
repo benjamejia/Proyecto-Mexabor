@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Configuracion));
             panel1 = new Panel();
             imagenMexabor = new PictureBox();
-            label1 = new Label();
-            checkBox1 = new CheckBox();
             btnCedis = new Button();
-            btnAjustesAvanzados = new Button();
+            button1 = new Button();
+            panel2 = new Panel();
+            panel3 = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imagenMexabor).BeginInit();
             SuspendLayout();
@@ -45,41 +45,21 @@
             panel1.Controls.Add(imagenMexabor);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(489, 84);
+            panel1.Size = new Size(296, 63);
             panel1.TabIndex = 0;
             // 
             // imagenMexabor
             // 
             imagenMexabor.Image = (Image)resources.GetObject("imagenMexabor.Image");
-            imagenMexabor.Location = new Point(12, 0);
+            imagenMexabor.Location = new Point(10, 0);
+            imagenMexabor.Margin = new Padding(3, 2, 3, 2);
             imagenMexabor.Name = "imagenMexabor";
-            imagenMexabor.Size = new Size(115, 87);
+            imagenMexabor.Size = new Size(101, 65);
             imagenMexabor.SizeMode = PictureBoxSizeMode.Zoom;
             imagenMexabor.TabIndex = 3;
             imagenMexabor.TabStop = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 112);
-            label1.Name = "label1";
-            label1.Size = new Size(366, 26);
-            label1.TabIndex = 1;
-            label1.Text = "Doble confirmacion al pasar de pagina";
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Checked = true;
-            checkBox1.CheckState = CheckState.Checked;
-            checkBox1.Location = new Point(431, 119);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(18, 17);
-            checkBox1.TabIndex = 2;
-            checkBox1.UseVisualStyleBackColor = true;
-            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // btnCedis
             // 
@@ -88,57 +68,74 @@
             btnCedis.FlatAppearance.BorderSize = 0;
             btnCedis.FlatStyle = FlatStyle.Flat;
             btnCedis.Font = new Font("Yu Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCedis.Location = new Point(12, 219);
+            btnCedis.Location = new Point(10, 145);
+            btnCedis.Margin = new Padding(3, 2, 3, 2);
             btnCedis.Name = "btnCedis";
-            btnCedis.Size = new Size(122, 27);
+            btnCedis.Size = new Size(107, 27);
             btnCedis.TabIndex = 8;
             btnCedis.Text = "Volver";
             btnCedis.UseVisualStyleBackColor = false;
             btnCedis.Click += btnCedis_Click;
             // 
-            // btnAjustesAvanzados
+            // button1
             // 
-            btnAjustesAvanzados.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            btnAjustesAvanzados.BackColor = Color.WhiteSmoke;
-            btnAjustesAvanzados.FlatAppearance.BorderSize = 0;
-            btnAjustesAvanzados.FlatStyle = FlatStyle.Flat;
-            btnAjustesAvanzados.Font = new Font("Yu Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnAjustesAvanzados.Location = new Point(259, 219);
-            btnAjustesAvanzados.Name = "btnAjustesAvanzados";
-            btnAjustesAvanzados.Size = new Size(218, 27);
-            btnAjustesAvanzados.TabIndex = 9;
-            btnAjustesAvanzados.Text = "Ajustes Avanzados";
-            btnAjustesAvanzados.UseVisualStyleBackColor = false;
-            btnAjustesAvanzados.Click += btnAjustesAvanzados_Click;
+            button1.BackColor = Color.Gainsboro;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Yu Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Location = new Point(10, 88);
+            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Name = "button1";
+            button1.Size = new Size(252, 26);
+            button1.TabIndex = 10;
+            button1.Text = "Agregar Usuario";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // panel2
+            // 
+            panel2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            panel2.BackColor = SystemColors.ButtonShadow;
+            panel2.Location = new Point(10, 145);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(10, 27);
+            panel2.TabIndex = 11;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = SystemColors.ButtonShadow;
+            panel3.Location = new Point(10, 88);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(10, 27);
+            panel3.TabIndex = 12;
             // 
             // Configuracion
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(489, 258);
-            Controls.Add(btnAjustesAvanzados);
+            ClientSize = new Size(296, 182);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
+            Controls.Add(button1);
             Controls.Add(btnCedis);
-            Controls.Add(checkBox1);
-            Controls.Add(label1);
             Controls.Add(panel1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Configuracion";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Configuracion";
-            Load += Configuracion_Load;
+            Text = "-";
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)imagenMexabor).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private Panel panel1;
         private PictureBox imagenMexabor;
-        private Label label1;
-        private CheckBox checkBox1;
         private Button btnCedis;
-        private Button btnAjustesAvanzados;
+        private Button button1;
+        private Panel panel2;
+        private Panel panel3;
     }
 }
