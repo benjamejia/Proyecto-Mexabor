@@ -30,5 +30,19 @@ namespace Mexabor
             ajustesAvanzados.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Ponderaciones ponderaciones = new Ponderaciones();
+            ponderaciones.Show();
+            this.Hide();
+        }
+
+        private void Configuracion_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            FormMenu formMenu = new FormMenu();
+            formMenu.Show();
+            this.Hide();
+        }
     }
 }

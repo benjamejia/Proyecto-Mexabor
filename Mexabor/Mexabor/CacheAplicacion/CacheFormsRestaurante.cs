@@ -10,6 +10,7 @@ namespace Mexabor.CacheAplicacion
     public class CacheFormsRestaurante
     {
         //Cache de los datos alaamcenados en los forms.
+        public static bool auditoriaEmpezada = false;
 
         public static DateTime hora;
         public static DateTime fecha;
@@ -70,6 +71,8 @@ namespace Mexabor.CacheAplicacion
         public static int traposMesas;
         public static int traposBanios;
         public static int traposCaja;
+
+        public static int ponderacionRestaurante = 10;
 
         public static Dictionary<string, int[]> temperaturasIdeales = new Dictionary<string, int[]>
         {

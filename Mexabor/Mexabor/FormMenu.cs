@@ -22,7 +22,7 @@ namespace Mexabor
         {
             Login login = new Login();
             login.Show();
-            this.Close();
+            this.Hide();
             CacheUsuario.LimpiarDatos();
         }
 
@@ -31,7 +31,7 @@ namespace Mexabor
             CacheFormsRestaurante.LimpiarCache();
             FormRegistros formRegistros = new FormRegistros();
             formRegistros.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void btn_Auditoria_Click(object sender, EventArgs e)
@@ -46,10 +46,33 @@ namespace Mexabor
 
         private void btnRedtaurante_Click(object sender, EventArgs e)
         {
-            CacheFormsRestaurante.LimpiarCache();
-            Form1Estacionamiento formEstacionamiento = new Form1Estacionamiento();
-            formEstacionamiento.Show();
-            this.Close();
+            if (CacheFormsRestaurante.auditoriaEmpezada == true)
+            {
+                // Mostrar la alerta solo si el usuario está intentando cerrar el formulario
+                DialogResult opcion = MessageBox.Show("Hay una auditoria incompleta\n¿Deseas reanudar la auditoria?", "Cerrar auditoria", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                // Si el usuario cancela el cierre, evitamos que el formulario se cierre
+                if (opcion == DialogResult.No)
+                {
+                    CacheFormsRestaurante.LimpiarCache();
+                    Form1Estacionamiento formEstacionamiento = new Form1Estacionamiento();
+                    formEstacionamiento.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    Form1Estacionamiento formEstacionamiento = new Form1Estacionamiento();
+                    formEstacionamiento.Show();
+                    this.Hide();
+                }
+            }
+            else
+            {
+                Form1Estacionamiento formEstacionamiento = new Form1Estacionamiento();
+                formEstacionamiento.Show();
+                this.Hide();
+            }
+
         }
 
         private void lblVolver_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -64,16 +87,40 @@ namespace Mexabor
 
         private void btnCedis_Click(object sender, EventArgs e)
         {
-            AlmaSalida almaSalida = new AlmaSalida();
-            almaSalida.Show();
-            this.Close();
+            if (CacheFormsAlmacen.auditoriaEmpezada == true)
+            {
+                // Mostrar la alerta solo si el usuario está intentando cerrar el formulario
+                DialogResult opcion = MessageBox.Show("Hay una auditoria incompleta\n¿Deseas reanudar la auditoria?", "Cerrar auditoria", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                // Si el usuario cancela el cierre, evitamos que el formulario se cierre
+                if (opcion == DialogResult.No)
+                {
+                    CacheFormsAlmacen.LimpiarCache();
+                    AlmaSalida almaSalida = new AlmaSalida();
+                    almaSalida.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    AlmaSalida almaSalida = new AlmaSalida();
+                    almaSalida.Show();
+                    this.Hide();
+                }
+            }
+            else
+            {
+                AlmaSalida almaSalida = new AlmaSalida();
+                almaSalida.Show();
+                this.Hide();
+            }
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             FormGestor formGestor = new FormGestor();
             formGestor.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void FormMenu_Load(object sender, EventArgs e)
@@ -88,12 +135,17 @@ namespace Mexabor
         {
             Configuracion configuracion = new Configuracion();
             configuracion.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void FormMenu_FormClosing(object sender, FormClosingEventArgs e)
         {
-            //Application.Exit();
+            Application.Exit();
+        }
+
+        private void FormMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
         }
     }
 }

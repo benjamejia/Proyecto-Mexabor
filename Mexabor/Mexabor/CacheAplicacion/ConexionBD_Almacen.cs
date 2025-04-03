@@ -28,7 +28,7 @@ namespace Mexabor.CacheAplicacion
                         AreaPersonalEstructura, AreaPersonalLimpieza, 
                         CocinaFriaEstructura, CocinaFriaLimpieza, 
                         CajasEstructura, CajasLimpieza, PersonalCocinaCaliente,
-                        PersonalCamaraFria, PersonalCocinaFria, PersonalCaja, ProductosRevisados)
+                        PersonalCocinaFria, PersonalCaja, ProductosRevisados,ProductosInventario,Vajillas,Responsables,ObservacionProductos,ObservacionInventario)
                         VALUES 
                         (@sucursal, @gerente, @auditor, @fecha, @hora,  
                         @salidaEstructura, @salidaLimpieza, 
@@ -38,7 +38,7 @@ namespace Mexabor.CacheAplicacion
                         @areaPersonalEstructura, @areaPersonalLimpieza, 
                         @cocinaFriaEstructura, @cocinaFriaLimpieza, 
                         @cajasEstructura, @cajasLimpieza, @personalCocinaCaliente,
-                        @personalCamaraFria,@personalCocinaFria,@personalCaja,@productosRevisados)";
+                        @personalCocinaFria,@personalCaja,@productosRevisados,@productosInventario,@vajillas,@responsables,@observacionProductos,@observacionInventario)";
 
                         using (SQLiteCommand cmd = new SQLiteCommand(insertQuery, conn))
                         {
@@ -49,8 +49,8 @@ namespace Mexabor.CacheAplicacion
                             cmd.Parameters.AddWithValue("@fecha", CacheFormsAlmacen.fecha.ToString("yyyy-MM-dd"));
                             cmd.Parameters.AddWithValue("@hora", CacheFormsAlmacen.hora.ToString("HH:mm:ss"));
 
-                        //se convierte en string y se separa por comas cada dato
-                        cmd.Parameters.AddWithValue("@salidaEstructura", string.Join(",", CacheFormsAlmacen.salidaEstructura.Select(x => x.ToString())));
+                            //se convierte en string y se separa por comas cada dato
+                            cmd.Parameters.AddWithValue("@salidaEstructura", string.Join(",", CacheFormsAlmacen.salidaEstructura.Select(x => x.ToString())));
                             cmd.Parameters.AddWithValue("@salidaLimpieza", string.Join(",", CacheFormsAlmacen.salidaLimpieza.Select(x => x.ToString())));
                             cmd.Parameters.AddWithValue("@cocinaCalienteEstructura", string.Join(",", CacheFormsAlmacen.cocincaCalienteEstructura.Select(x => x.ToString())));
                             cmd.Parameters.AddWithValue("@cocinaCalienteLimpieza", string.Join(",", CacheFormsAlmacen.cocinaCalienteLimpieza.Select(x => x.ToString())));
@@ -64,16 +64,25 @@ namespace Mexabor.CacheAplicacion
                             cmd.Parameters.AddWithValue("@cocinaFriaLimpieza", string.Join(",", CacheFormsAlmacen.cocinaFriaLimpieza.Select(x => x.ToString())));
                             cmd.Parameters.AddWithValue("@cajasEstructura", string.Join(",", CacheFormsAlmacen.cajasEstructura.Select(x => x.ToString())));
                             cmd.Parameters.AddWithValue("@cajasLimpieza", string.Join(",", CacheFormsAlmacen.cajasLimpieza.Select(x => x.ToString())));
-                            cmd.Parameters.AddWithValue("@personalCocinaCaliente", string.Join(",", CacheFormsAlmacen.cocinaFriaEstructura.Select(x => x.ToString())));
-                            cmd.Parameters.AddWithValue("@personalCamaraFria", string.Join(",", CacheFormsAlmacen.cocinaFriaLimpieza.Select(x => x.ToString())));
-                            cmd.Parameters.AddWithValue("@personalCocinaFria", string.Join(",", CacheFormsAlmacen.cajasEstructura.Select(x => x.ToString())));
-                            cmd.Parameters.AddWithValue("@personalCaja", string.Join(",", CacheFormsAlmacen.cajasLimpieza.Select(x => x.ToString())));
+                            cmd.Parameters.AddWithValue("@personalCocinaCaliente", string.Join(",", CacheFormsAlmacen.personalCocinaCaliente.Select(x => x.ToString())));
+                            cmd.Parameters.AddWithValue("@personalCocinaFria", string.Join(",", CacheFormsAlmacen.personalCocinaFria.Select(x => x.ToString())));
+                            cmd.Parameters.AddWithValue("@personalCaja", string.Join(",", CacheFormsAlmacen.personalCaja.Select(x => x.ToString())));
                             cmd.Parameters.AddWithValue("@productosRevisados", string.Join(",", CacheFormsAlmacen.productosRevisados.Select(x => x.ToString())));
+                            cmd.Parameters.AddWithValue("@productosInventario", string.Join(",", CacheFormsAlmacen.productosRevisadosInventario.Select(x => x.ToString())));
+                            cmd.Parameters.AddWithValue("@vajillas", string.Join(",", CacheFormsAlmacen.vajillas.Select(x => x.ToString())));
+                            cmd.Parameters.AddWithValue("@responsables", string.Join(",", CacheFormsAlmacen.responsables.Select(x => x.ToString())));
+                            cmd.Parameters.AddWithValue("@observacionProductos", CacheFormsAlmacen.observaciones);
+                            cmd.Parameters.AddWithValue("@observacionInventario", CacheFormsAlmacen.observacionesInventario);
+
                         // Ejecutar el comando
                         cmd.ExecuteNonQuery();
-                        }
-
+                        MessageBox.Show("La auditoría se ha completado con éxito.\nTodos los datos se han guardado correctamente.",
+                        "Auditoría Completada",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
                     }
+
+                }
                 }
                 catch (Exception ex)
                 {

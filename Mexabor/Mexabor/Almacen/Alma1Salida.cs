@@ -17,6 +17,31 @@ namespace Mexabor
         public AlmaSalida()
         {
             InitializeComponent();
+
+            RestaurarValoresDeCheckBox(CacheFormsAlmacen.salidaEstructura, tlpE);
+            RestaurarValoresDeCheckBox(CacheFormsAlmacen.salidaLimpieza, tlpL);
+        }
+        private void RestaurarValoresDeCheckBox(List<int> valores, TableLayoutPanel tableLayout)
+        {
+            int index = 0;
+
+            for (int fila = 0; fila < tableLayout.RowCount; fila++)
+            {
+                for (int columna = 0; columna < tableLayout.ColumnCount; columna++)
+                {
+                    Control control = tableLayout.GetControlFromPosition(columna, fila);
+
+                    if (control is CheckBox checkBox)
+                    {
+                        // Verificamos si hay un valor disponible en la lista para restaurar
+                        if (index < valores.Count)
+                        {
+                            checkBox.Checked = valores[index] == 1; // Restaurar el estado del CheckBox
+                            index++;
+                        }
+                    }
+                }
+            }
         }
         private List<int> ObtenerValoresDeCheckBox(TableLayoutPanel tableLayout)
         {
@@ -75,7 +100,7 @@ namespace Mexabor
         private void button1_Click(object sender, EventArgs e)
         {
             //Condicionales para los campos de texto.
-            if (string.IsNullOrEmpty(txbAuditor.Text) || string.IsNullOrEmpty(txbGerente.Text) || string.IsNullOrEmpty(txbSucursal.Text))
+            if (string.IsNullOrEmpty(txbAuditor.Text) || string.IsNullOrEmpty(txbGerente.Text))
             {
                 lblAviso.Visible = true;
                 System.Media.SystemSounds.Beep.Play();
@@ -86,10 +111,10 @@ namespace Mexabor
                 lblAviso.Visible = false;
                 ObtenerRespuestas(tlpE, tlpL);
                 //Asignamos los valores de los campos de texto a rellenar.
-                CacheFormsAlmacen.sucursal = txbSucursal.Text;
+                CacheFormsAlmacen.sucursal = "Patria";
                 CacheFormsAlmacen.gerente = txbGerente.Text;
                 CacheFormsAlmacen.auditor = txbAuditor.Text;
-
+                CacheFormsAlmacen.auditoriaEmpezada = true;
                 Alma2CocinaCaliente almaCocinaCalient = new Alma2CocinaCaliente();
                 almaCocinaCalient.Show();
                 this.Hide();
@@ -100,7 +125,7 @@ namespace Mexabor
         {
             FormMenu formMenu = new FormMenu();
             formMenu.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void r5_CheckedChanged(object sender, EventArgs e)
@@ -110,6 +135,7 @@ namespace Mexabor
         private void AlmaSalida_Load(object sender, EventArgs e)
         {
             txbAuditor.Text = CacheUsuario.usuario;
+            txbGerente.Text = CacheFormsAlmacen.gerente;
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)
@@ -134,6 +160,9 @@ namespace Mexabor
                 if (opcion == DialogResult.No)
                 {
                     e.Cancel = true;
+                    FormMenu formMenu = new FormMenu();
+                    formMenu.Show();
+                    this.Hide();
                 }
                 else
                 {

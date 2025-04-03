@@ -694,6 +694,7 @@
             WindowState = FormWindowState.Maximized;
             FormClosing += FormPersonal2_FormClosing;
             FormClosed += FormPersonal2_FormClosed;
+            Load += FormPersonal2_Load;
             mesasP.ResumeLayout(false);
             mesasP.PerformLayout();
             serviciosP.ResumeLayout(false);

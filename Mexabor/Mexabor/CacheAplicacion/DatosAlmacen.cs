@@ -29,9 +29,14 @@ namespace Mexabor.CacheAplicacion
         public string CajasEstructura { get; set; }
         public string CajasLimpieza { get; set; }
         public string PersonalCocinaCaliente { get; set; }
-        public string PersonalCamaraFria { get; set; }
         public string PersonalCocinaFria { get; set; }
         public string PersonalCajas { get; set; }
         public string ProductosRevisados { get; set; }
+        public string ProductosInventario { get; set;}
+        public string Vajilla { get; set; }
+        public string Responsables { get; set;}
+        public string observacionProductos { get; set; }
+        public string observacionInventario { get; set; }
+
     }
 }

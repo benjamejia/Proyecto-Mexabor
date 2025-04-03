@@ -20,65 +20,77 @@ namespace Mexabor.Almacen
         public RevisionProductos()
         {
             InitializeComponent();
+            RestaurarValores();
+        }
+
+        public void RestaurarValores()
+        {
+            // Verifica que la lista tenga suficientes elementos
+            if (CacheFormsAlmacen.productosRevisados.Count >= 4)
+            {
+                // Asignar los valores de la lista a los TextBox correspondientes
+                txbProducto.Text = CacheFormsAlmacen.productosRevisados[0].ToString(); // Producto
+                txbCalidad.Text = CacheFormsAlmacen.productosRevisados[1].ToString();  // Calidad
+                txbEmpacados.Text = CacheFormsAlmacen.productosRevisados[2].ToString(); // Empacados
+                txbPesoIdeal.Text = CacheFormsAlmacen.productosRevisados[3].ToString(); // Peso Ideal
+            }
+            txtObservacion.Text = CacheFormsAlmacen.observaciones;
         }
 
         public void RevisionDeProductos()
         {
             try
             {
-                // Validación de entradas
-                if (string.IsNullOrWhiteSpace(txbProducto.Text) ||
-                    string.IsNullOrWhiteSpace(txbCalidad.Text) ||
-                    string.IsNullOrWhiteSpace(txbEmpacados.Text) ||
-                    string.IsNullOrEmpty(txbPesoIdeal.Text))
-                {
-                    MessageBox.Show("Por favor, complete todos los campos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-
-                // Validar que los valores numéricos sean correctos
+                // Validación combinada
                 if (!int.TryParse(txbProducto.Text, out int t) ||
                     !int.TryParse(txbEmpacados.Text, out int p1) ||
                     !int.TryParse(txbCalidad.Text, out int p2) ||
                     !int.TryParse(txbPesoIdeal.Text, out int p3))
                 {
-                    MessageBox.Show("Los valores de Producto, Empacados y Calidad deben ser números enteros válidos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Todos los campos deben contener números enteros válidos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                // Asignar observaciones
-                CacheFormsAlmacen.observaciones = string.IsNullOrWhiteSpace(txtObservacion.Text) ? "Sin observaciones" : txtObservacion.Text;
-
+                // Limpiar la lista antes de agregar nuevos valores
+                CacheFormsAlmacen.productosRevisados.Clear();
                 CacheFormsAlmacen.productosRevisados.Add(t);
                 CacheFormsAlmacen.productosRevisados.Add(p1);
                 CacheFormsAlmacen.productosRevisados.Add(p2);
                 CacheFormsAlmacen.productosRevisados.Add(p3);
-                CacheFormsAlmacen.productosIncorrectos = 100 - (3*t - p1 - p2 - p3) * 10;
 
-                // Limpiar campos después de la inserción
-                txbProducto.Clear();
-                txbEmpacados.Clear();
-                txbCalidad.Clear();
-                txbPesoIdeal.Clear();
-                txtObservacion.Text = "Sin observación.";
+                // Asignar observaciones
+                CacheFormsAlmacen.observaciones = string.IsNullOrWhiteSpace(txtObservacion.Text) ? "Sin observaciones" : txtObservacion.Text;
+
+                // Calcular productos incorrectos (revisar si esta fórmula es la correcta)
+                if (CacheFormsAlmacen.ponderacionProductos != 0)
+                {
+                    CacheFormsAlmacen.productosIncorrectosProductos = 100 - (3 * t - p1 - p2 - p3) * CacheFormsAlmacen.ponderacionProductos;
+                }
+                else
+                {
+                    MessageBox.Show("La ponderación de productos no puede ser cero.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Navegación a la ventana de Inventario
+                RevisionInventario revisionInventario = new RevisionInventario();
+                this.Hide();
+                revisionInventario.Show();
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                MessageBox.Show($"Acceso fuera de rango: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Ocurrió un error inesperado: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-
-
         private void button1_Click(object sender, EventArgs e)
         {
-            n1.Value = CacheFormsAlmacen.ponderacion;
             RevisionDeProductos();
-            Responsables responsables = new Responsables();
-            responsables.Show();
-            this.Hide();
         }
-
         private void txtObservacion_TextChanged(object sender, EventArgs e)
         {
             const int maxCaracteres = 500;
@@ -94,7 +106,7 @@ namespace Mexabor.Almacen
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Alma7Cajas alma7Cajas = new Alma7Cajas();
+            Almacen8Personal alma7Cajas = new Almacen8Personal();
             alma7Cajas.Show();
             this.Hide();
         }
@@ -116,5 +128,7 @@ namespace Mexabor.Almacen
                 e.Cancel = true;
             }
         }
+
     }
 }
+

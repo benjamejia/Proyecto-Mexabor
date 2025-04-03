@@ -16,6 +16,32 @@ namespace Mexabor.Almacen
         public Almacen8Personal()
         {
             InitializeComponent();
+            RestaurarValoresDeCheckBox(CacheFormsAlmacen.personalCocinaCaliente, tlp1);
+            RestaurarValoresDeCheckBox(CacheFormsAlmacen.personalCaja, tlp2);
+            RestaurarValoresDeCheckBox(CacheFormsAlmacen.personalCocinaFria, tlp3);
+            RestaurarValoresDeCheckBox(CacheFormsAlmacen.vajillas, tlp4);
+        }
+        private void RestaurarValoresDeCheckBox(List<int> valores, TableLayoutPanel tableLayout)
+        {
+            int index = 0;
+
+            for (int fila = 0; fila < tableLayout.RowCount; fila++)
+            {
+                for (int columna = 0; columna < tableLayout.ColumnCount; columna++)
+                {
+                    Control control = tableLayout.GetControlFromPosition(columna, fila);
+
+                    if (control is CheckBox checkBox)
+                    {
+                        // Verificamos si hay un valor disponible en la lista para restaurar
+                        if (index < valores.Count)
+                        {
+                            checkBox.Checked = valores[index] == 1; // Restaurar el estado del CheckBox
+                            index++;
+                        }
+                    }
+                }
+            }
         }
         public void MarcarTodo(Control.ControlCollection controls)
         {
@@ -70,7 +96,8 @@ namespace Mexabor.Almacen
         {
             CacheFormsAlmacen.personalCocinaCaliente = ObtenerValoresDeCheckBox(tlp1);
             CacheFormsAlmacen.personalCocinaFria = ObtenerValoresDeCheckBox(tlp2);
-            CacheFormsAlmacen.personalCaja = ObtenerValoresDeCheckBox(tlp2);
+            CacheFormsAlmacen.personalCaja = ObtenerValoresDeCheckBox(tlp3);
+            CacheFormsAlmacen.vajillas = ObtenerValoresDeCheckBox(tlp4);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -109,6 +136,11 @@ namespace Mexabor.Almacen
             Alma7Cajas alma7Cajas = new Alma7Cajas();
             alma7Cajas.Show();
             this.Hide();
+        }
+
+        private void Almacen8Personal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

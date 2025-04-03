@@ -104,6 +104,7 @@ namespace Mexabor
                 VerificarSabores(this.Controls);
                 VerificarTemperaturas(this.Controls);
                 //Agregar el valor de la lista elemetnos a las listas
+                CacheFormsRestaurante.auditoriaEmpezada = false;
                 CacheFormsRestaurante.temperatura = temperaturas;
                 CacheFormsRestaurante.sabor = sabores;
                 CacheFormsRestaurante.cloracion = (radioButton1.Checked ? 1 : 0);

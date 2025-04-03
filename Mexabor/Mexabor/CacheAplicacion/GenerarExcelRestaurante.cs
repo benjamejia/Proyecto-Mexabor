@@ -212,42 +212,42 @@ namespace Mexabor.CacheAplicacion
                         worksheet.Cells["E3"].Value = CacheFormsRestaurante.sucursal;
                         int re1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17, r18, r19, r20, r21, r22, r23, r24, r25, r26, r27;
                         // Modificar las celdas incorrectas de las areas
-                        worksheet.Cells["C10"].Value = re1 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["D10"].Value = r2 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C10"].Value = re1 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["D10"].Value = r2 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
 
-                        worksheet.Cells["C12"].Value = r3 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["D12"].Value = r4 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0)     * 10;
-                        worksheet.Cells["E12"].Value = r5 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C12"].Value = r3 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["D12"].Value = r4 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0)     * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["E12"].Value = r5 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
 
-                        worksheet.Cells["C14"].Value = r6 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["D14"].Value = r7 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["E14"].Value = r8 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C14"].Value = r6 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["D14"].Value = r7 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["E14"].Value = r8 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
 
-                        worksheet.Cells["C16"].Value = r9 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["D16"].Value = r10 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["E16"].Value = r11 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C16"].Value = r9 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["D16"].Value = r10 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["E16"].Value = r11 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
 
-                        worksheet.Cells["C18"].Value = r12 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["D18"].Value = r13 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["E18"].Value = r14 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C18"].Value = r12 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["D18"].Value = r13 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["E18"].Value = r14 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
 
-                        worksheet.Cells["C20"].Value = r15 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["D20"].Value = r16 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["E20"].Value = r17 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C20"].Value = r15 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["D20"].Value = r16 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["E20"].Value = r17 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
 
-                        worksheet.Cells["C22"].Value = r18 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["D22"].Value = r19 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["E22"].Value = r20 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C22"].Value = r18 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["D22"].Value = r19 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["E22"].Value = r20 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
 
-                        worksheet.Cells["C24"].Value = r21 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["D24"].Value = r22 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["E24"].Value = r23 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C24"].Value = r21 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["D24"].Value = r22 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["E24"].Value = r23 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
 
-                        worksheet.Cells["C26"].Value = r24 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["D26"].Value = r25 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C26"].Value = r24 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["D26"].Value = r25 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
 
-                        worksheet.Cells["C28"].Value = r26 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
-                        worksheet.Cells["C30"].Value = r27 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * 10;
+                        worksheet.Cells["C28"].Value = r26 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
+                        worksheet.Cells["C30"].Value = r27 = 100 - CacheFormsRestaurante.estacionamientoEstructura.Count(x => x == 0) * CacheFormsRestaurante.ponderacionRestaurante;
                         //trapos
                         worksheet.Cells["C68"].Value = CacheFormsRestaurante.traposCocina;
                         worksheet.Cells["D68"].Value = CacheFormsRestaurante.traposMesas;
@@ -295,19 +295,12 @@ namespace Mexabor.CacheAplicacion
                         // Calcular el porcentaje
                         double porcentajeCumplimiento = ((double)temperaturasCorrectas / totalTemperaturas) * 100;
 
-                        // Asignar el porcentaje a la celda C48
-                        if(porcentajeCumplimiento >= 100) 
-                        {
-                            worksheet.Cells["C48"].Value = $"100%";
-                        }
-                        else if(porcentajeCumplimiento <= 0)
-                        {
-                            worksheet.Cells["C48"].Value = $"0%";
-                        }
-                        else 
-                        {
-                            worksheet.Cells["C48"].Value = $"{porcentajeCumplimiento:F2}%";
-                        }
+                        // Asegurarse de que el porcentaje no sea mayor de 100 ni menor de 0
+                        porcentajeCumplimiento = Math.Max(0, Math.Min(porcentajeCumplimiento, 100));
+
+                        // Asignar el porcentaje a la celda C48 con formato adecuado
+                        worksheet.Cells["C50"].Value = $"{porcentajeCumplimiento:F2}%";
+
                         //Cloracion
                         worksheet.Cells["G47"].Value = CacheFormsRestaurante.cloracion == 1 ? "bien" : "mal";
                         //Observaciones
@@ -323,44 +316,40 @@ namespace Mexabor.CacheAplicacion
                         worksheet.Cells["C127"].Value = CacheFormsRestaurante.observaciones[9];
                         worksheet.Cells["C133"].Value = CacheFormsRestaurante.observaciones[10];
 
+                        // Asignar valores a las celdas D42 a D47 con los resultados de "Bien" o "Mal"
                         for (int i = 0; i < CacheFormsRestaurante.sabor.Count && i < 6; i++)
                         {
                             string cellAddress = $"D{42 + i}"; // Genera dinámicamente las celdas D42 a D47
                             worksheet.Cells[cellAddress].Value = CacheFormsRestaurante.sabor[i] == 1 ? "Bien" : "Mal";
                         }
-                        //Porcentaje de Sabores
-                        // Define los valores de sabor
-                        // Crear una lista para almacenar si el sabor es bueno (1) o malo (0)
-                        List<bool> resultadosSabor = new List<bool>();
-                        foreach (var item in CacheFormsRestaurante.sabor)
-                        {
-                            for (int i = 0; i < CacheFormsRestaurante.sabor.Count; i++)
-                            {
-                                resultadosSabor.Add(CacheFormsRestaurante.sabor[i] == 1);
-                            }
-                        }
-                        // Calcular el porcentaje de sabores buenos
-                        double porcentajeBien = Math.Round((double)resultadosSabor.Count(x => x) / CacheFormsRestaurante.sabor.Count * 100);
-                        // Mostrar el porcentaje (puedes guardar este valor o mostrarlo según lo necesites)
-                        Console.WriteLine($"Porcentaje de sabores buenos: {porcentajeBien:F2}%");
 
-                        // Aquí puedes guardar el porcentaje en el lugar que necesites, por ejemplo:
-                        worksheet.Cells["D48"].Value = $"{Math.Round(porcentajeBien)}%"; // Asigna el porcentaje a una celda específica en el Excel
+                        // Calcular el porcentaje de sabores buenos
+                        int saboresBuenos = CacheFormsRestaurante.sabor.Count(s => s == 1); // Contar los "1" (sabores buenos)
+                        double porcentajeSabor = ((double)saboresBuenos / CacheFormsRestaurante.sabor.Count) * 100;
+
+                        // Asegurarse de que el porcentaje esté en el rango 0 - 100
+                        porcentajeSabor = Math.Max(0, Math.Min(porcentajeSabor, 100));
+
+                        // Mostrar el porcentaje de sabores buenos en la celda D48
+                        worksheet.Cells["D50"].Value = $"{porcentajeSabor:F2}%"; // Asigna el porcentaje a la celda específica en Excel
+
                         //Checks
                         worksheet.Cells["I47"].Value = $"{CacheFormsRestaurante.documentos.Count(x => x == 1)} de 5";
                         //Manifestos
                         worksheet.Cells["H47"].Value = CacheFormsRestaurante.documentos[4] == 1 ? "bien" : "mal";
                         //Leyenda
-                        worksheet.Cells["B33"].Value = leyendaAlmacen;
+                        worksheet.Cells["B140"].Value = leyendaAlmacen;
 
                         MessageBox.Show("El archivo se ha guardado exitosamente en la ubicación seleccionada.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         FileInfo newFile = new FileInfo(filePath);
                         package.SaveAs(newFile);
+                            /*
                         DialogResult result = MessageBox.Show("¿Deseas exportarlo en PDF?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         if (result == DialogResult.Yes)
                         {
                             ConvertirExcelAPdf(filePath);
                         }
+                            */
                     }
                 }
             }

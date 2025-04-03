@@ -32,14 +32,14 @@ namespace Mexabor
                 conn.Close();
             }
         }
-        public void LimpiarCampos() 
+        public void LimpiarCampos()
         {
             // Limpiar los campos
             txtClave.Text = string.Empty;
             txtUsuario.Text = string.Empty;
             cbCredenciales.Text = string.Empty;
         }
-        public void ElimarUsuario(int id) 
+        public void ElimarUsuario(int id)
         {
             using (SQLiteConnection conn = new SQLiteConnection(cadena))
             {
@@ -70,7 +70,7 @@ namespace Mexabor
             }
 
         }
-        public void AgregarUsuario() 
+        public void AgregarUsuario()
         {
             using (SQLiteConnection conn = new SQLiteConnection(cadena))
             {
@@ -180,6 +180,12 @@ namespace Mexabor
                 }
             }
 
+        }
+
+        private void AjustesAvanzados_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            FormGestor formGestor = new FormGestor();
+            formGestor.Show();
         }
     }
 }

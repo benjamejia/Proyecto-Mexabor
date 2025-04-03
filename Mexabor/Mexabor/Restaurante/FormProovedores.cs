@@ -12,7 +12,25 @@ namespace Mexabor
         public FormProovedores()
         {
             InitializeComponent();
+            RestaurarValores();
         }
+
+        public void RestaurarValores()
+        {
+            // Lista de ComboBox
+            ComboBox[] cb = { cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb10, cb11 };
+
+            // Verificar si la lista tiene suficientes elementos
+            if (CacheFormsRestaurante.calificacionProveedores.Count >= cb.Length)
+            {
+                for (int i = 0; i < cb.Length; i++)
+                {
+                    // Asignar el valor de la calificación a cada ComboBox
+                    cb[i].Text = CacheFormsRestaurante.calificacionProveedores[i].ToString();
+                }
+            }
+        }
+
         public void VerificarCampos()
         {
             if (txtObservacion.Text == string.Empty)

@@ -8,7 +8,32 @@ namespace Mexabor
         public Form1Estacionamiento()
         {
             InitializeComponent();
+            RestaurarValoresDeCheckBox(CacheFormsRestaurante.estacionamientoEstructura, tlpLimpieza);
+            RestaurarValoresDeCheckBox(CacheFormsRestaurante.estacionamientoLimpieza, tlpEstructura);
         }
+        private void RestaurarValoresDeCheckBox(List<int> valores, TableLayoutPanel tableLayout)
+        {
+            int index = 0;
+
+            for (int fila = 0; fila < tableLayout.RowCount; fila++)
+            {
+                for (int columna = 0; columna < tableLayout.ColumnCount; columna++)
+                {
+                    Control control = tableLayout.GetControlFromPosition(columna, fila);
+
+                    if (control is CheckBox checkBox)
+                    {
+                        // Verificamos si hay un valor disponible en la lista para restaurar
+                        if (index < valores.Count)
+                        {
+                            checkBox.Checked = valores[index] == 1; // Restaurar el estado del CheckBox
+                            index++;
+                        }
+                    }
+                }
+            }
+        }
+
         private List<int> ObtenerValoresDeCheckBox(TableLayoutPanel tableLayout)
         {
             List<int> valores = new List<int>();
@@ -28,34 +53,6 @@ namespace Mexabor
 
             return valores;
         }
-        public void CargarRespuestas(Control.ControlCollection controls, List<int> respuestas, ref int index)
-        {
-            // Ordenar controles por TabIndex
-            var orderedControls = controls.Cast<Control>().OrderBy(c => c.TabIndex).ToList();
-
-            foreach (Control control in orderedControls)
-            {
-                // Si es Panel o GroupBox, busca recursivamente en sus controles
-                if (control is Panel || control is GroupBox)
-                {
-                    CargarRespuestas(control.Controls, respuestas, ref index);
-                }
-
-                // Si es TableLayoutPanel, revisa sus controles
-                if (control is TableLayoutPanel tableLayout)
-                {
-                    foreach (Control cellControl in tableLayout.Controls)
-                    {
-                        if (cellControl is CheckBox checkBox && index < respuestas.Count)
-                        {
-                            checkBox.Checked = respuestas[index] == 1;
-                            index++;
-                        }
-                    }
-                }
-            }
-        }
-
         public void ObtenerRespuestas(TableLayoutPanel t1, TableLayoutPanel t2)
         {
             CacheFormsRestaurante.estacionamientoEstructura = ObtenerValoresDeCheckBox(t1);
@@ -104,7 +101,8 @@ namespace Mexabor
             {
                 lblAviso.Visible = false;
                 //Este metodo obtiene las repsuestas emitidas por el usausrio haciendo dos instancias de los nombres de los tableLayoutPanel's
-                ObtenerRespuestas(tlpEstructura, tlpLimpieza);
+                ObtenerRespuestas(tlpLimpieza, tlpEstructura);
+                CacheFormsRestaurante.auditoriaEmpezada = true;
                 CacheFormsRestaurante.sucursal = txbSucursal.Text;
                 CacheFormsRestaurante.auditor = txbAuditor.Text;
                 CacheFormsRestaurante.gerente = txbGerente.Text;
@@ -133,8 +131,6 @@ namespace Mexabor
             txbAuditor.Text = CacheUsuario.usuario;
             txbGerente.Text = CacheFormsRestaurante.gerente;
             txbSucursal.Text = CacheFormsRestaurante.sucursal;
-            int index = 0;
-            CargarRespuestas(this.Controls, CacheFormsRestaurante.estacionamientoEstructura,ref index);
         }
 
         private void cbxMarcarTodo_CheckedChanged(object sender, EventArgs e)

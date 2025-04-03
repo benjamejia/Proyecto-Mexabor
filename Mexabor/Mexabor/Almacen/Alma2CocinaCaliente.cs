@@ -18,6 +18,30 @@ namespace Mexabor
         {
             InitializeComponent();
             this.AutoScroll = true;
+            RestaurarValoresDeCheckBox(CacheFormsAlmacen.cocincaCalienteEstructura, tlpE);
+            RestaurarValoresDeCheckBox(CacheFormsAlmacen.cocinaCalienteLimpieza, tlpL);
+        }
+        private void RestaurarValoresDeCheckBox(List<int> valores, TableLayoutPanel tableLayout)
+        {
+            int index = 0;
+
+            for (int fila = 0; fila < tableLayout.RowCount; fila++)
+            {
+                for (int columna = 0; columna < tableLayout.ColumnCount; columna++)
+                {
+                    Control control = tableLayout.GetControlFromPosition(columna, fila);
+
+                    if (control is CheckBox checkBox)
+                    {
+                        // Verificamos si hay un valor disponible en la lista para restaurar
+                        if (index < valores.Count)
+                        {
+                            checkBox.Checked = valores[index] == 1; // Restaurar el estado del CheckBox
+                            index++;
+                        }
+                    }
+                }
+            }
         }
         private List<int> ObtenerValoresDeCheckBox(TableLayoutPanel tableLayout)
         {
@@ -120,6 +144,9 @@ namespace Mexabor
                 if (opcion == DialogResult.No)
                 {
                     e.Cancel = true;
+                    FormMenu formMenu = new FormMenu();
+                    formMenu.Show();
+                    this.Hide();
                 }
                 else
                 {

@@ -58,6 +58,12 @@ namespace Mexabor
             CacheFormsAlmacen.personalCocinaFria = datos.PersonalCocinaFria.Select(c => int.Parse(c.ToString())).ToList();
             CacheFormsAlmacen.personalCaja = datos.PersonalCajas.Select(c => int.Parse(c.ToString())).ToList();
             CacheFormsAlmacen.productosRevisados = datos.ProductosRevisados.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.productosRevisadosInventario = datos.ProductosInventario.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.vajillas = datos.Vajilla.Select(c => int.Parse(c.ToString())).ToList();
+            CacheFormsAlmacen.responsables = datos.Responsables.Split(',').Select(c => c.Trim()).ToArray();
+            CacheFormsAlmacen.observaciones = datos.observacionProductos;
+            CacheFormsAlmacen.observacionesInventario = datos.observacionInventario;
+
         }
 
 
@@ -109,7 +115,6 @@ namespace Mexabor
             CacheFormsRestaurante.almacen = datosFila.Almacen.Select(c => int.Parse(c.ToString())).ToList();
             CacheFormsRestaurante.caja = datosFila.Caja.Select(c => int.Parse(c.ToString())).ToList();
             CacheFormsRestaurante.ambiente = datosFila.Ambiente.Select(c => int.Parse(c.ToString())).ToList();
-
 
             // Iterar sobre la cadena de dígitos
             for (int i = 0; i < datosFila.CalificacionProovedores.Length; i++)
@@ -264,10 +269,18 @@ namespace Mexabor
         private void button4_Click(object sender, EventArgs e)
         {
             //ExcelTablaDesglozada();
-            GenerarExcelRestaurante.ExportarDatosExcel();
+            if (comboBox1.Text == "Reporte de Almacen")
+            {
+                GenerarExcelAlmacen.ExportarDatosExcel();
+            }
+            else 
+            {
+                GenerarExcelRestaurante.ExportarDatosExcel();
+            }
         }
         public void dobleClicAlmacen(object sender, DataGridViewCellEventArgs e)
         {
+            CacheFormsAlmacen.LimpiarCache();
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow filaSeleccionada = dataGridView1.Rows[e.RowIndex];
@@ -299,7 +312,12 @@ namespace Mexabor
                     PersonalCocinaCaliente = filaSeleccionada.Cells["PersonalCocinaCaliente"].Value?.ToString().Replace(",", "") ?? string.Empty,
                     PersonalCocinaFria = filaSeleccionada.Cells["PersonalCocinaFria"].Value?.ToString().Replace(",", "") ?? string.Empty,
                     PersonalCajas = filaSeleccionada.Cells["PersonalCaja"].Value?.ToString().Replace(",", "") ?? string.Empty,
-                    ProductosRevisados = filaSeleccionada.Cells["ProductosRevisados"].Value?.ToString().Replace(",", "") ?? string.Empty
+                    ProductosRevisados = filaSeleccionada.Cells["ProductosRevisados"].Value?.ToString().Replace(",", "") ?? string.Empty,
+                    ProductosInventario = filaSeleccionada.Cells["ProductosInventario"].Value?.ToString().Replace(",","") ?? string.Empty,
+                    Vajilla = filaSeleccionada.Cells["Vajillas"].Value?.ToString().Replace(",","") ?? string.Empty,
+                    Responsables = filaSeleccionada.Cells["Responsables"].Value?.ToString(),
+                    observacionProductos = filaSeleccionada.Cells["ObservacionProductos"].Value?.ToString(),
+                    observacionInventario = filaSeleccionada.Cells["ObservacionInventario"].Value.ToString()
                 };
 
                 GuardarEnCacheAlmacen(datosAlmacen);
@@ -316,6 +334,7 @@ namespace Mexabor
 
         public void dobleClicRestaurante(object sender, DataGridViewCellEventArgs e)
         {
+            CacheFormsRestaurante.LimpiarCache();
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow filaSeleccionada = dataGridView1.Rows[e.RowIndex];

@@ -239,6 +239,7 @@
             Name = "AjustesAvanzados";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Agregar Usuario";
+            FormClosing += AjustesAvanzados_FormClosing;
             Load += AjustesAvanzados_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();

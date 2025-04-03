@@ -35,19 +35,21 @@
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
-            cbAreaSalida = new ComboBox();
-            cbCocinaCaliente = new ComboBox();
-            cbCamaraFria = new ComboBox();
-            cbAlmacen = new ComboBox();
-            cbCocinaFria = new ComboBox();
-            cbCajas = new ComboBox();
-            cbVajillas = new ComboBox();
             button1 = new Button();
             button2 = new Button();
             label8 = new Label();
             panel1 = new Panel();
-            cbPersonal = new ComboBox();
             label9 = new Label();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            textBox3 = new TextBox();
+            textBox4 = new TextBox();
+            textBox5 = new TextBox();
+            textBox6 = new TextBox();
+            textBox7 = new TextBox();
+            textBox8 = new TextBox();
+            panel4 = new Panel();
+            panel2 = new Panel();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -121,69 +123,6 @@
             label7.TabIndex = 6;
             label7.Text = "Area de personal";
             // 
-            // cbAreaSalida
-            // 
-            cbAreaSalida.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cbAreaSalida.FormattingEnabled = true;
-            cbAreaSalida.Location = new Point(241, 80);
-            cbAreaSalida.Name = "cbAreaSalida";
-            cbAreaSalida.Size = new Size(238, 35);
-            cbAreaSalida.TabIndex = 8;
-            // 
-            // cbCocinaCaliente
-            // 
-            cbCocinaCaliente.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cbCocinaCaliente.FormattingEnabled = true;
-            cbCocinaCaliente.Location = new Point(241, 130);
-            cbCocinaCaliente.Name = "cbCocinaCaliente";
-            cbCocinaCaliente.Size = new Size(238, 35);
-            cbCocinaCaliente.TabIndex = 9;
-            // 
-            // cbCamaraFria
-            // 
-            cbCamaraFria.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cbCamaraFria.FormattingEnabled = true;
-            cbCamaraFria.Location = new Point(241, 188);
-            cbCamaraFria.Name = "cbCamaraFria";
-            cbCamaraFria.Size = new Size(238, 35);
-            cbCamaraFria.TabIndex = 10;
-            // 
-            // cbAlmacen
-            // 
-            cbAlmacen.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cbAlmacen.FormattingEnabled = true;
-            cbAlmacen.Location = new Point(241, 247);
-            cbAlmacen.Name = "cbAlmacen";
-            cbAlmacen.Size = new Size(238, 35);
-            cbAlmacen.TabIndex = 11;
-            // 
-            // cbCocinaFria
-            // 
-            cbCocinaFria.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cbCocinaFria.FormattingEnabled = true;
-            cbCocinaFria.Location = new Point(241, 302);
-            cbCocinaFria.Name = "cbCocinaFria";
-            cbCocinaFria.Size = new Size(238, 35);
-            cbCocinaFria.TabIndex = 12;
-            // 
-            // cbCajas
-            // 
-            cbCajas.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cbCajas.FormattingEnabled = true;
-            cbCajas.Location = new Point(241, 355);
-            cbCajas.Name = "cbCajas";
-            cbCajas.Size = new Size(238, 35);
-            cbCajas.TabIndex = 13;
-            // 
-            // cbVajillas
-            // 
-            cbVajillas.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cbVajillas.FormattingEnabled = true;
-            cbVajillas.Location = new Point(241, 457);
-            cbVajillas.Name = "cbVajillas";
-            cbVajillas.Size = new Size(238, 35);
-            cbVajillas.TabIndex = 15;
-            // 
             // button1
             // 
             button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
@@ -191,7 +130,7 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(666, 511);
+            button1.Location = new Point(745, 510);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(151, 33);
@@ -207,7 +146,7 @@
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(12, 511);
+            button2.Location = new Point(12, 510);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.Size = new Size(151, 33);
@@ -221,7 +160,7 @@
             label8.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label8.AutoSize = true;
             label8.Font = new Font("Yu Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(288, 20);
+            label8.Location = new Point(433, 20);
             label8.Name = "label8";
             label8.Size = new Size(461, 27);
             label8.TabIndex = 254;
@@ -229,22 +168,14 @@
             // 
             // panel1
             // 
-            panel1.BackColor = SystemColors.ButtonFace;
+            panel1.BackColor = SystemColors.ControlLight;
+            panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(label8);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(829, 64);
+            panel1.Size = new Size(908, 64);
             panel1.TabIndex = 255;
-            // 
-            // cbPersonal
-            // 
-            cbPersonal.Font = new Font("Yu Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            cbPersonal.FormattingEnabled = true;
-            cbPersonal.Location = new Point(241, 410);
-            cbPersonal.Name = "cbPersonal";
-            cbPersonal.Size = new Size(238, 35);
-            cbPersonal.TabIndex = 14;
             // 
             // label9
             // 
@@ -256,24 +187,128 @@
             label9.TabIndex = 7;
             label9.Text = "Almacen de Vajillas";
             // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.Gainsboro;
+            textBox1.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(247, 83);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(297, 33);
+            textBox1.TabIndex = 256;
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = Color.Gainsboro;
+            textBox2.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox2.Location = new Point(247, 135);
+            textBox2.Margin = new Padding(3, 2, 3, 2);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(297, 33);
+            textBox2.TabIndex = 257;
+            // 
+            // textBox3
+            // 
+            textBox3.BackColor = Color.Gainsboro;
+            textBox3.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox3.Location = new Point(247, 194);
+            textBox3.Margin = new Padding(3, 2, 3, 2);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(297, 33);
+            textBox3.TabIndex = 258;
+            // 
+            // textBox4
+            // 
+            textBox4.BackColor = Color.Gainsboro;
+            textBox4.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox4.Location = new Point(247, 252);
+            textBox4.Margin = new Padding(3, 2, 3, 2);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(297, 33);
+            textBox4.TabIndex = 259;
+            // 
+            // textBox5
+            // 
+            textBox5.BackColor = Color.Gainsboro;
+            textBox5.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox5.Location = new Point(247, 302);
+            textBox5.Margin = new Padding(3, 2, 3, 2);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(297, 33);
+            textBox5.TabIndex = 260;
+            // 
+            // textBox6
+            // 
+            textBox6.BackColor = Color.Gainsboro;
+            textBox6.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox6.Location = new Point(247, 354);
+            textBox6.Margin = new Padding(3, 2, 3, 2);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(297, 33);
+            textBox6.TabIndex = 261;
+            // 
+            // textBox7
+            // 
+            textBox7.BackColor = Color.Gainsboro;
+            textBox7.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox7.Location = new Point(247, 406);
+            textBox7.Margin = new Padding(3, 2, 3, 2);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(297, 33);
+            textBox7.TabIndex = 262;
+            // 
+            // textBox8
+            // 
+            textBox8.BackColor = Color.Gainsboro;
+            textBox8.Font = new Font("Yu Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox8.Location = new Point(247, 455);
+            textBox8.Margin = new Padding(3, 2, 3, 2);
+            textBox8.Name = "textBox8";
+            textBox8.Size = new Size(297, 33);
+            textBox8.TabIndex = 263;
+            // 
+            // panel4
+            // 
+            panel4.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            panel4.BackColor = SystemColors.ButtonShadow;
+            panel4.Font = new Font("Yu Gothic", 15.75F);
+            panel4.Location = new Point(745, 510);
+            panel4.Margin = new Padding(3, 2, 3, 2);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(13, 33);
+            panel4.TabIndex = 264;
+            // 
+            // panel2
+            // 
+            panel2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            panel2.BackColor = SystemColors.ButtonShadow;
+            panel2.Font = new Font("Yu Gothic", 15.75F);
+            panel2.Location = new Point(12, 510);
+            panel2.Margin = new Padding(3, 2, 3, 2);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(13, 33);
+            panel2.TabIndex = 265;
+            // 
             // Responsables
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(829, 555);
-            Controls.Add(cbPersonal);
+            ClientSize = new Size(908, 554);
+            Controls.Add(panel2);
+            Controls.Add(panel4);
+            Controls.Add(textBox8);
+            Controls.Add(textBox7);
+            Controls.Add(textBox6);
+            Controls.Add(textBox5);
+            Controls.Add(textBox4);
+            Controls.Add(textBox3);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
             Controls.Add(label9);
             Controls.Add(panel1);
             Controls.Add(button1);
             Controls.Add(button2);
-            Controls.Add(cbCocinaFria);
-            Controls.Add(cbCajas);
-            Controls.Add(cbVajillas);
-            Controls.Add(cbCamaraFria);
-            Controls.Add(cbAlmacen);
-            Controls.Add(cbCocinaCaliente);
-            Controls.Add(cbAreaSalida);
             Controls.Add(label5);
             Controls.Add(label6);
             Controls.Add(label7);
@@ -281,9 +316,12 @@
             Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(label1);
-            MinimumSize = new Size(567, 594);
+            MinimumSize = new Size(566, 592);
             Name = "Responsables";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Responsables";
+            WindowState = FormWindowState.Maximized;
+            FormClosing += Responsables_FormClosing;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -299,18 +337,20 @@
         private Label label5;
         private Label label6;
         private Label label7;
-        private ComboBox cbAreaSalida;
-        private ComboBox cbCocinaCaliente;
-        private ComboBox cbCamaraFria;
-        private ComboBox cbAlmacen;
-        private ComboBox cbCocinaFria;
-        private ComboBox cbCajas;
-        private ComboBox cbVajillas;
         private Button button1;
         private Button button2;
         private Label label8;
         private Panel panel1;
-        private ComboBox cbPersonal;
         private Label label9;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private TextBox textBox4;
+        private TextBox textBox5;
+        private TextBox textBox6;
+        private TextBox textBox7;
+        private TextBox textBox8;
+        private Panel panel4;
+        private Panel panel2;
     }
 }

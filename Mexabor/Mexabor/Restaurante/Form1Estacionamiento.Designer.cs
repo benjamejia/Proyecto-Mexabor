@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1Estacionamiento));
-            tlpEstructura = new TableLayoutPanel();
+            tlpLimpieza = new TableLayoutPanel();
             checkBox10 = new CheckBox();
             checkBox9 = new CheckBox();
             checkBox8 = new CheckBox();
@@ -62,7 +62,7 @@
             auditorTexto = new Label();
             panel2 = new Panel();
             label25 = new Label();
-            tlpLimpieza = new TableLayoutPanel();
+            tlpEstructura = new TableLayoutPanel();
             checkBox21 = new CheckBox();
             label11 = new Label();
             label12 = new Label();
@@ -91,56 +91,57 @@
             button1 = new Button();
             label21 = new Label();
             label17 = new Label();
-            tlpEstructura.SuspendLayout();
+            tlpLimpieza.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imagenMexabor).BeginInit();
             panel2.SuspendLayout();
-            tlpLimpieza.SuspendLayout();
+            tlpEstructura.SuspendLayout();
             SuspendLayout();
             // 
-            // tlpEstructura
+            // tlpLimpieza
             // 
-            tlpEstructura.ColumnCount = 2;
-            tlpEstructura.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.00204F));
-            tlpEstructura.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.997959F));
-            tlpEstructura.Controls.Add(checkBox10, 1, 9);
-            tlpEstructura.Controls.Add(checkBox9, 1, 8);
-            tlpEstructura.Controls.Add(checkBox8, 1, 7);
-            tlpEstructura.Controls.Add(checkBox7, 1, 6);
-            tlpEstructura.Controls.Add(checkBox6, 1, 5);
-            tlpEstructura.Controls.Add(checkBox5, 1, 4);
-            tlpEstructura.Controls.Add(checkBox4, 1, 3);
-            tlpEstructura.Controls.Add(checkBox3, 1, 2);
-            tlpEstructura.Controls.Add(checkBox2, 1, 1);
-            tlpEstructura.Controls.Add(label1, 0, 0);
-            tlpEstructura.Controls.Add(label10, 0, 9);
-            tlpEstructura.Controls.Add(label7, 0, 8);
-            tlpEstructura.Controls.Add(label8, 0, 7);
-            tlpEstructura.Controls.Add(label9, 0, 6);
-            tlpEstructura.Controls.Add(label2, 0, 5);
-            tlpEstructura.Controls.Add(label3, 0, 4);
-            tlpEstructura.Controls.Add(label6, 0, 3);
-            tlpEstructura.Controls.Add(label5, 0, 2);
-            tlpEstructura.Controls.Add(label4, 0, 1);
-            tlpEstructura.Controls.Add(checkBox1, 1, 0);
-            tlpEstructura.Font = new Font("Yu Gothic", 12F);
-            tlpEstructura.Location = new Point(11, 32);
-            tlpEstructura.Margin = new Padding(3, 2, 3, 2);
-            tlpEstructura.Name = "tlpEstructura";
-            tlpEstructura.RowCount = 10;
-            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpEstructura.Size = new Size(425, 291);
-            tlpEstructura.TabIndex = 0;
-            tlpEstructura.TabStop = true;
+            tlpLimpieza.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            tlpLimpieza.ColumnCount = 2;
+            tlpLimpieza.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.00204F));
+            tlpLimpieza.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.997959F));
+            tlpLimpieza.Controls.Add(checkBox10, 1, 9);
+            tlpLimpieza.Controls.Add(checkBox9, 1, 8);
+            tlpLimpieza.Controls.Add(checkBox8, 1, 7);
+            tlpLimpieza.Controls.Add(checkBox7, 1, 6);
+            tlpLimpieza.Controls.Add(checkBox6, 1, 5);
+            tlpLimpieza.Controls.Add(checkBox5, 1, 4);
+            tlpLimpieza.Controls.Add(checkBox4, 1, 3);
+            tlpLimpieza.Controls.Add(checkBox3, 1, 2);
+            tlpLimpieza.Controls.Add(checkBox2, 1, 1);
+            tlpLimpieza.Controls.Add(label1, 0, 0);
+            tlpLimpieza.Controls.Add(label10, 0, 9);
+            tlpLimpieza.Controls.Add(label7, 0, 8);
+            tlpLimpieza.Controls.Add(label8, 0, 7);
+            tlpLimpieza.Controls.Add(label9, 0, 6);
+            tlpLimpieza.Controls.Add(label2, 0, 5);
+            tlpLimpieza.Controls.Add(label3, 0, 4);
+            tlpLimpieza.Controls.Add(label6, 0, 3);
+            tlpLimpieza.Controls.Add(label5, 0, 2);
+            tlpLimpieza.Controls.Add(label4, 0, 1);
+            tlpLimpieza.Controls.Add(checkBox1, 1, 0);
+            tlpLimpieza.Font = new Font("Yu Gothic", 12F);
+            tlpLimpieza.Location = new Point(703, 38);
+            tlpLimpieza.Margin = new Padding(3, 2, 3, 2);
+            tlpLimpieza.Name = "tlpLimpieza";
+            tlpLimpieza.RowCount = 10;
+            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpLimpieza.Size = new Size(425, 291);
+            tlpLimpieza.TabIndex = 0;
+            tlpLimpieza.TabStop = true;
             // 
             // checkBox10
             // 
@@ -372,7 +373,7 @@
             // txbSucursal
             // 
             txbSucursal.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            txbSucursal.BackColor = Color.DarkGray;
+            txbSucursal.BackColor = SystemColors.ControlLight;
             txbSucursal.DropDownStyle = ComboBoxStyle.DropDownList;
             txbSucursal.FormattingEnabled = true;
             txbSucursal.Items.AddRange(new object[] { "Patria", "Loma", "Tonala", "Chapalita" });
@@ -397,7 +398,7 @@
             // txbAuditor
             // 
             txbAuditor.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            txbAuditor.BackColor = Color.White;
+            txbAuditor.BackColor = SystemColors.ControlLight;
             txbAuditor.BorderStyle = BorderStyle.None;
             txbAuditor.Font = new Font("Yu Gothic", 9F);
             txbAuditor.Location = new Point(921, 9);
@@ -422,7 +423,7 @@
             // txbGerente
             // 
             txbGerente.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            txbGerente.BackColor = Color.White;
+            txbGerente.BackColor = SystemColors.ControlLight;
             txbGerente.BorderStyle = BorderStyle.None;
             txbGerente.Font = new Font("Yu Gothic", 9F);
             txbGerente.Location = new Point(921, 35);
@@ -458,7 +459,7 @@
             // 
             panel2.BackColor = SystemColors.ButtonHighlight;
             panel2.Controls.Add(label25);
-            panel2.Controls.Add(tlpLimpieza);
+            panel2.Controls.Add(tlpEstructura);
             panel2.Controls.Add(cbxMarcarTodo);
             panel2.Controls.Add(label24);
             panel2.Controls.Add(panel4);
@@ -467,7 +468,7 @@
             panel2.Controls.Add(button1);
             panel2.Controls.Add(label21);
             panel2.Controls.Add(label17);
-            panel2.Controls.Add(tlpEstructura);
+            panel2.Controls.Add(tlpLimpieza);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 94);
             panel2.Margin = new Padding(3, 2, 3, 2);
@@ -487,51 +488,50 @@
             label25.TabIndex = 30;
             label25.Text = "Si/No";
             // 
-            // tlpLimpieza
+            // tlpEstructura
             // 
-            tlpLimpieza.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            tlpLimpieza.ColumnCount = 2;
-            tlpLimpieza.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.00204F));
-            tlpLimpieza.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.997959F));
-            tlpLimpieza.Controls.Add(checkBox21, 1, 9);
-            tlpLimpieza.Controls.Add(label11, 0, 9);
-            tlpLimpieza.Controls.Add(label12, 0, 8);
-            tlpLimpieza.Controls.Add(label13, 0, 7);
-            tlpLimpieza.Controls.Add(label14, 0, 6);
-            tlpLimpieza.Controls.Add(label15, 0, 5);
-            tlpLimpieza.Controls.Add(label16, 0, 4);
-            tlpLimpieza.Controls.Add(label22, 0, 3);
-            tlpLimpieza.Controls.Add(label18, 0, 2);
-            tlpLimpieza.Controls.Add(label19, 0, 1);
-            tlpLimpieza.Controls.Add(label20, 0, 0);
-            tlpLimpieza.Controls.Add(checkBox22, 1, 8);
-            tlpLimpieza.Controls.Add(checkBox23, 1, 7);
-            tlpLimpieza.Controls.Add(checkBox24, 1, 6);
-            tlpLimpieza.Controls.Add(checkBox25, 1, 5);
-            tlpLimpieza.Controls.Add(checkBox26, 1, 4);
-            tlpLimpieza.Controls.Add(checkBox27, 1, 3);
-            tlpLimpieza.Controls.Add(checkBox28, 1, 2);
-            tlpLimpieza.Controls.Add(checkBox29, 1, 1);
-            tlpLimpieza.Controls.Add(checkBox30, 1, 0);
-            tlpLimpieza.Font = new Font("Yu Gothic", 12F);
-            tlpLimpieza.Location = new Point(698, 35);
-            tlpLimpieza.Margin = new Padding(3, 2, 3, 2);
-            tlpLimpieza.Name = "tlpLimpieza";
-            tlpLimpieza.RowCount = 10;
-            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpLimpieza.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tlpLimpieza.Size = new Size(425, 291);
-            tlpLimpieza.TabIndex = 29;
-            tlpLimpieza.TabStop = true;
-            tlpLimpieza.Paint += tableLayoutPanel2_Paint;
+            tlpEstructura.ColumnCount = 2;
+            tlpEstructura.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 91.00204F));
+            tlpEstructura.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8.997959F));
+            tlpEstructura.Controls.Add(checkBox21, 1, 9);
+            tlpEstructura.Controls.Add(label11, 0, 9);
+            tlpEstructura.Controls.Add(label12, 0, 8);
+            tlpEstructura.Controls.Add(label13, 0, 7);
+            tlpEstructura.Controls.Add(label14, 0, 6);
+            tlpEstructura.Controls.Add(label15, 0, 5);
+            tlpEstructura.Controls.Add(label16, 0, 4);
+            tlpEstructura.Controls.Add(label22, 0, 3);
+            tlpEstructura.Controls.Add(label18, 0, 2);
+            tlpEstructura.Controls.Add(label19, 0, 1);
+            tlpEstructura.Controls.Add(label20, 0, 0);
+            tlpEstructura.Controls.Add(checkBox22, 1, 8);
+            tlpEstructura.Controls.Add(checkBox23, 1, 7);
+            tlpEstructura.Controls.Add(checkBox24, 1, 6);
+            tlpEstructura.Controls.Add(checkBox25, 1, 5);
+            tlpEstructura.Controls.Add(checkBox26, 1, 4);
+            tlpEstructura.Controls.Add(checkBox27, 1, 3);
+            tlpEstructura.Controls.Add(checkBox28, 1, 2);
+            tlpEstructura.Controls.Add(checkBox29, 1, 1);
+            tlpEstructura.Controls.Add(checkBox30, 1, 0);
+            tlpEstructura.Font = new Font("Yu Gothic", 12F);
+            tlpEstructura.Location = new Point(14, 44);
+            tlpEstructura.Margin = new Padding(3, 2, 3, 2);
+            tlpEstructura.Name = "tlpEstructura";
+            tlpEstructura.RowCount = 10;
+            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpEstructura.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            tlpEstructura.Size = new Size(425, 291);
+            tlpEstructura.TabIndex = 29;
+            tlpEstructura.TabStop = true;
+            tlpEstructura.Paint += tableLayoutPanel2_Paint;
             // 
             // checkBox21
             // 
@@ -823,7 +823,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Margin = new Padding(3, 2, 3, 2);
-            MinimumSize = new Size(1177, 523);
+            MinimumSize = new Size(1177, 521);
             Name = "Form1Estacionamiento";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormEstacionamiento";
@@ -831,21 +831,21 @@
             FormClosing += Form1Estacionamiento_FormClosing;
             FormClosed += Form1Estacionamiento_FormClosed;
             Load += FormEstacionamiento_Load;
-            tlpEstructura.ResumeLayout(false);
-            tlpEstructura.PerformLayout();
+            tlpLimpieza.ResumeLayout(false);
+            tlpLimpieza.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)imagenMexabor).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            tlpLimpieza.ResumeLayout(false);
-            tlpLimpieza.PerformLayout();
+            tlpEstructura.ResumeLayout(false);
+            tlpEstructura.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private TableLayoutPanel tlpEstructura;
+        private TableLayoutPanel tlpLimpieza;
         private Label label1;
         private Panel panel1;
         private Panel panel2;
@@ -895,7 +895,7 @@
         private CheckBox checkBox2;
         private Label lblAviso;
         private CheckBox cbxMarcarTodo;
-        private TableLayoutPanel tlpLimpieza;
+        private TableLayoutPanel tlpEstructura;
         private CheckBox checkBox21;
         private CheckBox checkBox22;
         private CheckBox checkBox23;
